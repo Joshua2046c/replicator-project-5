@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "buildNumber": 41,
-  "sourceHash": "ef77adc29d8bf499e2538fa98d9f4b13f39a4b71ee70e8738155c57fe85654e9",
+  "buildNumber": 124,
+  "sourceHash": "914c1d4d47148dc82dbedbf883affea6c199cec8332aca13455e26abf38b10da",
   "units": "mm",
   "coordinateFrame": "replicator-world-z-up",
   "targets": [
@@ -14,7 +14,7 @@
           "target": "body",
           "order": 0,
           "path": "design/archive_handbag/source/parts/body/000-body.py",
-          "sha256": "026e6282da026d5187ed44340d1a11ea53fb5ec71db801a96ee37b1c520b8e2a"
+          "sha256": "6f93a6a8671304bdadba9ef7887f2db730c1a72dc7945688973df8042bc1a8ca"
         }
       ],
       "dependencies": []
@@ -28,7 +28,7 @@
           "target": "lid",
           "order": 0,
           "path": "design/archive_handbag/source/parts/lid/000-lid.py",
-          "sha256": "18cbaa474d8546e131c5439e1aafced7151814169510a5b837962b6e6669e997"
+          "sha256": "ea74dbc6f96efcbc6e0ac9b132ec7dce6539f5b1ecc3a47acbd979f5e6530c9d"
         }
       ],
       "dependencies": []
@@ -42,7 +42,7 @@
           "target": "side_left",
           "order": 0,
           "path": "design/archive_handbag/source/parts/side_left/000-side_left.py",
-          "sha256": "52d98db4a5beba9d46e862516299005c2f81629b1082327f6f70ee6d1a1f507e"
+          "sha256": "26608c1844d335f4b65b389a649da55252bd2e960d3a838a4b2f8e93a6176f79"
         }
       ],
       "dependencies": []
@@ -56,7 +56,7 @@
           "target": "side_right",
           "order": 0,
           "path": "design/archive_handbag/source/parts/side_right/000-side_right.py",
-          "sha256": "621b4793352f1bab13b6095d5b3b0c7a87486d6ac5e07b1e2de49e34df05c89f"
+          "sha256": "c7cc21fb5a494691fd70cd4e1be76cbd7aef806484a8e3d1a10a10093910d31f"
         }
       ],
       "dependencies": []
@@ -70,7 +70,7 @@
           "target": "book_spines",
           "order": 0,
           "path": "design/archive_handbag/source/parts/book_spines/000-book_spines.py",
-          "sha256": "7f3fa73ec59fe8476a1c821a1918f7ec00fa8e8db045cb3ab7fa5208216e409f"
+          "sha256": "a6e05a934d0c371a8efa989db1dfb133e905c5ab9c6b2fe3da734687ae6b176e"
         }
       ],
       "dependencies": []
@@ -84,7 +84,7 @@
           "target": "brown_binding",
           "order": 0,
           "path": "design/archive_handbag/source/parts/brown_binding/000-brown_binding.py",
-          "sha256": "817e523e19de72923edd552d5f58f88a1ed36cb1082d22309280cee059ad4d03"
+          "sha256": "3b545a92ae41684bd55d07e255db0bfccca632f460737150ee6d93117694965e"
         }
       ],
       "dependencies": []
@@ -112,21 +112,7 @@
           "target": "spine_marks",
           "order": 0,
           "path": "design/archive_handbag/source/parts/spine_marks/000-spine_marks.py",
-          "sha256": "b6f3560a990cd63c57b34370065d31620eb8fe047d5bb30db6afb9c61a46ba3d"
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "rear_cover",
-      "label": "rear_cover",
-      "cells": [
-        {
-          "id": "rear_cover",
-          "target": "rear_cover",
-          "order": 0,
-          "path": "design/archive_handbag/source/parts/rear_cover/000-rear_cover.py",
-          "sha256": "8696402b601b24e6f56c7853b71a5c30f27996000424f0b298b8bce52cf2ae03"
+          "sha256": "7d9a3fea62eba042d7656ffc8b6519a42f14f3eeb562e243285a306baa58c161"
         }
       ],
       "dependencies": []
@@ -140,7 +126,7 @@
           "target": "metal_eyes",
           "order": 0,
           "path": "design/archive_handbag/source/parts/metal_eyes/000-metal_eyes.py",
-          "sha256": "3c9b79fbf6c267472ad841a91a298b130bcbc7ec713db3eca3bdddae5b1bf529"
+          "sha256": "7768a17f44b446836b1b5bf5d45ee4b6a5fe9aa95218412579a1800fde12ebfb"
         }
       ],
       "dependencies": []
@@ -168,7 +154,7 @@
           "target": "magnet_envelopes",
           "order": 0,
           "path": "design/archive_handbag/source/parts/magnet_envelopes/000-magnet_envelopes.py",
-          "sha256": "b33d556a7e6154cae2d9ba415b844b5e2e8ce04abd7e446def62bc09dbee5caa"
+          "sha256": "df21e7ab598b5e012735586e02519682a112ecf915db64919a59ea44d84c82d0"
         }
       ],
       "dependencies": []
@@ -185,25 +171,53 @@
           "sha256": "6f4748b4ccfc00c4a45e86466f980f136ebfdd0e9164a2007c1ee1c6a5bc0e21"
         },
         {
-          "id": "ring_nut_right_low",
+          "id": "pivot_bolt_right",
           "target": "imports",
           "order": 1,
-          "path": "design/archive_handbag/source/parts/imports/001-ring_nut_right_low.py",
-          "sha256": "1af1291e0d872d3c2e169749cb91925bdd1e14186523de39f2e4c154d0b66473"
+          "path": "design/archive_handbag/source/parts/imports/001-pivot_bolt_right.py",
+          "sha256": "1c00f06c8f87be5316eed0dbc0af9d5e98f0649fa5b0c7bbe47863f17ae3f8e8"
         }
       ],
       "dependencies": []
     },
     {
-      "id": "ring_hardware_instances",
-      "label": "ring_hardware_instances",
+      "id": "bottom_panel",
+      "label": "bottom_panel",
       "cells": [
         {
-          "id": "ring_hardware_instances",
-          "target": "ring_hardware_instances",
+          "id": "bottom_panel",
+          "target": "bottom_panel",
           "order": 0,
-          "path": "design/archive_handbag/source/parts/ring_hardware_instances/000-ring_hardware_instances.py",
-          "sha256": "99130b02d6e18cb7721851ef0135b085e7f6a2460caffd8190c70c90784fc368"
+          "path": "design/archive_handbag/source/parts/bottom_panel/000-bottom_panel.py",
+          "sha256": "53f465cc21f026c81023c89c282f29152898d897f865e4bdcf360fbf5f80856d"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "top_pivot_bolt",
+      "label": "top_pivot_bolt",
+      "cells": [
+        {
+          "id": "top_pivot_bolt",
+          "target": "top_pivot_bolt",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/top_pivot_bolt/000-top_pivot_bolt.py",
+          "sha256": "3e0f79a7fabf965bc6f04d42b3e938ee6a1cf723f4f13d165918f6bf11a1f3bf"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "pivot_bolt_left",
+      "label": "pivot_bolt_left",
+      "cells": [
+        {
+          "id": "pivot_bolt_left",
+          "target": "pivot_bolt_left",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/pivot_bolt_left/000-pivot_bolt_left.py",
+          "sha256": "ede74b923f2cdafebea727bfaf5e26f2a1736b587f54780a5a4b0800cb84e7b2"
         }
       ],
       "dependencies": []
@@ -213,9 +227,9 @@
     {
       "id": "axle_stop_left",
       "target": "body",
-      "label": "转轴端部止挡",
+      "label": "轴端止挡",
       "kind": "generated",
-      "shapeHash": "5b11c15d37253b623977a886806def41bcf27ee0ee4e080ceb2df70f37a94df1",
+      "shapeHash": "0c96203975a0c4e00064c478b304526cbabd1a4520b890867765f9d18aef5c71",
       "transform": {
         "positionMm": [
           0,
@@ -239,9 +253,9 @@
     {
       "id": "axle_stop_left_screw",
       "target": "body",
-      "label": "止挡 M3 螺钉",
+      "label": "止挡螺钉",
       "kind": "generated",
-      "shapeHash": "40e47c1bc999249804282ac28b1f842cf4c7a3974e261a894f4b699ad9d34b3b",
+      "shapeHash": "5a3d1468fc4c884e7145232390eeb02dd76f7c882c6abb669890cd4365de714e",
       "transform": {
         "positionMm": [
           0,
@@ -265,9 +279,9 @@
     {
       "id": "axle_stop_right",
       "target": "body",
-      "label": "转轴端部止挡",
+      "label": "轴端止挡",
       "kind": "generated",
-      "shapeHash": "65466e2c52fd2411b53ba601a3432e28e7c422d794aa6d56a6da4393a778b7ed",
+      "shapeHash": "a49067bedfe2e58451fb03d9db6fa38f4952a810a36812b3535406389129a156",
       "transform": {
         "positionMm": [
           0,
@@ -291,9 +305,9 @@
     {
       "id": "axle_stop_right_screw",
       "target": "body",
-      "label": "止挡 M3 螺钉",
+      "label": "止挡螺钉",
       "kind": "generated",
-      "shapeHash": "5e64c987d36da9b9de1f947e800669ba07fb86f1966ec9f2b3a0cedcdea8794f",
+      "shapeHash": "40a1d306b145d060444c53bbc8162c5eb9209889f6ac221d2372746e81c76c6b",
       "transform": {
         "positionMm": [
           0,
@@ -317,165 +331,9 @@
     {
       "id": "body",
       "target": "body",
-      "label": "贯通承重包体",
+      "label": "后侧承力外板",
       "kind": "generated",
-      "shapeHash": "28a4f700b99814f7cf588e3b570829f22d470e945d429ee9a008cfe1524e415d",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "body_mag_cap_left",
-      "target": "body",
-      "label": "内置磁铁防脱盖",
-      "kind": "generated",
-      "shapeHash": "cc85e6eb8377ed438bc508acf9e3e1151e94c60707ebd248f49d21e3df3f0ecb",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "body_mag_cap_left_screw_0",
-      "target": "body",
-      "label": "磁铁盖 M2 螺钉",
-      "kind": "generated",
-      "shapeHash": "003b436327b23544afc3b3cd4d9def100ae085965f46c2859229b177a35146f6",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "body_mag_cap_left_screw_1",
-      "target": "body",
-      "label": "磁铁盖 M2 螺钉",
-      "kind": "generated",
-      "shapeHash": "654ffdb2e1c607c8cd7558c60180f896660bb610a903e79004fdd27f427d1d18",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "body_mag_cap_right",
-      "target": "body",
-      "label": "内置磁铁防脱盖",
-      "kind": "generated",
-      "shapeHash": "b86655a325ed99f9a379d611ef70cd7b048f31fefb63940839ed5cc38c7bc7a8",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "body_mag_cap_right_screw_0",
-      "target": "body",
-      "label": "磁铁盖 M2 螺钉",
-      "kind": "generated",
-      "shapeHash": "0f7590b34fceee19b752d0bbccdeb1129d0c1d424fbd24f689e2013970c29455",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "body_mag_cap_right_screw_1",
-      "target": "body",
-      "label": "磁铁盖 M2 螺钉",
-      "kind": "generated",
-      "shapeHash": "d238bd2dfbaf412e3cd8c752e6ae464f93fdc7ce4104ee15d09e3057e2c9d148",
+      "shapeHash": "f6b51e8ec8f54ba80ebcea196b52852321eb20609cece5363a8044404b7505e8",
       "transform": {
         "positionMm": [
           0,
@@ -499,14 +357,14 @@
     {
       "id": "lid",
       "target": "lid",
-      "label": "粉色书本翻盖",
+      "label": "弧形书脊齐背翻盖",
       "kind": "generated",
-      "shapeHash": "f017ff2285a83eb788b7051d9edf35ea9da0f8414ce370ff6c2ec433c7bcf3d8",
+      "shapeHash": "4febb22d26cb9bbd92d19e3992d50f22f16e0dd0b0afd9e7eaa2e3a7bb7e462e",
       "transform": {
         "positionMm": [
           0,
-          54,
-          132
+          55,
+          128
         ],
         "rotationDeg": [
           0,
@@ -527,12 +385,12 @@
       "target": "lid",
       "label": "翻盖磁铁防脱盖",
       "kind": "generated",
-      "shapeHash": "e9a299a7ae79feddef0397ca198b4df9dcc60ba05993bc1deeba8936532ae3d8",
+      "shapeHash": "3b6850bcfc4b8349d51e2e9957cba0da7b5d41f120ea4b09b136eca159d4c9ea",
       "transform": {
         "positionMm": [
           0,
-          54,
-          132
+          55,
+          128
         ],
         "rotationDeg": [
           0,
@@ -551,14 +409,14 @@
     {
       "id": "lid_mag_cap_left_screw_0",
       "target": "lid",
-      "label": "盖内 M2 螺钉",
+      "label": "盖内M2螺钉",
       "kind": "generated",
-      "shapeHash": "caf9840c6fe39f28ad453e58dbe210f94bc659fe933fa26818593a728447da16",
+      "shapeHash": "f316f74b19ce55a67a6f115a00602f3d2406e3772873c4659a2283930e1285d4",
       "transform": {
         "positionMm": [
           0,
-          54,
-          132
+          55,
+          128
         ],
         "rotationDeg": [
           0,
@@ -577,14 +435,14 @@
     {
       "id": "lid_mag_cap_left_screw_1",
       "target": "lid",
-      "label": "盖内 M2 螺钉",
+      "label": "盖内M2螺钉",
       "kind": "generated",
-      "shapeHash": "3362172f7a8ae28ccdb40086e5b164c5b8b1544441dfad3a65c93927a671c575",
+      "shapeHash": "86c956f51991df655889d3b86651cdbccdf4947d0010d3822a38487c8d65f9d6",
       "transform": {
         "positionMm": [
           0,
-          54,
-          132
+          55,
+          128
         ],
         "rotationDeg": [
           0,
@@ -605,12 +463,12 @@
       "target": "lid",
       "label": "翻盖磁铁防脱盖",
       "kind": "generated",
-      "shapeHash": "7b45aa43ebd3ceebf2bd2cb3afbc07f78f9bf027f5a2340cbe816e250a96d173",
+      "shapeHash": "76d221dce114e8380f4877199066325c3ecbf2e20d6619efb5c4e6684442fefa",
       "transform": {
         "positionMm": [
           0,
-          54,
-          132
+          55,
+          128
         ],
         "rotationDeg": [
           0,
@@ -629,14 +487,14 @@
     {
       "id": "lid_mag_cap_right_screw_0",
       "target": "lid",
-      "label": "盖内 M2 螺钉",
+      "label": "盖内M2螺钉",
       "kind": "generated",
-      "shapeHash": "ed1727699793f646a75834307d358b0d363573a70160e0bc2533579a570f5b6d",
+      "shapeHash": "843cf11843f2744088c017ccd1e8ba9eadcc672fae49e4cad0f273c2136cc318",
       "transform": {
         "positionMm": [
           0,
-          54,
-          132
+          55,
+          128
         ],
         "rotationDeg": [
           0,
@@ -655,14 +513,14 @@
     {
       "id": "lid_mag_cap_right_screw_1",
       "target": "lid",
-      "label": "盖内 M2 螺钉",
+      "label": "盖内M2螺钉",
       "kind": "generated",
-      "shapeHash": "660e761260343744a6a504d3249b90939f174abad0a2f722d054daf10d2ff119",
+      "shapeHash": "5eb1dcbbdc5fb0d3ebfe23349595b8c209b22a70da54088a2911fffc27c0e0ae",
       "transform": {
         "positionMm": [
           0,
-          54,
-          132
+          55,
+          128
         ],
         "rotationDeg": [
           0,
@@ -681,9 +539,9 @@
     {
       "id": "side_left",
       "target": "side_left",
-      "label": "左侧三层书页插板",
+      "label": "左侧矩形书页板",
       "kind": "generated",
-      "shapeHash": "84771b2943fdb5154426bd28005b9ad19c746c1b8a3cc4325db9f8b466ee43db",
+      "shapeHash": "dd4165df8a629d0df8eb4a902e4cb611411e66a4d03a7ee60adcc510e7e68fc6",
       "transform": {
         "positionMm": [
           -107.5,
@@ -707,9 +565,9 @@
     {
       "id": "side_right",
       "target": "side_right",
-      "label": "右侧三层书页插板",
+      "label": "右侧矩形书页板",
       "kind": "generated",
-      "shapeHash": "0dc124d67cb504246afac2d3182df74347ee973198b8f4baa14862ea32881380",
+      "shapeHash": "ad01a62d46a99eac8787016812d7648a73005fe060037a2f003e4a2d69ed10ae",
       "transform": {
         "positionMm": [
           107.5,
@@ -731,11 +589,245 @@
       "datums": []
     },
     {
-      "id": "blue_spine",
+      "id": "spine_join_screw_0",
       "target": "book_spines",
-      "label": "蓝色中层书脊",
+      "label": "前板拼接M3螺钉",
       "kind": "generated",
-      "shapeHash": "91f0254c3b6f1453eb5a401ed5fb78d1eeff83e99aff5905c7cc5948abe48e94",
+      "shapeHash": "95cefba4c252d3ef9a02dce7cf48e644ca129ee6c9183364e26d6ab80fcd40bb",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "spine_join_screw_1",
+      "target": "book_spines",
+      "label": "前板拼接M3螺钉",
+      "kind": "generated",
+      "shapeHash": "be9a3380363b54611ca829ff4b6dacb88a8087928447b9697dc65b7212a3d4f9",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "spine_join_screw_2",
+      "target": "book_spines",
+      "label": "前板拼接M3螺钉",
+      "kind": "generated",
+      "shapeHash": "96a3978698424838633a894a0e519b6131f7a5e51c439446284df02bbb090f7e",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "spine_join_screw_3",
+      "target": "book_spines",
+      "label": "前板拼接M3螺钉",
+      "kind": "generated",
+      "shapeHash": "547abc094cb283b1101a74f1dfe57bfb34859b8ee5a77a1aabc3d5df58e2d141",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "body_mag_cap_left_screw_0",
+      "target": "book_spines",
+      "label": "磁铁盖螺钉",
+      "kind": "generated",
+      "shapeHash": "ddf701a33be45509f3d512c7296dabbea6405014288ff6199c414c7cee57f085",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "body_mag_cap_left_screw_1",
+      "target": "book_spines",
+      "label": "磁铁盖螺钉",
+      "kind": "generated",
+      "shapeHash": "6cc3b9134688015a0868cff0eb1452fdce4ab4a54ac75a0dcb8a156372165207",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "body_mag_cap_left",
+      "target": "book_spines",
+      "label": "磁铁防脱盖",
+      "kind": "generated",
+      "shapeHash": "1f123468f70e29cf0fc7d10b11df28c1170e8deb5a4dab91461fa62fea63295c",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "body_mag_cap_right_screw_0",
+      "target": "book_spines",
+      "label": "磁铁盖螺钉",
+      "kind": "generated",
+      "shapeHash": "64711793721456dc113bc6eeca6df83203effc6cff9999aa2027a0b286129173",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "body_mag_cap_right_screw_1",
+      "target": "book_spines",
+      "label": "磁铁盖螺钉",
+      "kind": "generated",
+      "shapeHash": "35ad6e1cc0e8b39695bba0cb2c05be5fc0f9abae581bf0dffa07b0bae51fcc5d",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "body_mag_cap_right",
+      "target": "book_spines",
+      "label": "磁铁防脱盖",
+      "kind": "generated",
+      "shapeHash": "5210f749304a1ce7c887e5ea1009e732b3b9944b230ce9a4738fa871f8d63719",
       "transform": {
         "positionMm": [
           0,
@@ -759,9 +851,9 @@
     {
       "id": "green_spine",
       "target": "book_spines",
-      "label": "绿色下层书脊",
+      "label": "弧形承力书脊外板",
       "kind": "generated",
-      "shapeHash": "3aa5b3db996d101ff0e95e95dd3727cdd07946e8abed1f5ac67740157da05fcb",
+      "shapeHash": "312899db91e6cedc0051e229273654156a869d1465b3afbf3bac59c95ebe77c5",
       "transform": {
         "positionMm": [
           0,
@@ -783,11 +875,11 @@
       "datums": []
     },
     {
-      "id": "pink_spine",
+      "id": "blue_spine",
       "target": "book_spines",
-      "label": "粉色上层书脊",
+      "label": "弧形承力书脊外板",
       "kind": "generated",
-      "shapeHash": "a2029a54516c697a5d8f4707c10d21b7a9f8fc7122059014025369ec69ef66e0",
+      "shapeHash": "2efd46b01107016c3776ce274b6a77e09a8269d23c4463259a115df9b3443aaa",
       "transform": {
         "positionMm": [
           0,
@@ -809,11 +901,11 @@
       "datums": []
     },
     {
-      "id": "lower_binding",
+      "id": "binding_overlap",
       "target": "brown_binding",
-      "label": "棕色下段束带",
+      "label": "隐藏搭接魔术贴包络",
       "kind": "generated",
-      "shapeHash": "40d2e6f9f1079074ad79e3965d2ae5519ec0aa2fff2ffc6f370663c637465a86",
+      "shapeHash": "518470f619572160df5471dab49b5be5c251c3d6265acea046200fa015e40e79",
       "transform": {
         "positionMm": [
           0,
@@ -835,11 +927,11 @@
       "datums": []
     },
     {
-      "id": "upper_binding",
+      "id": "central_binding",
       "target": "brown_binding",
-      "label": "棕色翻盖束带",
+      "label": "可拆棕色环绕带",
       "kind": "generated",
-      "shapeHash": "74738b3800c5bc0d4eb9d10e07834144e3672608e7adcad372c1ca7fba54ac0b",
+      "shapeHash": "26a82212f320ce0662ac4ed355a8e0d7455c15f30301daac4a72056823979503",
       "transform": {
         "positionMm": [
           0,
@@ -865,11 +957,11 @@
       "target": "buckle",
       "label": "方形装饰扣",
       "kind": "generated",
-      "shapeHash": "3df9cdd0966b1d9e47f5bd5a0ed7fb0663fa23029be3f5c6fdc7c58393d70a47",
+      "shapeHash": "3d6ba120711d6efeacc54aebdc6c249b33752e99d30c7f004b09e3e9e6a461d4",
       "transform": {
         "positionMm": [
           0,
-          -59,
+          -58.2,
           100
         ],
         "rotationDeg": [
@@ -889,9 +981,9 @@
     {
       "id": "blue_marks",
       "target": "spine_marks",
-      "label": "金色书脊标线",
+      "label": "随弧面书脊标线",
       "kind": "generated",
-      "shapeHash": "6deeb78de242d7562ac58d09a15533710baf72acbadabbee37cdb172ef923787",
+      "shapeHash": "c07556c1c814733943f9c60f70854802bc1b2d93e706ebbbaad244fea62794c8",
       "transform": {
         "positionMm": [
           0,
@@ -915,9 +1007,9 @@
     {
       "id": "green_marks",
       "target": "spine_marks",
-      "label": "金色书脊标线",
+      "label": "随弧面书脊标线",
       "kind": "generated",
-      "shapeHash": "a19a14536bdbbfb99a0479d1b91e83c3024b4a5da3efc5fbe2e8d173a0d933d7",
+      "shapeHash": "b8f47065c0949c4522e7d7a63af03cb8d3663458558e7186f94819d3a20f2b83",
       "transform": {
         "positionMm": [
           0,
@@ -941,9 +1033,9 @@
     {
       "id": "pink_marks",
       "target": "spine_marks",
-      "label": "金色书脊标线",
+      "label": "随弧面书脊标线",
       "kind": "generated",
-      "shapeHash": "2366101ba4055951607e0c45e416341b5e172a7c83bfebdcd99389bf14ab9703",
+      "shapeHash": "ae3c2c77a388bc9220955e06e31e31d8e2c283e9725822b090a2cc26286f488c",
       "transform": {
         "positionMm": [
           0,
@@ -952,32 +1044,6 @@
         ],
         "rotationDeg": [
           0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "rear_cover",
-      "target": "rear_cover",
-      "label": "背部装饰封面",
-      "kind": "generated",
-      "shapeHash": "f8827f91dacf7d937b424e120ba8aba312c0c36175e5d8444b87cf5ea707224c",
-      "transform": {
-        "positionMm": [
-          0,
-          57,
-          63.5
-        ],
-        "rotationDeg": [
-          -90,
           0,
           0
         ],
@@ -993,9 +1059,9 @@
     {
       "id": "backplate_left",
       "target": "metal_eyes",
-      "label": "金属承力背板",
+      "label": "顶部支座承力垫板",
       "kind": "generated",
-      "shapeHash": "bcc94e7820700687716d3df0bc40d97258e1c66e24628c760f447a7c21a4a312",
+      "shapeHash": "4b36553b5295e992eac408b0eb294e13fac7ae0d005dff36d78d27944630afe7",
       "transform": {
         "positionMm": [
           0,
@@ -1019,9 +1085,113 @@
     {
       "id": "backplate_right",
       "target": "metal_eyes",
-      "label": "金属承力背板",
+      "label": "顶部支座承力垫板",
       "kind": "generated",
-      "shapeHash": "8868190b9a9dda9239db092e8742be300cd0f8d8aef4111148b19d7de83bc5b9",
+      "shapeHash": "57a059caf37ca20fa33a60ab75b0807b002d7452c35e88a7bf3ac926b768206f",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "bridge_nut_left",
+      "target": "metal_eyes",
+      "label": "支架手拧锁帽",
+      "kind": "generated",
+      "shapeHash": "281f02a038f39656fa3404fd36ab4e4f6782fdc343d474da1e3aa7bbb3ecda40",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "bridge_nut_right",
+      "target": "metal_eyes",
+      "label": "支架手拧锁帽",
+      "kind": "generated",
+      "shapeHash": "4070fd3d4a2ace32c44b1ad86fc9cfd8b1b5ead0d42b4362d4b8a27fa6d392f6",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "bridge_washer_left",
+      "target": "metal_eyes",
+      "label": "支架锁紧垫圈",
+      "kind": "generated",
+      "shapeHash": "7ad7dbb8621cccd79c8a9c1bf0ddba670bf04f1da02d60f1537abbfa0f8833b5",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "bridge_washer_right",
+      "target": "metal_eyes",
+      "label": "支架锁紧垫圈",
+      "kind": "generated",
+      "shapeHash": "b2ebbe573da5e1cef034b3d510523c8442944024abc997c7c32e9457eaef16e0",
       "transform": {
         "positionMm": [
           0,
@@ -1045,9 +1215,9 @@
     {
       "id": "eye_left",
       "target": "metal_eyes",
-      "label": "独立金属穿带环",
+      "label": "顶部可转背带环",
       "kind": "generated",
-      "shapeHash": "38f68ddb5321d19f1f92cef2172c93c6563e1a06f527ac10132343ca3e764100",
+      "shapeHash": "0a933a469915228cbf4abeefd4171a73daa42d7987bd96b677b278b31a227d1b",
       "transform": {
         "positionMm": [
           0,
@@ -1071,9 +1241,269 @@
     {
       "id": "eye_right",
       "target": "metal_eyes",
-      "label": "独立金属穿带环",
+      "label": "顶部可转背带环",
       "kind": "generated",
-      "shapeHash": "c2df03453ba81b8d01ae196aa90bf5fe579052587916becf4ae1722d84aee96b",
+      "shapeHash": "44c193345283641d71d1a0776538efa9e5b8a1dcc8fe14ba07747a4a48cff522",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pivot_backplate_left",
+      "target": "metal_eyes",
+      "label": "转轴下承力垫片",
+      "kind": "generated",
+      "shapeHash": "5d7e697aac5014566444175b34f3769b10e4234eff88cb1303547f64cae46aa4",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pivot_backplate_right",
+      "target": "metal_eyes",
+      "label": "转轴下承力垫片",
+      "kind": "generated",
+      "shapeHash": "7dd3676d299fec7d8119922331b16691a392ea292450f80f8fbc8973b4a8c5c5",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pivot_sleeve_left",
+      "target": "metal_eyes",
+      "label": "金属转环隔套",
+      "kind": "generated",
+      "shapeHash": "a1e01e2338c04fff41c050b2d8190e6ec1bf022aa3109be860bf1b5c803d8180",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pivot_sleeve_right",
+      "target": "metal_eyes",
+      "label": "金属转环隔套",
+      "kind": "generated",
+      "shapeHash": "02cb2553c9d90b9701f230eacced7464009953816a2e76a1a3bd95213b50c40c",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pivot_washer_left",
+      "target": "metal_eyes",
+      "label": "外侧止推垫片",
+      "kind": "generated",
+      "shapeHash": "2139d0d3b258f72d46c1f6f3b7a4bf046f7f3f01d487fe46ca526c0f13caae7d",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pivot_washer_right",
+      "target": "metal_eyes",
+      "label": "外侧止推垫片",
+      "kind": "generated",
+      "shapeHash": "167eac373047355e4d9db7e2e30a1c3710800990b91bbaaf73cb97858bad57b4",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "ring_bridge_left",
+      "target": "metal_eyes",
+      "label": "顶部外移金属支架",
+      "kind": "generated",
+      "shapeHash": "9c09c212ea6cc1d24801ff105c5aa162d5e669dd26f3bec4d19f313ceb0abff2",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "ring_bridge_right",
+      "target": "metal_eyes",
+      "label": "顶部外移金属支架",
+      "kind": "generated",
+      "shapeHash": "9ad15c849b5ef00315b64a1b34c994e9bc1816fa0fd55c69fb1e44ba247102fa",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "thumb_nut_left",
+      "target": "metal_eyes",
+      "label": "外置小手拧螺帽",
+      "kind": "generated",
+      "shapeHash": "31a79c4ff0f216c6dc5bf3e64eecff3be052a18ccc8d4a4933c5111d7599a804",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "thumb_nut_right",
+      "target": "metal_eyes",
+      "label": "外置小手拧螺帽",
+      "kind": "generated",
+      "shapeHash": "11fe4e7d0d61e79d51cf96b5da8814b08bf0f61bb94d5239452c58803309b85d",
       "transform": {
         "positionMm": [
           0,
@@ -1099,12 +1529,12 @@
       "target": "axle",
       "label": "不锈钢切长转轴",
       "kind": "generated",
-      "shapeHash": "50ceb79052e72d961c938603879b680b6f55e2d6bc2e6f5f167636da50dd3a74",
+      "shapeHash": "8ded712b09a4ba43b4737616dca2eb0292369ae4f1bffe479de4e806495186fa",
       "transform": {
         "positionMm": [
           0,
-          54,
-          132
+          55,
+          128
         ],
         "rotationDeg": [
           0,
@@ -1125,7 +1555,7 @@
       "target": "magnet_envelopes",
       "label": "磁铁规格包络7×3",
       "kind": "generated",
-      "shapeHash": "9935b98d05fcdf6348677dda62c2df120783cac84622d89a2f4f4d783845d271",
+      "shapeHash": "6a3170447bd54b6cad6d442fba0ad3e43787f6b091c5d873e0ac369099ea83b0",
       "transform": {
         "positionMm": [
           0,
@@ -1151,7 +1581,7 @@
       "target": "magnet_envelopes",
       "label": "磁铁规格包络7×3",
       "kind": "generated",
-      "shapeHash": "f86e1f9d7f36b133f983c97e4c76fad5e08c058f961d7fb1ec1b820126ec2d18",
+      "shapeHash": "c3df0dfe8ed71a9b7604cb13cc1b34a5561a07fea9a46cdb837bc94c47b26bad",
       "transform": {
         "positionMm": [
           0,
@@ -1177,7 +1607,7 @@
       "target": "magnet_envelopes",
       "label": "磁铁规格包络7×3",
       "kind": "generated",
-      "shapeHash": "7f1375ee3eaa0d8fe224fc25c5aa127860e45e2ffb7fcb710eb48fd30e7063bf",
+      "shapeHash": "3b773bc821331d1cdc7241c628a48aacdf8f817100d6269c610e7a139fb2142a",
       "transform": {
         "positionMm": [
           0,
@@ -1203,7 +1633,7 @@
       "target": "magnet_envelopes",
       "label": "磁铁规格包络7×3",
       "kind": "generated",
-      "shapeHash": "a39e98f0b965f4f3ebf307dc11d1df49f42508ec1188ab96e755d19baf948766",
+      "shapeHash": "74e3a3bfc0e2564b9f59d84c83d8b99162535be24c59f43f0131f9186d9c71a3",
       "transform": {
         "positionMm": [
           0,
@@ -1212,6 +1642,32 @@
         ],
         "rotationDeg": [
           0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pivot_bolt_right",
+      "target": "imports",
+      "label": "pivot_bolt_right",
+      "kind": "imported",
+      "shapeHash": "705081e6297187f157a9807479f666e17d9f9158ac0bae8191eaef5c971ec95b",
+      "transform": {
+        "positionMm": [
+          128,
+          49,
+          188
+        ],
+        "rotationDeg": [
+          180,
           0,
           0
         ],
@@ -1229,16 +1685,16 @@
       "target": "imports",
       "label": "M4×20 连接环螺栓",
       "kind": "imported",
-      "shapeHash": "31daece836a40142262234733c7432a5a9f821ca02fade0e1c9f388e459f49e4",
+      "shapeHash": "9b421c39180d4364d439ecd20c6e6c18e64726f01121a5e1cafc3aae216107ed",
       "transform": {
         "positionMm": [
-          113,
-          46.5,
-          90
+          97,
+          49,
+          178
         ],
         "rotationDeg": [
+          180,
           0,
-          90,
           0
         ],
         "rotationOrder": "XYZ",
@@ -1251,37 +1707,11 @@
       "datums": []
     },
     {
-      "id": "ring_nut_right_low",
-      "target": "imports",
-      "label": "M4 六角螺母",
-      "kind": "imported",
-      "shapeHash": "11df6581ca1ed05fa8709c64be9aff8789e60fa755d15ecbfb639724e4ec39dd",
-      "transform": {
-        "positionMm": [
-          98,
-          46.5,
-          90
-        ],
-        "rotationDeg": [
-          0,
-          -90,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "ring_bolt_left_high",
-      "target": "ring_hardware_instances",
-      "label": "M4×20 连接环螺栓",
+      "id": "bottom_panel",
+      "target": "bottom_panel",
+      "label": "螺接独立底板",
       "kind": "generated",
-      "shapeHash": "f69df66e09d3d5980a561e9f4794aa34e850a1f465fc11e322dab1b383fff10a",
+      "shapeHash": "437fb5acf35ab680f42c13540a064fea06a1e70657b17ffdb3d10b2c88a37cf8",
       "transform": {
         "positionMm": [
           0,
@@ -1303,11 +1733,11 @@
       "datums": []
     },
     {
-      "id": "ring_bolt_left_low",
-      "target": "ring_hardware_instances",
-      "label": "M4×20 连接环螺栓",
+      "id": "bottom_screw_front0",
+      "target": "bottom_panel",
+      "label": "底板沉头M3螺钉",
       "kind": "generated",
-      "shapeHash": "8ab7967625284f0fed171065d3094a66cfdf592d718e800c9934053f607a79de",
+      "shapeHash": "5ad2f53343e615a99509ca99190cb3354c86b10980a78717ad489fe358a70a39",
       "transform": {
         "positionMm": [
           0,
@@ -1329,11 +1759,11 @@
       "datums": []
     },
     {
-      "id": "ring_bolt_right_high",
-      "target": "ring_hardware_instances",
-      "label": "M4×20 连接环螺栓",
+      "id": "bottom_screw_front1",
+      "target": "bottom_panel",
+      "label": "底板沉头M3螺钉",
       "kind": "generated",
-      "shapeHash": "b0068a4461802f5db77301fe5b1b41ede25ff226d0818dea1903e6cd261f6d48",
+      "shapeHash": "1618e7b92435bcfb3027227bcfecd51becb2756de344a128d492c7a60d04678c",
       "transform": {
         "positionMm": [
           0,
@@ -1355,11 +1785,11 @@
       "datums": []
     },
     {
-      "id": "ring_nut_left_high",
-      "target": "ring_hardware_instances",
-      "label": "M4 六角螺母",
+      "id": "bottom_screw_front2",
+      "target": "bottom_panel",
+      "label": "底板沉头M3螺钉",
       "kind": "generated",
-      "shapeHash": "139a63d444ea6327fa66a5b216d0d91f2ee2bc41e67791f07a6e3685615a4645",
+      "shapeHash": "dce00cfb49d58d36c284a3441c7f050c25051275cf8ab8444e362919dda9d651",
       "transform": {
         "positionMm": [
           0,
@@ -1381,11 +1811,11 @@
       "datums": []
     },
     {
-      "id": "ring_nut_left_low",
-      "target": "ring_hardware_instances",
-      "label": "M4 六角螺母",
+      "id": "bottom_screw_front3",
+      "target": "bottom_panel",
+      "label": "底板沉头M3螺钉",
       "kind": "generated",
-      "shapeHash": "fbfe1da78fb1819bdecedd1f036ea82dcbeca62d5578ed22e6625351778d905d",
+      "shapeHash": "e403ad3445a092cd392d9b43499112f0cf310106251986c3498ae7856ab392cc",
       "transform": {
         "positionMm": [
           0,
@@ -1407,11 +1837,141 @@
       "datums": []
     },
     {
-      "id": "ring_nut_right_high",
-      "target": "ring_hardware_instances",
-      "label": "M4 六角螺母",
+      "id": "bottom_screw_rear0",
+      "target": "bottom_panel",
+      "label": "底板沉头M3螺钉",
       "kind": "generated",
-      "shapeHash": "faa467a52b13177e9530b5b315c28016eb45a292d708078c33b5a13dc7b26a5b",
+      "shapeHash": "80086a27a5c0b76715e191b68b27620d794a8bda1a22b96ef923b5a77a498ee3",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "bottom_screw_rear1",
+      "target": "bottom_panel",
+      "label": "底板沉头M3螺钉",
+      "kind": "generated",
+      "shapeHash": "8220aa12d8d6622301d5949c27eae157b7b3c6889352f30d44c18e9768718ff4",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "bottom_screw_rear2",
+      "target": "bottom_panel",
+      "label": "底板沉头M3螺钉",
+      "kind": "generated",
+      "shapeHash": "f68c88117fddaf03780440a2ead03608f26ddce6615312bdb7ed4c21b2a62605",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "bottom_screw_rear3",
+      "target": "bottom_panel",
+      "label": "底板沉头M3螺钉",
+      "kind": "generated",
+      "shapeHash": "bb6da76b49bedbcc6c15a162ee84cf0dd35ca690a5dc317de5841decdd46e568",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "ring_bolt_left",
+      "target": "top_pivot_bolt",
+      "label": "顶部M4转环螺栓",
+      "kind": "generated",
+      "shapeHash": "843ed306f74067520ad2ba5836c8889124e284979e638c78c29461c0cd09e338",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pivot_bolt_left",
+      "target": "pivot_bolt_left",
+      "label": "左转环M4螺栓",
+      "kind": "generated",
+      "shapeHash": "bc82bcdede095c068caf29ae86f08ad8d13b41759943f860c16cfb85f68df479",
       "transform": {
         "positionMm": [
           0,
@@ -1445,40 +2005,35 @@
       }
     },
     {
-      "id": "ring_nut_right_low",
+      "id": "pivot_bolt_right",
       "kind": "step",
-      "path": "design/archive_handbag/source/assets/fc200b5ae3935c689379a698c83428aa651f5d3a401e1ddc2dc04ff80c965c27.step",
-      "sha256": "fc200b5ae3935c689379a698c83428aa651f5d3a401e1ddc2dc04ff80c965c27",
-      "label": "M4 六角螺母",
+      "path": "design/archive_handbag/source/assets/c857efadcb1f1edee90de544b54b5f97185fd727b9ce5ca786b264b3f2d027e0.step",
+      "sha256": "c857efadcb1f1edee90de544b54b5f97185fd727b9ce5ca786b264b3f2d027e0",
+      "label": "pivot_bolt_right",
       "provenance": {
-        "sourcePath": ".work/cache/cad-catalog/bd-warehouse/d6a679156aab23d85d11c7ca646afa0a3775f3dc58c81a62247c648b563fa9c9.step"
+        "sourcePath": ".work/cache/cad-catalog/bd-warehouse/53e55d7a9d5d74301ef88196ed9808bcb3f3dc4587ef0c50ac6cb528bbf0eb99.step",
+        "provider": "bd-warehouse@0.2.0",
+        "sourceVersion": "ISO4762 M4-0.7x12",
+        "declaredSha256": "c857efadcb1f1edee90de544b54b5f97185fd727b9ce5ca786b264b3f2d027e0"
       }
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-23T15:44:20.153Z",
+  "updatedAt": "2026-09-23T17:39:19.434Z",
   "parameters": {
     "body": {
       "case_width": 220,
-      "body_depth": 114,
       "body_height": 128,
       "body_wall": 6,
       "body_floor": 4,
-      "body_sidewall": 8,
       "body_slot_thickness": 3.6,
-      "body_slot_depth": 87.6,
-      "body_side_opening": 77,
       "body_panel_center_x": 107.5,
-      "body_hinge_y": 54,
-      "body_hinge_z": 132,
-      "body_hinge_radius": 5,
+      "body_hinge_y": 55,
+      "body_hinge_z": 128,
+      "body_hinge_radius": 3.8,
       "body_hinge_bore": 4.4,
-      "body_ring_mount_y": 46.5,
-      "body_ring_mount_z": 100,
-      "body_ring_mount_pitch": 20,
-      "body_ring_hole": 4.5,
       "body_magnet_x": 72,
-      "body_magnet_y": -47,
+      "body_magnet_y": -39,
       "body_mag_cap_left_width": 22,
       "body_mag_cap_left_depth": 14,
       "body_mag_cap_left_edge_thickness": 2.6,
@@ -1490,17 +2045,35 @@
       "body_mag_cap_right_membrane": 0.6,
       "body_mag_cap_right_screw_half_pitch": 8,
       "axle_stop_left_width": 12,
-      "axle_stop_left_depth": 10,
+      "axle_stop_left_depth": 6,
       "axle_stop_left_base_thickness": 3,
       "axle_stop_left_stop_height": 9,
       "axle_stop_left_stop_thickness": 2,
       "axle_stop_left_inner_x": 50.4,
       "axle_stop_right_width": 12,
-      "axle_stop_right_depth": 10,
+      "axle_stop_right_depth": 6,
       "axle_stop_right_base_thickness": 3,
       "axle_stop_right_stop_height": 9,
       "axle_stop_right_stop_thickness": 2,
-      "axle_stop_right_inner_x": 50.4
+      "axle_stop_right_inner_x": 50.4,
+      "body_top_post_x": 97,
+      "body_top_post_width": 14,
+      "body_top_post_top": 190,
+      "body_top_pivot_hole": 4.5,
+      "magnet_mount_left_width": 28,
+      "magnet_mount_left_depth": 12,
+      "magnet_mount_left_height": 12,
+      "magnet_mount_right_width": 28,
+      "magnet_mount_right_depth": 12,
+      "magnet_mount_right_height": 12,
+      "body_rear_center_y": 54,
+      "body_pivot_y": 49,
+      "body_page_depth": 0.45,
+      "body_page_width": 1,
+      "body_corner_cover_width": 22,
+      "body_corner_cover_depth": 45.2,
+      "body_corner_cover_thickness": 2.2,
+      "body_corner_cover_top": 186.6
     },
     "lid": {
       "lid_width": 220,
@@ -1508,15 +2081,14 @@
       "lid_height": 60.4,
       "lid_roof_thickness": 2.2,
       "lid_wall": 6,
-      "lid_hinge_y": 54,
-      "lid_hinge_z": 132,
+      "lid_hinge_y": 55,
+      "lid_hinge_z": 128,
       "lid_seam_z": 128.6,
-      "lid_side_opening": 87.8,
       "lid_barrel_radius": 3.8,
       "lid_bore": 4.4,
       "lid_barrel_length": 58.8,
       "lid_magnet_x": 72,
-      "lid_magnet_y": -47,
+      "lid_magnet_y": -39,
       "lid_mag_cap_left_width": 22,
       "lid_mag_cap_left_depth": 14,
       "lid_mag_cap_left_edge_thickness": 2.6,
@@ -1527,63 +2099,98 @@
       "lid_mag_cap_right_edge_thickness": 2.6,
       "lid_mag_cap_right_membrane": 0.6,
       "lid_mag_cap_right_screw_half_pitch": 8,
-      "lid_rear_inset": 6,
-      "lid_side_recess": 5
+      "lid_side_recess": 5,
+      "lid_rear_width": 176,
+      "lid_spine_sag": 6,
+      "lid_spine_thickness": 3.5,
+      "lid_spine_end_y": -51,
+      "lid_rear_bottom_relief": 4,
+      "lid_end_cheek_thickness": 2,
+      "lid_mount_notch_center_y": 36,
+      "lid_mount_notch_depth": 48,
+      "lid_mount_notch_width": 24
     },
     "side_left": {
       "side_left_thickness": 3,
-      "side_left_depth": 87,
+      "side_left_depth": 100,
       "side_left_height": 182.4,
       "side_left_groove_depth": 0.45,
       "side_left_groove_width": 1,
       "side_left_book_boundary1": 60,
       "side_left_book_boundary2": 124,
       "side_left_upper_depth": 114,
-      "side_left_upper_shoulder": 124.6
+      "side_left_upper_shoulder": 124.6,
+      "side_left_page_pitch": 6,
+      "side_left_page_margin": 6
     },
     "side_right": {
       "side_right_thickness": 3,
-      "side_right_depth": 87,
+      "side_right_depth": 100,
       "side_right_height": 182.4,
       "side_right_groove_depth": 0.45,
       "side_right_groove_width": 1,
       "side_right_book_boundary1": 60,
       "side_right_book_boundary2": 124,
       "side_right_upper_depth": 114,
-      "side_right_upper_shoulder": 124.6
+      "side_right_upper_shoulder": 124.6,
+      "side_right_page_pitch": 6,
+      "side_right_page_margin": 6
     },
     "book_spines": {
       "green_spine_width": 216,
-      "green_spine_height": 58,
-      "green_spine_thickness": 1,
-      "green_spine_corner_radius": 3,
-      "green_spine_center_z": 32,
+      "green_spine_height": 60,
+      "green_spine_thickness": 3.5,
+      "green_spine_center_z": 34,
       "green_spine_mount_y": -57,
       "blue_spine_width": 216,
-      "blue_spine_height": 59,
-      "blue_spine_thickness": 1,
-      "blue_spine_corner_radius": 3,
+      "blue_spine_height": 64,
+      "blue_spine_thickness": 3.5,
       "blue_spine_center_z": 96,
       "blue_spine_mount_y": -57,
-      "pink_spine_width": 210,
-      "pink_spine_height": 55,
-      "pink_spine_thickness": 1,
-      "pink_spine_corner_radius": 3,
-      "pink_spine_center_z": 159,
-      "pink_spine_mount_y": -57
+      "green_spine_arc_sag": 6,
+      "green_spine_end_y": -51,
+      "green_spine_guide_x": 107.5,
+      "green_spine_guide_width": 3.6,
+      "blue_spine_arc_sag": 6,
+      "blue_spine_end_y": -51,
+      "blue_spine_guide_x": 107.5,
+      "blue_spine_guide_width": 3.6,
+      "spine_joint_half_span": 80,
+      "spine_joint_inner_x": 40,
+      "spine_joint_y": -46,
+      "spine_joint_tab_width": 14,
+      "spine_joint_tab_depth": 12,
+      "body_magnet_x": 72,
+      "body_magnet_y": -39,
+      "magnet_mount_left_width": 28,
+      "magnet_mount_left_depth": 12,
+      "magnet_mount_left_height": 12,
+      "body_mag_cap_left_width": 22,
+      "body_mag_cap_left_depth": 14,
+      "body_mag_cap_left_edge_thickness": 2.6,
+      "body_mag_cap_left_membrane": 0.6,
+      "body_mag_cap_left_screw_half_pitch": 8,
+      "magnet_mount_right_width": 28,
+      "magnet_mount_right_depth": 12,
+      "magnet_mount_right_height": 12,
+      "body_mag_cap_right_width": 22,
+      "body_mag_cap_right_depth": 14,
+      "body_mag_cap_right_edge_thickness": 2.6,
+      "body_mag_cap_right_membrane": 0.6,
+      "body_mag_cap_right_screw_half_pitch": 8
     },
     "brown_binding": {
       "lower_binding_width": 30,
-      "lower_binding_height": 126,
       "lower_binding_thickness": 1,
-      "lower_binding_bottom_z": 1,
-      "lower_binding_outer_y": -59,
-      "upper_binding_width": 30,
-      "upper_binding_height": 61,
-      "upper_binding_thickness": 1,
-      "upper_binding_top_depth": 116,
-      "upper_binding_bottom_z": 128.6,
-      "upper_binding_front_y": -59
+      "binding_loop_depth": 118.8,
+      "binding_loop_height": 190,
+      "binding_corner_radius": 2,
+      "binding_center_y": 1.4,
+      "binding_release_z": 100,
+      "binding_release_gap": 0.3,
+      "binding_overlap_width": 28,
+      "binding_overlap_height": 28,
+      "binding_overlap_thickness": 0.6
     },
     "buckle": {
       "buckle_width": 42,
@@ -1598,7 +2205,7 @@
       "green_marks_thickness": 0.7,
       "green_marks_left_x": -84,
       "green_marks_pitch": 13,
-      "green_marks_center_z": 32,
+      "green_marks_center_z": 34,
       "blue_marks_bar_width": 3,
       "blue_marks_bar_height": 25,
       "blue_marks_thickness": 0.7,
@@ -1610,55 +2217,128 @@
       "pink_marks_thickness": 0.7,
       "pink_marks_left_x": -84,
       "pink_marks_pitch": 13,
-      "pink_marks_center_z": 159
-    },
-    "rear_cover": {
-      "rear_cover_width": 216,
-      "rear_cover_height": 121,
-      "rear_cover_thickness": 3,
-      "rear_cover_corner_radius": 3
+      "pink_marks_center_z": 158.8,
+      "green_marks_spine_sag": 6,
+      "green_marks_spine_height": 60,
+      "green_marks_end_y": -51,
+      "blue_marks_spine_sag": 6,
+      "blue_marks_spine_height": 64,
+      "blue_marks_end_y": -51,
+      "pink_marks_spine_sag": 6,
+      "pink_marks_spine_height": 60.4,
+      "pink_marks_end_y": -51
     },
     "metal_eyes": {
       "eye_left_thickness": 3,
-      "eye_left_depth": 36,
-      "eye_left_height": 42,
+      "eye_left_depth": 28,
+      "eye_left_height": 32,
       "eye_left_corner_radius": 5,
       "eye_left_slot_width": 14,
       "eye_left_slot_height": 24,
-      "eye_left_slot_offset_y": 6,
-      "eye_left_mount_hole": 4.5,
-      "eye_left_mount_pitch": 20,
-      "eye_left_mount_x": -110,
-      "eye_left_center_y": 58,
-      "eye_left_center_z": 100,
       "eye_right_thickness": 3,
-      "eye_right_depth": 36,
-      "eye_right_height": 42,
+      "eye_right_depth": 28,
+      "eye_right_height": 32,
       "eye_right_corner_radius": 5,
       "eye_right_slot_width": 14,
       "eye_right_slot_height": 24,
-      "eye_right_slot_offset_y": 6,
-      "eye_right_mount_hole": 4.5,
-      "eye_right_mount_pitch": 20,
-      "eye_right_mount_x": 110,
-      "eye_right_center_y": 58,
-      "eye_right_center_z": 100,
       "backplate_left_thickness": 2,
       "backplate_left_depth": 11,
-      "backplate_left_height": 40,
       "backplate_left_hole": 4.5,
-      "backplate_left_hole_pitch": 20,
-      "backplate_left_outer_x": -100,
-      "backplate_left_center_y": 45.5,
-      "backplate_left_center_z": 100,
       "backplate_right_thickness": 2,
       "backplate_right_depth": 11,
-      "backplate_right_height": 40,
       "backplate_right_hole": 4.5,
-      "backplate_right_hole_pitch": 20,
-      "backplate_right_outer_x": 100,
-      "backplate_right_center_y": 45.5,
-      "backplate_right_center_z": 100
+      "eye_left_foot_width": 18,
+      "eye_left_foot_depth": 18,
+      "eye_left_foot_thickness": 2,
+      "eye_left_pivot_bore": 6.4,
+      "eye_left_top_x": -97,
+      "eye_left_top_y": 49,
+      "eye_left_top_z": 190.3,
+      "eye_right_foot_width": 18,
+      "eye_right_foot_depth": 18,
+      "eye_right_foot_thickness": 2,
+      "eye_right_pivot_bore": 6.4,
+      "eye_right_top_x": 97,
+      "eye_right_top_y": 49,
+      "eye_right_top_z": 190.3,
+      "backplate_left_pad_depth": 12,
+      "backplate_left_top_x": -97,
+      "backplate_left_top_y": 49,
+      "backplate_left_top_z": 178,
+      "backplate_right_pad_depth": 12,
+      "backplate_right_top_x": 97,
+      "backplate_right_top_y": 49,
+      "backplate_right_top_z": 178,
+      "pivot_sleeve_left_diameter": 6,
+      "pivot_sleeve_left_bore": 4.3,
+      "pivot_sleeve_left_length": 2.6,
+      "pivot_sleeve_left_x": -97,
+      "pivot_sleeve_left_y": 49,
+      "pivot_sleeve_left_z": 190,
+      "pivot_washer_left_diameter": 10,
+      "pivot_washer_left_bore": 4.3,
+      "pivot_washer_left_thickness": 1.4,
+      "pivot_washer_left_z": 192.6,
+      "thumb_nut_left_diameter": 10,
+      "thumb_nut_left_height": 4,
+      "thumb_nut_left_z": 194,
+      "thumb_nut_left_knurl_depth": 0.3,
+      "pivot_sleeve_right_diameter": 6,
+      "pivot_sleeve_right_bore": 4.3,
+      "pivot_sleeve_right_length": 2.6,
+      "pivot_sleeve_right_x": 97,
+      "pivot_sleeve_right_y": 49,
+      "pivot_sleeve_right_z": 190,
+      "pivot_washer_right_diameter": 10,
+      "pivot_washer_right_bore": 4.3,
+      "pivot_washer_right_thickness": 1.4,
+      "pivot_washer_right_z": 192.6,
+      "thumb_nut_right_diameter": 10,
+      "thumb_nut_right_height": 4,
+      "thumb_nut_right_z": 194,
+      "thumb_nut_right_knurl_depth": 0.3,
+      "swivel_outset": 31,
+      "swivel_bracket_rise": 2,
+      "ring_bridge_left_width": 47,
+      "ring_bridge_left_depth": 18,
+      "ring_bridge_left_thickness": 2,
+      "ring_bridge_left_center_x": -113.5,
+      "ring_bridge_left_y": 49,
+      "ring_bridge_left_z": 190,
+      "ring_bridge_left_mount_x": -97,
+      "ring_bridge_left_hole": 4.5,
+      "ring_bridge_left_key_drop": 5,
+      "ring_bridge_left_panel_slot": 3.6,
+      "bridge_washer_left_diameter": 10,
+      "bridge_washer_left_bore": 4.3,
+      "bridge_washer_left_thickness": 2,
+      "bridge_nut_left_diameter": 10,
+      "bridge_nut_left_height": 4,
+      "bridge_nut_left_knurl_depth": 0.3,
+      "pivot_backplate_left_width": 11,
+      "pivot_backplate_left_depth": 12,
+      "pivot_backplate_left_thickness": 2,
+      "pivot_backplate_left_hole": 4.5,
+      "ring_bridge_right_width": 47,
+      "ring_bridge_right_depth": 18,
+      "ring_bridge_right_thickness": 2,
+      "ring_bridge_right_center_x": 113.5,
+      "ring_bridge_right_y": 49,
+      "ring_bridge_right_z": 190,
+      "ring_bridge_right_mount_x": 97,
+      "ring_bridge_right_hole": 4.5,
+      "ring_bridge_right_key_drop": 5,
+      "ring_bridge_right_panel_slot": 3.6,
+      "bridge_washer_right_diameter": 10,
+      "bridge_washer_right_bore": 4.3,
+      "bridge_washer_right_thickness": 2,
+      "bridge_nut_right_diameter": 10,
+      "bridge_nut_right_height": 4,
+      "bridge_nut_right_knurl_depth": 0.3,
+      "pivot_backplate_right_width": 11,
+      "pivot_backplate_right_depth": 12,
+      "pivot_backplate_right_thickness": 2,
+      "pivot_backplate_right_hole": 4.5
     },
     "axle": {
       "axle_diameter": 4,
@@ -1668,44 +2348,45 @@
       "body_magnet_left_diameter": 7,
       "body_magnet_left_thickness": 3,
       "body_magnet_left_center_x": -72,
-      "body_magnet_left_center_y": -47,
+      "body_magnet_left_center_y": -39,
       "body_magnet_left_bottom_z": 124.2,
       "body_magnet_right_diameter": 7,
       "body_magnet_right_thickness": 3,
       "body_magnet_right_center_x": 72,
-      "body_magnet_right_center_y": -47,
+      "body_magnet_right_center_y": -39,
       "body_magnet_right_bottom_z": 124.2,
       "lid_magnet_left_diameter": 7,
       "lid_magnet_left_thickness": 3,
       "lid_magnet_left_center_x": -72,
-      "lid_magnet_left_center_y": -47,
+      "lid_magnet_left_center_y": -39,
       "lid_magnet_left_bottom_z": 129.4,
       "lid_magnet_right_diameter": 7,
       "lid_magnet_right_thickness": 3,
       "lid_magnet_right_center_x": 72,
-      "lid_magnet_right_center_y": -47,
+      "lid_magnet_right_center_y": -39,
       "lid_magnet_right_bottom_z": 129.4
     },
     "imports": {},
-    "ring_hardware_instances": {
-      "ring_bolt_left_low_x": -113,
-      "ring_bolt_left_low_y": 46.5,
-      "ring_bolt_left_low_z": 90,
-      "ring_nut_left_low_x": -98,
-      "ring_nut_left_low_y": 46.5,
-      "ring_nut_left_low_z": 90,
-      "ring_bolt_left_high_x": -113,
-      "ring_bolt_left_high_y": 46.5,
-      "ring_bolt_left_high_z": 110,
-      "ring_nut_left_high_x": -98,
-      "ring_nut_left_high_y": 46.5,
-      "ring_nut_left_high_z": 110,
-      "ring_bolt_right_high_x": 113,
-      "ring_bolt_right_high_y": 46.5,
-      "ring_bolt_right_high_z": 110,
-      "ring_nut_right_high_x": 98,
-      "ring_nut_right_high_y": 46.5,
-      "ring_nut_right_high_z": 110
+    "bottom_panel": {
+      "bottom_panel_width": 220,
+      "bottom_panel_depth": 114,
+      "bottom_panel_thickness": 4,
+      "bottom_panel_band_width": 30.4,
+      "bottom_panel_band_recess": 1.1,
+      "bottom_panel_joint_half_span": 80,
+      "bottom_panel_joint_inner_x": 40,
+      "bottom_panel_front_joint_y": -46,
+      "bottom_panel_rear_joint_y": 54
+    },
+    "top_pivot_bolt": {
+      "top_pivot_bolt_x": -97,
+      "top_pivot_bolt_y": 49,
+      "top_pivot_bolt_z": 178
+    },
+    "pivot_bolt_left": {
+      "pivot_bolt_left_x": -128,
+      "pivot_bolt_left_y": 49,
+      "pivot_bolt_left_z": 188
     }
   }
 }

@@ -93,7 +93,7 @@
       "source": "user"
     },
     "strap_scope": {
-      "value": "此前肩带由用户自装；本次“背带贯穿”所指的带及路径待澄清，不擅自增加肩带本体，也不沿用中央束带只覆盖前顶面的假设。",
+      "value": "不包含用户肩带本体；中央环绕束带采用独立柔性带材，打开方扣释放束带后开盖，不用硬塑料跨缝锁死。",
       "source": "default"
     },
     "outer_panel_structure": {
@@ -113,15 +113,9 @@
       "source": "user"
     },
     "strap_continuity": {
-      "value": "背带是贯穿的",
+      "value": "中央带方扣的棕色束带沿前面、顶部、背面和底部连续绕行；肩带仍由用户自行安装。",
       "source": "user"
     }
   },
-  "open_questions": [
-    {
-      "id": "strap_continuity_route",
-      "question": "“背带贯穿”指中央棕色束带绕过顶、背、底，还是用户自装肩带穿过包体？",
-      "requirement_id": "strap_continuity"
-    }
-  ]
+  "open_questions": []
 }

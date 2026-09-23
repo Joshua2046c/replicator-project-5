@@ -1,0 +1,1 @@
+publish("pivot_bolt_right", asset("design/archive_handbag/source/assets/c857efadcb1f1edee90de544b54b5f97185fd727b9ce5ca786b264b3f2d027e0.step"), "pivot_bolt_right")

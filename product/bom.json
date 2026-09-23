@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "status": "draft",
-  "bom_ready": false,
-  "requirements_digest": "621ba772650e449613b0ef5d276cf36de13c2c8620cd753d030cc3873136e65e",
+  "status": "ready_for_cad",
+  "bom_ready": true,
+  "requirements_digest": "d83e89da2e06a140fee02de57e26abe7dc82e84dee655cf189761e23add1eb0c",
   "items": [
     {
       "id": "body",
@@ -10,11 +10,11 @@
       "name": "外板拼装结构套件",
       "quantity": 1,
       "part_number": "AH-OUTER-PANEL-SET",
-      "description": "取消整件内胆；底板、承力外板和边缘连接接口组成包体，结构厚度和拼接方式待硬件修订。",
+      "description": "四块承力外板：220×114×4底板、6mm后板带顶部角支座、3.5mm弧形绿/蓝前板。无整体内胆。底板8颗M3×12沉头螺钉，前板拼接4颗M3×12；蓝板含一体磁铁座。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "落实本次标注修订；该接口需重新定型，build41几何与验证不能作为新版证据。",
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
       "part_identity": "4c7b49d3c6197c10"
     },
     {
@@ -23,11 +23,11 @@
       "name": "粉色书本翻盖",
       "quantity": 1,
       "part_number": "AH-LID-FLUSH",
-      "description": "背板外表面与包本体齐平；配弧形书脊，需重排铰链避免开启干涉。",
+      "description": "粉色弧形书脊与翻盖一体；后表面Y57齐平。后轴Y55 Z128，Ø4.4孔；屋面2.2厚，后角避让口由固定角盖搭接遮挡。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "落实本次标注修订；该接口需重新定型，build41几何与验证不能作为新版证据。",
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
       "part_identity": "c8f8bda0279ef9fd"
     },
     {
@@ -36,11 +36,11 @@
       "name": "左右矩形全高书页插板",
       "quantity": 2,
       "part_number": "AH-SIDE-RECT",
-      "description": "每侧为一块完整矩形，不设上下段宽差或T形肩；厚度和导轨由外板拼接重新确定。",
+      "description": "左右各一块完整3×100×182.4mm矩形PETG插板，底Z4、顶186.4；3.6mm导槽，0.3mm每面间隙。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "落实本次标注修订；该接口需重新定型，build41几何与验证不能作为新版证据。",
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
       "part_identity": "b04ab60e459ffc67"
     },
     {
@@ -48,52 +48,52 @@
       "role": "carry_rings",
       "name": "顶部可转动背带环",
       "quantity": 2,
-      "part_number": "AH-TOP-PIVOT-EYE",
-      "description": "顶部安装，单转动轴连接；外置小手拧螺帽，不再使用侧面双螺栓固定环。",
+      "part_number": "AH-TOP-SWIVEL-304",
+      "description": "定制304焊接件：3mm竖向环片外形28×32，14×24圆角穿带孔；与18×18×2底脚连接，底脚孔Ø6.4。轴心X±128 Y49，底脚Z192.3；非厂家STEP。",
       "source": "default",
-      "procurement_status": "external_procurement_required",
+      "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "落实本次标注修订；该接口需重新定型，build41几何与验证不能作为新版证据。",
-      "part_identity": "79a81ade615f2027"
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
+      "part_identity": "9e57354f89225dff"
     },
     {
       "id": "backplates",
       "role": "carry_rings",
-      "name": "顶部转环承力支座",
+      "name": "支座内侧承力垫板",
       "quantity": 2,
       "part_number": "AH-TOP-EYE-SUPPORT",
-      "description": "将顶部转环载荷传入固定外板连接和底板；不沿用旧侧壁背板孔距。",
+      "description": "每侧固定支座内11×12×2mm钢垫板，M4孔4.5，Z178–180。转环外移支架和转轴下垫片另列。",
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "落实本次标注修订；该接口需重新定型，build41几何与验证不能作为新版证据。",
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
       "part_identity": "0b2d26eedeebccb2"
     },
     {
       "id": "ring_bolts",
       "role": "fastener",
-      "name": "顶部转环连接螺栓",
+      "name": "顶部支架 M4×20 固定螺栓",
       "quantity": 2,
-      "part_number": "UNRESOLVED-TOP-PIVOT-BOLT",
-      "description": "设计默认每环一根转轴螺栓；规格和长度随转动间隙、轴肩或隔套及承力支座确定。",
+      "part_number": "ISO4762-M4x20",
+      "description": "两颗ISO4762 M4×20固定外移支架到后板角支座，头座Z178，杆端Z198；不可用来松开实现转环旋转。转环轴另用M4×12。",
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "落实本次标注修订；该接口需重新定型，build41几何与验证不能作为新版证据。",
-      "part_identity": "76d8b9b7a4473a13"
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
+      "part_identity": "5227684f12709b68"
     },
     {
       "id": "ring_nuts",
       "role": "fastener",
-      "name": "外置小型手拧螺帽",
-      "quantity": 2,
-      "part_number": "UNRESOLVED-SMALL-THUMB-NUT",
-      "description": "用户指定小型手拧螺帽且位于外侧；不能替代成旧版六角螺母。规格及防脱方式待选型。",
+      "name": "定制小型滚花手拧螺帽",
+      "quantity": 4,
+      "part_number": "AH-KNURLED-M4-10x4",
+      "description": "共4颗定制M4金属滚花手拧帽，Ø10×4；2颗固定顶部支架，2颗锁紧转环隔套。模型为名义螺纹包络，不是加工底孔。",
       "source": "default",
-      "procurement_status": "external_procurement_required",
+      "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "落实本次标注修订；该接口需重新定型，build41几何与验证不能作为新版证据。",
-      "part_identity": "6467f1f71c7be5e4"
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
+      "part_identity": "0b2f682a8b796bed"
     },
     {
       "id": "hinge_axle",
@@ -101,11 +101,11 @@
       "name": "切长金属转轴",
       "quantity": 1,
       "part_number": "AH-AXLE-4x100",
-      "description": "304光圆棒Ø4×100，端部去毛刺；两端独立止挡盖捕获",
+      "description": "304光圆棒Ø4×100，轴心Y55 Z128；Ø4.4铰孔，轴端各0.4间隙，M3固定止挡防脱。",
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "保留的候选规格；外板结构与齐平盖背重排后复核安装位置和配合，尚未验证新版。",
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
       "part_identity": "6aba42922000ecbe"
     },
     {
@@ -114,11 +114,11 @@
       "name": "转轴止挡盖",
       "quantity": 2,
       "part_number": "AH-AXLE-CAP",
-      "description": "PETG两端止挡；M3螺钉固定到后壁，不依靠轴与孔过盈",
+      "description": "两端PETG止挡，12宽×6深，底厚3；M3×10、7mm啮合到后板。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "保留的候选规格；外板结构与齐平盖背重排后复核安装位置和配合，尚未验证新版。",
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
       "part_identity": "e66aaf90cf60d760"
     },
     {
@@ -131,7 +131,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "保留的候选规格；外板结构与齐平盖背重排后复核安装位置和配合，尚未验证新版。",
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
       "part_identity": "9ab9112a1e61e35a"
     },
     {
@@ -157,7 +157,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "保留的候选规格；外板结构与齐平盖背重排后复核安装位置和配合，尚未验证新版。",
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
       "part_identity": "350342d63049aac3"
     },
     {
@@ -170,7 +170,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "保留的候选规格；外板结构与齐平盖背重排后复核安装位置和配合，尚未验证新版。",
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
       "part_identity": "60df22607e90e1c1"
     },
     {
@@ -179,11 +179,11 @@
       "name": "三色弧形书脊与贯穿束带接口",
       "quantity": 1,
       "part_number": "AH-CURVED-BOOK-SET",
-      "description": "粉蓝绿弧形书脊；背面书页槽对应侧面；贯穿带的对象及路径待用户澄清。不能用仅前面和顶部的束带假设代替。",
+      "description": "弧形前板为承力外板，不是贴片；棕色30mm宽、1mm厚柔性带绕前顶背底，前方方框下隐藏28×28×0.6搭接魔术贴包络；释放后移开带体再开盖。方框是可拉取装饰件，不是刚性锁扣。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "落实本次标注修订；该接口需重新定型，build41几何与验证不能作为新版证据。",
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
       "part_identity": "cdec688dde151cf0"
     },
     {
@@ -191,13 +191,13 @@
       "role": "assembly",
       "name": "转环紧固件防松措施",
       "quantity": 1,
-      "part_number": "UNRESOLVED-PIVOT-RETENTION",
-      "description": "小手拧螺帽的防脱与转环自由转动必须同时满足；不沿用旧四颗固定螺母的防松配方。",
+      "part_number": "SPEC-PIVOT-RETENTION",
+      "description": "金属M4螺纹采用可拆卸防松措施并做见证标记；旋转由光滑隔套实现，螺帽不拧松。样机需验证防松与PETG支座蠕变，未声称已通过。",
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "落实本次标注修订；该接口需重新定型，build41几何与验证不能作为新版证据。",
-      "part_identity": "b5d61912ea8c9d0a"
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
+      "part_identity": "fa74f27b1e3433f0"
     },
     {
       "id": "decorative_adhesive",
@@ -205,29 +205,117 @@
       "name": "非承力装饰固定耗材",
       "quantity": 1,
       "part_number": "SPEC-NONSTRUCTURAL-ADHESIVE",
-      "description": "仅用于非承力标线等装饰；不得继续将承力外板当作1mm粘贴饰面。",
+      "description": "只固定金色书脊标线等非承力装饰；主外板由螺钉拼接，磁铁座与蓝板一体，不靠胶粘承载。",
       "source": "default",
       "procurement_status": "external_procurement_required",
-      "selection_reason": "落实本次标注修订；该接口需重新定型，build41几何与验证不能作为新版证据。",
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。",
       "part_identity": "4b3be1836c874da6"
-    }
-  ],
-  "unresolved_items": [
-    {
-      "id": "strap_continuity_route",
-      "owner": "user",
-      "stage": "requirements",
-      "design_critical": true,
-      "description": "“背带贯穿”指中央棕色束带绕过顶、背、底，还是用户自装肩带穿过包体？"
     },
     {
-      "id": "outer_panel_and_pivot_interfaces",
-      "owner": "agent",
-      "stage": "hardware_revision",
-      "design_critical": true,
-      "description": "外板拼接、矩形导槽、齐平背板铰链、顶部转环螺栓/轴套/小手拧螺帽的具体尺寸及防松设计，不能沿用build41。"
+      "id": "pivot_sleeves",
+      "role": "carry_rings",
+      "name": "定制转环隔套与外垫片",
+      "quantity": 2,
+      "part_number": "AH-SLEEVE-6-4.3-2.6",
+      "description": "每侧钢隔套Ø6/Ø4.3×2.6，Z192–194.6；环底脚厚2，两端合计0.6轴向余隙；上止推垫片Ø10/Ø4.3×1.4，Z194.6–196。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "part_identity": "e14798aea94dc4f6",
+      "selection_reason": "按当前外板拼装、顶部转环及环绕束带接口定型；CAD build124几何证据，负载与工艺需实物试验。"
+    },
+    {
+      "id": "pivot_bolts",
+      "role": "fastener",
+      "name": "转环轴 M4×12",
+      "quantity": 2,
+      "part_number": "ISO4762-M4x12",
+      "description": "精确目录STEP，头座Z188，杆端Z200；贯穿2mm下垫片、2mm支架、2.6mm隔套、1.4mm垫圈及4mm螺帽。",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "与当前CAD接口匹配；不是采购或强度认证。",
+      "part_identity": "c9e23c1ce553273b"
+    },
+    {
+      "id": "ring_bridges",
+      "role": "carry_rings",
+      "name": "顶部外移承力支架",
+      "quantity": 2,
+      "part_number": "AH-BRIDGE-304-47x18x2",
+      "description": "定制304金属支架47×18×2，后侧5mm下折防转舌；两孔距31mm，X97固定孔到X128转环孔。侧板抽出槽3.6×10.3，槽后保留7.7mm金属桥，需样机负载试验。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "与当前CAD接口匹配；不是采购或强度认证。",
+      "part_identity": "f2b5999bacbce1dc"
+    },
+    {
+      "id": "bridge_washers",
+      "role": "carry_rings",
+      "name": "支架固定垫圈",
+      "quantity": 2,
+      "part_number": "AH-WASHER-10-4.3-2",
+      "description": "Ø10/Ø4.3×2，夹在2mm支架和4mm手拧螺帽之间。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "与当前CAD接口匹配；不是采购或强度认证。",
+      "part_identity": "4eb776a33db5a0cf"
+    },
+    {
+      "id": "pivot_backplates",
+      "role": "carry_rings",
+      "name": "转环轴下垫片",
+      "quantity": 2,
+      "part_number": "AH-PIVOT-PAD-11x12x2",
+      "description": "11×12×2钢板，孔Ø4.5；转环M4×12头部上方，Z188–190。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "与当前CAD接口匹配；不是采购或强度认证。",
+      "part_identity": "8f35309c7b8597bb"
+    },
+    {
+      "id": "bottom_screws",
+      "role": "fastener",
+      "name": "底板M3×12沉头螺钉",
+      "quantity": 8,
+      "part_number": "ISO10642-M3x12",
+      "description": "kit生成的沉头件，总长12；底板贯穿4mm，前后外板8mm啮合，前后各四颗X±40、±80。",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "与当前CAD接口匹配；不是采购或强度认证。",
+      "part_identity": "7ae49e465365c84d"
+    },
+    {
+      "id": "spine_screws",
+      "role": "fastener",
+      "name": "前板拼接M3×12螺钉",
+      "quantity": 4,
+      "part_number": "ISO4762-M3x12",
+      "description": "kit生成，穿蓝板4mm台阶并啮合绿板8mm。中心Y−46，X±40、±80，头座Z68。",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "与当前CAD接口匹配；不是采购或强度认证。",
+      "part_identity": "b3dce3ab5f1864b9"
+    },
+    {
+      "id": "binding_release",
+      "role": "appearance",
+      "name": "束带隐藏搭接",
+      "quantity": 1,
+      "part_number": "AH-BINDING-30-RELEASE",
+      "description": "30mm宽柔性带及28×28mm可剥离搭接，前方100mm高度；上半缝合，下半可剥离，方框固定在可拉取搭接片上。CAD为闭合包络，不建模纤维。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "与当前CAD接口匹配；不是采购或强度认证。",
+      "part_identity": "92f9cd8f805f8f2e"
     }
   ],
+  "unresolved_items": [],
   "supply_risks": [
     {
       "id": "prototype_load",
@@ -247,7 +335,12 @@
     {
       "id": "thumb_nut_geometry",
       "severity": "advisory",
-      "description": "本次目录检索没有得到匹配的小型手拧螺帽；DIN467 M4 STEP检索为0条。尚无确切选型，不能据此判断市场无货；不得把普通六角螺母作为替代。"
+      "description": "目录未匹配小手拧螺帽，因此明确定义定制M4、Ø10×4金属件；不是市场无货结论，也不是供应商模型。"
+    },
+    {
+      "id": "external_ring_envelope",
+      "severity": "advisory",
+      "description": "顶部环组件外移以避开翻盖；包体220×120×190，当前环姿态含五金274×122.2×224.3mm。旋转时外廓随角度变化。"
     }
   ]
 }

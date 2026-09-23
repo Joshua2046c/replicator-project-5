@@ -1,22 +1,24 @@
 {
-  "note": "Material/color intent, not a promise that the CAD preview renderer preserves STEP color. Preview shown in structural grey.",
+  "note": "Colour/material intent. Grey CAD previews do not show the intended finished colours. Rear panel/lid rear faces need ivory finishing to match side pages.",
   "pink": [
-    "lid",
-    "pink_spine"
+    "lid"
   ],
   "blue": [
     "blue_spine"
   ],
   "green": [
-    "green_spine"
+    "green_spine",
+    "bottom_panel"
   ],
   "brown": [
-    "lower_binding",
-    "upper_binding"
+    "central_binding",
+    "binding_overlap"
   ],
   "ivory": [
     "side_left",
-    "side_right"
+    "side_right",
+    "body (rear page face)",
+    "lid (rear page face)"
   ],
   "gold": [
     "pink_marks",
@@ -26,10 +28,9 @@
   "silver": [
     "buckle",
     "eye_left",
-    "eye_right"
-  ],
-  "dark_neutral": [
-    "body",
-    "rear_cover"
+    "eye_right",
+    "ring_bridge_left",
+    "ring_bridge_right",
+    "all metal fasteners"
   ]
 }

@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "220×120×190mm三层书本包修订：取消内胆、外板拼装、矩形全高插板、弧形书脊、顶部螺栓转环与外置小手拧螺帽、盖背齐平和背面对应书页槽；贯穿带的具体对象及路径待澄清。",
+  "summary": "220×120×190mm三层书本包修订：取消内胆、外板拼装、矩形全高插板、弧形书脊、顶部螺栓转环与外置小手拧螺帽、盖背齐平和背面对应书页槽；中央棕色束带环绕前顶背底，用户自装肩带。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -49,7 +49,7 @@
     {
       "id": "strap_route",
       "kind": "mechanical",
-      "description": "贯穿带的对象及路径待用户澄清；不得阻止翻盖开启。",
+      "description": "中央带方扣的棕色束带沿前面、顶部、背面和底部连续绕行；肩带仍由用户自行安装。 默认柔性独立带材，解开扣具后开盖。",
       "source": "user_requested",
       "required": true
     },
@@ -88,7 +88,7 @@
     }
   ],
   "assembly_story": {
-    "installation": "由外板块拼合包体，不再套装完整内胆；左右矩形全高侧板向下插入；顶部安装螺栓转环和外侧小手拧螺帽；装防脱磁铁与齐平背板翻盖。贯穿带的装配路径待澄清。",
+    "installation": "由外板块拼合包体，不再套装完整内胆；左右矩形全高侧板向下插入；顶部安装螺栓转环和外侧小手拧螺帽；装防脱磁铁与齐平背板翻盖。柔性棕色束带环绕前顶背底，开启前解扣释放。",
     "maintenance": "开盖取物；卸载提携载荷后，侧板可沿导轨向上拆出维护。",
     "user_access": [
       "上翻盖收纳口",
@@ -126,11 +126,5 @@
       }
     ]
   },
-  "open_questions": [
-    {
-      "id": "strap_continuity_route",
-      "question": "“背带贯穿”指中央棕色束带绕过顶、背、底，还是用户自装肩带穿过包体？",
-      "requirement_id": "strap_continuity"
-    }
-  ]
+  "open_questions": []
 }
