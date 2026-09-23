@@ -1,10 +1,11 @@
 {
   "note": "Colour/material intent. Grey CAD previews do not show the intended finished colours. Rear panel/lid rear faces need ivory finishing to match side pages.",
   "pink": [
-    "lid"
+    "lid (front and roof)",
+    "blue_spine (upper fixed narrow end cheeks only)"
   ],
   "blue": [
-    "blue_spine"
+    "blue_spine (lower main board only)"
   ],
   "green": [
     "green_spine",

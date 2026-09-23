@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "三层书本包：侧面螺栓转环、整幅不收窄盖背、贯穿转角的横向书页槽；保持矩形插板、无内胆外板拼装、弧形书脊及环绕柔性束带。",
+  "summary": "三层书本包：侧面顶部挂环；侧板、背板和盖外沿齐平，三层弧形书脊端部一致，去除顶底凸边；保持贯穿页槽和整幅盖背。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -28,7 +28,7 @@
     {
       "id": "carry_rings",
       "kind": "mechanical",
-      "description": "左右挂环固定在包的侧面，采用螺栓和外侧小手拧螺帽，保留整个环可转动；不是顶部外伸支架安装。 承力目标含2kg内容物及包体自重。",
+      "description": "挂环位于最新标注的侧面顶部位置，而不是后侧偏低位置；保留螺栓、外侧小手拧帽及整环转动。",
       "source": "user_requested",
       "required": true
     },
@@ -42,7 +42,7 @@
     {
       "id": "rear_alignment",
       "kind": "mechanical",
-      "description": "盖子背面为整幅整体面板，不额外收窄；盖背与包本体背面齐平。横向书页凹槽贯穿背面并在棱角连续延伸至侧面，不保留截断槽的边框；背侧槽高度对应。",
+      "description": "盖子背面为整幅整体面板，不额外收窄；盖背与包本体背面齐平。横向书页凹槽贯穿背面并在棱角连续延伸至侧面，不保留截断槽的边框；背侧槽高度对应。侧面与背板装配外沿同盖子齐平；顶盖和底盖不留额外凸起边层，与书封面和书脊齐平。",
       "source": "user_requested",
       "required": true
     },
@@ -56,7 +56,7 @@
     {
       "id": "curved_spines",
       "kind": "mechanical",
-      "description": "三层书脊具有弧度，不使用平面书脊饰板代替",
+      "description": "三层书脊具有弧度，不使用平面书脊饰板代替三本书的书脊侧面采用一致的弧形和端部处理，不出现上下层宽度台阶或突出的导轨小块。",
       "source": "user_requested",
       "required": true
     }
@@ -91,11 +91,17 @@
       "source": "user_requested",
       "description": "当前标注优先：挂环固定侧面、盖背整幅不收窄、页槽贯穿棱角。",
       "path": "product/references/uploads/20260923T200031691Z-1-mark.png"
+    },
+    {
+      "id": "reference_upper_side_flush",
+      "source": "user_requested",
+      "description": "本次最新标注：侧面顶部红框为挂环位置；侧背盖外沿齐平；三层书脊一致；去掉顶底凸边。",
+      "path": "product/references/uploads/20260923T202609989Z-1-mark.png"
     }
   ],
   "assembly_story": {
     "installation": "由外板块拼合包体，不再套装完整内胆；左右矩形全高侧板向下插入；侧面安装螺栓转环和外侧小手拧螺帽；装防脱磁铁与整幅齐平背板翻盖。柔性棕色束带环绕前顶背底，开启前解扣释放。",
-    "maintenance": "开盖取物；卸载提携载荷后，侧板可沿导轨向上拆出维护。",
+    "maintenance": "侧板沿前后定位边向下插入、底板托住、合盖限位；上端挂环通栓兼作侧板横向锁定。维护先卸载、拆下挂环螺栓，再开盖上抽侧板。",
     "user_access": [
       "上翻盖收纳口",
       "左右长方形可拆侧板",
@@ -128,7 +134,8 @@
           "reference_detail",
           "reference_annotated",
           "reference_revision_marks",
-          "reference_side_mount_full_back"
+          "reference_side_mount_full_back",
+          "reference_upper_side_flush"
         ]
       }
     ]

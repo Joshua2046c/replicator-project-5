@@ -17,8 +17,8 @@
   "assembled_hardware_envelope": {
     "value": [
       240,
-      127.2,
-      190
+      120,
+      210
     ],
     "source": "research",
     "evidence": "design/archive_handbag/verification/swivel-check.json",
@@ -49,15 +49,29 @@
     "insertion": "downward",
     "source": "user",
     "dimensions": [
-      3,
+      4,
       100,
       182.4
     ],
     "base_z": 4,
-    "guide_width": 3.6,
+    "guide_width": 4.6,
     "side_clearance": 0.3,
     "roof_clearance": 0.4,
-    "interface_status": "resolved"
+    "interface_status": "resolved",
+    "center_x": [
+      -108,
+      108
+    ],
+    "outer_faces_x": [
+      -110,
+      110
+    ],
+    "bolt_holes_yz": [
+      0,
+      174
+    ],
+    "bolt_hole_diameter": 4.5,
+    "removal": "unload and remove ring bolts first, then open100deg and lift panels"
   },
   "spines": {
     "profile": "curved",
@@ -67,7 +81,16 @@
       60,
       64
     ],
-    "lid_curve_height": 60.4
+    "lid_curve_height": 60.4,
+    "overall_visual_width": 220,
+    "upper_fixed_edges": {
+      "width_each": 4.3,
+      "base_z": 127.8,
+      "top_z": 186.5,
+      "integral_to": "blue_spine",
+      "finish": "pink",
+      "clearance_to_moving_spine": 0.3
+    }
   },
   "rear": {
     "lid_body_flush": true,
@@ -83,7 +106,7 @@
     "source": "user",
     "lid_rear_width": 220,
     "corner_grooves_continuous": true,
-    "corner_groove_depth": 1.45
+    "corner_groove_depth": 0.45
   },
   "hinge": {
     "axis": [
@@ -103,20 +126,20 @@
   },
   "rings": {
     "quantity": 2,
-    "location": "side",
+    "location": "upper side at marked position",
     "rotation": true,
     "fastening": "M4x20 metal through bolt, small exterior metal thumb nut; no printed thread",
     "source": "user",
     "pivot_centers": [
       [
         -110.3,
-        54,
-        116
+        0,
+        174
       ],
       [
         110.3,
-        54,
-        116
+        0,
+        174
       ]
     ],
     "axis_direction": "x",
@@ -152,7 +175,9 @@
     "radial_clearance": 0.2,
     "retention": "clamp sleeve, never loosen nut to swivel; removable thread retention; physical tests pending",
     "interface_status": "resolved",
-    "dimensions_source": "default"
+    "dimensions_source": "default",
+    "bearing_stack": "inner2mm steel plate +4mm fixed arm web +4mm panel, clamped by M4x20",
+    "fixed_support": "8mm thick local L-arm integral to rear outer board, z110..184, centerY0; pocket leaves4mm web"
   },
   "strap_route": {
     "status": "resolved",
@@ -187,8 +212,8 @@
     "screws": "8 x M2x6"
   },
   "verification": {
-    "geometry_build": 143,
-    "closed_interference": "No interference across1653 object pairs; export-6c71f078dbe39138d82300d9be1ae1d6",
+    "geometry_build": 184,
+    "closed_interference": "none reported by Workbench build184",
     "motion": "design/archive_handbag/verification/motion-check.json",
     "swivel": "design/archive_handbag/verification/swivel-check.json",
     "payload_kg": 2,
@@ -212,5 +237,13 @@
       "severity": "advisory",
       "description": "Printed fit and dust/item-retention performance need physical tests; no waterproof rating."
     }
-  ]
+  ],
+  "flush_cover_edges": {
+    "front_y": -51,
+    "rear_y": 57,
+    "width": 220,
+    "roof_thickness": 2.2,
+    "bottom_thickness": 4,
+    "note": "no overhanging eave or bottom lip; necessary structural thickness retained"
+  }
 }

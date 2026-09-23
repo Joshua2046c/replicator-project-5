@@ -1,6 +1,6 @@
 {
-  "buildNumber": 143,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/d220ff852ff7fc99394d085061b07c2dd953d7f4b494f9d36e463b93395d32fa",
+  "buildNumber": 184,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/7a6b0ed8c94681fdffdc32b234f1ddd5720e6d3ddd0438c2a42ae2a79d19bd77",
   "method": "exact B-rep intersections at discrete motion samples; not continuous swept-volume proof or structural certification",
   "opening_angles_deg": [
     0,
@@ -32,10 +32,22 @@
   ],
   "opening_tests": 9450,
   "opening_collisions": [],
+  "removed_before_panel_extraction": [
+    "ring_bolt_left",
+    "ring_bolt_right_low",
+    "eye_left",
+    "eye_right",
+    "thumb_nut_left",
+    "thumb_nut_right",
+    "pivot_sleeve_left",
+    "pivot_sleeve_right",
+    "pivot_washer_left",
+    "pivot_washer_right"
+  ],
   "removal_collisions": [],
   "closed_lift_1mm_blocking_volume_mm3": {
-    "side_left": 179.9999999999983,
-    "side_right": 179.9999999999983
+    "side_left": 239.99999999999773,
+    "side_right": 239.99999999999775
   },
   "main_envelope_mm": [
     220.0,

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready_for_cad",
   "bom_ready": true,
-  "requirements_digest": "5aaea9ee29bfe8c257c878abe45fd11871d603be3fb80370059eb08379b68755",
+  "requirements_digest": "8c8c87c4526a21eaa859eeadf0045462d7037fada064202b3c9193915c2aa4e0",
   "items": [
     {
       "id": "body",
@@ -10,11 +10,11 @@
       "name": "外板拼装结构套件",
       "quantity": 1,
       "part_number": "AH-OUTER-PANEL-SET",
-      "description": "后侧承力外板取消高于盖缝的顶部支柱与遮挡台。两端侧轴支座位于盖缝下方；槽贯穿棱角。底板及前板螺接保持。",
+      "description": "后板6mm及一体局部L承力臂8mm；两侧内臂Z110–184，Y0螺栓口袋留4mm腹板。不设完整内胆。三层外形宽220；蓝板带上层固定窄端边4.3mm，涂粉色，与移动书脊留0.3间隙。底板220×108×4、前边Y−51，M3连接保持。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "4c7b49d3c6197c10"
     },
     {
@@ -23,11 +23,11 @@
       "name": "整幅盖背翻盖",
       "quantity": 1,
       "part_number": "AH-LID-FLUSH",
-      "description": "盖背宽220，不收窄、不设顶部支架避让口；后面Y57齐平；横槽延伸并跨棱角。",
+      "description": "整幅220mm盖背Y57；屋面220×108×2.2前边Y−51，与书脊端点齐平，无凸檐。移动粉色中部211.4mm，固定端边补足220mm外形，后背不收窄。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "c8f8bda0279ef9fd"
     },
     {
@@ -36,11 +36,11 @@
       "name": "左右矩形全高书页插板",
       "quantity": 2,
       "part_number": "AH-SIDE-RECT",
-      "description": "保持3×100×182.4矩形；页槽端部取消6mm留边，贯通侧板两端，背角槽同高连续。",
+      "description": "4×100×182.4矩形，外面X±110与盖齐平；上端通栓孔，维护先拆挂环螺栓再抽板。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "b04ab60e459ffc67"
     },
     {
@@ -49,11 +49,11 @@
       "name": "侧面可转动挂环",
       "quantity": 2,
       "part_number": "AH-SIDE-SWIVEL-304-28x44x3",
-      "description": "定制平板304挂环，厚3、28×44，穿带孔14×24，偏心轴孔6.4；侧轴位于Y54 Z116，环绕X轴转动，非厂家模型。",
+      "description": "304平板28×44×3，穿带孔14×24、轴孔6.4；移至侧面上端Y0 Z174，非厂家模型。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "2ae855c07d2e942f"
     },
     {
@@ -62,11 +62,11 @@
       "name": "侧轴内承力垫板",
       "quantity": 2,
       "part_number": "AH-SIDE-PAD-12x20x2",
-      "description": "每侧2mm钢垫板，11×20，侧向M4通孔4.5；内侧压住后外板侧支座。",
+      "description": "定制11×20×2钢垫板，位于内侧承力臂口袋，M4通孔4.5。",
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "e1b33d023ab564bf"
     },
     {
@@ -75,11 +75,11 @@
       "name": "侧装M4×20螺栓",
       "quantity": 2,
       "part_number": "ISO4762-M4x20",
-      "description": "复用精确目录M4×20，沿X从内向外，贯穿内钢垫板、固定侧支座、隔套和外止推垫片；外侧M4小帽。",
+      "description": "精确目录M4×20，沿X穿内垫板、固定承力臂、4mm侧板及外隔套止推片。",
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "5227684f12709b68"
     },
     {
@@ -92,7 +92,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "0b2f682a8b796bed"
     },
     {
@@ -105,7 +105,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "6aba42922000ecbe"
     },
     {
@@ -118,7 +118,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "e66aaf90cf60d760"
     },
     {
@@ -131,7 +131,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "9ab9112a1e61e35a"
     },
     {
@@ -144,7 +144,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "1256ac3368f74c85"
     },
     {
@@ -157,7 +157,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "350342d63049aac3"
     },
     {
@@ -170,7 +170,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "60df22607e90e1c1"
     },
     {
@@ -183,7 +183,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "cdec688dde151cf0"
     },
     {
@@ -196,7 +196,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "fa74f27b1e3433f0"
     },
     {
@@ -208,7 +208,7 @@
       "description": "只固定金色书脊标线等非承力装饰；主外板由螺钉拼接，磁铁座与蓝板一体，不靠胶粘承载。",
       "source": "default",
       "procurement_status": "external_procurement_required",
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "4b3be1836c874da6"
     },
     {
@@ -221,7 +221,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "part_identity": "b9f8509e26ee9815",
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。"
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。"
     },
     {
       "id": "bottom_screws",
@@ -233,7 +233,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "7ae49e465365c84d"
     },
     {
@@ -246,7 +246,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "b3dce3ab5f1864b9"
     },
     {
@@ -259,7 +259,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据当前侧装挂环、整幅盖背及贯穿转角书页槽；build143运动采样通过，负载和加工需样机验证。",
+      "selection_reason": "按最新标注及build184：上端挂环、侧背盖齐边、三层书脊外形一致；开盖和维护抽板采样已验证，负载需实测。",
       "part_identity": "92f9cd8f805f8f2e"
     }
   ],

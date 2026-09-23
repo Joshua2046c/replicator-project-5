@@ -26,7 +26,7 @@ for angle in angles:
    if v>0.001:failures.append({'angle':angle,'moving':n,'fixed':m,'volume_mm3':round(v,6)})
  Path('design/archive_handbag/verification/'+(sys.argv[4] if len(sys.argv)>4 else 'motion')+'-progress.json').write_text(json.dumps({'build':build,'angle':angle,'collisions':failures},indent=2))
  print('opening',angle,'deg; collisions',len(failures),flush=True)
-open_shapes={n:(s.rotate(axis,-100) if n in moving_names else s) for n,s in shapes.items() if n not in released}
+open_shapes={n:(s.rotate(axis,-100) if n in moving_names else s) for n,s in shapes.items() if n not in released and not n.startswith(('ring_bolt_','eye_','thumb_nut_','pivot_sleeve_','pivot_washer_'))}
 removal=[]
 for panel in ['side_left','side_right']:
  for dz in [0,0.4,1,5,20,50,100,125,150,185,200]:
@@ -41,6 +41,6 @@ exclude=[n for n in shapes if n.startswith(('eye_','ring_bolt_','ring_nut_','piv
 main=[s for n,s in shapes.items() if n not in exclude]
 mins=[min(tuple(s.bounding_box().min)[i] for s in main) for i in range(3)]
 maxs=[max(tuple(s.bounding_box().max)[i] for s in main) for i in range(3)]
-report={'buildNumber':build,'source_build_path':str(root),'method':'exact B-rep intersections at discrete motion samples; not continuous swept-volume proof or structural certification','opening_angles_deg':angles,'released_before_opening':released,'opening_tests':tests,'opening_collisions':failures,'removal_collisions':removal,'closed_lift_1mm_blocking_volume_mm3':retention,'main_envelope_mm':[round(b-a,4) for a,b in zip(mins,maxs)],'solid_validity':{n:s.is_valid for n,s in shapes.items()},'status':'pass' if not failures and not removal and all(v>0 for v in retention.values()) else 'failed'}
+report={'buildNumber':build,'source_build_path':str(root),'method':'exact B-rep intersections at discrete motion samples; not continuous swept-volume proof or structural certification','opening_angles_deg':angles,'released_before_opening':released,'opening_tests':tests,'opening_collisions':failures,'removed_before_panel_extraction':['ring_bolt_left','ring_bolt_right_low','eye_left','eye_right','thumb_nut_left','thumb_nut_right','pivot_sleeve_left','pivot_sleeve_right','pivot_washer_left','pivot_washer_right'],'removal_collisions':removal,'closed_lift_1mm_blocking_volume_mm3':retention,'main_envelope_mm':[round(b-a,4) for a,b in zip(mins,maxs)],'solid_validity':{n:s.is_valid for n,s in shapes.items()},'status':'pass' if not failures and not removal and all(v>0 for v in retention.values()) else 'failed'}
 out=Path('design/archive_handbag/verification/'+(sys.argv[4] if len(sys.argv)>4 else 'motion')+'-check.json');out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({k:v for k,v in report.items() if k not in ['solid_validity','opening_angles_deg']},ensure_ascii=False,indent=2))

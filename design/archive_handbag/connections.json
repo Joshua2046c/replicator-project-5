@@ -1,5 +1,5 @@
 {
-  "geometry_build": 143,
+  "geometry_build": 184,
   "connections": [
     {
       "id": "lid_hinge",
@@ -63,12 +63,12 @@
       "id": "ring_swivel",
       "implementation": "free",
       "count": 2,
-      "description": "M4x20 from inside to outside along X. 2mm inner steel pad,8mm fixed side support,3.6mm sleeve,1.4mm washer,4mm metal nut. Flat3mm eye,6.4mm bore,6mm sleeve:0.6 total axial and0.2 radial play. Metal threads only; nut clamps sleeve; physical retention/load tests required."
+      "description": "Upper side atY0 Z174, M4x20 through2mm inner metal pad+4mm fixed arm web+4mm side panel+3.6mm sleeve+1.4mm washer+4mm nut. Metal threads only. Remove hardware for panel extraction, not for ordinary lid opening."
     },
     {
       "id": "sliding_panels",
       "implementation": "free",
-      "description": "Each3x100x182.4 rectangle in3.6mm front/rear guides. BottomZ4, roof limits lift. Side axle behind panel rear edge, no attachment to removable panel; open100deg before extracting. Corner page grooves continue to the side-panel ends."
+      "description": "4x100x182.4 complete rectangular panels, outerX±110 flush with lid/back. Front/rear open guide recesses4.6. Ring through-bolts secure sideways; bottom/roof limit vertical travel. Remove ring bolts before maintenance extraction; normal opening leaves bolts installed."
     },
     {
       "id": "central_wrap",
@@ -79,6 +79,11 @@
       "id": "decorative_marks",
       "implementation": "free",
       "description": "Only non-load-bearing spine marks use compatible thin adhesive. No shoulder strap included."
+    },
+    {
+      "id": "upper_fixed_spine_ends",
+      "implementation": "free",
+      "description": "4.3mm narrow end cheeks integral to blue_spine, painted pink; same6mm-sag upper curve, outerX±110, top186.5;0.3mm clearance from moving central spine and roof. No adhesive or added fasteners."
     }
   ],
   "unhandled": []

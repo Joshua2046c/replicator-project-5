@@ -28,7 +28,7 @@
       "source": "user"
     },
     "connection_rings": {
-      "value": "左右挂环固定在包的侧面，采用螺栓和外侧小手拧螺帽，保留整个环可转动；不是顶部外伸支架安装。",
+      "value": "挂环位于最新标注的侧面顶部位置，而不是后侧偏低位置；保留螺栓、外侧小手拧帽及整环转动。",
       "source": "user"
     },
     "prototype_process": {
@@ -56,11 +56,11 @@
       "source": "default"
     },
     "panel_retention": {
-      "value": "竖直导轨、底部止挡、搭接边；合盖后限制侧板上移，开盖后可拆",
+      "value": "侧板沿前后定位边向下插入、底板托住、合盖限位；上端挂环通栓兼作侧板横向锁定。维护先卸载、拆下挂环螺栓，再开盖上抽侧板。",
       "source": "default"
     },
     "ring_load_path": {
-      "value": "侧面挂环经固定后侧外板的承力边传到底板，不靠可拆侧板或磁吸承载。",
+      "value": "侧面上端挂环通栓穿过固定后外板延伸的内侧承力臂；不由磁吸承担提携载荷。",
       "source": "default"
     },
     "prototype_validation": {
@@ -114,6 +114,14 @@
     },
     "strap_continuity": {
       "value": "中央带方扣的棕色束带沿前面、顶部、背面和底部连续绕行；肩带仍由用户自行安装。",
+      "source": "user"
+    },
+    "flush_outer_edges": {
+      "value": "侧面与背板装配外沿同盖子齐平；顶盖和底盖不留额外凸起边层，与书封面和书脊齐平。",
+      "source": "user"
+    },
+    "spine_side_consistency": {
+      "value": "三本书的书脊侧面采用一致的弧形和端部处理，不出现上下层宽度台阶或突出的导轨小块。",
       "source": "user"
     }
   },

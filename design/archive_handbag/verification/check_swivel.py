@@ -13,7 +13,7 @@ def vol(a,b):
 fails=[];tests=0
 for name,x in [('eye_left',-110.3),('eye_right',110.3)]:
  for deg in range(0,360,15):
-  eye=s[name].rotate(Axis((x,54,116),(1,0,0)),deg)
+  eye=s[name].rotate(Axis((x,0,174),(1,0,0)),deg)
   for other,shape in s.items():
    if other==name:continue
    v=vol(eye,shape);tests+=1
