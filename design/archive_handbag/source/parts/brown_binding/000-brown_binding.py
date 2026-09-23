@@ -1,0 +1,7 @@
+w=param('lower_binding_width',30.0);h=param('lower_binding_height',126.0);t=param('lower_binding_thickness',1.0);z=param('lower_binding_bottom_z',1.0);y=param('lower_binding_outer_y',-59.0)
+low=Pos(0,y+t/2,z+h/2)*Box(w,t,h)
+low.color=Color(0.30,0.12,0.06);publish('lower_binding',low,'棕色下段束带')
+w2=param('upper_binding_width',30.0);h2=param('upper_binding_height',61.0);t2=param('upper_binding_thickness',1.0);d2=param('upper_binding_top_depth',116.0);z2=param('upper_binding_bottom_z',128.6);y2=param('upper_binding_front_y',-59.0)
+up=Pos(0,y2+t2/2,z2+h2/2)*Box(w2,t2,h2)
+up+=Pos(0,y2+d2/2,189+t2/2)*Box(w2,d2,t2)
+up.color=Color(0.30,0.12,0.06);publish('upper_binding',up,'棕色翻盖束带')

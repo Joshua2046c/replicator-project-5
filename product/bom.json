@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "status": "ready_for_cad",
+  "bom_ready": true,
+  "requirements_digest": "25ab2e60baaa6c8c5743aa58faeabfb291f7c3b87bfe22e64f4b8d84108850c4",
+  "items": [
+    {
+      "id": "body",
+      "role": "structural",
+      "name": "贯通本体",
+      "quantity": 1,
+      "part_number": "AH-BODY",
+      "description": "PETG；220宽，114深，128高；底4、主壁至少3，后侧加强柱10厚",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "lid",
+      "role": "lid",
+      "name": "粉色书本翻盖",
+      "quantity": 1,
+      "part_number": "AH-LID",
+      "description": "PETG；220宽×114结构深；含饰面及束带120深，最高190；后轴X，Y54 Z132；侧面留全高插板运动缺口",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "side_panels",
+      "role": "sliding_panels",
+      "name": "左右书页插板",
+      "quantity": 2,
+      "part_number": "AH-SIDE",
+      "description": "PETG单块全高书页侧板：厚3、高182.4；下部导轨段深87，上部深114，肩位安装Z128.6；左右镜像。插板底Z4，顶Z186.4。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "eyeplates",
+      "role": "carry_rings",
+      "name": "定制闭合开孔连接环",
+      "quantity": 2,
+      "part_number": "AH-EYE-304-3",
+      "description": "304不锈钢厚3；侧面后偏置；双M4孔竖向20间距；14×24穿带孔",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "backplates",
+      "role": "carry_rings",
+      "name": "内侧承力背板",
+      "quantity": 2,
+      "part_number": "AH-BACK-304-2",
+      "description": "304不锈钢厚2；11×40；双M4通孔20间距",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "ring_bolts",
+      "role": "fastener",
+      "name": "M4×20 内六角圆柱头螺钉",
+      "quantity": 4,
+      "part_number": "ISO4762-M4x20",
+      "description": "ISO4762 M4-0.7×20，A2不锈钢；贯穿金属环3+塑料柱10+背板2",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "ring_nuts",
+      "role": "fastener",
+      "name": "M4 六角螺母",
+      "quantity": 4,
+      "part_number": "ISO4032-M4",
+      "description": "ISO4032 M4-0.7；金属螺纹防松胶；避开塑料表面",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "hinge_axle",
+      "role": "lid_hinge",
+      "name": "切长金属转轴",
+      "quantity": 1,
+      "part_number": "AH-AXLE-4x100",
+      "description": "304光圆棒Ø4×100，端部去毛刺；两端独立止挡盖捕获",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "axle_caps",
+      "role": "lid_hinge",
+      "name": "转轴止挡盖",
+      "quantity": 2,
+      "part_number": "AH-AXLE-CAP",
+      "description": "PETG两端止挡；M3螺钉固定到后壁，不依靠轴与孔过盈",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "axle_cap_screws",
+      "role": "fastener",
+      "name": "止挡盖 M3×10 螺钉",
+      "quantity": 2,
+      "part_number": "ISO4762-M3x10",
+      "description": "2颗ISO4762 M3×10；printed-screw-joint-v1生成，贯穿3mm止挡盖，啮合7mm；PETG成形孔轻拧。",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "magnets",
+      "role": "magnet_closure",
+      "name": "圆柱磁铁 Ø7×3",
+      "quantity": 4,
+      "part_number": "SPEC-N42-7x3",
+      "description": "轴向充磁NdFeB N42、镍镀层；7×3mm；最终气隙下试验吸合力；规范包络模型，非厂家STEP",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "用户确定Ø7×3mm；N42轴向充磁及4颗为设计默认；磁铁外形为规格包络而非厂商STEP。",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "magnet_covers",
+      "role": "magnet_closure",
+      "name": "磁铁防脱薄盖",
+      "quantity": 4,
+      "part_number": "AH-MAG-CAP",
+      "description": "PETG22×14，外缘厚2.6，磁铁上方膜厚0.6；M2头沉入专设台阶不干涉合盖",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "magnet_cover_screws",
+      "role": "fastener",
+      "name": "磁铁盖 M2×6 螺钉",
+      "quantity": 8,
+      "part_number": "ISO4762-M2x6",
+      "description": "8颗ISO4762 M2×6；kit生成PETG连接；头高2mm沉入盖边，膜厚0.6mm。",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "decor",
+      "role": "appearance",
+      "name": "书封饰面和束带方扣",
+      "quantity": 1,
+      "part_number": "AH-DECOR-SET",
+      "description": "粉蓝绿三层书封；棕色束带及方扣。翻盖缝处分断，左右为三层全高插板，不含背带",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "threadlocker",
+      "role": "assembly",
+      "name": "中强度金属螺纹防松胶",
+      "quantity": 1,
+      "part_number": "MEDIUM-METAL-THREADLOCK",
+      "description": "用于4颗M4金属螺母；不涂PETG，不以胶代替螺母；品牌与相容性在采购时确认",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "满足已确认220×120×190mm包体及2kg内容物目标的机械接口；容量和强度须以样机验证",
+      "assembly": {
+        "method": "mechanical"
+      }
+    },
+    {
+      "id": "decorative_adhesive",
+      "role": "assembly",
+      "name": "PETG装饰件薄层粘接耗材",
+      "quantity": 1,
+      "part_number": "SPEC-PETG-DECOR-ADHESIVE",
+      "description": "选用与PETG相容的胶粘剂，按产品说明处理表面；1mm饰面为非承力件。胶层工艺须在外观样板上确认，不加厚外廓。",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "selection_reason": "固定三色书脊、金色标线、棕色束带、方扣和背部饰面；不能替代连接环螺栓。"
+    }
+  ],
+  "unresolved_items": [],
+  "supply_risks": [
+    {
+      "id": "prototype_load",
+      "severity": "advisory",
+      "description": "2kg为设计目标，尚未实测；须含自重做单环偏载、静载与循环测试。"
+    },
+    {
+      "id": "model_provenance",
+      "severity": "advisory",
+      "description": "磁铁没有匹配供应商STEP，采用用户指定7×3尺寸的明确标注包络；转轴与连接环为本项目定制件，不声称厂家模型。"
+    },
+    {
+      "id": "fit",
+      "severity": "advisory",
+      "description": "FDM导槽及轴孔需先打印校准；普通遮尘非防水。"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
       "source": "user"
     },
     "lid": {
-      "value": "顶部红色书本作为翻盖，以转轴连接包体，上下盖开合",
+      "value": "最顶端粉色书本为翻盖，通过转轴连接并掀开，盖与包体内侧由磁铁吸合",
       "source": "user"
     },
     "magnet_dimensions_mm": {
@@ -24,7 +24,7 @@
       "source": "user"
     },
     "side_panels": {
-      "value": "左右独立插板，自上向下插入本体，实现密封结构",
+      "value": "左右各一块覆盖三本书堆叠全高侧面的独立插板，由上向下插入本体侧面；一般遮尘与防掉物",
       "source": "user"
     },
     "connection_rings": {
@@ -36,8 +36,8 @@
       "source": "default"
     },
     "appearance_details": {
-      "value": "红蓝绿三层、白色书页、黄色书脊细节、中央竖向装饰束带和方扣",
-      "source": "default"
+      "value": "按最新标注参考图：粉色、蓝色、绿色三叠书主体，左右三层白色书页侧面，棕色绑带及中央方扣，不制作背带",
+      "source": "user"
     },
     "storage": {
       "value": "蓝绿两层形成贯通内腔",
@@ -60,7 +60,7 @@
       "source": "default"
     },
     "ring_load_path": {
-      "value": "独立金属闭合D环通过加强座和内部背板向固定本体传力，不依赖插板、顶盖、磁铁或装饰件承重",
+      "value": "独立定制金属闭合开孔连接环，通过加强柱、贯穿M4螺栓和内侧背板传力；不依赖侧板、顶盖或磁铁承重",
       "source": "default"
     },
     "prototype_validation": {

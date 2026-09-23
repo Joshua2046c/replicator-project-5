@@ -1,0 +1,55 @@
+{
+  "connections": [
+    {
+      "id": "lid_hinge",
+      "implementation": "free",
+      "parts": [
+        "body",
+        "lid",
+        "axle",
+        "axle_stop_left",
+        "axle_stop_right"
+      ],
+      "description": "Ø4 cut-stock axis in4.4mm bores;0.4mmendplayeachside;stopcaps fixed bykitM3x10"
+    },
+    {
+      "id": "hinge_stops",
+      "implementation": "printed-screw-joint-v1",
+      "count": 2,
+      "size": "M3",
+      "length_mm": 10,
+      "engagement_mm": 7
+    },
+    {
+      "id": "magnet_covers",
+      "implementation": "printed-screw-joint-v1",
+      "count": 8,
+      "size": "M2",
+      "length_mm": 6,
+      "engagement_mm": 5.4
+    },
+    {
+      "id": "rings",
+      "implementation": "free",
+      "reason": "captive_nut strategy rejected bykit; ISO4762 M4x20 through3mmeye+10mmpillar+2mmbackplate; ISO4032nut3.2mm",
+      "count": 4,
+      "fastener_model": "exact catalog STEP; no collision found on assembled solids"
+    },
+    {
+      "id": "sliding_panels",
+      "implementation": "free",
+      "description": "3mm panel in3.6mm slot,0.3mm per-face gap; bottom seat and0.4mmroofclearance"
+    },
+    {
+      "id": "magnet_closure",
+      "implementation": "free",
+      "description": "7x3 axial magnets captured mechanically; polarity and holding force verify on prototype"
+    },
+    {
+      "id": "decorative_panels",
+      "implementation": "free",
+      "description": "non-load-bearing PETG-compatible adhesive; strap split at lid seam; no shoulder strap included"
+    }
+  ],
+  "unhandled": []
+}

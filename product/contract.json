@@ -2,12 +2,12 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "220×120×190mm压缩包造型手提包：红色转轴翻盖、内置7×3mm磁吸、左右下插式侧板、独立连接环与穿带孔。内容物目标2kg，合缝防掉物和一般遮尘，用户自装背带。",
+  "summary": "220×120×190mm压缩包造型手提包：粉色转轴翻盖、内置7×3mm磁吸、左右三层全高下插式侧板、独立连接环与穿带孔。内容物目标2kg，合缝防掉物和一般遮尘，用户自装背带。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
       "kind": "mechanical",
-      "description": "红色顶层与本体的转轴连接及轴向防脱",
+      "description": "粉色顶层与本体的转轴连接及轴向防脱",
       "source": "user_requested",
       "required": true
     },
@@ -21,7 +21,7 @@
     {
       "id": "sliding_panels",
       "kind": "mechanical",
-      "description": "左右独立侧板自上而下安装，底部限位及合盖防上窜，合缝防小物掉出与一般遮尘，不要求防水",
+      "description": "左右每侧一块三层书本全高侧面插板，自上而下安装，合盖后顶盖限位；防掉物和一般遮尘",
       "source": "user_requested",
       "required": true
     },
@@ -45,6 +45,12 @@
       "source": "user_requested",
       "description": "用户造型参考图二，无内部结构依据",
       "path": "product/references/uploads/20260923T143648724Z-2-ishot-2026-09-23-10-24-55.png"
+    },
+    {
+      "id": "reference_annotated",
+      "source": "user_requested",
+      "description": "最新标注外形与全高侧板要求，优先于早期图片；背带除外",
+      "path": "product/references/uploads/20260923T151645660Z-1-image.png"
     }
   ],
   "assembly_story": {
@@ -75,7 +81,8 @@
         ],
         "reference_ids": [
           "reference_front",
-          "reference_detail"
+          "reference_detail",
+          "reference_annotated"
         ]
       }
     ]

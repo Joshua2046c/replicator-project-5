@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "status": "ready_for_cad",
+  "units": "mm",
+  "frame": {
+    "x": "width",
+    "y": "back positive",
+    "z": "up; bottom zero"
+  },
+  "envelope": {
+    "width": 220,
+    "depth": 120,
+    "height": 190,
+    "excluded": "connection rings and user strap"
+  },
+  "body": {
+    "height": 128,
+    "depth": 114,
+    "floor": 4,
+    "cavity_width": 204,
+    "cavity_depth": 102,
+    "rear_pillar_inner_x": 100
+  },
+  "side_panels": {
+    "thickness": 3,
+    "depth": 87,
+    "height": 182.4,
+    "bottom_z": 4,
+    "center_x_abs": 107.5,
+    "guide_slot_thickness": 3.6,
+    "guide_slot_depth": 87.6,
+    "opening_depth": 77,
+    "clearance_each_side": 0.3,
+    "top_z": 186.4,
+    "lid_seam_z": 128.6,
+    "retention": "lid roof underside Z186.8 stops full-height panel lift; open lid before upward removal",
+    "upper_depth": 114,
+    "upper_shoulder_z": 128.6,
+    "lid_side_clearance": 1.0
+  },
+  "hinge": {
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "center_y": 54,
+    "center_z": 132,
+    "pin_diameter": 4,
+    "pin_length": 100,
+    "bore_diameter": 4.4,
+    "body_knuckles_x": [
+      [
+        -49,
+        -30
+      ],
+      [
+        30,
+        49
+      ]
+    ],
+    "lid_knuckle_x": [
+      -29.4,
+      29.4
+    ],
+    "retention": "two screw-fastened end stops",
+    "opening_target_deg": 100,
+    "lid_barrel_radius": 3.8,
+    "body_barrel_radius": 5,
+    "axle_stop_inner_x_abs": 50.4
+  },
+  "rings": {
+    "material": "304 stainless",
+    "thickness": 3,
+    "backplate_thickness": 2,
+    "mount_y": 46.5,
+    "mount_z": [
+      90,
+      110
+    ],
+    "body_through_x_right": [
+      100,
+      110
+    ],
+    "mount_bolt": "ISO4762 M4x20",
+    "nuts": "ISO4032 M4",
+    "clearance_hole": 4.5,
+    "slot": [
+      14,
+      24
+    ],
+    "slot_center_y": 64,
+    "slot_center_z": 100,
+    "backplate_y_range": [
+      40,
+      51
+    ]
+  },
+  "magnets": {
+    "diameter": 7,
+    "height": 3,
+    "grade": "N42 axial",
+    "quantity": 4,
+    "x": [
+      -72,
+      72
+    ],
+    "y": -47,
+    "pocket_diameter": 7.3,
+    "cover_thickness": 0.6,
+    "lid_gap": 0.6,
+    "nominal_magnetic_gap": 2.2,
+    "retention": "M2 kit joints with recessed heads and 0.6mm central membrane",
+    "cover_edge_thickness": 2.6,
+    "gap_note": "两磁铁面Z127.2与129.4：两片0.6膜+0.6盖缝+两端各0.2安装余隙=2.2mm；最坏间距需试验。"
+  },
+  "process": {
+    "printed_material": "PETG",
+    "proposed_layer_height": 0.2,
+    "guide_coupon_required": true,
+    "metal_parts_not_printed": true
+  },
+  "verification": {
+    "payload_kg": 2,
+    "cad_checks": [
+      "closed interference",
+      "lid open 100 degrees",
+      "side panel vertical removal",
+      "axle capture",
+      "solid validity"
+    ],
+    "physical_tests_required": [
+      "magnetic retention at final gap",
+      "2x total loaded weight static 1 hour",
+      "1000 loaded carry cycles",
+      "1000 lid cycles"
+    ],
+    "motion_report": "design/archive_handbag/verification/motion-check.json",
+    "sample_step_deg": 5
+  },
+  "unresolved_items": [],
+  "lid": {
+    "roof_width": 220,
+    "roof_depth": 114,
+    "roof_thickness": 2.2,
+    "moving_cheek_width": 210,
+    "roof_bottom_z": 186.8,
+    "top_z": 189,
+    "strap_top_z": 190,
+    "rear_wall_y": [
+      45,
+      51
+    ]
+  }
+}

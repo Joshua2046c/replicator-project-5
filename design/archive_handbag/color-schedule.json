@@ -1,0 +1,35 @@
+{
+  "note": "Material/color intent, not a promise that the CAD preview renderer preserves STEP color. Preview shown in structural grey.",
+  "pink": [
+    "lid",
+    "pink_spine"
+  ],
+  "blue": [
+    "blue_spine"
+  ],
+  "green": [
+    "green_spine"
+  ],
+  "brown": [
+    "lower_binding",
+    "upper_binding"
+  ],
+  "ivory": [
+    "side_left",
+    "side_right"
+  ],
+  "gold": [
+    "pink_marks",
+    "blue_marks",
+    "green_marks"
+  ],
+  "silver": [
+    "buckle",
+    "eye_left",
+    "eye_right"
+  ],
+  "dark_neutral": [
+    "body",
+    "rear_cover"
+  ]
+}
