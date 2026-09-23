@@ -3,34 +3,6 @@
   "catalogFingerprint": "7b37f82b4c14c2268f0837cffcfcc95e78d65368c4c9b6374739272e6df1f70e",
   "items": [
     {
-      "id": "ring_bolts",
-      "status": "selected",
-      "match": "exact",
-      "catalogId": "bd-warehouse:bd_warehouse.fastener.SocketHeadCapScrew",
-      "parameters": {
-        "size": "M4-0.7",
-        "length": 20,
-        "fastener_type": "iso4762",
-        "simple": true
-      }
-    },
-    {
-      "id": "ring_nuts",
-      "status": "selected",
-      "match": "exact",
-      "catalogId": "bd-warehouse:bd_warehouse.fastener.HexNut",
-      "parameters": {
-        "size": "M4-0.7",
-        "fastener_type": "iso4032",
-        "simple": true
-      }
-    },
-    {
-      "id": "eyeplates",
-      "status": "custom_design",
-      "reason": "No matching closed D-ring in catalog or focused STEP search; deliberate custom machined metal closed eye plates, not vendor lookalike."
-    },
-    {
       "id": "hinge_axle",
       "status": "custom_design",
       "reason": "Cut stock Ø4x100 per project drawing; no matching DIN7 STEP found."
@@ -39,6 +11,21 @@
       "id": "magnets",
       "status": "specification_envelope",
       "reason": "User-defined7x3; no exact supplier STEP; nominal envelope labeled as such, do not claim manufacturer model."
+    },
+    {
+      "id": "ring_bolts",
+      "status": "unresolved",
+      "reason": "New top pivot stack determines bolt identity and length; old M4x20 is not a selection for this revision."
+    },
+    {
+      "id": "ring_nuts",
+      "status": "unresolved",
+      "reason": "Small exterior thumb nut requested; no exact catalog match returned; focused DIN467 M4 STEP search returned zero. Old hex nut rejected."
+    },
+    {
+      "id": "eyeplates",
+      "status": "custom_design",
+      "reason": "Top rotating ring, replacing side-fixed double-hole plate; pivot support and retention to be designed."
     }
   ]
 }

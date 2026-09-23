@@ -24,11 +24,11 @@
       "source": "user"
     },
     "side_panels": {
-      "value": "左右各一块覆盖三本书堆叠全高侧面的独立插板，由上向下插入本体侧面；一般遮尘与防掉物",
+      "value": "左右各一块覆盖三本书全高侧面的完整长方形插板，不是T形；由上向下插入；一般遮尘与防掉物",
       "source": "user"
     },
     "connection_rings": {
-      "value": "包左右两侧各设独立分件连接环，稳定可靠",
+      "value": "左右独立背带环位于包的顶部，不在侧面；采用螺栓固定，外侧为小型手拧螺帽，整个环能够转动",
       "source": "user"
     },
     "prototype_process": {
@@ -60,7 +60,7 @@
       "source": "default"
     },
     "ring_load_path": {
-      "value": "独立定制金属闭合开孔连接环，通过加强柱、贯穿M4螺栓和内侧背板传力；不依赖侧板、顶盖或磁铁承重",
+      "value": "顶部转环载荷经固定外板连接结构传到底板；不得仅靠磁吸承担提携载荷。具体转轴、承力支座与防松接口由本次硬件修订确定。",
       "source": "default"
     },
     "prototype_validation": {
@@ -93,9 +93,35 @@
       "source": "user"
     },
     "strap_scope": {
-      "value": "保留原要求的两侧独立连接环及穿带孔，不包含背带或提手本体；通用孔尺寸由硬件阶段确定",
+      "value": "此前肩带由用户自装；本次“背带贯穿”所指的带及路径待澄清，不擅自增加肩带本体，也不沿用中央束带只覆盖前顶面的假设。",
       "source": "default"
+    },
+    "outer_panel_structure": {
+      "value": "取消完整内衬或内胆；包由外板块组合而成",
+      "source": "user"
+    },
+    "spine_curvature": {
+      "value": "三层书脊具有弧度，不使用平面书脊饰板代替",
+      "source": "user"
+    },
+    "rear_lid_alignment": {
+      "value": "盖子背板与包本体背面齐平",
+      "source": "user"
+    },
+    "rear_page_grooves": {
+      "value": "背面也有书页凹槽，分层和凹槽位置与侧面书页相对应",
+      "source": "user"
+    },
+    "strap_continuity": {
+      "value": "背带是贯穿的",
+      "source": "user"
     }
   },
-  "open_questions": []
+  "open_questions": [
+    {
+      "id": "strap_continuity_route",
+      "question": "“背带贯穿”指中央棕色束带绕过顶、背、底，还是用户自装肩带穿过包体？",
+      "requirement_id": "strap_continuity"
+    }
+  ]
 }

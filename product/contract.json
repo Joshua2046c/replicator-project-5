@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "220×120×190mm压缩包造型手提包：粉色转轴翻盖、内置7×3mm磁吸、左右三层全高下插式侧板、独立连接环与穿带孔。内容物目标2kg，合缝防掉物和一般遮尘，用户自装背带。",
+  "summary": "220×120×190mm三层书本包修订：取消内胆、外板拼装、矩形全高插板、弧形书脊、顶部螺栓转环与外置小手拧螺帽、盖背齐平和背面对应书页槽；贯穿带的具体对象及路径待澄清。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -21,14 +21,42 @@
     {
       "id": "sliding_panels",
       "kind": "mechanical",
-      "description": "左右每侧一块三层书本全高侧面插板，自上而下安装，合盖后顶盖限位；防掉物和一般遮尘",
+      "description": "左右各一块覆盖三本书全高侧面的完整长方形插板，不是T形；由上向下插入；一般遮尘与防掉物；合盖限位，开盖可拆。",
       "source": "user_requested",
       "required": true
     },
     {
       "id": "carry_rings",
       "kind": "mechanical",
-      "description": "左右独立连接环及穿带孔；用户自行装背带；针对2kg内容物及包体自重设计承力接口",
+      "description": "左右独立背带环位于包的顶部，不在侧面；采用螺栓固定，外侧为小型手拧螺帽，整个环能够转动；承力目标含2kg内容物与包体自重。",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "outer_panel_structure",
+      "kind": "mechanical",
+      "description": "取消完整内衬或内胆；包由外板块组合而成",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "rear_alignment",
+      "kind": "mechanical",
+      "description": "盖子背板与包本体背面齐平；背面也有书页凹槽，分层和凹槽位置与侧面书页相对应",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "strap_route",
+      "kind": "mechanical",
+      "description": "贯穿带的对象及路径待用户澄清；不得阻止翻盖开启。",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "curved_spines",
+      "kind": "mechanical",
+      "description": "三层书脊具有弧度，不使用平面书脊饰板代替",
       "source": "user_requested",
       "required": true
     }
@@ -51,15 +79,21 @@
       "source": "user_requested",
       "description": "最新标注外形与全高侧板要求，优先于早期图片；背带除外",
       "path": "product/references/uploads/20260923T151645660Z-1-image.png"
+    },
+    {
+      "id": "reference_revision_marks",
+      "source": "user_requested",
+      "description": "本次用户在build41导出模型上的标注及结构修订说明，优先于旧版实现。",
+      "path": "product/references/uploads/20260923T155951796Z-1-mark.png"
     }
   ],
   "assembly_story": {
-    "installation": "安装本体承力座及独立连接环；侧板由顶部滑入至底部止挡；安装防脱磁铁及转轴翻盖，检查极性和运动；用户自行安装背带。具体五金接口在硬件阶段确定。",
+    "installation": "由外板块拼合包体，不再套装完整内胆；左右矩形全高侧板向下插入；顶部安装螺栓转环和外侧小手拧螺帽；装防脱磁铁与齐平背板翻盖。贯穿带的装配路径待澄清。",
     "maintenance": "开盖取物；卸载提携载荷后，侧板可沿导轨向上拆出维护。",
     "user_access": [
       "上翻盖收纳口",
-      "左右可拆侧板",
-      "两侧提携连接环"
+      "左右长方形可拆侧板",
+      "顶部可转动背带环"
     ]
   },
   "cad": {
@@ -77,15 +111,26 @@
           "lid_hinge",
           "magnet_closure",
           "sliding_panels",
-          "carry_rings"
+          "carry_rings",
+          "outer_panel_structure",
+          "rear_alignment",
+          "strap_route",
+          "curved_spines"
         ],
         "reference_ids": [
           "reference_front",
           "reference_detail",
-          "reference_annotated"
+          "reference_annotated",
+          "reference_revision_marks"
         ]
       }
     ]
   },
-  "open_questions": []
+  "open_questions": [
+    {
+      "id": "strap_continuity_route",
+      "question": "“背带贯穿”指中央棕色束带绕过顶、背、底，还是用户自装肩带穿过包体？",
+      "requirement_id": "strap_continuity"
+    }
+  ]
 }
