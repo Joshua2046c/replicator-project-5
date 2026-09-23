@@ -1,0 +1,30 @@
+{
+  "requirements": {
+    "product_class": {"value": "mechanical", "source": "default"},
+    "form_factor": {"value": "参考上传图片的三层书本压缩包造型手提包", "source": "user"},
+    "lid": {"value": "顶部红色书本作为翻盖，以转轴连接包体，上下盖开合", "source": "user"},
+    "magnet_dimensions_mm": {"value": {"diameter": 7, "depth": 3}, "source": "user"},
+    "closure": {"value": "内置磁铁吸合", "source": "user"},
+    "side_panels": {"value": "左右独立插板，自上向下插入本体，实现密封结构", "source": "user"},
+    "connection_rings": {"value": "包左右两侧各设独立分件连接环，稳定可靠", "source": "user"},
+    "envelope_proposal_mm": {"value": {"width": 220, "depth": 120, "height": 190, "excludes": "外凸连接环和提带，待确认"}, "source": "default"},
+    "payload_proposal_kg": {"value": 2, "source": "default"},
+    "carrying_proposal": {"value": "连接两侧环的可拆卸短提带，待确认", "source": "default"},
+    "prototype_process": {"value": "FDM分件打印，主壳候选PETG，转轴及承重环使用金属五金", "source": "default"},
+    "appearance_details": {"value": "红蓝绿三层、白色书页、黄色书脊细节、中央竖向装饰束带和方扣", "source": "default"},
+    "storage": {"value": "蓝绿两层形成贯通内腔", "source": "default"},
+    "hinge_layout": {"value": "后侧水平转轴，向后开盖，目标开角至少100度，转轴轴向防脱", "source": "default"},
+    "magnet_quantity": {"value": 4, "source": "default"},
+    "magnet_retention": {"value": "前缘两对磁铁，可靠捕获防脱；装配极性匹配；安装槽公差独立于标称磁铁尺寸", "source": "default"},
+    "panel_retention": {"value": "竖直导轨、底部止挡、搭接边；合盖后限制侧板上移，开盖后可拆", "source": "default"},
+    "ring_load_path": {"value": "独立金属闭合D环通过加强座和内部背板向固定本体传力，不依赖插板、顶盖、磁铁或装饰件承重", "source": "default"},
+    "prototype_validation": {"value": "按确认载荷加包体自重制定单环偏载验证；建议两倍总重量静载1小时、额定载荷提携1000次、开合1000次，尚未进行实测", "source": "default"},
+    "cad_delivery": {"value": "完整分件装配STEP及当前预览；不含切片、G-code及实体测试", "source": "default"}
+  },
+  "open_questions": [
+    {"id": "envelope", "question": "包体外形尺寸或必须容纳的物品是什么？"},
+    {"id": "payload", "question": "日常内容物需要承重多少公斤？"},
+    {"id": "sealing", "question": "密封是合缝防掉物、雨滴防泼溅还是严格防水？"},
+    {"id": "carrying", "question": "提携使用短提带、短提带加肩带还是硬质提手？"}
+  ]
+}

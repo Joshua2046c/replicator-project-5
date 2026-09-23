@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "artifact_level": "assembly",
+  "deliverable_intent": "printable_part",
+  "summary": "压缩包造型手提包：红色转轴翻盖、内置7×3mm磁吸、左右下插式侧板、独立承重连接环。需求草案，尺寸及使用目标待确认。",
+  "required_interfaces": [
+    {"id": "lid_hinge", "kind": "mechanical", "description": "红色顶层与本体的转轴连接及轴向防脱", "source": "user_requested", "required": true},
+    {"id": "magnet_closure", "kind": "internal_fit", "description": "标称直径7mm深度3mm磁铁的内置吸合与防脱安装", "source": "user_requested", "required": true},
+    {"id": "sliding_panels", "kind": "mechanical", "description": "左右独立侧板自上而下安装及密封接口，防护程度待确认", "source": "user_requested", "required": true},
+    {"id": "carry_rings", "kind": "mechanical", "description": "左右独立连接环及可靠的提携承力接口，目标载荷待确认", "source": "user_requested", "required": true}
+  ],
+  "external_references": [
+    {"id": "reference_front", "source": "user_requested", "description": "用户造型参考图一，无尺寸依据", "path": "product/references/uploads/20260923T143648724Z-1-ishot-2026-09-23-10-24-50.png"},
+    {"id": "reference_detail", "source": "user_requested", "description": "用户造型参考图二，无内部结构依据", "path": "product/references/uploads/20260923T143648724Z-2-ishot-2026-09-23-10-24-55.png"}
+  ],
+  "assembly_story": {
+    "installation": "安装本体承力座及独立连接环；侧板由顶部滑入至底部止挡；安装防脱磁铁及转轴翻盖，检查极性和运动；连接提携件。具体五金接口在硬件阶段确定。",
+    "maintenance": "开盖取物；卸载提携载荷后，侧板可沿导轨向上拆出维护。",
+    "user_access": ["上翻盖收纳口", "左右可拆侧板", "两侧提携连接环"]
+  },
+  "cad": {
+    "requirement": "required",
+    "designs": [
+      {"role": "handbag_assembly", "design_id": "archive_handbag", "description": "三层书本造型手提包完整分件装配", "delivery_target": "printable_part", "required_formats": ["step"], "interface_ids": ["lid_hinge", "magnet_closure", "sliding_panels", "carry_rings"], "reference_ids": ["reference_front", "reference_detail"]}
+    ]
+  },
+  "open_questions": [
+    "包体外形尺寸或必装物品待明确",
+    "日常内容物承重待明确",
+    "密封防护目标待明确",
+    "提携形式待明确"
+  ]
+}
