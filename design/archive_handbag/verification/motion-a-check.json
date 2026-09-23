@@ -1,6 +1,6 @@
 {
-  "buildNumber": 124,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/914c1d4d47148dc82dbedbf883affea6c199cec8332aca13455e26abf38b10da",
+  "buildNumber": 143,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/d220ff852ff7fc99394d085061b07c2dd953d7f4b494f9d36e463b93395d32fa",
   "method": "exact B-rep intersections at discrete motion samples; not continuous swept-volume proof or structural certification",
   "opening_angles_deg": [
     0,
@@ -20,12 +20,12 @@
     "binding_overlap",
     "buckle"
   ],
-  "opening_tests": 6050,
+  "opening_tests": 4950,
   "opening_collisions": [],
   "removal_collisions": [],
   "closed_lift_1mm_blocking_volume_mm3": {
-    "side_left": 111.59999999999938,
-    "side_right": 111.59999999999938
+    "side_left": 179.9999999999983,
+    "side_right": 179.9999999999983
   },
   "main_envelope_mm": [
     220.0,
@@ -34,22 +34,14 @@
   ],
   "solid_validity": {
     "buckle": true,
-    "bridge_nut_left": true,
     "eye_right": true,
     "pivot_sleeve_left": true,
-    "ring_bridge_left": true,
-    "ring_bridge_right": true,
-    "pivot_backplate_left": true,
     "eye_left": true,
     "thumb_nut_right": true,
-    "pivot_backplate_right": true,
     "pivot_washer_left": true,
     "pivot_washer_right": true,
     "pivot_sleeve_right": true,
     "thumb_nut_left": true,
-    "bridge_nut_right": true,
-    "bridge_washer_right": true,
-    "bridge_washer_left": true,
     "backplate_right": true,
     "backplate_left": true,
     "bottom_screw_front3": true,
@@ -69,7 +61,6 @@
     "axle_stop_right_screw": true,
     "axle_stop_right": true,
     "ring_bolt_right_low": true,
-    "pivot_bolt_right": true,
     "blue_marks": true,
     "green_marks": true,
     "pink_marks": true,
@@ -85,7 +76,6 @@
     "lid_mag_cap_left_screw_0": true,
     "lid_mag_cap_left_screw_1": true,
     "axle": true,
-    "pivot_bolt_left": true,
     "central_binding": true,
     "binding_overlap": true,
     "side_right": true,

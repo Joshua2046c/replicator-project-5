@@ -15,7 +15,7 @@
     {
       "id": "ring_bolts",
       "status": "selected",
-      "reason": "Exact immutable ISO4762 M4x20 STEP retained for top bridge fixed mount.",
+      "reason": "Exact ISO4762 M4x20 immutable STEP, reused as two X-axis side swivel bolts.",
       "match": "exact",
       "catalogId": "bd-warehouse:bd_warehouse.fastener.SocketHeadCapScrew",
       "parameters": {
@@ -33,26 +33,7 @@
     {
       "id": "eyeplates",
       "status": "custom_design",
-      "reason": "Deliberate custom welded 304 ring: 28x32x3 upright and 18x18x2 foot; Ø6.4 pivot with 2.6 sleeve. Top bridge shifts swivel to X±128 for opening clearance."
-    },
-    {
-      "id": "pivot_bolts",
-      "status": "selected",
-      "match": "exact",
-      "catalogId": "bd-warehouse:bd_warehouse.fastener.SocketHeadCapScrew",
-      "parameters": {
-        "size": "M4-0.7",
-        "length": 12,
-        "fastener_type": "iso4762",
-        "simple": true
-      },
-      "source_path": "design/archive_handbag/source/assets/c857efadcb1f1edee90de544b54b5f97185fd727b9ce5ca786b264b3f2d027e0.step",
-      "sha256": "c857efadcb1f1edee90de544b54b5f97185fd727b9ce5ca786b264b3f2d027e0"
-    },
-    {
-      "id": "ring_bridges",
-      "status": "custom_design",
-      "reason": "47x18x2 304 top bridge with keyed rear tab and side-panel pass-through notch; custom metal part, not a supplier STEP."
+      "reason": "Custom flat 304 eye,28x44x3, rounded14x24 strap aperture, offset6.4 pivot hole;3.6 sleeve. No welded foot or top bridge."
     }
   ]
 }

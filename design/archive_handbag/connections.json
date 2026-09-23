@@ -1,18 +1,85 @@
 {
-  "geometry_build":124,
-  "connections":[
-    {"id":"lid_hinge","implementation":"free","parts":["body","lid","axle"],"description":"X-axis at Y55 Z128. Ø4x100 shaft in Ø4.4 bores, end clearance0.4 each; integral knuckles and screw-held end stops."},
-    {"id":"hinge_stops","implementation":"printed-screw-joint-v1","count":2,"size":"M3","length_mm":10,"engagement_mm":7},
-    {"id":"bottom_front_and_rear","implementation":"printed-screw-joint-v1","count":8,"size":"M3","head":"countersunk","length_mm":12,"engagement_mm":8,"parts":["bottom_panel","green_spine","body"],"description":"Kit through-cuts and engagement-cuts in their source owners. Kit head rim needed an additional subtraction of the exact returned hardware envelope from bottom_panel; not a hand-designed printed thread."},
-    {"id":"blue_green_join","implementation":"printed-screw-joint-v1","count":4,"size":"M3","length_mm":12,"engagement_mm":8,"parts":["blue_spine","green_spine"]},
-    {"id":"magnet_seats","implementation":"free","description":"Seats are integral material in blue_spine and lid, not glue-on blocks. Four7x3 magnets with0.6mm retaining membranes and2.2mm magnetic face gap; check polarity and holding force physically."},
-    {"id":"magnet_covers","implementation":"printed-screw-joint-v1","count":8,"size":"M2","length_mm":6,"engagement_mm":5.4},
-    {"id":"ring_bridge_mount","implementation":"free","count":2,"description":"Metal M4x20 through rear post clearance hole; inner11x12x2 steel pad,2mm bridge,2mm washer and4mm metal thumb nut. Rear keyed tab resists bracket rotation. Metal thread only; no printed screw engagement."},
-    {"id":"ring_swivel","implementation":"free","count":2,"description":"M4x12 through2mm lower pad+2mm bridge+2.6mm steel sleeve+1.4mm washer+4mm metal nut. Eye hasØ6.4 bore and2mm foot; sleeveOD6 supplies0.2radial and0.6total axial play. Nut clamps sleeve, never loosened to swivel. Removable metal thread retention and witness marks; prototype validation required."},
-    {"id":"ring_weld","implementation":"free","count":2,"description":"Custom304 assembly:3mm upright welded to2mm foot. CAD fused nominal interface; weld bead and fabrication drawing not released; inspect and load-test weld before use."},
-    {"id":"sliding_panels","implementation":"free","description":"Each3x100x182.4 rectangular panel slides down3.6mm front/rear grooves. Bottom seats atZ4, closed roof limits lifting, rear ledge and metal bracket have pass-through slots for extraction after opening."},
-    {"id":"central_wrap","implementation":"free","description":"Independent30x1 flexible wrap, front/top/back/bottom. Front release slit atZ100;28x28 peelable lap below square pull frame. Stitch upper lap, removable lower hook-and-loop engagement; remove wrap before opening. CAD is closed envelope, not rigid printable loop."},
-    {"id":"decorative_marks","implementation":"free","description":"Only non-load-bearing spine marks use compatible thin adhesive. No shoulder strap included."}
+  "geometry_build": 143,
+  "connections": [
+    {
+      "id": "lid_hinge",
+      "implementation": "free",
+      "parts": [
+        "body",
+        "lid",
+        "axle"
+      ],
+      "description": "X-axis at Y55 Z128. Ø4x100 shaft in Ø4.4 bores, end clearance0.4 each; integral knuckles and screw-held end stops."
+    },
+    {
+      "id": "hinge_stops",
+      "implementation": "printed-screw-joint-v1",
+      "count": 2,
+      "size": "M3",
+      "length_mm": 10,
+      "engagement_mm": 7
+    },
+    {
+      "id": "bottom_front_and_rear",
+      "implementation": "printed-screw-joint-v1",
+      "count": 8,
+      "size": "M3",
+      "head": "countersunk",
+      "length_mm": 12,
+      "engagement_mm": 8,
+      "parts": [
+        "bottom_panel",
+        "green_spine",
+        "body"
+      ],
+      "description": "Kit through-cuts and engagement-cuts in their source owners. Kit head rim needed an additional subtraction of the exact returned hardware envelope from bottom_panel; not a hand-designed printed thread."
+    },
+    {
+      "id": "blue_green_join",
+      "implementation": "printed-screw-joint-v1",
+      "count": 4,
+      "size": "M3",
+      "length_mm": 12,
+      "engagement_mm": 8,
+      "parts": [
+        "blue_spine",
+        "green_spine"
+      ]
+    },
+    {
+      "id": "magnet_seats",
+      "implementation": "free",
+      "description": "Seats are integral material in blue_spine and lid, not glue-on blocks. Four7x3 magnets with0.6mm retaining membranes and2.2mm magnetic face gap; check polarity and holding force physically."
+    },
+    {
+      "id": "magnet_covers",
+      "implementation": "printed-screw-joint-v1",
+      "count": 8,
+      "size": "M2",
+      "length_mm": 6,
+      "engagement_mm": 5.4
+    },
+    {
+      "id": "ring_swivel",
+      "implementation": "free",
+      "count": 2,
+      "description": "M4x20 from inside to outside along X. 2mm inner steel pad,8mm fixed side support,3.6mm sleeve,1.4mm washer,4mm metal nut. Flat3mm eye,6.4mm bore,6mm sleeve:0.6 total axial and0.2 radial play. Metal threads only; nut clamps sleeve; physical retention/load tests required."
+    },
+    {
+      "id": "sliding_panels",
+      "implementation": "free",
+      "description": "Each3x100x182.4 rectangle in3.6mm front/rear guides. BottomZ4, roof limits lift. Side axle behind panel rear edge, no attachment to removable panel; open100deg before extracting. Corner page grooves continue to the side-panel ends."
+    },
+    {
+      "id": "central_wrap",
+      "implementation": "free",
+      "description": "Independent30x1 flexible wrap, front/top/back/bottom. Front release slit atZ100;28x28 peelable lap below square pull frame. Stitch upper lap, removable lower hook-and-loop engagement; remove wrap before opening. CAD is closed envelope, not rigid printable loop."
+    },
+    {
+      "id": "decorative_marks",
+      "implementation": "free",
+      "description": "Only non-load-bearing spine marks use compatible thin adhesive. No shoulder strap included."
+    }
   ],
-  "unhandled":[]
+  "unhandled": []
 }

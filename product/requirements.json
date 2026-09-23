@@ -28,7 +28,7 @@
       "source": "user"
     },
     "connection_rings": {
-      "value": "左右独立背带环位于包的顶部，不在侧面；采用螺栓固定，外侧为小型手拧螺帽，整个环能够转动",
+      "value": "左右挂环固定在包的侧面，采用螺栓和外侧小手拧螺帽，保留整个环可转动；不是顶部外伸支架安装。",
       "source": "user"
     },
     "prototype_process": {
@@ -60,7 +60,7 @@
       "source": "default"
     },
     "ring_load_path": {
-      "value": "顶部转环载荷经固定外板连接结构传到底板；不得仅靠磁吸承担提携载荷。具体转轴、承力支座与防松接口由本次硬件修订确定。",
+      "value": "侧面挂环经固定后侧外板的承力边传到底板，不靠可拆侧板或磁吸承载。",
       "source": "default"
     },
     "prototype_validation": {
@@ -105,11 +105,11 @@
       "source": "user"
     },
     "rear_lid_alignment": {
-      "value": "盖子背板与包本体背面齐平",
+      "value": "盖子背面为整幅整体面板，不额外收窄；盖背与包本体背面齐平。",
       "source": "user"
     },
     "rear_page_grooves": {
-      "value": "背面也有书页凹槽，分层和凹槽位置与侧面书页相对应",
+      "value": "横向书页凹槽贯穿背面并在棱角连续延伸至侧面，不保留截断槽的边框；背侧槽高度对应。",
       "source": "user"
     },
     "strap_continuity": {

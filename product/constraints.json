@@ -2,19 +2,215 @@
   "schema_version": 1,
   "status": "cad_interfaces_resolved_prototype_validation_pending",
   "units": "mm",
-  "frame": {"x":"width", "y":"back positive", "z":"up; bottom zero"},
-  "envelope": {"width":220,"depth":120,"height":190,"excluded":"protruding connection-ring assembly and user strap","source":"user"},
-  "assembled_hardware_envelope": {"value":[274,122.2,224.3],"source":"research","evidence":"design/archive_handbag/verification/swivel-check.json","note":"current closed-pose ring orientation; not maximum rotated envelope"},
-  "process": {"printed_material":"PETG","proposed_layer_height":0.2,"guide_coupon_required":true,"metal_parts_not_printed":true,"source":"default"},
-  "outer_panel_structure": {"liner":false,"construction":"rear board + bottom + curved blue/green boards, bolted together","source":"user","bottom_thickness":4,"rear_thickness":6,"spine_wall":3.5,"bottom_joints":"8 x M3x12 countersunk, 4mm through and 8mm engagement","front_join":"4 x M3x12, 4mm through and 8mm engagement","magnet_seats":"integral with blue board"},
-  "side_panels": {"quantity":2,"outline":"rectangle","full_height":true,"insertion":"downward","source":"user","dimensions":[3,100,182.4],"base_z":4,"guide_width":3.6,"side_clearance":0.3,"roof_clearance":0.4,"bridge_and_corner_cover_pass_slots":3.6,"interface_status":"resolved"},
-  "spines": {"profile":"curved","source":"user","sag":6,"lower_heights":[60,64],"lid_curve_height":60.4},
-  "rear": {"lid_body_flush":true,"outer_face_y":57,"page_grooves_match_sides":true,"page_depth":0.45,"page_pitch":6,"page_width":1,"book_seams_z":[64,128],"source":"user"},
-  "hinge": {"axis":[0,55,128],"axis_direction":"x","shaft_diameter":4,"shaft_length":100,"bore":4.4,"barrel_radius":3.8,"axial_endplay_each":0.4,"opening_deg":100,"stops":"two kit-generated M3x10 retained stops","source":"default"},
-  "rings": {"quantity":2,"location":"top","rotation":true,"fastening":"bolt with small exterior thumb nut","source":"user","pivot_centers":[[-128,49,192],[128,49,192]],"bridge_mount_centers":[[-97,49,190],[97,49,190]],"swivel_fasteners":"ISO4762 M4x12","fixed_mount_fasteners":"ISO4762 M4x20","thumb_nuts":"four custom metal M4, OD10 x 4 high","sleeve":[6,4.3,2.6],"eye_foot":[18,18,2],"foot_bore":6.4,"axial_clearance_total":0.6,"radial_clearance":0.2,"upright":[3,28,32],"strap_opening":[14,24],"bridges":"custom 304, 47x18x2 plus 5mm rear anti-rotation tab; 31mm hole pitch","retention":"clamp sleeve, not eye; removable metal thread retention and witness marks; prototype torque and creep tests required","interface_status":"resolved"},
-  "strap_route": {"status":"resolved","requirement_id":"strap_continuity","route":"central brown flexible wrap: front/top/back/bottom","width":30,"thickness":1,"release":"peelable lap below decorative square pull frame, remove wrap before opening lid","source":"default","shoulder_strap":"user supplied; not modeled"},
-  "magnets": {"diameter":7,"height":3,"quantity":4,"retention":"mechanically captured, integral blue-board and lid seats","positions_xy":[[-72,-39],[72,-39]],"body_magnet_base_z":124.2,"lid_magnet_base_z":129.4,"face_gap":2.2,"cap_membrane":0.6,"cap_edge_thickness":2.6,"screws":"8 x M2x6"},
-  "verification": {"geometry_build":124,"closed_interference":"none reported by Workbench","motion":"design/archive_handbag/verification/motion-check.json","swivel":"design/archive_handbag/verification/swivel-check.json","payload_kg":2,"physical_load_test":"not_performed","continuous_sweep_proof":false},
+  "frame": {
+    "x": "width",
+    "y": "back positive",
+    "z": "up; bottom zero"
+  },
+  "envelope": {
+    "width": 220,
+    "depth": 120,
+    "height": 190,
+    "excluded": "protruding connection-ring assembly and user strap",
+    "source": "user"
+  },
+  "assembled_hardware_envelope": {
+    "value": [
+      240,
+      127.2,
+      190
+    ],
+    "source": "research",
+    "evidence": "design/archive_handbag/verification/swivel-check.json",
+    "note": "current closed-pose ring orientation; not maximum rotated envelope"
+  },
+  "process": {
+    "printed_material": "PETG",
+    "proposed_layer_height": 0.2,
+    "guide_coupon_required": true,
+    "metal_parts_not_printed": true,
+    "source": "default"
+  },
+  "outer_panel_structure": {
+    "liner": false,
+    "construction": "rear board + bottom + curved blue/green boards, bolted together",
+    "source": "user",
+    "bottom_thickness": 4,
+    "rear_thickness": 6,
+    "spine_wall": 3.5,
+    "bottom_joints": "8 x M3x12 countersunk, 4mm through and 8mm engagement",
+    "front_join": "4 x M3x12, 4mm through and 8mm engagement",
+    "magnet_seats": "integral with blue board"
+  },
+  "side_panels": {
+    "quantity": 2,
+    "outline": "rectangle",
+    "full_height": true,
+    "insertion": "downward",
+    "source": "user",
+    "dimensions": [
+      3,
+      100,
+      182.4
+    ],
+    "base_z": 4,
+    "guide_width": 3.6,
+    "side_clearance": 0.3,
+    "roof_clearance": 0.4,
+    "interface_status": "resolved"
+  },
+  "spines": {
+    "profile": "curved",
+    "source": "user",
+    "sag": 6,
+    "lower_heights": [
+      60,
+      64
+    ],
+    "lid_curve_height": 60.4
+  },
+  "rear": {
+    "lid_body_flush": true,
+    "outer_face_y": 57,
+    "page_grooves_match_sides": true,
+    "page_depth": 0.45,
+    "page_pitch": 6,
+    "page_width": 1,
+    "book_seams_z": [
+      64,
+      128
+    ],
+    "source": "user",
+    "lid_rear_width": 220,
+    "corner_grooves_continuous": true,
+    "corner_groove_depth": 1.45
+  },
+  "hinge": {
+    "axis": [
+      0,
+      55,
+      128
+    ],
+    "axis_direction": "x",
+    "shaft_diameter": 4,
+    "shaft_length": 100,
+    "bore": 4.4,
+    "barrel_radius": 3.8,
+    "axial_endplay_each": 0.4,
+    "opening_deg": 100,
+    "stops": "two kit-generated M3x10 retained stops",
+    "source": "default"
+  },
+  "rings": {
+    "quantity": 2,
+    "location": "side",
+    "rotation": true,
+    "fastening": "M4x20 metal through bolt, small exterior metal thumb nut; no printed thread",
+    "source": "user",
+    "pivot_centers": [
+      [
+        -110.3,
+        54,
+        116
+      ],
+      [
+        110.3,
+        54,
+        116
+      ]
+    ],
+    "axis_direction": "x",
+    "thumb_nuts": "two custom M4 OD10 x4",
+    "sleeve": [
+      6,
+      4.3,
+      3.6
+    ],
+    "washer": [
+      10,
+      4.3,
+      1.4
+    ],
+    "eye_plate": [
+      3,
+      28,
+      44
+    ],
+    "eye_outline_z_offset": 14,
+    "strap_opening": [
+      14,
+      24
+    ],
+    "opening_z_offset": 20,
+    "pivot_bore": 6.4,
+    "backplates": [
+      2,
+      11,
+      20
+    ],
+    "axial_clearance_total": 0.6,
+    "radial_clearance": 0.2,
+    "retention": "clamp sleeve, never loosen nut to swivel; removable thread retention; physical tests pending",
+    "interface_status": "resolved",
+    "dimensions_source": "default"
+  },
+  "strap_route": {
+    "status": "resolved",
+    "requirement_id": "strap_continuity",
+    "route": "central brown flexible wrap: front/top/back/bottom",
+    "width": 30,
+    "thickness": 1,
+    "release": "peelable lap below decorative square pull frame, remove wrap before opening lid",
+    "source": "default",
+    "shoulder_strap": "user supplied; not modeled"
+  },
+  "magnets": {
+    "diameter": 7,
+    "height": 3,
+    "quantity": 4,
+    "retention": "mechanically captured, integral blue-board and lid seats",
+    "positions_xy": [
+      [
+        -72,
+        -39
+      ],
+      [
+        72,
+        -39
+      ]
+    ],
+    "body_magnet_base_z": 124.2,
+    "lid_magnet_base_z": 129.4,
+    "face_gap": 2.2,
+    "cap_membrane": 0.6,
+    "cap_edge_thickness": 2.6,
+    "screws": "8 x M2x6"
+  },
+  "verification": {
+    "geometry_build": 143,
+    "closed_interference": "No interference across1653 object pairs; export-6c71f078dbe39138d82300d9be1ae1d6",
+    "motion": "design/archive_handbag/verification/motion-check.json",
+    "swivel": "design/archive_handbag/verification/swivel-check.json",
+    "payload_kg": 2,
+    "physical_load_test": "not_performed",
+    "continuous_sweep_proof": false
+  },
   "unresolved_items": [],
-  "risks": [{"id":"prototype_load","severity":"advisory","description":"2kg is a target, not a certified load. Validate bridge notch, welded ring, printed posts, bottom joints and creep with finished prototype."},{"id":"closure_force","severity":"advisory","description":"Measure magnetic holding/opening force at actual 2.2mm gap."},{"id":"print_fit","severity":"advisory","description":"Printed fit and dust/item-retention performance need physical tests; no waterproof rating."}]
+  "risks": [
+    {
+      "id": "prototype_load",
+      "severity": "advisory",
+      "description": "2kg target is not a certified load; test flat metal eye, side axle supports, bottom joints and creep."
+    },
+    {
+      "id": "closure_force",
+      "severity": "advisory",
+      "description": "Measure magnetic holding/opening force at actual 2.2mm gap."
+    },
+    {
+      "id": "print_fit",
+      "severity": "advisory",
+      "description": "Printed fit and dust/item-retention performance need physical tests; no waterproof rating."
+    }
+  ]
 }
