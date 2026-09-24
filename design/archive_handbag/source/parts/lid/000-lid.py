@@ -4,7 +4,7 @@ hy=param('lid_hinge_y',60.5);hz=param('lid_hinge_z',128.0);seam=param('lid_seam_
 r=param('lid_barrel_radius',3.8);bore=param('lid_bore',4.4);barrel_l=param('lid_barrel_length',58.8)
 rw=param('lid_rear_width',220.0);R=param('spine_common_radius',88.33333333333333);ft=param('lid_spine_thickness',3.5);ey=param('lid_spine_end_y',-51.0)
 mx=param('lid_magnet_x',72.0);my=param('lid_magnet_y',-47.0)
-relief=param('lid_rear_bottom_relief',0.6);cheek=param('lid_end_cheek_thickness',2.0);sweep=param('lid_cheek_inner_radius',109.5)
+relief=param('lid_rear_bottom_relief',0.6);cheek=param('lid_end_cheek_thickness',2.0);sweep=param('lid_cheek_inner_radius',108.0)
 g=param('lid_page_groove_depth',0.45);gw=param('lid_page_groove_width',1.0);wrap=param('lid_corner_groove_depth',0.45)
 page=param('lid_page_recess',0.25);cover=param('lid_cover_band',4.0);pitch=param('lid_groove_pitch',6.0)
 px=param('lid_panel_center_x',108.0);slot=param('lid_panel_clearance_width',4.6)
@@ -34,11 +34,11 @@ lid+=Pos(0,(d/2-wall/2-hy)/2,r-0.8)*Box(barrel_l,hy-(d/2-wall/2),1.6)
 lid+=Rot(0,90,0)*Cylinder(r,barrel_l)
 lid-=Rot(0,90,0)*Cylinder(bore/2,100.4)
 lid-=Pos(0,d/2-page/2-hy,cz)*Box(rw+2,page,height-2*cover)
-for s in [-1,1]:lid-=Pos(s*(w/2-page/2),-hy+3,cz)*Box(page,120,height-2*cover)
+# Front side cheeks are plain, matching the lower spine ends; rear page detail remains.
 for i in range(-4,5):
  zz=cz+i*pitch
  lid-=Pos(0,d/2-(page+g)/2-hy,zz)*Box(rw+2,page+g,gw)
- for s in [-1,1]:lid-=Pos(s*(w/2-(page+g)/2),-hy+3,zz)*Box(page+g,120,gw)
+
 for s,side in [(-1,'left'),(1,'right')]:
  oid='lid_magnet_mount_'+side;od=param(oid+'_diameter',11.3);mh=param(oid+'_height',5.4);pd=param(oid+'_pocket_diameter',7.3);dep=param(oid+'_pocket_depth',3.2)
  lid+=(Pos(s*mx,my-hy,b+mh/2)*Cylinder(od/2,mh))&outer
@@ -68,4 +68,26 @@ for xx in [xx0,xx0+mp]:
  cut=Pos(xx,mcy,mz)*Rot(0,90,0)*Cylinder(R+2,mw+2*mc)-Pos(xx,mcy,mz)*Rot(0,90,0)*Cylinder(R-md,mw+2*mc+2)
  lid-=cut&Pos(xx,mey-hy,mz)*Box(mw+2*mc,30,mh+2*mc)
 assert len(lid.solids())==1
-publish('lid',frame*lid,'铭牌饰块嵌槽翻盖')
+# Analytic surface refinement for smooth display; small holes retain their original topology.
+from OCP.ShapeUpgrade import ShapeUpgrade_ShapeDivideAngle, ShapeUpgrade_UnifySameDomain
+from OCP.BRepAdaptor import BRepAdaptor_Surface
+from OCP.GeomAbs import GeomAbs_Cylinder, GeomAbs_Cone
+from math import radians
+angle=param('spine_surface_max_angle_deg',2.0)
+def refine_spine(shape):
+    divide=ShapeUpgrade_ShapeDivideAngle(radians(angle),shape.wrapped)
+    divide.Perform()
+    split=Solid.cast(divide.Result())
+    unify=ShapeUpgrade_UnifySameDomain(split.wrapped,True,True,False)
+    for face in split.faces():
+        surface=BRepAdaptor_Surface(face.wrapped)
+        kind=surface.GetType()
+        radius=surface.Cylinder().Radius() if kind==GeomAbs_Cylinder else (surface.Cone().RefRadius() if kind==GeomAbs_Cone else 0)
+        if abs(radius-R)<2:
+            for edge in face.edges(): unify.KeepShape(edge.wrapped)
+    unify.Build()
+    result=Solid.cast(unify.Shape())
+    assert result.is_valid and len(result.solids())==1
+    return result
+lid=refine_spine(lid)
+publish('lid',frame*lid,'光面端部贴合翻盖')

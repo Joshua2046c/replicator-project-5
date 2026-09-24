@@ -109,7 +109,7 @@
       "source": "user"
     },
     "rear_page_grooves": {
-      "value": "横向书页凹槽贯穿背面并在棱角连续延伸至侧面，不保留截断槽的边框；背侧槽高度对应。",
+      "value": "横向书页凹槽贯穿背面并在棱角连续延伸至侧面，不保留截断槽的边框；背侧槽高度对应。 上盖靠近书脊的侧端例外，按最新要求去掉横槽和页块凹陷，保留光面。",
       "source": "user"
     },
     "strap_continuity": {
@@ -296,6 +296,19 @@
         "front_gap_mm": 0.3,
         "lateral_gap_mm": 0.3,
         "spine_outer_width_mm": 220
+      }
+    },
+    "lid_side_finish": {
+      "source": "user",
+      "value": "补全上盖与侧板交接缺口，删除上盖侧面靠近书脊的横条凹陷，使上盖前侧端部为与下两层书脊侧面一致的光面。"
+    },
+    "lid_side_clearance": {
+      "source": "default",
+      "value": {
+        "lid_inner_radius_mm": 108,
+        "side_relief_radius_mm": 107.7,
+        "radial_motion_gap_mm": 0.3,
+        "reason": "同轴配对避让弧消除局部敞口，保留可开盖的活动间隙；后部页纹保留。"
       }
     }
   },

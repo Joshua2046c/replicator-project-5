@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready_with_mechanical_use_restriction",
   "bom_ready": true,
-  "requirements_digest": "0ab737474d36eb2e1a972c9f46a8018075e6d27ac4e86f838b2afe4f2fc8dbf4",
+  "requirements_digest": "63dd06d9fa34cc18fdf434f150e599f446c8340689beb83985d3e4500dc742a6",
   "items": [
     {
       "id": "body",
@@ -23,7 +23,7 @@
       "name": "整幅盖背翻盖",
       "quantity": 1,
       "part_number": "AH-LID-FLUSH",
-      "description": "上盖统一R88.333圆弧，顶面190；一体侧翼与等距页槽、4mm封面带；左右紧凑圆磁铁槽，无盖片/螺钉。 顶部四周和前后竖边区域0.4mm小倒角；装饰顶带另有3mm隆起。 封面增加20.3×36.3深1mm铭牌盲槽，底留1.2mm；粉色书脊两处深1.2mm饰块槽。",
+      "description": "上盖统一R88.333圆弧，顶面190；一体侧翼与等距页槽、4mm封面带；左右紧凑圆磁铁槽，无盖片/螺钉。 顶部四周和前后竖边区域0.4mm小倒角；装饰顶带另有3mm隆起。 封面增加20.3×36.3深1mm铭牌盲槽，底留1.2mm；粉色书脊两处深1.2mm饰块槽。 前侧端部去除横槽和页块凹陷，保持光面；内避让弧R108，与侧板R107.7配对留0.3mm径向活动缝。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -36,7 +36,7 @@
       "name": "左右圆弧避让书页插板",
       "quantity": 2,
       "part_number": "AH-SIDE-RECT",
-      "description": "左右镜像4mm下插书页板，前边直线收至Y−47.2，正面被书脊遮住；侧面页槽、上盖避让及挂环孔保留。",
+      "description": "左右镜像4mm下插书页板，前边直线收至Y−47.2，正面被书脊遮住；侧面页槽、上盖避让及挂环孔保留。 上部避让弧R107.7，与盖R108同轴配合。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],

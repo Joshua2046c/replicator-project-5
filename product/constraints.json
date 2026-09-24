@@ -96,10 +96,10 @@
         60.5,
         128
       ],
-      "radius_mm": 108.9,
+      "radius_mm": 107.7,
       "start_world_z": 128.3,
-      "mating_lid_inner_radius_mm": 109.5,
-      "radial_gap_mm": 0.6
+      "mating_lid_inner_radius_mm": 108,
+      "radial_gap_mm": 0.3
     },
     "retention": "no positive pullout restraint; closure is not certified load path",
     "forward_page_extension": "page cuts stop at recessed side-board front edge; no side material on frontal spine",
@@ -344,12 +344,12 @@
   },
   "verification": {
     "closed_interference": "current exported STEP435pairs, zero intersections",
-    "motion": "design/archive_handbag/verification/spine-lap-check.json",
+    "motion": "design/archive_handbag/verification/lid-interface-check.json",
     "swivel": "design/archive_handbag/verification/swivel-check.json",
     "payload_kg": 2,
     "physical_load_test": "not_performed",
     "continuous_sweep_proof": false,
-    "motion_status": "current lap: modified interfaces checked0..100deg every5deg; side extraction11positions; no collision",
+    "motion_status": "current: full lid assembly0..100deg every5deg and side extraction11positions passed",
     "surface_contact": "design/archive_handbag/verification/integral-panel-contact-check.json",
     "measured_main_envelope_mm": [
       220,
@@ -364,7 +364,7 @@
     "carrying_status": "not_ready: positive retention unresolved",
     "cosmetic_edges": "design/archive_handbag/verification/cosmetic-edge-check.json",
     "inlays": "design/archive_handbag/verification/inlay-check.json",
-    "side_integration": "design/archive_handbag/verification/spine-lap-check.json",
+    "side_integration": "design/archive_handbag/verification/lid-interface-check.json",
     "historical_geometry_build": 315
   },
   "unresolved_items": [],
@@ -485,6 +485,19 @@
     "revision": "4c7a3198ee6d231e7c7b9b032478a00fe219d2f5a472698f2d34e11716f55a5b",
     "step_sha256": "70463f83ee5722ec1b7bb08441fb90b48a21ee8e6d19bdec907d65edb26d9402",
     "evidence": "design/archive_handbag/verification/spine-lap-check.json",
+    "status": "passed"
+  },
+  "lid_side_finish": {
+    "source": "user",
+    "description": "补全上盖与侧板交接缺口，删除上盖侧面靠近书脊的横条凹陷，使上盖前侧端部为与下两层书脊侧面一致的光面。",
+    "side_cheek_page_recess": false,
+    "side_cheek_horizontal_grooves": false,
+    "rear_page_grooves_retained": true
+  },
+  "current_lid_interface_verification": {
+    "revision": "9f862bf928b727274a8abbf55eff0c45341e6c39bf6afc0e43e8a4c74e2d4263",
+    "step_sha256": "1d6f18ed5057f5a0fc4464ffb4d764fcd657b896cb5df4885de330debcbcf4f6",
+    "evidence": "design/archive_handbag/verification/lid-interface-check.json",
     "status": "passed"
   }
 }
