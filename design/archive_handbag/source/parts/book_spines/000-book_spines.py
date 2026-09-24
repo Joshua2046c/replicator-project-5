@@ -28,11 +28,14 @@ for x in [-xs,-pitch,pitch,xs]:
  proxy=Pos(x,jy,2)*Box(jw,jd,4)
  j=make_screw_joint_v1(size='M3',at=Location((x,jy,0),(180,0,0)),through=[(proxy,4)],into=front,engage_depth=8,head='countersunk',material='PETG',label='front-bottom')
  front=front+j.bosses-j.engage_cuts-j.through_cuts[0]
-mx=param('body_magnet_x',72.0);my=param('body_magnet_y',-47.0);mtop=param('body_magnet_seat_top',128.0)
+mx=param('body_magnet_x',72.0);my=param('body_magnet_y',-45.8);mtop=param('body_magnet_seat_top',128.0)
 for s,side in [(-1,'left'),(1,'right')]:
  oid='magnet_mount_'+side;od=param(oid+'_diameter',11.3);mh=param(oid+'_height',5.4);pd=param(oid+'_pocket_diameter',7.3);dep=param(oid+'_pocket_depth',3.2)
  mount=Pos(s*mx,my,mtop-mh/2)*Cylinder(od/2,mh)&curves['blue_spine']
  front+=mount
  front-=Pos(s*mx,my,mtop-dep)*Cylinder(pd/2,dep+0.1,align=(Align.CENTER,Align.CENTER,Align.MIN))
+# Free through-bolt connection after ScrewJointNotApplicableV1: the thin guide cannot receive a blind printed screw joint. Metal M3 nut, no plastic thread or added boss.
+ly=param('side_lock_y',-46.5);lz=param('side_lock_z',100.0);sx=param('side_lock_surface_x',109.75);hole=param('side_lock_clearance_diameter',3.4)
+for s in [-1,1]:front-=Pos(s*(sx-6),ly,lz)*Rot(0,90,0)*Cylinder(hole/2,14)
 assert len(front.solids())==1
-publish('blue_spine',front,'统一弧面与圆磁铁槽')
+publish('blue_spine',front,'圆弧前板与侧板锁孔')

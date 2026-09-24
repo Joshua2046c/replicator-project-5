@@ -19,7 +19,7 @@ for a,b in itertools.combinations(s,2):
 r={'buildNumber':build,'source_build_path':str(root),'objects':len(s),'solids':sum(len(a.solids()) for a in s.values()),'pairs_screened':len(s)*(len(s)-1)//2,'exact_bbox_overlap_pairs':exact,'collisions':hits,'solid_validity':{n:a.is_valid for n,a in s.items()},'status':'pass' if not hits and all(a.is_valid for a in s.values()) else 'failed'}
 (out/'closed-pose-check.json').write_text(json.dumps(r,indent=2)+'\n');print({k:v for k,v in r.items() if k!='solid_validity'},flush=True)
 contacts=[]
-for a,b in [('central_binding','blue_spine'),('central_binding','bottom_panel'),('central_binding','body'),('upper_binding','lid'),('buckle','central_binding'),('ring_nut_right','backplate_right'),('ring_nut_left','backplate_left'),('thumb_screw_right','pivot_washer_right'),('thumb_screw_left','pivot_washer_left')]:
+for a,b in [('central_binding','blue_spine'),('central_binding','bottom_panel'),('central_binding','body'),('upper_binding','lid'),('buckle','central_binding'),('ring_nut_right','backplate_right'),('ring_nut_left','backplate_left'),('thumb_screw_right','pivot_washer_right'),('thumb_screw_left','pivot_washer_left'),('backplate_left','side_left'),('backplate_right','side_right'),('side_lock_nut_left','blue_spine'),('side_lock_nut_right','blue_spine'),('side_lock_left','side_left'),('side_lock_right','side_right')]:
  contacts.append({'a':a,'b':b,'distance_mm':s[a].distance_to(s[b]),'overlap_mm3':vol(s[a],s[b])})
 insert=[]
 for name in ['blue_spine','body']:

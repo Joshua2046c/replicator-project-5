@@ -93,7 +93,7 @@
       174
     ],
     "bolt_hole_diameter": 4.5,
-    "removal": "unload, remove ring through-bolts and external hardware, open100deg and extract upward",
+    "removal": "unload, remove two M3 side locks and ring hardware including loose nuts/backplates, open100deg, extract upward",
     "relief": {
       "axis_world_yz": [
         60.5,
@@ -203,7 +203,7 @@
     "quantity": 2,
     "location": "upper side at marked position",
     "rotation": true,
-    "fastening": "one-piece exterior metal M4x20 thumb screw into interior ISO4032 M4 nut under lid on fixed load arm",
+    "fastening": "one-piece exterior metal M4x15 thumb screw into ISO4032 M4 nut bearing on inner steel plate against side panel",
     "source": "user",
     "pivot_centers": [
       [
@@ -250,12 +250,12 @@
     "retention": "clamp sleeve, do not loosen screw to swivel; removable thread retention; physical validation pending",
     "interface_status": "resolved",
     "dimensions_source": "default",
-    "bearing_stack": "inner2mm steel plate +4mm fixed arm web +4mm panel, clamped by M4x20",
-    "fixed_support": "8mm thick local L-arm integral to rear outer board, z110..184, centerY0; pocket leaves4mm web",
+    "bearing_stack": "1.4mm outer washer +3.6mm sleeve +4mm side panel +2mm steel plate +3.2mm nut;0.8mm tip protrusion",
+    "fixed_support": "side panel and front-guide through-bolt; rear L-arms and nut pockets removed",
     "thumb_screw": {
       "head_diameter": 10,
       "head_height": 4,
-      "under_head_length": 20,
+      "under_head_length": 15,
       "head_inner_x": [
         -115,
         115
@@ -266,10 +266,9 @@
       "spec": "ISO4032 M4-0.7",
       "af": 7,
       "height": 3.2,
-      "location": "inside upper closed lid volume, in fixed rear load-arm hex pockets",
-      "pocket_af": 7.4,
-      "inner_x_abs": 96.8,
-      "outer_x_abs": 100
+      "location": "loose nut at inner steel plate, inside closed lid, not fixed to lid",
+      "inner_x_abs": 100.8,
+      "outer_x_abs": 104
     }
   },
   "strap_route": {
@@ -375,5 +374,28 @@
       "decision": "keep geometry; original nominal requirement retained"
     },
     "source": "user"
+  },
+  "side_locks": {
+    "quantity": 2,
+    "source": "default",
+    "axis_yz": [
+      -46.5,
+      100
+    ],
+    "through_hole": 3.4,
+    "countersink_diameter": 6.2,
+    "screw": "ISO10642 M3-0.5x10",
+    "head_faces_x": [
+      -109.65,
+      109.65
+    ],
+    "nut": "ISO4032 M3-0.5 AF5.5 height2.4",
+    "nut_bearing_faces_x": [
+      -103,
+      103
+    ],
+    "threading": "metal nut only; free clearance in plastic",
+    "reason": "kit rejected thin receiver needing stacked standoff+pad; compact metal through-bolt selected without new plastic boss",
+    "load_validation": "pending physical test"
   }
 }

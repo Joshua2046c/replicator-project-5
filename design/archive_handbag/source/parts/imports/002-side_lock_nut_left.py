@@ -1,0 +1,1 @@
+publish("side_lock_nut_left", asset("design/archive_handbag/source/assets/810e7ff4380f9546cacf2df5d8900504c6a5340aa1d46cbc3f54e5bc349d0795.step"), "side_lock_nut_left")

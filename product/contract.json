@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "等距书页与封面留边、统一书脊曲率及无台阶底缘、紧凑无螺钉磁铁槽、可侧向插入的外凸铰轴。",
+  "summary": "删除标注的两个内伸L形支臂及其塑料座，侧挂环五金贴侧板布置，保持原书本外形与直接翻盖。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -28,7 +28,7 @@
     {
       "id": "carry_rings",
       "kind": "mechanical",
-      "description": "挂环保持侧面顶部及整环转动，连接件改为外侧一体手拧螺丝，盖子里面配置对应螺母，不再分离螺杆和外侧手拧螺帽。 盖下内侧固定承力臂内装M4金属螺母，手拧螺丝从外向内夹紧隔套、侧板和钢垫板；不把活动翻盖与侧板锁死，不靠磁吸承载。",
+      "description": "挂环保持侧面顶部及整环转动，连接件改为外侧一体手拧螺丝，盖子里面配置对应螺母，不再分离螺杆和外侧手拧螺帽。 删除最新标注的左右两条向包内伸出的大L形支臂及其多余塑料座。",
       "source": "user_requested",
       "required": true
     },
@@ -109,11 +109,17 @@
       "path": "product/references/uploads/20260924T033939842Z-1-mark.png",
       "source": "user_requested",
       "description": "本轮最新标注：补上盖凹槽，去后轴螺钉和空洞、轴外移、外侧一体手拧螺丝内配螺母。"
+    },
+    {
+      "id": "reference_remove_arms",
+      "path": "product/references/uploads/20260924T064810948Z-1-mark.png",
+      "source": "user_requested",
+      "description": "最新标注：删除左右向内部伸出的大L支臂及多余塑料座。"
     }
   ],
   "assembly_story": {
-    "installation": "前后板插底槽后用8颗隐藏M3螺钉防脱；侧板从上插入，装挂环五金。对齐闭盖铰孔，从左侧插入单端预成头Ø4×100轴，另一端再铆接，保留各1mm轴向余隙。左右Ø7×3磁铁在小圆槽胶粘固定，检查极性及防脱；贴面带在开口和转轴处分段。",
-    "maintenance": "侧板沿前后定位边向下插入、底板托住、合盖限位；上端挂环通栓兼作侧板横向锁定。维护先卸载、拆下挂环螺栓，再开盖上抽侧板。",
+    "installation": "前后板插底槽后用8颗隐藏M3螺钉防脱；侧板从上插入，装挂环五金。对齐闭盖铰孔，从左侧插入单端预成头Ø4×100轴，另一端再铆接，保留各1mm轴向余隙。左右Ø7×3磁铁在小圆槽胶粘固定，检查极性及防脱；贴面带在开口和转轴处分段。 侧板下插后装M3×10沉头通栓及内侧M3螺母各两颗；挂环钢垫板直接贴侧板，M4×15穿栓拧入内侧M4螺母。",
+    "maintenance": "侧板向下插入后，左右各一颗M3×10沉头通栓及金属螺母锁到前板导槽内唇，避免向上拔脱；不以盖或磁铁承担提携载荷。维护卸载、拆侧锁及挂环五金后开盖上抽。",
     "user_access": [
       "上翻盖收纳口",
       "左右圆弧避让侧板",
@@ -149,7 +155,8 @@
           "reference_side_mount_full_back",
           "reference_upper_side_flush",
           "reference_integral_panels_inset_band",
-          "reference_external_hinge_thumb_screws"
+          "reference_external_hinge_thumb_screws",
+          "reference_remove_arms"
         ]
       }
     ]

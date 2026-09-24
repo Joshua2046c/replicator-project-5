@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready",
   "bom_ready": true,
-  "requirements_digest": "f7a13a2ea8613cd48db009c66c8188cae0a96eccbd9d396b1665d71be97d2a36",
+  "requirements_digest": "600e937295f9da753e2667bd88e84e2256f1092eda77f5b6880b85b5b223188e",
   "items": [
     {
       "id": "body",
@@ -10,11 +10,11 @@
       "name": "外板拼装结构套件",
       "quantity": 1,
       "part_number": "AH-OUTER-PANEL-SET",
-      "description": "蓝绿同曲率一体前板及插接底板，底缘连续圆弧；后板延伸承力臂，保留8颗隐藏底螺钉。 当前含外凸铰链总深度122.3mm，相对原120mm标称多2.3mm，本版例外已由用户接受，后轴保持不改。",
+      "description": "蓝绿同曲率一体前板、后板插接底板，保留8颗隐藏底螺钉；后板无L臂、横梁或塑料螺母座。前导槽左右各一防拔通孔。含外凸铰链深122.3mm，本版尺寸例外已获用户接受。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。 用户决定外凸铰链部分不再修改，保留本版122.3mm总深度。",
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
       "part_identity": "4c7b49d3c6197c10"
     },
     {
@@ -27,7 +27,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。 用户决定外凸铰链部分不再修改，保留本版122.3mm总深度。",
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
       "part_identity": "c8f8bda0279ef9fd"
     },
     {
@@ -36,11 +36,11 @@
       "name": "左右圆弧避让书页插板",
       "quantity": 2,
       "part_number": "AH-SIDE-RECT",
-      "description": "4mm侧板，左右下插；每本书9条6mm等距槽，上下4mm封面/封底留带；前上角圆弧避让。",
+      "description": "4mm侧板，左右下插；每本书9条6mm等距槽，上下4mm封面/封底留带；前上角圆弧避让。 每侧Y−46.5/Z100增Ø3.4通孔及Ø6.2沉孔，配M3金属通栓，不用打印螺纹。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。",
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
       "part_identity": "b04ab60e459ffc67"
     },
     {
@@ -53,7 +53,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。",
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
       "part_identity": "2ae855c07d2e942f"
     },
     {
@@ -62,11 +62,11 @@
       "name": "侧轴内承力垫板",
       "quantity": 2,
       "part_number": "AH-SIDE-PAD-12x20x2",
-      "description": "定制11×20×2钢垫板，位于内侧承力臂口袋，M4通孔4.5。",
+      "description": "定制11×20×2钢垫板，直接贴侧板内面，绝对X104..106，M4通孔4.5；无额外塑料座。",
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。",
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
       "part_identity": "e1b33d023ab564bf"
     },
     {
@@ -74,13 +74,13 @@
       "role": "fastener",
       "name": "一体M4手拧螺丝",
       "quantity": 2,
-      "part_number": "AH-THUMB-M4x20-HEAD10x4",
-      "description": "定制金属一体螺丝，M4×20头下长度，Ø10×4滚花头；从X±115外侧向内拧入内侧标准M4螺母。螺纹为名义包络，非FDM螺丝。",
+      "part_number": "AH-THUMB-M4x15-HEAD10x4",
+      "description": "定制金属一体M4×15头下长度手拧螺丝，Ø10×4头；外侧X±115向内，端部绝对X100，穿过3.2mm内M4螺母并露出0.8mm。螺纹名义包络。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。",
-      "part_identity": "6ce7630540a55236"
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "part_identity": "3a7a9a3c3021b5c7"
     },
     {
       "id": "ring_nuts",
@@ -88,11 +88,11 @@
       "name": "内侧M4六角螺母",
       "quantity": 2,
       "part_number": "ISO4032-M4-0.7",
-      "description": "标准M4-0.7 ISO4032金属螺母，对边7高3.2；安装盖下固定承力臂口袋中，沿X位于±96.8..100。目录STEP简化螺纹。",
+      "description": "ISO4032 M4-0.7，对边7高3.2；位于盖下侧板内侧钢垫板内面，绝对X100.8..104。无塑料口袋，装配需扳手托住。",
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。",
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
       "part_identity": "e4b12ab87c4e349c"
     },
     {
@@ -105,7 +105,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。 用户决定外凸铰链部分不再修改，保留本版122.3mm总深度。",
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
       "part_identity": "6e0755fd54b9cadd"
     },
     {
@@ -118,7 +118,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。",
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
       "part_identity": "1256ac3368f74c85"
     },
     {
@@ -131,7 +131,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。",
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
       "part_identity": "cdec688dde151cf0"
     },
     {
@@ -144,7 +144,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。",
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
       "part_identity": "fa74f27b1e3433f0"
     },
     {
@@ -156,7 +156,7 @@
       "description": "仅粘贴非承力标线和贴面装饰带，样片确认PETG相容性；前后底插接由底螺钉防拔脱。",
       "source": "default",
       "procurement_status": "external_procurement_required",
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。",
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
       "part_identity": "4b3be1836c874da6"
     },
     {
@@ -169,7 +169,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "part_identity": "b9f8509e26ee9815",
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。"
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。"
     },
     {
       "id": "bottom_screws",
@@ -181,7 +181,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "依据本轮等距页槽、统一曲率、精简磁铁槽和实际插轴路径修订；检查结果以本轮最终导出为准。",
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
       "part_identity": "7ae49e465365c84d"
     },
     {
@@ -193,8 +193,42 @@
       "description": "用于四颗Ø7×3镀层磁铁与PETG圆槽，名义槽底胶层0.1mm、径向空间0.15mm；具体胶种未定，必须样片确认相容性、固化及防脱，不是承重连接。",
       "source": "default",
       "procurement_status": "external_procurement_required",
-      "selection_reason": "用户要求取消磁铁盖及螺钉；胶粘工艺待实物样片验证，CAD接口已明确。",
+      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
       "part_identity": "a26c990869eab4c9"
+    },
+    {
+      "id": "side_lock_screws",
+      "role": "fastener",
+      "name": "侧板防拔沉头通栓",
+      "quantity": 2,
+      "part_number": "ISO10642-M3x10",
+      "description": "左右各一M3-0.5×10总长沉头螺钉，头面绝对X109.65，Y−46.5/Z100；孔与金属螺母配合，无打印螺纹。",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "精确bd-warehouse0.2.0标准资产；代替不适用的薄壁盲孔塑料螺接，不增加大支臂。",
+      "cad_model": {
+        "path": "design/archive_handbag/source/assets/9fa7931862d1cd1789a68ae9e629a221bfbab099d1d208e2085e86618fd52d30.step",
+        "sha256": "9fa7931862d1cd1789a68ae9e629a221bfbab099d1d208e2085e86618fd52d30"
+      },
+      "part_identity": "42efbc1f630af0c3"
+    },
+    {
+      "id": "side_lock_nuts",
+      "role": "fastener",
+      "name": "侧板防拔金属螺母",
+      "quantity": 2,
+      "part_number": "ISO4032-M3-0.5",
+      "description": "左右各一对边5.5、厚2.4的M3金属螺母，贴前导槽内唇X±103，内面绝对X100.6；通栓伸出0.95mm，拆装须扳手托住。",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "精确bd-warehouse0.2.0标准资产；代替不适用的薄壁盲孔塑料螺接，不增加大支臂。",
+      "cad_model": {
+        "path": "design/archive_handbag/source/assets/810e7ff4380f9546cacf2df5d8900504c6a5340aa1d46cbc3f54e5bc349d0795.step",
+        "sha256": "810e7ff4380f9546cacf2df5d8900504c6a5340aa1d46cbc3f54e5bc349d0795"
+      },
+      "part_identity": "f7262740df92a00f"
     }
   ],
   "unresolved_items": [],
@@ -228,6 +262,11 @@
       "id": "envelope_exception",
       "severity": "advisory",
       "description": "用户选择本版后轴保持不改，接受实际122.3mm相对标称120mm深度的例外；不是精确120mm尺寸。"
+    },
+    {
+      "id": "side_panel_load_path",
+      "severity": "advisory",
+      "description": "承载已改为侧板/前导槽通栓路径，需实测沉孔边缘、侧板弯曲、导槽内唇及底螺钉；两侧均有金属螺母，不以磁吸承力。"
     }
   ],
   "unresolved_roles": []
