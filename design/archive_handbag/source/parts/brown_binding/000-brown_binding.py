@@ -23,18 +23,13 @@ c2=param('upper_binding_outer_chamfer',0.4)
 for yy,sg in [(ey,-1),(ry,1)]:
  strip-=extrude(Plane.YZ*Polygon((yy-sg*c2,top),(yy+sg*2,top),(yy+sg*2,top-c2-2),align=None),amount=w2+2,both=True)
 rise=param('upper_binding_crown_radius',3.0);peak=param('upper_binding_crown_y',10.0);start=param('upper_binding_transition_front_y',-40.0)
-# Preserve old height parameter name; actual transverse circular radius derives from width/rise.
-cr=((w2/2)**2+rise**2)/(2*rise)
-# Forward fade becomes a circular crown across the width, not a flat30mm crest.
+# Legacy crown_radius remains the editable rise. Only the terminal PLAN outline is round.
 a=(0,start,top);b=(0,peak,top+rise)
 arc=Edge.make_bezier(a,(0,start+(peak-start)*.45,top),(0,peak-(peak-start)*.25,top+rise),b)
 wire=Wire([arc,Edge.make_line(b,(0,peak,top-t2/2)),Edge.make_line((0,peak,top-t2/2),(0,start,top-t2/2)),Edge.make_line((0,start,top-t2/2),a)])
 fade=Pos(-w2/2,0,0)*extrude(Face(wire),amount=w2,dir=(1,0,0))
-transverse=Pos(0,(start+peak)/2,top+rise-cr)*Rot(90,0,0)*Cylinder(cr,peak-start+2)
-fade &= transverse
-# Matching spherical half-cap gives a semicircular end in plan and round crown in section.
-cap=Pos(0,peak,top+rise-cr)*Sphere(cr)
-cap &= Pos(0,peak+w2/2,top+rise/2-t2/4)*Box(w2,w2,rise+t2/2)
-strip += fade+cap
+cap=Pos(0,peak,top-t2/2)*Cylinder(w2/2,rise+t2/2,align=(Align.CENTER,Align.CENTER,Align.MIN))
+cap &= Pos(0,peak+w2/4,top+(rise-t2/2)/2)*Box(w2,w2/2,rise+t2/2)
+strip+=fade+cap
 assert len(strip.solids())==1
-publish('upper_binding',strip,'圆拱渐变顶带')
+publish('upper_binding',strip,'局部半圆端头顶带')

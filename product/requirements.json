@@ -205,8 +205,8 @@
       "source": "default"
     },
     "top_binding_crown": {
-      "value": "绑带顶端凸起做成弧形，保留向前渐变收低，不做平直横脊。",
-      "source": "user"
+      "source": "user",
+      "value": "顶部绑带只有本次画出的端头区域为圆弧，不把整个凸起做成横向圆拱；其余保持向前渐变收低。"
     },
     "outer_edge_chamfer": {
       "value": "方形包主体十二条大边区域做小倒角；保留书脊弧度，不扩大到页槽细边及配合孔。",
@@ -226,8 +226,9 @@
         "nominal_body_envelope_retained": true,
         "note": "新增局部装饰凸起按本次明确要求，不缩小原包体来容纳凸起；含装饰及铰链实际包络另列，默认凸起尺寸可调。",
         "top_crown_rise_mm": 3,
-        "top_crown_transverse_radius_mm": 39,
-        "top_crown_width_mm": 30
+        "top_crown_width_mm": 30,
+        "top_crown_plan_end_radius_mm": 15,
+        "top_crown_cross_section": "flat across width, rounded only at terminal plan outline"
       },
       "source": "default"
     },
@@ -267,6 +268,14 @@
         "retention": "nonstructural adhesive required; loose-fit, not self-locking; adhesive compatibility untested",
         "text": "blank"
       }
+    },
+    "side_spine_integral": {
+      "source": "user",
+      "value": "本次红框内侧面书脊半圆区域与背板一体，书页凹陷向书脊延伸。"
+    },
+    "side_spine_interpretation": {
+      "source": "default",
+      "value": "根据当前图红框，背板指侧面书页板；下两层端部圆弧并入左右书页板，取消原直缝；前书脊中央面板仍为蓝绿一体，后背板和上盖避让不变。"
     }
   },
   "open_questions": []

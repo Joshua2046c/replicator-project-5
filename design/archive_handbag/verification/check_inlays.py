@@ -35,15 +35,16 @@ for name,host,axis in [('green_marks','blue_spine','y'),('blue_marks','blue_spin
  for d in [0,.1,.3,.6,1,1.5,2,3,5,10]:
   shift=Pos(0,-d,0) if axis=='y' else Pos(0,0,d)
   insert.append(dict(object=name,withdraw_mm=d,overlap=v(shift*s[name],s[host])))
-cr=39.;samples=[]
+# User corrected the crown: constant height across width; only end PLAN outline is round.
+samples=[]
 for x in [-14,-10,0,10,14]:
- expected=190+3-cr+math.sqrt(cr*cr-x*x)
+ expected=193.0
  distance=s['upper_binding'].distance_to(Vertex(x,10,expected))
  inside=v(s['upper_binding'],Pos(x,10,expected-.04)*Box(.02,.02,.02))
  outside=v(s['upper_binding'],Pos(x,10,expected+.04)*Box(.02,.02,.02))
  samples.append(dict(x=x,expected=expected,surface_distance=distance,below_material=inside,above_material=outside,passed=distance<1e-5 and inside>7.9e-6 and outside<1e-9))
 
-report=dict(buildNumber=build,source_build_path=str(root),probes=checks,nameplate_size_mm=[20,36,.9],nameplate_pocket_mm=[20.3,36.3,1],roof_remaining_floor_mm=1.2,spine_depth_mm=1.2,spine_embed_mm=1.1,spine_bottom_allowance_mm=.1,spine_side_clearance_mm=.15,spine_remaining_wall_y_min_mm=min(floor),fits=fits,insertion_samples=insert,circular_cross_section=samples,limitations='nominal geometry only; loose-fit inlays need nonstructural adhesive retention; no glue or load validation')
+report=dict(buildNumber=build,source_build_path=str(root),probes=checks,nameplate_size_mm=[20,36,.9],nameplate_pocket_mm=[20.3,36.3,1],roof_remaining_floor_mm=1.2,spine_depth_mm=1.2,spine_embed_mm=1.1,spine_bottom_allowance_mm=.1,spine_side_clearance_mm=.15,spine_remaining_wall_y_min_mm=min(floor),fits=fits,insertion_samples=insert,flat_cross_section=samples,limitations='nominal geometry only; loose-fit inlays need nonstructural adhesive retention; no glue or load validation')
 report['status']='pass' if all(c['passed'] for c in checks+samples) and all(c['overlap']<.001 for c in fits+insert) and min(floor)>2.28 and abs(s['nameplate'].bounding_box().max.Z-190)<1e-5 else 'failed'
 Path('design/archive_handbag/verification/inlay-check.json').write_text(json.dumps(report,indent=2)+'\n')
 print(report['status'], 'minimum spine floor',min(floor),'fit clearances',fits)

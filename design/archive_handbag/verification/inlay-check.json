@@ -1,6 +1,6 @@
 {
-  "buildNumber": 311,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/963956e53ec5e3b7f7f3df5b3072a76549170f03d4dae61aa0bba2df50dd62f3",
+  "buildNumber": 315,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/e7b1c988f21c9678ae906bb80bcb251fc43d3cfc51b768260b07038d71779e0d",
   "probes": [
     {
       "label": "roof_floor",
@@ -1061,20 +1061,20 @@
       "overlap": 0
     }
   ],
-  "circular_cross_section": [
+  "flat_cross_section": [
     {
       "x": -14,
-      "expected": 190.40054944640258,
-      "surface_distance": 8.881784197001252e-15,
-      "below_material": 8.000000000001248e-06,
+      "expected": 193.0,
+      "surface_distance": 0.0,
+      "below_material": 8.00000000000125e-06,
       "above_material": 0,
       "passed": true
     },
     {
       "x": -10,
-      "expected": 191.69615364994152,
-      "surface_distance": 9.565974336450906e-15,
-      "below_material": 8.000000000001248e-06,
+      "expected": 193.0,
+      "surface_distance": 0.0,
+      "below_material": 8.00000000000125e-06,
       "above_material": 0,
       "passed": true
     },
@@ -1088,17 +1088,17 @@
     },
     {
       "x": 10,
-      "expected": 191.69615364994152,
-      "surface_distance": 9.057678187205881e-15,
-      "below_material": 8.000000000001248e-06,
+      "expected": 193.0,
+      "surface_distance": 0.0,
+      "below_material": 8.00000000000125e-06,
       "above_material": 0,
       "passed": true
     },
     {
       "x": 14,
-      "expected": 190.40054944640258,
-      "surface_distance": 9.565974336450906e-15,
-      "below_material": 8.000000000001248e-06,
+      "expected": 193.0,
+      "surface_distance": 0.0,
+      "below_material": 8.00000000000125e-06,
       "above_material": 0,
       "passed": true
     }

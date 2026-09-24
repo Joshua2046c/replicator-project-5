@@ -1,3 +1,4 @@
+from math import sqrt
 t=param('side_right_thickness',4.0);d=param('side_right_depth',100.0);h=param('side_right_height',183.4)
 g=param('side_right_groove_depth',0.45);gw=param('side_right_groove_width',1.0)
 b1=param('side_right_book_boundary1',60.0);b2=param('side_right_book_boundary2',124.0)
@@ -5,14 +6,24 @@ pitch=param('side_right_page_pitch',6.0);margin=param('side_right_page_margin',0
 by=param('side_right_bolt_y',0.0);bz=param('side_right_bolt_z',170.0);bd=param('side_right_bolt_diameter',4.5)
 rr=param('side_right_relief_radius',108.9);ry=param('side_right_relief_axis_y',60.5);rz=param('side_right_relief_axis_z',124.0);start=param('side_right_relief_start_z',124.3)
 upperbase=param('side_right_upper_book_base',124.6);uppertop=param('side_right_upper_book_top',186.0)
+R=param('spine_common_radius',88.33333333333333);ey=param('side_right_spine_end_y',-51.0);c=param('side_right_outer_chamfer',0.4)
 panel=Box(t,d,h,align=(Align.CENTER,Align.CENTER,Align.MIN))
+for lo,hi in [(-4,b1),(b1,b2)]:
+ z=(lo+hi)/2;H=hi-lo;cy=ey+sqrt(R*R-H*H/4);bottom=max(0,lo)
+ outer=Pos(0,cy,z)*Rot(0,90,0)*Cylinder(R,t)
+ lobe=outer&Pos(0,ey,(bottom+hi)/2)*Box(t,2*(R-sqrt(R*R-H*H/4)+abs(ey+d/2)+1),hi-bottom)
+ taper=Pos(-c/2,cy,z)*Rot(0,90,0)*Cylinder(R,t-c)
+ taper+=Pos(t/2-c/2,cy,z)*Rot(0,90,0)*Cone(R,R-c,c)
+ lobe&=taper
+ panel+=lobe
 corner=Pos(0,0,(start+h)/2)*Box(t+2,d+2,h-start)
 safe=Pos(0,ry,rz)*Rot(0,90,0)*Cylinder(rr,t+4)
 panel-=corner-safe
 for lo,hi in [(-4,b1),(b1,b2),(upperbase,uppertop)]:
  center=(lo+hi)/2
- panel-=Pos(t/2-page/2,0,center)*Box(page,d-2*margin,hi-lo-2*cover)
- for i in range(-4,5):panel-=Pos(t/2-(page+g)/2,0,center+i*pitch)*Box(page+g,d-2*margin,gw)
-for z in [b1,b2]:panel-=Pos(t/2-g/2,0,z)*Box(g,d-2*margin,0.6)
+ panel-=Pos(t/2-page/2,-R/2,center)*Box(page,d+R-2*margin,hi-lo-2*cover)
+ for i in range(-4,5):panel-=Pos(t/2-(page+g)/2,-R/2,center+i*pitch)*Box(page+g,d+R-2*margin,gw)
+for z in [b1,b2]:panel-=Pos(t/2-g/2,-R/2,z)*Box(g,d+R-2*margin,0.6)
 panel-=Pos(0,by,bz)*Rot(0,90,0)*Cylinder(bd/2,t+2)
-publish('side_right',panel,'无侧锁孔右书页')
+assert len(panel.solids())==1
+publish('side_right',panel,'圆弧一体右书页板')

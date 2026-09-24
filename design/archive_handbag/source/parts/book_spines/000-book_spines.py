@@ -18,7 +18,8 @@ for oid,z,h in [('green_spine',32,64),('blue_spine',96,64)]:
  for s in [-1,1]:
   cx=s*(w/2-guide/2)
   endpart=((Pos(cx,cy,zz)*Rot(0,90,0)*Cylinder(R,guide))-(Pos(cx,cy+gdepth,zz)*Rot(0,90,0)*Cylinder(R,guide+2)))&Pos(cx,-50,(bottom+top)/2)*Box(guide,16,top-bottom)
-  plate+=endpart;plate-=Pos(s*panelx,0,zz)*Box(slot,100.6,hh+0.2)
+  # Side-board-owned curved ends slide outside this inner guide land.
+  plate+=endpart;plate-=Pos(s*panelx,0,zz)*Box(slot,2*(R+abs(end_y)),hh+0.2)
  if oid=='green_spine':
   for x in [-xs,-pitch,pitch,xs]:plate+=Pos(x,py,base+ph/2)*Box(pad,pad,ph)&outer
  taper=Pos(0,cy,zz)*Rot(0,90,0)*Cylinder(R,w-2*c)
@@ -27,7 +28,6 @@ for oid,z,h in [('green_spine',32,64),('blue_spine',96,64)]:
  plate-=outer-taper
  band=(outer-Pos(0,cy+bt,zz)*Rot(0,90,0)*Cylinder(R,w+2))&Pos(0,end_y-sag/2+t,(bottom+top)/2)*Box(bw,2*(sag+t+1),top-bottom)
  plate-=band
- # Matched custom inlays; recess depth measured radially, clearance in X/Z.
  name=oid.replace('_spine','_marks')
  mw=param(name+'_bar_width',3.0);mh=param(name+'_bar_height',25.0);xx0=param(name+'_left_x',-84.0);mp=param(name+'_pitch',13.0);mz=param(name+'_center_z',z)
  md=param(name+'_pocket_depth',1.2);mc=param(name+'_pocket_clearance',0.15)
@@ -44,4 +44,4 @@ for s,side in [(-1,'left'),(1,'right')]:
  front+=(Pos(s*mx,my,mtop-mh/2)*Cylinder(od/2,mh))&curves['blue_spine']
  front-=Pos(s*mx,my,mtop-dep)*Cylinder(md/2,dep+0.1,align=(Align.CENTER,Align.CENTER,Align.MIN))
 assert len(front.solids())==1
-publish('blue_spine',front,'饰块嵌槽一体前板')
+publish('blue_spine',front,'一体前书脊内导边')

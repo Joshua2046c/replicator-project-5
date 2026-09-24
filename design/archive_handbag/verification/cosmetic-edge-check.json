@@ -1,6 +1,6 @@
 {
-  "buildNumber": 311,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/963956e53ec5e3b7f7f3df5b3072a76549170f03d4dae61aa0bba2df50dd62f3",
+  "buildNumber": 315,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/e7b1c988f21c9678ae906bb80bcb251fc43d3cfc51b768260b07038d71779e0d",
   "macro_regions_count": 12,
   "macro_edge_probes": [
     {
@@ -103,14 +103,14 @@
     },
     {
       "region": "front_vertical_-1_32",
-      "object": "blue_spine",
+      "object": "side_left",
       "removed_material_mm3": 0,
       "remaining_material_mm3": 6.400000000000432e-05,
       "passed": true
     },
     {
       "region": "front_vertical_-1_96",
-      "object": "blue_spine",
+      "object": "side_left",
       "removed_material_mm3": 0,
       "remaining_material_mm3": 6.400000000000622e-05,
       "passed": true
@@ -124,14 +124,14 @@
     },
     {
       "region": "front_vertical_1_32",
-      "object": "blue_spine",
+      "object": "side_right",
       "removed_material_mm3": 0,
       "remaining_material_mm3": 6.400000000000432e-05,
       "passed": true
     },
     {
       "region": "front_vertical_1_96",
-      "object": "blue_spine",
+      "object": "side_right",
       "removed_material_mm3": 0,
       "remaining_material_mm3": 6.400000000000622e-05,
       "passed": true

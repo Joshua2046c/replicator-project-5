@@ -25,10 +25,12 @@ for sg in [-1,1]:
 R=88+1/3
 for sg in [-1,1]:
  for obj,cz,hh in [('blue_spine',32,64),('blue_spine',96,64),('lid',159.3,61.4)]:
+  # Lower curved outer edges now belong to the one-piece sliding side boards.
+  if obj=='blue_spine':obj='side_left' if sg<0 else 'side_right'
   y=-51+math.sqrt(R*R-hh*hh/4)-R
   # At the lid center this crosses a horizontal page groove: sample inside its0.7mm recess, not on its boundary.
   probe('front_vertical_'+str(sg)+'_'+str(cz),obj,(sg*109.95,y+.05,cz),(sg*109.1,y+.9,cz))
-# Actual circular crown with a tangent Bezier fade; verify nondecreasing heights along the forward blend.
+# Flat-width crown with local semicircular plan end; verify forward blend height.
 crown=s['upper_binding'];sections=[]
 for yy in [-40,-30,-20,-10,0,5,10]:
  slab=crown&Pos(0,yy,192)*Box(1,.01,6)

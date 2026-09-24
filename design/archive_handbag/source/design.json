@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "buildNumber": 311,
-  "sourceHash": "963956e53ec5e3b7f7f3df5b3072a76549170f03d4dae61aa0bba2df50dd62f3",
+  "buildNumber": 315,
+  "sourceHash": "e7b1c988f21c9678ae906bb80bcb251fc43d3cfc51b768260b07038d71779e0d",
   "units": "mm",
   "coordinateFrame": "replicator-world-z-up",
   "targets": [
@@ -42,7 +42,7 @@
           "target": "side_left",
           "order": 0,
           "path": "design/archive_handbag/source/parts/side_left/000-side_left.py",
-          "sha256": "d03733e0ef5db77569961f5a1ce82cadadf0e0d17f0bbb9596f770de01b30ba1"
+          "sha256": "6208c25f585f4c7911b78c602d388b9ebd397b3e68a429c3455c1adb43f56d58"
         }
       ],
       "dependencies": []
@@ -56,7 +56,7 @@
           "target": "side_right",
           "order": 0,
           "path": "design/archive_handbag/source/parts/side_right/000-side_right.py",
-          "sha256": "233b66e2ec1692b3241aa07c336e21333586c21f42e6315aaa0e720a4d656f07"
+          "sha256": "5ed580bb2be0647b6e0a495bf9a79a498b480ec28b3c53281a0c9ccb24b4c716"
         }
       ],
       "dependencies": []
@@ -70,7 +70,7 @@
           "target": "book_spines",
           "order": 0,
           "path": "design/archive_handbag/source/parts/book_spines/000-book_spines.py",
-          "sha256": "f3acf5a026e5dd87e2d6c18942e386a0b64a7c3f19174d2fa7c21145696e0598"
+          "sha256": "2e53caaa9fa6308fa56ad7d695a2077b12987f6df0a0ec5737b1aec4b84c4105"
         }
       ],
       "dependencies": []
@@ -84,7 +84,7 @@
           "target": "brown_binding",
           "order": 0,
           "path": "design/archive_handbag/source/parts/brown_binding/000-brown_binding.py",
-          "sha256": "9109868b8e8542e979d6f355c35c2761ef7b1cbb5830dcfff196274670a5b019"
+          "sha256": "429c10226383d2a7b8abc983ea6399994c61cb68c1f506ec1788001d5db80271"
         }
       ],
       "dependencies": []
@@ -272,9 +272,9 @@
     {
       "id": "side_left",
       "target": "side_left",
-      "label": "无侧锁孔左书页",
+      "label": "圆弧一体左书页板",
       "kind": "generated",
-      "shapeHash": "dff25ffbb3da47bfde2f1ff5ad3a60f3d453f8388e76385f969971ef25ef0a20",
+      "shapeHash": "15f4853bb079982f300e6393fc8525ca5c0294e83cba5a6c83e6406df35676c5",
       "transform": {
         "positionMm": [
           -108,
@@ -298,9 +298,9 @@
     {
       "id": "side_right",
       "target": "side_right",
-      "label": "无侧锁孔右书页",
+      "label": "圆弧一体右书页板",
       "kind": "generated",
-      "shapeHash": "e18763bec54614d1f97299465d30be3676b4d658e23fc6986c896422230c367b",
+      "shapeHash": "7b54ad9037bdbe5e5fdd2cc0f14c7f58dfcb9af6ea632453950817e1f428ed82",
       "transform": {
         "positionMm": [
           108,
@@ -324,9 +324,9 @@
     {
       "id": "blue_spine",
       "target": "book_spines",
-      "label": "饰块嵌槽一体前板",
+      "label": "一体前书脊内导边",
       "kind": "generated",
-      "shapeHash": "9ed5926f438bedf0d362c1b30a2d4a5ea06cd42b11267f1ae95040092609430a",
+      "shapeHash": "96433e22f23ec7f1a46576f034cc32920f2f9893f32d5cbfc8b0679d806926d2",
       "transform": {
         "positionMm": [
           0,
@@ -376,9 +376,9 @@
     {
       "id": "upper_binding",
       "target": "brown_binding",
-      "label": "圆拱渐变顶带",
+      "label": "局部半圆端头顶带",
       "kind": "generated",
-      "shapeHash": "c306613f74f9ab8b77463e70a06a6336423a01654eadc29c4b44778eb2eb1ecf",
+      "shapeHash": "6b6bbaec41e46fc70020a663cd03b9b9862f5e3149199c246c369533ef34ce47",
       "transform": {
         "positionMm": [
           0,
@@ -1011,7 +1011,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-24T09:44:15.435Z",
+  "updatedAt": "2026-09-24T10:09:34.408Z",
   "parameters": {
     "body": {
       "case_width": 220,
@@ -1123,7 +1123,10 @@
       "side_left_page_recess": 0.25,
       "side_left_cover_band": 4,
       "side_left_upper_book_base": 124.6,
-      "side_left_upper_book_top": 186
+      "side_left_upper_book_top": 186,
+      "spine_common_radius": 88.33333333333333,
+      "side_left_spine_end_y": -51,
+      "side_left_outer_chamfer": 0.4
     },
     "side_right": {
       "side_right_thickness": 4,
@@ -1145,7 +1148,10 @@
       "side_right_page_recess": 0.25,
       "side_right_cover_band": 4,
       "side_right_upper_book_base": 124.6,
-      "side_right_upper_book_top": 186
+      "side_right_upper_book_top": 186,
+      "spine_common_radius": 88.33333333333333,
+      "side_right_spine_end_y": -51,
+      "side_right_outer_chamfer": 0.4
     },
     "book_spines": {
       "green_spine_width": 220,

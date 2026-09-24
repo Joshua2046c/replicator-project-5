@@ -1,0 +1,1376 @@
+{
+  "buildNumber": 315,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/e7b1c988f21c9678ae906bb80bcb251fc43d3cfc51b768260b07038d71779e0d",
+  "side_solids": {
+    "side_left": 1,
+    "side_right": 1
+  },
+  "probes": [
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -53.077123539793625,
+        8
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -53.077123539793625,
+        8
+      ],
+      "volume": 6.400000000000242e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -54.54659368894033,
+        14
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -54.54659368894033,
+        14
+      ],
+      "volume": 6.400000000000242e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -55.581109919068034,
+        20
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -55.581109919068034,
+        20
+      ],
+      "volume": 6.400000000000242e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -56.195990831656026,
+        26
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -56.195990831656026,
+        26
+      ],
+      "volume": 6.400000000000241e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -56.4,
+        32
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -56.4,
+        32
+      ],
+      "volume": 6.400000000000432e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -56.195990831656026,
+        38
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -56.195990831656026,
+        38
+      ],
+      "volume": 6.400000000000242e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -55.581109919068034,
+        44
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -55.581109919068034,
+        44
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -54.54659368894033,
+        50
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -54.54659368894033,
+        50
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -53.077123539793625,
+        56
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -53.077123539793625,
+        56
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        -109.5,
+        -53,
+        35
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        -109.9,
+        -53,
+        35
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        -109.5,
+        -50.1,
+        35
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        -109.9,
+        -50.1,
+        35
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        -109.5,
+        -50,
+        35
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        -109.9,
+        -50,
+        35
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        -109.5,
+        -49.9,
+        35
+      ],
+      "volume": 6.400000000000242e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        -109.9,
+        -49.9,
+        35
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        -109.5,
+        -47,
+        35
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        -109.9,
+        -47,
+        35
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "blue_spine",
+      "label": "no_duplicate_lobe",
+      "point": [
+        -108,
+        -55,
+        35
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -53.077123539793625,
+        72
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -53.077123539793625,
+        72
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -54.54659368894033,
+        78
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -54.54659368894033,
+        78
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -55.581109919068034,
+        84
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -55.581109919068034,
+        84
+      ],
+      "volume": 6.400000000000623e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -56.195990831656026,
+        90
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -56.195990831656026,
+        90
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -56.4,
+        96
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -56.4,
+        96
+      ],
+      "volume": 6.40000000000062e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -56.195990831656026,
+        102
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -56.195990831656026,
+        102
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -55.581109919068034,
+        108
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -55.581109919068034,
+        108
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -54.54659368894033,
+        114
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -54.54659368894033,
+        114
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        -109.5,
+        -53.077123539793625,
+        120
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "groove_has_floor",
+      "point": [
+        -109.1,
+        -53.077123539793625,
+        120
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        -109.5,
+        -53,
+        99
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        -109.9,
+        -53,
+        99
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        -109.5,
+        -50.1,
+        99
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        -109.9,
+        -50.1,
+        99
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        -109.5,
+        -50,
+        99
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        -109.9,
+        -50,
+        99
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        -109.5,
+        -49.9,
+        99
+      ],
+      "volume": 6.40000000000062e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        -109.9,
+        -49.9,
+        99
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        -109.5,
+        -47,
+        99
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        -109.9,
+        -47,
+        99
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "blue_spine",
+      "label": "no_duplicate_lobe",
+      "point": [
+        -108,
+        -55,
+        99
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -53.077123539793625,
+        8
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -53.077123539793625,
+        8
+      ],
+      "volume": 6.400000000000242e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -54.54659368894033,
+        14
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -54.54659368894033,
+        14
+      ],
+      "volume": 6.400000000000242e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -55.581109919068034,
+        20
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -55.581109919068034,
+        20
+      ],
+      "volume": 6.400000000000242e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -56.195990831656026,
+        26
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -56.195990831656026,
+        26
+      ],
+      "volume": 6.400000000000241e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -56.4,
+        32
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -56.4,
+        32
+      ],
+      "volume": 6.400000000000432e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -56.195990831656026,
+        38
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -56.195990831656026,
+        38
+      ],
+      "volume": 6.400000000000242e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -55.581109919068034,
+        44
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -55.581109919068034,
+        44
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -54.54659368894033,
+        50
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -54.54659368894033,
+        50
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -53.077123539793625,
+        56
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -53.077123539793625,
+        56
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        109.5,
+        -53,
+        35
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        109.9,
+        -53,
+        35
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        109.5,
+        -50.1,
+        35
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        109.9,
+        -50.1,
+        35
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        109.5,
+        -50,
+        35
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        109.9,
+        -50,
+        35
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        109.5,
+        -49.9,
+        35
+      ],
+      "volume": 6.400000000000242e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        109.9,
+        -49.9,
+        35
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        109.5,
+        -47,
+        35
+      ],
+      "volume": 6.400000000000244e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        109.9,
+        -47,
+        35
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "blue_spine",
+      "label": "no_duplicate_lobe",
+      "point": [
+        108,
+        -55,
+        35
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -53.077123539793625,
+        72
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -53.077123539793625,
+        72
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -54.54659368894033,
+        78
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -54.54659368894033,
+        78
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -55.581109919068034,
+        84
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -55.581109919068034,
+        84
+      ],
+      "volume": 6.400000000000623e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -56.195990831656026,
+        90
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -56.195990831656026,
+        90
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -56.4,
+        96
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -56.4,
+        96
+      ],
+      "volume": 6.40000000000062e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -56.195990831656026,
+        102
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -56.195990831656026,
+        102
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -55.581109919068034,
+        108
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -55.581109919068034,
+        108
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -54.54659368894033,
+        114
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -54.54659368894033,
+        114
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_reaches_curved_edge",
+      "point": [
+        109.5,
+        -53.077123539793625,
+        120
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "groove_has_floor",
+      "point": [
+        109.1,
+        -53.077123539793625,
+        120
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        109.5,
+        -53,
+        99
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        109.9,
+        -53,
+        99
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        109.5,
+        -50.1,
+        99
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        109.9,
+        -50.1,
+        99
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        109.5,
+        -50,
+        99
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        109.9,
+        -50,
+        99
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        109.5,
+        -49.9,
+        99
+      ],
+      "volume": 6.40000000000062e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        109.9,
+        -49.9,
+        99
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "solid_land_across_former_straight_seam",
+      "point": [
+        109.5,
+        -47,
+        99
+      ],
+      "volume": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "label": "page_recess_across_former_straight_seam",
+      "point": [
+        109.9,
+        -47,
+        99
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "object": "blue_spine",
+      "label": "no_duplicate_lobe",
+      "point": [
+        108,
+        -55,
+        99
+      ],
+      "volume": 0,
+      "passed": true
+    }
+  ],
+  "band_flat_cross_sections": [
+    {
+      "y": -30,
+      "top_z": [
+        190.19814219072927,
+        190.19814219072927,
+        190.19814219072927
+      ],
+      "passed": true
+    },
+    {
+      "y": -10,
+      "top_z": [
+        191.6208754676719,
+        191.6208754676719,
+        191.6208754676719
+      ],
+      "passed": true
+    },
+    {
+      "y": 0,
+      "top_z": [
+        192.5289985024641,
+        192.5289985024641,
+        192.5289985024641
+      ],
+      "passed": true
+    },
+    {
+      "y": 10,
+      "top_z": [
+        193.0000001,
+        193.0000001,
+        193.0000001
+      ],
+      "passed": true
+    },
+    {
+      "y": 12,
+      "top_z": [
+        193.0,
+        193.0,
+        193.0
+      ],
+      "passed": true
+    }
+  ],
+  "band_plan_end_arc": [
+    {
+      "angle": 15,
+      "distance": 0.0,
+      "inside": 6.399999999999486e-05,
+      "outside": 0,
+      "passed": true
+    },
+    {
+      "angle": 45,
+      "distance": 1.7763568394002505e-15,
+      "inside": 6.399999999999485e-05,
+      "outside": 0,
+      "passed": true
+    },
+    {
+      "angle": 90,
+      "distance": 0.0,
+      "inside": 6.399999999999531e-05,
+      "outside": 0,
+      "passed": true
+    },
+    {
+      "angle": 135,
+      "distance": 0.0,
+      "inside": 6.399999999999485e-05,
+      "outside": 0,
+      "passed": true
+    },
+    {
+      "angle": 165,
+      "distance": 0.0,
+      "inside": 6.399999999999485e-05,
+      "outside": 0,
+      "passed": true
+    }
+  ],
+  "side_to_front_clearance_mm": {
+    "side_left": 0.29999999999999716,
+    "side_right": 0.29999999999999716
+  },
+  "note": "Lower two circular side regions are owned by sliding side boards. Upper lid remains independently hinged. Numeric probes corroborate visual review; no structural certification.",
+  "status": "pass"
+}
