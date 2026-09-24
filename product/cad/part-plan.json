@@ -5,7 +5,7 @@
     {
       "id": "magnets",
       "status": "specification_envelope",
-      "reason": "User-defined7x3; no exact supplier STEP; nominal envelope labeled as such, do not claim manufacturer model."
+      "reason": "User-defined7x3; no exact supplier STEP; nominal envelope labeled as such, do not claim manufacturer model. Compact adhesive seats11.3x5.4, pockets7.3x3.2; no caps or screw holes. Physical adhesive selection and validation pending."
     },
     {
       "id": "eyeplates",
@@ -20,7 +20,7 @@
     {
       "id": "hinge_axle",
       "status": "custom_design",
-      "reason": "No exact100mm rivet pin STEP; deliberately custom4x100 metal shaft with6x1.4 formed ends, no screw or cap retainer."
+      "reason": "No exact100mm rivet pin STEP; deliberately custom4x100 metal shaft with6x1.4 formed ends, no screw or cap retainer. AxisY60.5 Z128; continuous one-headed pin insertion sweep passed at build270, minimum0.2mm clearance; requires second-head forming after insertion."
     },
     {
       "id": "ring_nuts",

@@ -1,0 +1,320 @@
+{
+  "buildNumber": 270,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/7377acafb222543c878ea0482a33a84b61488fd79c4e8087b100bc978b650af2",
+  "pin_insertion": {
+    "method": "continuous analytic cylindrical sweep; closed aligned hinge, +X insertion160mm; second rivet head absent until after insertion",
+    "collisions": [],
+    "minimum_clearance_mm": 0.19999999999996568,
+    "clearance_by_object_mm": {
+      "buckle": 111.7452703104873,
+      "eye_right": 85.12967180254066,
+      "pivot_sleeve_left": 70.0016447190454,
+      "thumb_screw_right": 84.90722491194514,
+      "eye_left": 59.09135562797937,
+      "thumb_screw_left": 68.00164471904539,
+      "pivot_washer_left": 68.0016447190454,
+      "pivot_washer_right": 93.84128608418239,
+      "pivot_sleeve_right": 92.95823552977727,
+      "backplate_right": 83.01170537548293,
+      "backplate_left": 65.26419266350405,
+      "bottom_screw_front3": 157.4960537463417,
+      "bottom_screw_front2": 154.64579840937625,
+      "bottom_screw_rear1": 113.5013490463382,
+      "bottom_screw_rear0": 113.11967779654893,
+      "bottom_screw_rear3": 117.74386010052557,
+      "bottom_screw_rear2": 114.11967779654893,
+      "bottom_panel": 121.04938532697372,
+      "bottom_screw_front1": 153.96706609454122,
+      "bottom_screw_front0": 153.64579840937625,
+      "side_left": 7.5,
+      "ring_nut_right": 84.28016732403358,
+      "body": 0.19999999999996568,
+      "ring_nut_left": 68.99504209722417,
+      "blue_marks": 115.23027158341564,
+      "green_marks": 140.42383734473208,
+      "pink_marks": 114.62963344395443,
+      "body_magnet_left": 99.80004863812078,
+      "lid_magnet_right": 103.0973113431106,
+      "lid_magnet_left": 99.80238324085683,
+      "body_magnet_right": 103.0950286762128,
+      "lid": 0.19999999999997367,
+      "central_binding": 3.700877125495702,
+      "upper_binding": 4.946221994724892,
+      "side_right": 56.64141594275341,
+      "blue_spine": 97.65
+    },
+    "preformed_head_to_flat_rear_mm": 0.5,
+    "requires_external_straight_approach_mm": 160,
+    "does_not_certify": "rivet forming tools, manufacturing tolerance or physical fit"
+  },
+  "page_probes": [
+    {
+      "book": "green",
+      "object": "side_right",
+      "centers_z": [
+        8.0,
+        14.0,
+        20.0,
+        26.0,
+        32.0,
+        38.0,
+        44.0,
+        50.0,
+        56.0
+      ],
+      "groove_max_material_mm3": 0,
+      "land_min_material_mm3": 0.0019999999999999693,
+      "pass": true
+    },
+    {
+      "book": "green",
+      "object": "side_left",
+      "centers_z": [
+        8.0,
+        14.0,
+        20.0,
+        26.0,
+        32.0,
+        38.0,
+        44.0,
+        50.0,
+        56.0
+      ],
+      "groove_max_material_mm3": 0,
+      "land_min_material_mm3": 0.0019999999999999693,
+      "pass": true
+    },
+    {
+      "book": "green",
+      "object": "body",
+      "centers_z": [
+        8.0,
+        14.0,
+        20.0,
+        26.0,
+        32.0,
+        38.0,
+        44.0,
+        50.0,
+        56.0
+      ],
+      "groove_max_material_mm3": 0,
+      "land_min_material_mm3": 0.002000000000000017,
+      "pass": true
+    },
+    {
+      "book": "blue",
+      "object": "side_right",
+      "centers_z": [
+        72.0,
+        78.0,
+        84.0,
+        90.0,
+        96.0,
+        102.0,
+        108.0,
+        114.0,
+        120.0
+      ],
+      "groove_max_material_mm3": 0,
+      "land_min_material_mm3": 0.0019999999999999814,
+      "pass": true
+    },
+    {
+      "book": "blue",
+      "object": "side_left",
+      "centers_z": [
+        72.0,
+        78.0,
+        84.0,
+        90.0,
+        96.0,
+        102.0,
+        108.0,
+        114.0,
+        120.0
+      ],
+      "groove_max_material_mm3": 0,
+      "land_min_material_mm3": 0.0019999999999999814,
+      "pass": true
+    },
+    {
+      "book": "blue",
+      "object": "body",
+      "centers_z": [
+        72.0,
+        78.0,
+        84.0,
+        90.0,
+        96.0,
+        102.0,
+        108.0,
+        114.0,
+        120.0
+      ],
+      "groove_max_material_mm3": 0,
+      "land_min_material_mm3": 0.0020000000000000287,
+      "pass": true
+    },
+    {
+      "book": "pink",
+      "object": "side_right",
+      "centers_z": [
+        135.3,
+        141.3,
+        147.3,
+        153.3,
+        159.3,
+        165.3,
+        171.3,
+        177.3,
+        183.3
+      ],
+      "groove_max_material_mm3": 0,
+      "land_min_material_mm3": 0.001999999999999934,
+      "pass": true
+    },
+    {
+      "book": "pink",
+      "object": "side_left",
+      "centers_z": [
+        135.3,
+        141.3,
+        147.3,
+        153.3,
+        159.3,
+        165.3,
+        171.3,
+        177.3,
+        183.3
+      ],
+      "groove_max_material_mm3": 0,
+      "land_min_material_mm3": 0.001999999999999934,
+      "pass": true
+    },
+    {
+      "book": "pink",
+      "object": "lid",
+      "centers_z": [
+        135.3,
+        141.3,
+        147.3,
+        153.3,
+        159.3,
+        165.3,
+        171.3,
+        177.3,
+        183.3
+      ],
+      "groove_max_material_mm3": 0,
+      "land_min_material_mm3": 0.0019999999999999814,
+      "pass": true
+    }
+  ],
+  "cover_probes": [
+    {
+      "z": 2,
+      "object": "bottom_panel",
+      "material_mm3": 0.0009999999999999855,
+      "pass": true
+    },
+    {
+      "z": 62,
+      "object": "side_right",
+      "material_mm3": 0.0009999999999999907,
+      "pass": true
+    },
+    {
+      "z": 66,
+      "object": "side_right",
+      "material_mm3": 0.000999999999999967,
+      "pass": true
+    },
+    {
+      "z": 126,
+      "object": "side_right",
+      "material_mm3": 0.000999999999999967,
+      "pass": true
+    },
+    {
+      "z": 130.6,
+      "object": "side_right",
+      "material_mm3": 0.000999999999999967,
+      "pass": true
+    },
+    {
+      "z": 188,
+      "object": "lid",
+      "material_mm3": 0.0009999999999999623,
+      "pass": true
+    }
+  ],
+  "curvature_checks": [
+    {
+      "object": "blue_spine",
+      "center_z": 32,
+      "radii_mm": [
+        88.33333333
+      ],
+      "pass": true
+    },
+    {
+      "object": "blue_spine",
+      "center_z": 96,
+      "radii_mm": [
+        88.33333333
+      ],
+      "pass": true
+    },
+    {
+      "object": "lid",
+      "center_z": 159.3,
+      "radii_mm": [
+        88.33333333
+      ],
+      "pass": true
+    },
+    {
+      "object": "bottom_panel",
+      "center_z": 32,
+      "radii_mm": [
+        88.33333333
+      ],
+      "pass": true
+    }
+  ],
+  "bottom_join_point_distance_mm": {
+    "blue_spine": 5.641564180080844e-12,
+    "bottom_panel": 5.251013650855644e-12
+  },
+  "magnet_fit": [
+    {
+      "magnet": "body_magnet_left",
+      "host": "blue_spine",
+      "overlap_mm3": 0,
+      "clearance_mm": 0.10000000000000853
+    },
+    {
+      "magnet": "body_magnet_right",
+      "host": "blue_spine",
+      "overlap_mm3": 0,
+      "clearance_mm": 0.10000000000000853
+    },
+    {
+      "magnet": "lid_magnet_left",
+      "host": "lid",
+      "overlap_mm3": 0,
+      "clearance_mm": 0.10000000000002274
+    },
+    {
+      "magnet": "lid_magnet_right",
+      "host": "lid",
+      "overlap_mm3": 0,
+      "clearance_mm": 0.10000000000002274
+    }
+  ],
+  "magnet_face_gap_mm": 0.799999999999983,
+  "minimum_nominal_mouth_ligament_mm": 1.55,
+  "obsolete_closure_hardware_absent": true,
+  "status": "pass"
+}

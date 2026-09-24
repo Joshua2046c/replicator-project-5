@@ -1,6 +1,6 @@
 {
-  "buildNumber": 226,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/5edfbb3b743a47be316eeaeab3924d12bb9c329f22fd26db5baa10591d55a52a",
+  "buildNumber": 270,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/7377acafb222543c878ea0482a33a84b61488fd79c4e8087b100bc978b650af2",
   "method": "exact B-rep intersections at discrete motion samples; not continuous swept-volume proof or structural certification",
   "opening_angles_deg": [
     0,
@@ -26,7 +26,7 @@
     100
   ],
   "released_before_opening": [],
-  "opening_tests": 8778,
+  "opening_tests": 3360,
   "opening_collisions": [],
   "removed_before_panel_extraction": [
     "thumb_screw_left",
@@ -40,13 +40,13 @@
   ],
   "removal_collisions": [],
   "closed_lift_1mm_blocking_volume_mm3": {
-    "side_left": 197.31615814063906,
-    "side_right": 197.31615814063747
+    "side_left": 196.86349865425834,
+    "side_right": 196.86349865425453
   },
   "main_envelope_mm": [
     220.0,
-    120.0,
-    189.0
+    122.3,
+    190.0
   ],
   "solid_validity": {
     "buckle": true,
@@ -80,24 +80,12 @@
     "lid_magnet_right": true,
     "lid_magnet_left": true,
     "body_magnet_right": true,
-    "lid_mag_cap_right_screw_0": true,
-    "lid_mag_cap_right_screw_1": true,
-    "lid_mag_cap_right": true,
     "lid": true,
-    "lid_mag_cap_left": true,
-    "lid_mag_cap_left_screw_0": true,
-    "lid_mag_cap_left_screw_1": true,
     "axle": true,
     "central_binding": true,
     "upper_binding": true,
     "side_right": true,
-    "body_mag_cap_right_screw_0": true,
-    "body_mag_cap_right_screw_1": true,
-    "body_mag_cap_left": true,
-    "body_mag_cap_right": true,
-    "blue_spine": true,
-    "body_mag_cap_left_screw_0": true,
-    "body_mag_cap_left_screw_1": true
+    "blue_spine": true
   },
   "status": "pass"
 }

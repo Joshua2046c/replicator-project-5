@@ -44,7 +44,7 @@
       "source": "default"
     },
     "hinge_layout": {
-      "value": "后侧水平轴向后外移3.2mm至Y58.2 Z128；目标开角100度；默认两端金属铆头防脱，无螺钉止挡，拆轴需处理铆头。",
+      "value": "轴心Y60.5 Z128，轴孔4.4；一端预成头的Ø4金属轴侧向插入，另一端装配后铆接，无螺钉止挡；需验证轴体与预成头全路径。",
       "source": "default"
     },
     "magnet_quantity": {
@@ -52,7 +52,7 @@
       "source": "default"
     },
     "magnet_retention": {
-      "value": "前缘两对磁铁，可靠捕获防脱；装配极性匹配；安装槽公差独立于标称磁铁尺寸",
+      "value": "保持左右各一对Ø7×3，共4颗；小圆槽胶粘固定，取消磁铁盖及螺钉，胶与PETG/磁铁镀层相容性和防脱拉力须样片验证。",
       "source": "default"
     },
     "panel_retention": {
@@ -101,7 +101,7 @@
       "source": "user"
     },
     "spine_curvature": {
-      "value": "三层书脊具有弧度，不使用平面书脊饰板代替",
+      "value": "三本书脊采用统一圆弧曲率；最下书脊至底板外缘连续圆弧，不留台阶。",
       "source": "user"
     },
     "rear_lid_alignment": {
@@ -150,6 +150,31 @@
     },
     "lid_groove_completion": {
       "value": "上盖标注位置补齐与书页对应的凹陷线条。",
+      "source": "user"
+    },
+    "page_spacing": {
+      "value": "每本书的侧面书页凹槽等距排列；各本侧面上下留出封面和封底的厚度间隔。",
+      "source": "user"
+    },
+    "magnet_seat_simplification": {
+      "value": "上盖与本体仅保留左右两个圆形磁吸位置，凸起缩小，去除大结合台和磁铁座螺丝点位。",
+      "source": "user"
+    },
+    "hinge_insertion_access": {
+      "value": "后背转轴进一步凸出，留出轴体从侧面插入的实际装配路径。",
+      "source": "user"
+    },
+    "page_layout": {
+      "value": {
+        "pitch_mm": 6,
+        "cover_band_mm": 4,
+        "grooves_per_book": 9,
+        "shared_spine_radius_mm": 88.33333333333333
+      },
+      "source": "default"
+    },
+    "hinge_envelope_exception": {
+      "value": "本版保持当前外凸铰链，不再修改此部分；接受实际含铰链总深度122.3mm比120mm标称多2.3mm，原标称包络要求保留。",
       "source": "user"
     }
   },

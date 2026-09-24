@@ -8,7 +8,7 @@ shapes={k:import_step(str(v)) for k,v in files.items()}
 moving_names=[n for n in shapes if n=='lid' or n.startswith('lid_mag') or n in ['pink_spine','pink_marks','upper_binding']]
 released=[]  # Segmented inset trims remain attached while opening.
 static_names=[n for n in shapes if n not in moving_names and n not in released]
-axis=Axis((0,58.2,128),(1,0,0))
+axis=Axis((0,60.5,128),(1,0,0))
 def intersects_bb(a,b):
  aa=a.bounding_box();bb=b.bounding_box()
  return all(tuple(aa.max)[i]>tuple(bb.min)[i]+1e-6 and tuple(bb.max)[i]>tuple(aa.min)[i]+1e-6 for i in range(3))

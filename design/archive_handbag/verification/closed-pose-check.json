@@ -1,10 +1,10 @@
 {
-  "buildNumber": 226,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/5edfbb3b743a47be316eeaeab3924d12bb9c329f22fd26db5baa10591d55a52a",
-  "objects": 49,
-  "solids": 52,
-  "pairs_screened": 1176,
-  "exact_bbox_overlap_pairs": 103,
+  "buildNumber": 270,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/7377acafb222543c878ea0482a33a84b61488fd79c4e8087b100bc978b650af2",
+  "objects": 37,
+  "solids": 40,
+  "pairs_screened": 666,
+  "exact_bbox_overlap_pairs": 72,
   "collisions": [],
   "solid_validity": {
     "buckle": true,
@@ -38,24 +38,12 @@
     "lid_magnet_right": true,
     "lid_magnet_left": true,
     "body_magnet_right": true,
-    "lid_mag_cap_right_screw_0": true,
-    "lid_mag_cap_right_screw_1": true,
-    "lid_mag_cap_right": true,
     "lid": true,
-    "lid_mag_cap_left": true,
-    "lid_mag_cap_left_screw_0": true,
-    "lid_mag_cap_left_screw_1": true,
     "axle": true,
     "central_binding": true,
     "upper_binding": true,
     "side_right": true,
-    "body_mag_cap_right_screw_0": true,
-    "body_mag_cap_right_screw_1": true,
-    "body_mag_cap_left": true,
-    "body_mag_cap_right": true,
-    "blue_spine": true,
-    "body_mag_cap_left_screw_0": true,
-    "body_mag_cap_left_screw_1": true
+    "blue_spine": true
   },
   "status": "pass"
 }

@@ -1,21 +1,21 @@
-from screwjoint import make_screw_joint_v1
-w=param('lid_width',220.0);d=param('lid_depth',114.0);height=param('lid_height',60.4);roof=param('lid_roof_thickness',2.2);wall=param('lid_wall',6.0)
-hy=param('lid_hinge_y',58.2);hz=param('lid_hinge_z',128.0);seam=param('lid_seam_z',128.6)
+from math import sqrt
+w=param('lid_width',220.0);d=param('lid_depth',114.0);height=param('lid_height',61.4);roof=param('lid_roof_thickness',2.2);wall=param('lid_wall',6.0)
+hy=param('lid_hinge_y',60.5);hz=param('lid_hinge_z',128.0);seam=param('lid_seam_z',128.6)
 r=param('lid_barrel_radius',3.8);bore=param('lid_bore',4.4);barrel_l=param('lid_barrel_length',58.8)
-rw=param('lid_rear_width',220.0);sag=param('lid_spine_sag',6.0);ft=param('lid_spine_thickness',3.5);ey=param('lid_spine_end_y',-51.0)
-mx=param('lid_magnet_x',72.0);my=param('lid_magnet_y',-39.0)
-relief=param('lid_rear_bottom_relief',0.6);cheek=param('lid_end_cheek_thickness',2.0);sweep=param('lid_cheek_inner_radius',107.2)
+rw=param('lid_rear_width',220.0);R=param('spine_common_radius',88.33333333333333);ft=param('lid_spine_thickness',3.5);ey=param('lid_spine_end_y',-51.0)
+mx=param('lid_magnet_x',72.0);my=param('lid_magnet_y',-47.0)
+relief=param('lid_rear_bottom_relief',0.6);cheek=param('lid_end_cheek_thickness',2.0);sweep=param('lid_cheek_inner_radius',109.5)
 g=param('lid_page_groove_depth',0.45);gw=param('lid_page_groove_width',1.0);wrap=param('lid_corner_groove_depth',0.45)
+page=param('lid_page_recess',0.25);cover=param('lid_cover_band',4.0);pitch=param('lid_groove_pitch',6.0)
 px=param('lid_panel_center_x',108.0);slot=param('lid_panel_clearance_width',4.6)
 bw=param('lid_band_width',30.0);bt=param('lid_band_recess',1.0);bs=param('lid_band_rear_start',134.0)
-gstart=param('lid_groove_start_z',134.0);gpitch=param('lid_groove_pitch',6.0);gend=param('lid_groove_end_z',182.0)
-frame=Pos(0,hy-55.0,hz-128.0) # Preserve legacy object assembly frame Y55 Z128.
-b=seam-hz;top=b+height
+frame=Pos(0,hy-55.0,hz-128.0)
+b=seam-hz;top=b+height;sag=R-sqrt(R*R-height*height/4)
 lid=Pos(0,(ey+d/2)/2-hy,top-roof)*Box(w,d/2-ey,roof,align=(Align.CENTER,Align.CENTER,Align.MIN))
 rear=Pos(0,d/2-hy-wall/2,b)*Box(rw,wall,height,align=(Align.CENTER,Align.CENTER,Align.MIN))
 cut=extrude(Plane.YZ*Polygon((d/2-hy-relief,b-0.1),(d/2-hy+1,b-0.1),(d/2-hy+1,b+relief+1),align=None),amount=rw+2,both=True)
 rear-=cut;lid+=rear
-R=(height*height/4+sag*sag)/(2*sag);cy=ey+R-sag-hy;cz=b+height/2
+cy=ey+R-sag-hy;cz=b+height/2
 outer=Pos(0,cy,cz)*Rot(0,90,0)*Cylinder(R,w)
 curve=(outer-Pos(0,cy+ft,cz)*Rot(0,90,0)*Cylinder(R,w+1))&Pos(0,ey-hy-sag/2+ft,cz)*Box(w,2*(sag+ft+1),height)
 safe=Rot(0,90,0)*Cylinder(sweep,w+2)
@@ -31,30 +31,21 @@ for s in [-1,1]:
  lid-=Pos(s*50.7,0,0)*Rot(0,90,0)*Cylinder(3.5,2.2)
 lid+=Pos(0,(d/2-wall/2-hy)/2,r-0.8)*Box(barrel_l,hy-(d/2-wall/2),1.6)
 lid+=Rot(0,90,0)*Cylinder(r,barrel_l)
-# Custom shaft length100: clear its entire envelope, including short gaps between knuckles and heads.
 lid-=Rot(0,90,0)*Cylinder(bore/2,100.4)
-zz=gstart
-while zz<=gend+0.001:
- lid-=Pos(0,d/2-g/2-hy,zz-hz)*Box(rw+2,g,gw)
- for s in [-1,1]:
-  lid-=Pos(s*(rw/2-wrap/2),d/2-wall/2-hy,zz-hz)*Box(wrap,wall+0.1,gw)
-  lid-=Pos(s*(w/2-g/2),-hy,zz-hz)*Box(g,110,gw)
- zz+=gpitch
+# Nine equal-pitch page lines inside a shallow page block, leaving4mm cover bands.
+lid-=Pos(0,d/2-page/2-hy,cz)*Box(rw+2,page,height-2*cover)
+for s in [-1,1]:lid-=Pos(s*(w/2-page/2),-hy+3,cz)*Box(page,120,height-2*cover)
+for i in range(-4,5):
+ zz=cz+i*pitch
+ lid-=Pos(0,d/2-(page+g)/2-hy,zz)*Box(rw+2,page+g,gw)
+ for s in [-1,1]:lid-=Pos(s*(w/2-(page+g)/2),-hy+3,zz)*Box(page+g,120,gw)
 for s,side in [(-1,'left'),(1,'right')]:
- cid='lid_mag_cap_'+side
- cw=param(cid+'_width',22.0);cd=param(cid+'_depth',14.0);ct=param(cid+'_edge_thickness',2.6);mem=param(cid+'_membrane',0.6);pitch=param(cid+'_screw_half_pitch',8.0)
- lid+=(Pos(s*mx,my-hy-3,b)*Box(28,24,12,align=(Align.CENTER,Align.CENTER,Align.MIN)))&outer
- lid-=Pos(s*mx,my-hy,b-0.1)*Cylinder(7.3/2,3.9,align=(Align.CENTER,Align.CENTER,Align.MIN))
- lid-=Pos(s*mx,my-hy,b-0.1)*Box(cw+0.4,cd+0.4,ct+0.1,align=(Align.CENTER,Align.CENTER,Align.MIN))
- cap=Pos(s*mx,my-hy,b+ct/2)*Box(cw,cd,ct);cap-=Pos(s*mx,my-hy,b+mem)*Cylinder(4.1,ct-mem+0.1,align=(Align.CENTER,Align.CENTER,Align.MIN))
- for j,dx in enumerate([-pitch,pitch]):
-  cap-=Pos(s*mx+dx,my-hy,b-0.1)*Cylinder(2.1,2.1,align=(Align.CENTER,Align.CENTER,Align.MIN))
-  joint=make_screw_joint_v1(size='M2',at=Location((s*mx+dx,my-hy,b+2),(180,0,0)),through=[(cap,ct-2)],into=lid,engage_depth=5.4,material='PETG',label=cid+str(j))
-  cap-=joint.through_cuts[0];lid=lid+joint.bosses-joint.engage_cuts;publish(cid+'_screw_'+str(j),frame*joint.hardware,'盖内M2螺钉')
- publish(cid,frame*cap,'翻盖磁铁防脱盖')
+ oid='lid_magnet_mount_'+side;od=param(oid+'_diameter',11.3);mh=param(oid+'_height',5.4);pd=param(oid+'_pocket_diameter',7.3);dep=param(oid+'_pocket_depth',3.2)
+ lid+=(Pos(s*mx,my-hy,b+mh/2)*Cylinder(od/2,mh))&outer
+ lid-=Pos(s*mx,my-hy,b-0.1)*Cylinder(pd/2,dep+0.1,align=(Align.CENTER,Align.CENTER,Align.MIN))
 band=(outer-Pos(0,cy+bt,cz)*Rot(0,90,0)*Cylinder(R,w+2))&Pos(0,ey-hy,cz)*Box(bw,20,height)
 band+=Pos(0,(ey+d/2)/2-hy,top-bt/2)*Box(bw,d/2-ey,bt)
 band+=Pos(0,d/2-hy-bt/2,(top+bs-hz)/2)*Box(bw,bt,top-(bs-hz))
 lid-=band
 assert len(lid.solids())==1
-publish('lid',frame*lid,'补齐页槽的外轴翻盖')
+publish('lid',frame*lid,'等距书页与紧凑圆槽翻盖')
