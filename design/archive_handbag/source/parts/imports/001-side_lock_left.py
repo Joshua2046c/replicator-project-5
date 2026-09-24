@@ -1,1 +1,0 @@
-publish("side_lock_left", asset("design/archive_handbag/source/assets/9fa7931862d1cd1789a68ae9e629a221bfbab099d1d208e2085e86618fd52d30.step"), "side_lock_left")

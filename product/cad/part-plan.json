@@ -20,7 +20,7 @@
     {
       "id": "hinge_axle",
       "status": "custom_design",
-      "reason": "No exact100mm rivet pin STEP; deliberately custom4x100 metal shaft with6x1.4 formed ends, no screw or cap retainer. AxisY60.5 Z128; continuous one-headed pin insertion sweep passed at build288, minimum0.2mm clearance; requires second-head forming after insertion."
+      "reason": "No exact100mm rivet pin STEP; deliberately custom4x100 metal shaft with6x1.4 formed ends, no screw or cap retainer. AxisY60.5 Z128; continuous one-headed pin insertion sweep passed at build297, minimum0.2mm clearance; requires second-head forming after insertion."
     },
     {
       "id": "ring_nuts",
@@ -36,33 +36,14 @@
       "reason": "Verified7mm AF3.2mm thick nativeZ0..3.2, imported for two inward nut positions."
     },
     {
-      "id": "side_lock_screws",
-      "status": "selected",
-      "match": "exact",
-      "catalogId": "bd-warehouse:bd_warehouse.fastener.CounterSunkScrew",
-      "parameters": {
-        "size": "M3-0.5",
-        "length": 10,
-        "fastener_type": "iso10642",
-        "simple": true
-      },
-      "sha256": "9fa7931862d1cd1789a68ae9e629a221bfbab099d1d208e2085e86618fd52d30",
-      "source_path": ".work/cache/cad-catalog/bd-warehouse/9e47d9696dbc58cb61874f2cb610e7627908b90d8a961f9c397523fd929c166b.step",
-      "reason": "Two exact library instances; metal through-fastener in free plastic clearance holes, no plastic threads or replacement arms."
+      "id": "square_pegs",
+      "status": "custom_design",
+      "reason": "User-requested eight integral4x4x6 square posts and4.4x4.4x6.3 board sockets; free insertion joint; no off-the-shelf fastener, screw or long channel."
     },
     {
-      "id": "side_lock_nuts",
-      "status": "selected",
-      "match": "exact",
-      "catalogId": "bd-warehouse:bd_warehouse.fastener.HexNut",
-      "parameters": {
-        "size": "M3-0.5",
-        "fastener_type": "iso4032",
-        "simple": true
-      },
-      "sha256": "810e7ff4380f9546cacf2df5d8900504c6a5340aa1d46cbc3f54e5bc349d0795",
-      "source_path": ".work/cache/cad-catalog/bd-warehouse/8f85d6f17f960b6b5240b5ab4cbf2af76ef25966c95b231ebc944a058f8c1e7e.step",
-      "reason": "Two exact library instances; metal through-fastener in free plastic clearance holes, no plastic threads or replacement arms."
+      "id": "buckle_tongue",
+      "status": "custom_design",
+      "reason": "User-requested half metal strip is integral with the custom curved rectangular frame; not an imported purchased buckle or functional latch."
     }
   ]
 }

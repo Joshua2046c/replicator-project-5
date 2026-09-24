@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "status": "ready",
+  "status": "ready_with_mechanical_use_restriction",
   "bom_ready": true,
-  "requirements_digest": "600e937295f9da753e2667bd88e84e2256f1092eda77f5b6880b85b5b223188e",
+  "requirements_digest": "53bb3a52ab205d6bf65229fc20aef4a2794697da12c0eca433f45853ca3824ce",
   "items": [
     {
       "id": "body",
@@ -10,11 +10,11 @@
       "name": "外板拼装结构套件",
       "quantity": 1,
       "part_number": "AH-OUTER-PANEL-SET",
-      "description": "蓝绿同曲率一体前板、后板插接底板，保留8颗隐藏底螺钉；后板无L臂、横梁或塑料螺母座。前导槽左右各一防拔通孔。含外凸铰链深122.3mm，本版尺寸例外已获用户接受。",
+      "description": "蓝绿一体圆弧前板、后板、八方桩底板；无底螺钉、长条槽或插舌，前后板各4方孔。下两本端部内缘改为随弧轮廓。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。",
       "part_identity": "4c7b49d3c6197c10"
     },
     {
@@ -27,7 +27,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。",
       "part_identity": "c8f8bda0279ef9fd"
     },
     {
@@ -36,11 +36,11 @@
       "name": "左右圆弧避让书页插板",
       "quantity": 2,
       "part_number": "AH-SIDE-RECT",
-      "description": "4mm侧板，左右下插；每本书9条6mm等距槽，上下4mm封面/封底留带；前上角圆弧避让。 每侧Y−46.5/Z100增Ø3.4通孔及Ø6.2沉孔，配M3金属通栓，不用打印螺纹。",
+      "description": "4mm全高下插侧板，前上角圆弧避让；保留挂环孔，删除中部M3侧锁通孔及沉孔。等距页槽及上下封面带保持。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。",
       "part_identity": "b04ab60e459ffc67"
     },
     {
@@ -53,7 +53,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。",
       "part_identity": "2ae855c07d2e942f"
     },
     {
@@ -66,7 +66,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。",
       "part_identity": "e1b33d023ab564bf"
     },
     {
@@ -79,7 +79,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。",
       "part_identity": "3a7a9a3c3021b5c7"
     },
     {
@@ -92,7 +92,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。",
       "part_identity": "e4b12ab87c4e349c"
     },
     {
@@ -105,7 +105,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。",
       "part_identity": "6e0755fd54b9cadd"
     },
     {
@@ -118,7 +118,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。",
       "part_identity": "1256ac3368f74c85"
     },
     {
@@ -127,11 +127,11 @@
       "name": "三色弧形书脊与贯穿束带接口",
       "quantity": 1,
       "part_number": "AH-CURVED-BOOK-SET",
-      "description": "30mm宽1mm厚棕色贴面分段装饰带，嵌入前顶背底，开口与转轴断开；保留空心扣框，删除中心搭接方块。",
+      "description": "贴面分段棕色带及金属扣框；扣框42×44×1，框边5，新增左框至中央半截金属舌，名义长22、宽5、厚1，与扣框为一实体；蓝绿前板同弧处理。定制装饰金属件，不用于开盖锁定或承载。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。",
       "part_identity": "cdec688dde151cf0"
     },
     {
@@ -144,7 +144,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。",
       "part_identity": "fa74f27b1e3433f0"
     },
     {
@@ -156,7 +156,7 @@
       "description": "仅粘贴非承力标线和贴面装饰带，样片确认PETG相容性；前后底插接由底螺钉防拔脱。",
       "source": "default",
       "procurement_status": "external_procurement_required",
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。",
       "part_identity": "4b3be1836c874da6"
     },
     {
@@ -169,20 +169,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "part_identity": "b9f8509e26ee9815",
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。"
-    },
-    {
-      "id": "bottom_screws",
-      "role": "fastener",
-      "name": "底板M3×12沉头螺钉",
-      "quantity": 8,
-      "part_number": "ISO10642-M3x12",
-      "description": "kit生成的沉头件，总长12；底板贯穿4mm，前后外板8mm啮合，前后各四颗X±40、±80。",
-      "source": "default",
-      "procurement_status": "external_procurement_required",
-      "required_user_evidence": [],
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
-      "part_identity": "7ae49e465365c84d"
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。"
     },
     {
       "id": "magnet_adhesive",
@@ -193,42 +180,8 @@
       "description": "用于四颗Ø7×3镀层磁铁与PETG圆槽，名义槽底胶层0.1mm、径向空间0.15mm；具体胶种未定，必须样片确认相容性、固化及防脱，不是承重连接。",
       "source": "default",
       "procurement_status": "external_procurement_required",
-      "selection_reason": "已按删除大L臂后的侧板承力路径复核；名义几何检查以当前导出为准，实物载荷未认证。",
+      "selection_reason": "按本次方桩、无侧锁与半截扣舌修改复核；其余接口沿用已有精确模型证据。无螺丝承载固定未解决，不能宣称2kg提携就绪。",
       "part_identity": "a26c990869eab4c9"
-    },
-    {
-      "id": "side_lock_screws",
-      "role": "fastener",
-      "name": "侧板防拔沉头通栓",
-      "quantity": 2,
-      "part_number": "ISO10642-M3x10",
-      "description": "左右各一M3-0.5×10总长沉头螺钉，头面绝对X109.65，Y−46.5/Z100；孔与金属螺母配合，无打印螺纹。",
-      "source": "default",
-      "procurement_status": "external_procurement_required",
-      "required_user_evidence": [],
-      "selection_reason": "精确bd-warehouse0.2.0标准资产；代替不适用的薄壁盲孔塑料螺接，不增加大支臂。",
-      "cad_model": {
-        "path": "design/archive_handbag/source/assets/9fa7931862d1cd1789a68ae9e629a221bfbab099d1d208e2085e86618fd52d30.step",
-        "sha256": "9fa7931862d1cd1789a68ae9e629a221bfbab099d1d208e2085e86618fd52d30"
-      },
-      "part_identity": "42efbc1f630af0c3"
-    },
-    {
-      "id": "side_lock_nuts",
-      "role": "fastener",
-      "name": "侧板防拔金属螺母",
-      "quantity": 2,
-      "part_number": "ISO4032-M3-0.5",
-      "description": "左右各一对边5.5、厚2.4的M3金属螺母，贴前导槽内唇X±103，内面绝对X100.6；通栓伸出0.95mm，拆装须扳手托住。",
-      "source": "default",
-      "procurement_status": "external_procurement_required",
-      "required_user_evidence": [],
-      "selection_reason": "精确bd-warehouse0.2.0标准资产；代替不适用的薄壁盲孔塑料螺接，不增加大支臂。",
-      "cad_model": {
-        "path": "design/archive_handbag/source/assets/810e7ff4380f9546cacf2df5d8900504c6a5340aa1d46cbc3f54e5bc349d0795.step",
-        "sha256": "810e7ff4380f9546cacf2df5d8900504c6a5340aa1d46cbc3f54e5bc349d0795"
-      },
-      "part_identity": "f7262740df92a00f"
     }
   ],
   "unresolved_items": [],
@@ -264,9 +217,9 @@
       "description": "用户选择本版后轴保持不改，接受实际122.3mm相对标称120mm深度的例外；不是精确120mm尺寸。"
     },
     {
-      "id": "side_panel_load_path",
-      "severity": "advisory",
-      "description": "承载已改为侧板/前导槽通栓路径，需实测沉孔边缘、侧板弯曲、导槽内唇及底螺钉；两侧均有金属螺母，不以磁吸承力。"
+      "id": "screwless_retention",
+      "severity": "high",
+      "description": "几何接口已定义，底方桩每侧0.2间隙且无侧锁，不构成抗拔承载连接。实用2kg提携前必须解决底板及侧板无螺丝保持方式并验证；本轮不得自行加回螺钉或宣称磁吸承重。"
     }
   ],
   "unresolved_roles": []

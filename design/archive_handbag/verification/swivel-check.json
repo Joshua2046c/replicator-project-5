@@ -1,8 +1,8 @@
 {
-  "buildNumber": 288,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/19c439e2e82d018719ccd31c32618f776bc50ef629cb9cdadd09ab3dc145faf7",
+  "buildNumber": 297,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/4a7390130ed1dccf07adf04df613a813b2680282948db6a24ca756e982200284",
   "method": "B-rep intersections, ring spin sampled every 15 degrees, closed lid; does not certify load or nut retention",
-  "tests": 1920,
+  "tests": 1344,
   "collisions": [],
   "all_hardware_envelope_mm": [
     238.0,

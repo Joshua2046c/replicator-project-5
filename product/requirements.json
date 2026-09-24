@@ -56,11 +56,11 @@
       "source": "default"
     },
     "panel_retention": {
-      "value": "侧板向下插入后，左右各一颗M3×10沉头通栓及金属螺母锁到前板导槽内唇，避免向上拔脱；不以盖或磁铁承担提携载荷。维护卸载、拆侧锁及挂环五金后开盖上抽。",
-      "source": "default"
+      "value": "取消侧面新增的小锁定螺丝、螺母及孔；保留原挂环M4连接件和侧板下插结构。",
+      "source": "user"
     },
     "ring_load_path": {
-      "value": "挂环M4×15手拧螺丝经隔套、侧板、贴侧板内面的2mm钢垫板和M4金属螺母夹紧；载荷由侧板经两侧M3锁点、前板与底部螺钉传至底板。删除后板L臂及口袋，不锁活动盖。须样机验证偏载、孔边承压和蠕变。",
+      "value": "挂环M4连接到侧板；侧锁与底螺钉已按要求删除。当前直插方桩和可抽侧板没有可靠防拔锁定，不得把磁吸或装饰胶当承力连接。2kg加自重目标保留但无螺丝承载固定方式尚待解决，本版为几何试装，不可按已承重验证使用。",
       "source": "default"
     },
     "prototype_validation": {
@@ -101,7 +101,7 @@
       "source": "user"
     },
     "spine_curvature": {
-      "value": "三本书脊采用统一圆弧曲率；最下书脊至底板外缘连续圆弧，不留台阶。",
+      "value": "三本正面书脊保持相同圆弧曲率，蓝绿两段端部也需呈弧形而非方直；最下书脊至底板外缘连续圆弧，不留台阶。",
       "source": "user"
     },
     "rear_lid_alignment": {
@@ -129,7 +129,7 @@
       "source": "user"
     },
     "base_panel_insertion": {
-      "value": "前书脊板和背板插入底板；两侧书页挡板通过滑槽自上而下插入。",
+      "value": "前书脊板和背板以方孔套入底板方桩，不再设置长条定位槽；两侧书页挡板仍通过滑槽自上而下插入。",
       "source": "user"
     },
     "lid_side_integration": {
@@ -141,8 +141,8 @@
       "source": "user"
     },
     "base_joint_retention": {
-      "value": "底板插槽定位，沿用底面隐藏螺钉防止承重时拔脱；取消蓝绿书脊之间的拼接螺钉。",
-      "source": "default"
+      "value": "底部八个固定点位改成正方形插桩，不使用螺丝；前后板底部取消长条定位槽及插舌，仅保留方桩对应的方孔。",
+      "source": "user"
     },
     "hinge_external_clean": {
       "value": "背部转轴外移一点，不再陷入内部；取消标注的后轴螺丝和止挡部件，填上转轴处多余空洞。",
@@ -180,6 +180,29 @@
     "remove_internal_arms": {
       "value": "删除最新标注的左右两条向包内伸出的大L形支臂及其多余塑料座。",
       "source": "user"
+    },
+    "buckle_tongue": {
+      "value": "正面绑带锁扣伸出半截金属条，并与整个方形金属框连接；不是恢复中心方块。",
+      "source": "user"
+    },
+    "square_peg_interface": {
+      "value": {
+        "quantity": 8,
+        "square_mm": 4,
+        "height_mm": 6,
+        "socket_square_mm": 4.4,
+        "socket_depth_mm": 6.3,
+        "lead_in_mm": 0.4,
+        "x_mm": [
+          -80,
+          -40,
+          40,
+          80
+        ],
+        "front_y_mm": -47,
+        "rear_y_mm": 52
+      },
+      "source": "default"
     }
   },
   "open_questions": []

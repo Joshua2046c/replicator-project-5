@@ -1,0 +1,151 @@
+{
+  "buildNumber": 297,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/4a7390130ed1dccf07adf04df613a813b2680282948db6a24ca756e982200284",
+  "checks": {
+    "eight_square_pegs": true,
+    "long_slots_and_tongues_removed": true,
+    "side_lock_holes_filled": true,
+    "obsolete_screws_absent": true,
+    "buckle_single_connected_solid": true,
+    "half_tongue": true
+  },
+  "pegs": [
+    {
+      "host": "blue_spine",
+      "xy": [
+        -80,
+        -47
+      ],
+      "peg_core_material_mm3": 43.31999999999998,
+      "socket_core_material_mm3": 0,
+      "side_clearance_probe_material_mm3": 0
+    },
+    {
+      "host": "blue_spine",
+      "xy": [
+        -40,
+        -47
+      ],
+      "peg_core_material_mm3": 43.31999999999997,
+      "socket_core_material_mm3": 0,
+      "side_clearance_probe_material_mm3": 0
+    },
+    {
+      "host": "blue_spine",
+      "xy": [
+        40,
+        -47
+      ],
+      "peg_core_material_mm3": 43.31999999999997,
+      "socket_core_material_mm3": 0,
+      "side_clearance_probe_material_mm3": 0
+    },
+    {
+      "host": "blue_spine",
+      "xy": [
+        80,
+        -47
+      ],
+      "peg_core_material_mm3": 43.31999999999998,
+      "socket_core_material_mm3": 0,
+      "side_clearance_probe_material_mm3": 0
+    },
+    {
+      "host": "body",
+      "xy": [
+        -80,
+        52
+      ],
+      "peg_core_material_mm3": 43.31999999999998,
+      "socket_core_material_mm3": 0,
+      "side_clearance_probe_material_mm3": 0
+    },
+    {
+      "host": "body",
+      "xy": [
+        -40,
+        52
+      ],
+      "peg_core_material_mm3": 43.31999999999997,
+      "socket_core_material_mm3": 0,
+      "side_clearance_probe_material_mm3": 0
+    },
+    {
+      "host": "body",
+      "xy": [
+        40,
+        52
+      ],
+      "peg_core_material_mm3": 43.31999999999997,
+      "socket_core_material_mm3": 0,
+      "side_clearance_probe_material_mm3": 0
+    },
+    {
+      "host": "body",
+      "xy": [
+        80,
+        52
+      ],
+      "peg_core_material_mm3": 43.31999999999998,
+      "socket_core_material_mm3": 0,
+      "side_clearance_probe_material_mm3": 0
+    }
+  ],
+  "former_slot_probes": [
+    {
+      "xy": [
+        -60,
+        -49.5
+      ],
+      "bottom_material_mm3": 0.9999999999999998,
+      "board_tongue_material_mm3": 0
+    },
+    {
+      "xy": [
+        60,
+        -49.5
+      ],
+      "bottom_material_mm3": 0.9999999999999998,
+      "board_tongue_material_mm3": 0
+    },
+    {
+      "xy": [
+        -60,
+        54
+      ],
+      "bottom_material_mm3": 0.9999999999999998,
+      "board_tongue_material_mm3": 0
+    },
+    {
+      "xy": [
+        60,
+        54
+      ],
+      "bottom_material_mm3": 0.9999999999999998,
+      "board_tongue_material_mm3": 0
+    }
+  ],
+  "side_hole_probes": [
+    {
+      "object": "side_left",
+      "former_lock_hole_material_mm3": 0.9999999999999998
+    },
+    {
+      "object": "side_right",
+      "former_lock_hole_material_mm3": 0.9999999999999998
+    }
+  ],
+  "tongue_material_mm3": 0.20000000000000093,
+  "opposite_aperture_material_mm3": 0,
+  "geometry_status": "pass",
+  "nominal_interface_mm": {
+    "square_post": 4,
+    "height": 6,
+    "socket": 4.4,
+    "depth": 6.3,
+    "clearance_per_side": 0.2,
+    "roof_clearance": 0.3
+  },
+  "retention_status": "unresolved_for_2kg_carrying",
+  "warning": "Straight clearance pegs and unlocked sliding sides are not positive pullout restraints. No bottom or side locking screws remain per user instruction. Dry assembled model must not be represented as carrying-ready; no adhesive or other retention has been validated."
+}

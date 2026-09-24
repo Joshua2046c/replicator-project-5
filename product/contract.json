@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "删除标注的两个内伸L形支臂及其塑料座，侧挂环五金贴侧板布置，保持原书本外形与直接翻盖。",
+  "summary": "底部固定改八方桩，删除侧面锁栓和长条定位槽；下两书脊端部随弧，扣框一体半截金属舌。2kg目标不变，承载保持方式未解决。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -21,7 +21,7 @@
     {
       "id": "sliding_panels",
       "kind": "mechanical",
-      "description": "左右各一块自上向下沿滑槽插入的侧面书页挡板，不是T形；允许前上角作圆弧避让，保留直接翻盖的开盖方式；一般遮尘与防掉物。",
+      "description": "左右各一块自上向下沿滑槽插入的侧面书页挡板，不是T形；允许前上角作圆弧避让，保留直接翻盖的开盖方式；一般遮尘与防掉物。取消侧面新增的小锁定螺丝、螺母及孔；保留原挂环M4连接件和侧板下插结构。",
       "source": "user_requested",
       "required": true
     },
@@ -35,7 +35,7 @@
     {
       "id": "outer_panel_structure",
       "kind": "mechanical",
-      "description": "取消完整内衬或内胆；包由外板块组合而成；蓝绿两本书脊是一整块完整面板，不再分成上下两件。前书脊板和背板插入底板；两侧书页挡板通过滑槽自上而下插入。",
+      "description": "蓝绿两本书脊是一整块完整面板，不再分成上下两件。前书脊板和背板以方孔套入底板方桩，不再设置长条定位槽；两侧书页挡板仍通过滑槽自上而下插入。底部八个固定点位改成正方形插桩，不使用螺丝；前后板底部取消长条定位槽及插舌，仅保留方桩对应的方孔。",
       "source": "user_requested",
       "required": true
     },
@@ -49,14 +49,14 @@
     {
       "id": "strap_route",
       "kind": "mechanical",
-      "description": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。绑带与包面无悬空间隙，可预留绑带凹痕；取消正面锁扣中心的小方块，保留外框。",
+      "description": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。绑带与包面无悬空间隙，可预留绑带凹痕；取消正面锁扣中心的小方块，保留外框。正面绑带锁扣伸出半截金属条，并与整个方形金属框连接；不是恢复中心方块。",
       "source": "user_requested",
       "required": true
     },
     {
       "id": "curved_spines",
       "kind": "mechanical",
-      "description": "三本书脊采用统一圆弧曲率；最下书脊至底板外缘连续圆弧，不留台阶。",
+      "description": "三本正面书脊保持相同圆弧曲率，蓝绿两段端部也需呈弧形而非方直；最下书脊至底板外缘连续圆弧，不留台阶。",
       "source": "user_requested",
       "required": true
     }
@@ -115,11 +115,17 @@
       "path": "product/references/uploads/20260924T064810948Z-1-mark.png",
       "source": "user_requested",
       "description": "最新标注：删除左右向内部伸出的大L支臂及多余塑料座。"
+    },
+    {
+      "id": "reference_square_pegs_buckle",
+      "path": "product/references/uploads/20260924T083502465Z-1-mark.png",
+      "source": "user_requested",
+      "description": "当前标注：去侧锁，底螺钉改方桩、去长定位槽、三书脊弧度一致、扣框半截金属条。"
     }
   ],
   "assembly_story": {
-    "installation": "前后板插底槽后用8颗隐藏M3螺钉防脱；侧板从上插入，装挂环五金。对齐闭盖铰孔，从左侧插入单端预成头Ø4×100轴，另一端再铆接，保留各1mm轴向余隙。左右Ø7×3磁铁在小圆槽胶粘固定，检查极性及防脱；贴面带在开口和转轴处分段。 侧板下插后装M3×10沉头通栓及内侧M3螺母各两颗；挂环钢垫板直接贴侧板，M4×15穿栓拧入内侧M4螺母。",
-    "maintenance": "侧板向下插入后，左右各一颗M3×10沉头通栓及金属螺母锁到前板导槽内唇，避免向上拔脱；不以盖或磁铁承担提携载荷。维护卸载、拆侧锁及挂环五金后开盖上抽。",
+    "installation": "前后板方孔向下套底板八方桩，侧板下插；本版不装底螺钉或侧锁。装挂环M4五金，闭盖对齐轴孔后侧插单端预成头轴，另一端铆接。磁铁胶粘与分段装饰带沿用。干装无抗拔承载连接，不得直接按2kg提携。",
+    "maintenance": "几何干装状态卸载后拆挂环五金，开盖100度可抽侧板；无侧锁要拆。前后板可从方桩上直拔，证明插桩不是防拔锁扣。后续若采用粘接会改变可拆维护，需另行确定。",
     "user_access": [
       "上翻盖收纳口",
       "左右圆弧避让侧板",
@@ -156,7 +162,8 @@
           "reference_upper_side_flush",
           "reference_integral_panels_inset_band",
           "reference_external_hinge_thumb_screws",
-          "reference_remove_arms"
+          "reference_remove_arms",
+          "reference_square_pegs_buckle"
         ]
       }
     ]

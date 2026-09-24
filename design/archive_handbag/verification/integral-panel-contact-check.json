@@ -1,6 +1,6 @@
 {
-  "buildNumber": 288,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/19c439e2e82d018719ccd31c32618f776bc50ef629cb9cdadd09ab3dc145faf7",
+  "buildNumber": 297,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/4a7390130ed1dccf07adf04df613a813b2680282948db6a24ca756e982200284",
   "contacts": [
     {
       "a": "central_binding",
@@ -67,30 +67,6 @@
       "b": "side_right",
       "distance_mm": 0.0,
       "overlap_mm3": 0.0
-    },
-    {
-      "a": "side_lock_nut_left",
-      "b": "blue_spine",
-      "distance_mm": 0.0,
-      "overlap_mm3": 0
-    },
-    {
-      "a": "side_lock_nut_right",
-      "b": "blue_spine",
-      "distance_mm": 0.0,
-      "overlap_mm3": 0
-    },
-    {
-      "a": "side_lock_left",
-      "b": "side_left",
-      "distance_mm": 0.0,
-      "overlap_mm3": 0
-    },
-    {
-      "a": "side_lock_right",
-      "b": "side_right",
-      "distance_mm": 0.0,
-      "overlap_mm3": 0
     }
   ],
   "panel_insertion": [
@@ -125,6 +101,16 @@
       "overlap_bottom_mm3": 0.0
     },
     {
+      "part": "blue_spine",
+      "lift_mm": 6,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "blue_spine",
+      "lift_mm": 7,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
       "part": "body",
       "lift_mm": 0,
       "overlap_bottom_mm3": 0.0
@@ -152,6 +138,16 @@
     {
       "part": "body",
       "lift_mm": 5,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "body",
+      "lift_mm": 6,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "body",
+      "lift_mm": 7,
       "overlap_bottom_mm3": 0.0
     }
   ],

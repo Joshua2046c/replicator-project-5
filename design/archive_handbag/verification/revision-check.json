@@ -1,6 +1,6 @@
 {
-  "buildNumber": 288,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/19c439e2e82d018719ccd31c32618f776bc50ef629cb9cdadd09ab3dc145faf7",
+  "buildNumber": 297,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/4a7390130ed1dccf07adf04df613a813b2680282948db6a24ca756e982200284",
   "pin_insertion": {
     "method": "continuous analytic cylindrical sweep; closed aligned hinge, +X insertion160mm; second rivet head absent until after insertion",
     "collisions": [],
@@ -17,22 +17,10 @@
       "pivot_sleeve_right": 92.95823552977727,
       "backplate_right": 85.48065997256913,
       "backplate_left": 65.26419266350405,
-      "bottom_screw_front3": 157.4960537463417,
-      "bottom_screw_front2": 154.64579840937625,
-      "bottom_screw_rear1": 113.5013490463382,
-      "bottom_screw_rear0": 113.11967779654893,
-      "bottom_screw_rear3": 117.74386010052557,
-      "bottom_screw_rear2": 114.11967779654893,
-      "bottom_panel": 121.04938532697372,
-      "bottom_screw_front1": 153.96706609454122,
-      "bottom_screw_front0": 153.64579840937625,
+      "bottom_panel": 115.20156513346176,
       "side_left": 7.5,
-      "side_lock_right": 118.2970694091059,
-      "side_lock_nut_right": 117.09615252848931,
       "ring_nut_right": 86.57197731903936,
       "body": 0.19999999999996568,
-      "side_lock_nut_left": 104.5443029406866,
-      "side_lock_left": 104.78320550058174,
       "ring_nut_left": 68.99504209722417,
       "blue_marks": 115.23027158341564,
       "green_marks": 140.42383734473208,
@@ -288,7 +276,7 @@
     }
   ],
   "bottom_join_point_distance_mm": {
-    "blue_spine": 5.641564180080844e-12,
+    "blue_spine": 5.636460657162756e-12,
     "bottom_panel": 5.251013650855644e-12
   },
   "magnet_fit": [
