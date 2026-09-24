@@ -21,7 +21,7 @@
     {
       "id": "sliding_panels",
       "kind": "mechanical",
-      "description": "左右各一块自上向下沿滑槽插入的侧面书页挡板，不是T形；允许前上角作圆弧避让，保留直接翻盖的开盖方式；一般遮尘与防掉物。取消侧面新增的小锁定螺丝、螺母及孔；保留原挂环M4连接件和侧板下插结构。 本次红框内侧面书脊半圆区域与背板一体，书页凹陷向书脊延伸。",
+      "description": "左右各一块自上向下沿滑槽插入的侧面书页挡板，不是T形；允许前上角作圆弧避让，保留直接翻盖的开盖方式；一般遮尘与防掉物。取消侧面新增的小锁定螺丝、螺母及孔；保留原挂环M4连接件和侧板下插结构。 本次红框内侧面书脊半圆区域与背板一体，书页凹陷向书脊延伸。 左侧面板以右侧样式为基准做左右镜像，轮廓、书页凹槽、挂环连接孔、前后滑入配合边及底部连接方式一致。",
       "source": "user_requested",
       "required": true
     },
@@ -153,6 +153,12 @@
       "source": "user_requested",
       "description": "顶带仅端头圆弧；红框侧页板与下两层半圆区一体、页槽延长。",
       "path": "product/references/uploads/20260924T100353497Z-1-mark.png"
+    },
+    {
+      "id": "reference_left_matches_right",
+      "path": "product/references/uploads/20260924T212401344Z-1-mark.png",
+      "source": "user_requested",
+      "description": "左侧面板样式与连接方式以右侧为基准统一。"
     }
   ],
   "assembly_story": {
@@ -200,7 +206,8 @@
           "reference_square_pegs_buckle",
           "reference_raised_details_chamfer",
           "reference_arc_inlays",
-          "reference_local_arc_side_integration"
+          "reference_local_arc_side_integration",
+          "reference_left_matches_right"
         ]
       }
     ]

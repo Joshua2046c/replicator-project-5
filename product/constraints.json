@@ -456,5 +456,12 @@
     "front_transition_y_mm": -40,
     "max_z_mm": 193,
     "profile": "flat transverse section, planar semicircular terminal cap only; forward Bezier fade"
+  },
+  "side_panel_symmetry": {
+    "source": "user",
+    "reference": "side_right",
+    "target": "side_left",
+    "plane": "YZ (X=0) in assembly frame",
+    "connection": "same downward insertion, front/rear guide gaps, bottom seating and ring mount as right panel"
   }
 }

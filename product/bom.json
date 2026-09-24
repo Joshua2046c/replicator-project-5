@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready_with_mechanical_use_restriction",
   "bom_ready": true,
-  "requirements_digest": "271adf8bbaf8befe827ef55e134f3ccc128702b3d93e71fe65f677aa1d5065f0",
+  "requirements_digest": "11c0f5e793dd02401c7e432871c24c5ef894264e1cf1bb2edb66327fca3050a2",
   "items": [
     {
       "id": "body",
@@ -36,11 +36,11 @@
       "name": "左右圆弧避让书页插板",
       "quantity": 2,
       "part_number": "AH-SIDE-RECT",
-      "description": "左右4mm全高下插页板，下两层圆弧端头与侧板一体，页槽贯穿到圆弧前缘；上层避让、挂环孔、无侧锁保持。",
+      "description": "左右4mm全高下插页板，下两层圆弧端头与侧板一体，页槽贯穿到圆弧前缘；上层避让、挂环孔、无侧锁保持。 左侧采用右侧样式整体镜像，槽纹、避让弧、孔位和连接面对应一致。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本次局部端头弧形和侧面一体页板标注修订；保持非自锁底方桩和承载限制。",
+      "selection_reason": "按本次标注统一左右面板；以右侧为基准，保留build315的下插结构和0.3mm前后配合间隙。",
       "part_identity": "b04ab60e459ffc67"
     },
     {

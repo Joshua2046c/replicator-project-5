@@ -1,0 +1,31 @@
+{
+  "revision": "ba601f7607bfff97db6f878f6c26edc897da74882dc544d4e23c7a4260fb3112",
+  "step_sha256": "6d8379223945d9282b3e054d682dbec60c654a73381300f33db594e0c6542f8e",
+  "mirror_plane": "assembly YZ, X=0",
+  "left_right_symmetric_difference_mm3": 0,
+  "connections": {
+    "blue_spine": {
+      "left_mm": 0.29999999999999716,
+      "right_mm": 0.29999999999999716
+    },
+    "body": {
+      "left_mm": 0.29999999999999716,
+      "right_mm": 0.29999999999999716
+    },
+    "bottom_panel": {
+      "left_mm": 0.0,
+      "right_mm": 0.0
+    },
+    "lid": {
+      "left_mm": 0.29999999999998295,
+      "right_mm": 0.29999999999998295
+    }
+  },
+  "valid": true,
+  "solids_each": [
+    1,
+    1
+  ],
+  "passed": true,
+  "scope": "Closed geometry includes the entire outline, page cuts, mount hole and guide mating faces. Does not certify physical strength."
+}

@@ -276,6 +276,10 @@
     "side_spine_interpretation": {
       "source": "default",
       "value": "根据当前图红框，背板指侧面书页板；下两层端部圆弧并入左右书页板，取消原直缝；前书脊中央面板仍为蓝绿一体，后背板和上盖避让不变。"
+    },
+    "left_panel_matches_right": {
+      "value": "左侧面板以右侧样式为基准做左右镜像，轮廓、书页凹槽、挂环连接孔、前后滑入配合边及底部连接方式一致。",
+      "source": "user"
     }
   },
   "open_questions": []

@@ -1,7 +1,5 @@
 {
   "schemaVersion": 1,
-  "buildNumber": 315,
-  "sourceHash": "e7b1c988f21c9678ae906bb80bcb251fc43d3cfc51b768260b07038d71779e0d",
   "units": "mm",
   "coordinateFrame": "replicator-world-z-up",
   "targets": [
@@ -42,7 +40,7 @@
           "target": "side_left",
           "order": 0,
           "path": "design/archive_handbag/source/parts/side_left/000-side_left.py",
-          "sha256": "6208c25f585f4c7911b78c602d388b9ebd397b3e68a429c3455c1adb43f56d58"
+          "sha256": "64b4b81c6dfeda34a8c7b766276801d60fe32bff416f9809a573e90228e91783"
         }
       ],
       "dependencies": []
@@ -272,9 +270,9 @@
     {
       "id": "side_left",
       "target": "side_left",
-      "label": "圆弧一体左书页板",
+      "label": "右式镜像左书页板",
       "kind": "generated",
-      "shapeHash": "15f4853bb079982f300e6393fc8525ca5c0294e83cba5a6c83e6406df35676c5",
+      "shapeHash": "a336032aafafba34d03acf949285214c7bc2fd90ce7da4b57d545fbf8f0fea58",
       "transform": {
         "positionMm": [
           -108,
@@ -1011,7 +1009,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-24T10:09:34.408Z",
+  "updatedAt": "2026-09-24T21:26:06.313Z",
   "parameters": {
     "body": {
       "case_width": 220,
