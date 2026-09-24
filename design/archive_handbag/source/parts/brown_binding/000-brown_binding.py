@@ -9,11 +9,9 @@ for z,h in [(32.0,64.0),(96.0,64.0)]:
  cy=front+sqrt(R*R-h*h/4)
  strip=(Pos(0,cy,z)*Rot(0,90,0)*Cylinder(R,w)-Pos(0,cy+t,z)*Rot(0,90,0)*Cylinder(R,w+2))&Pos(0,front,z)*Box(w,20,h)
  band+=strip
-# Small external base-perimeter bevel, not a mating edge.
 c=param('central_binding_outer_chamfer',0.4)
 for yy,sg in [(front,-1),(rear,1)]:
- cutter=extrude(Plane.YZ*Polygon((yy-sg*c,bottom),(yy+sg*2,bottom),(yy+sg*2,bottom+c+2),align=None),amount=w+2,both=True)
- band-=cutter
+ band-=extrude(Plane.YZ*Polygon((yy-sg*c,bottom),(yy+sg*2,bottom),(yy+sg*2,bottom+c+2),align=None),amount=w+2,both=True)
 assert len(band.solids())==1
 publish('central_binding',band,'连续圆弧贴面带')
 w2=param('upper_binding_width',30.0);t2=param('upper_binding_thickness',1.0);seam=param('upper_binding_front_base',128.6);top=param('upper_binding_top_z',190.0);backbase=param('upper_binding_back_base',134.0);ey=param('upper_binding_front_y',-51.0);ry=param('upper_binding_rear_y',57.0)
@@ -23,15 +21,20 @@ strip+=Pos(0,(ey+ry)/2,top-t2/2)*Box(w2,ry-ey,t2)
 strip+=Pos(0,ry-t2/2,(top+backbase)/2)*Box(w2,t2,top-backbase)
 c2=param('upper_binding_outer_chamfer',0.4)
 for yy,sg in [(ey,-1),(ry,1)]:
- cutter=extrude(Plane.YZ*Polygon((yy-sg*c2,top),(yy+sg*2,top),(yy+sg*2,top-c2-2),align=None),amount=w2+2,both=True)
- strip-=cutter
+ strip-=extrude(Plane.YZ*Polygon((yy-sg*c2,top),(yy+sg*2,top),(yy+sg*2,top-c2-2),align=None),amount=w2+2,both=True)
 rise=param('upper_binding_crown_radius',3.0);peak=param('upper_binding_crown_y',10.0);start=param('upper_binding_transition_front_y',-40.0)
-# Side profile: tangent Bezier forward fade into circular crown; solid decorative relief.
-a=(0,start,top);b=(0,peak,top+rise);end=(0,peak+rise,top)
-e1=Edge.make_bezier(a,(0,start+(peak-start)*0.45,top),(0,peak-(peak-start)*0.25,top+rise),b)
-e2=Edge.make_three_point_arc(b,(0,peak+rise/sqrt(2),top+rise/sqrt(2)),end)
-e3=Edge.make_line(end,(0,peak+rise,top-t2/2));e4=Edge.make_line((0,peak+rise,top-t2/2),(0,start,top-t2/2));e5=Edge.make_line((0,start,top-t2/2),a)
-crown=Pos(-w2/2,0,0)*extrude(Face(Wire([e1,e2,e3,e4,e5])),amount=w2,dir=(1,0,0))
-strip+=crown
+# Preserve old height parameter name; actual transverse circular radius derives from width/rise.
+cr=((w2/2)**2+rise**2)/(2*rise)
+# Forward fade becomes a circular crown across the width, not a flat30mm crest.
+a=(0,start,top);b=(0,peak,top+rise)
+arc=Edge.make_bezier(a,(0,start+(peak-start)*.45,top),(0,peak-(peak-start)*.25,top+rise),b)
+wire=Wire([arc,Edge.make_line(b,(0,peak,top-t2/2)),Edge.make_line((0,peak,top-t2/2),(0,start,top-t2/2)),Edge.make_line((0,start,top-t2/2),a)])
+fade=Pos(-w2/2,0,0)*extrude(Face(wire),amount=w2,dir=(1,0,0))
+transverse=Pos(0,(start+peak)/2,top+rise-cr)*Rot(90,0,0)*Cylinder(cr,peak-start+2)
+fade &= transverse
+# Matching spherical half-cap gives a semicircular end in plan and round crown in section.
+cap=Pos(0,peak,top+rise-cr)*Sphere(cr)
+cap &= Pos(0,peak+w2/2,top+rise/2-t2/4)*Box(w2,w2,rise+t2/2)
+strip += fade+cap
 assert len(strip.solids())==1
-publish('upper_binding',strip,'圆弧隆起渐变顶带')
+publish('upper_binding',strip,'圆拱渐变顶带')

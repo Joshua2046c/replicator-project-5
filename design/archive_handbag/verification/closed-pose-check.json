@@ -1,10 +1,10 @@
 {
-  "buildNumber": 305,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/3f713650ad3ffe45bdf6eefcfa792ec11c1ef8ad0b80f5943159512e611d98d0",
-  "objects": 29,
-  "solids": 32,
-  "pairs_screened": 406,
-  "exact_bbox_overlap_pairs": 51,
+  "buildNumber": 311,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/963956e53ec5e3b7f7f3df5b3072a76549170f03d4dae61aa0bba2df50dd62f3",
+  "objects": 30,
+  "solids": 33,
+  "pairs_screened": 435,
+  "exact_bbox_overlap_pairs": 52,
   "collisions": [],
   "solid_validity": {
     "buckle": true,
@@ -34,6 +34,7 @@
     "axle": true,
     "central_binding": true,
     "upper_binding": true,
+    "nameplate": true,
     "side_right": true,
     "blue_spine": true
   },

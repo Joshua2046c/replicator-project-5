@@ -1,0 +1,1108 @@
+{
+  "buildNumber": 311,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/963956e53ec5e3b7f7f3df5b3072a76549170f03d4dae61aa0bba2df50dd62f3",
+  "probes": [
+    {
+      "label": "roof_floor",
+      "object": "lid",
+      "point": [
+        -84,
+        -12,
+        188.4
+      ],
+      "volume": 8.000000000000777e-06,
+      "passed": true
+    },
+    {
+      "label": "roof_pocket",
+      "object": "lid",
+      "point": [
+        -84,
+        -12,
+        189.5
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "roof_floor",
+      "object": "lid",
+      "point": [
+        -84,
+        4,
+        188.4
+      ],
+      "volume": 8.000000000000777e-06,
+      "passed": true
+    },
+    {
+      "label": "roof_pocket",
+      "object": "lid",
+      "point": [
+        -84,
+        4,
+        189.5
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "roof_floor",
+      "object": "lid",
+      "point": [
+        -84,
+        20,
+        188.4
+      ],
+      "volume": 8.000000000000777e-06,
+      "passed": true
+    },
+    {
+      "label": "roof_pocket",
+      "object": "lid",
+      "point": [
+        -84,
+        20,
+        189.5
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "roof_floor",
+      "object": "lid",
+      "point": [
+        -75,
+        -12,
+        188.4
+      ],
+      "volume": 8.000000000000777e-06,
+      "passed": true
+    },
+    {
+      "label": "roof_pocket",
+      "object": "lid",
+      "point": [
+        -75,
+        -12,
+        189.5
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "roof_floor",
+      "object": "lid",
+      "point": [
+        -75,
+        4,
+        188.4
+      ],
+      "volume": 8.000000000000777e-06,
+      "passed": true
+    },
+    {
+      "label": "roof_pocket",
+      "object": "lid",
+      "point": [
+        -75,
+        4,
+        189.5
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "roof_floor",
+      "object": "lid",
+      "point": [
+        -75,
+        20,
+        188.4
+      ],
+      "volume": 8.000000000000777e-06,
+      "passed": true
+    },
+    {
+      "label": "roof_pocket",
+      "object": "lid",
+      "point": [
+        -75,
+        20,
+        189.5
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "roof_floor",
+      "object": "lid",
+      "point": [
+        -66,
+        -12,
+        188.4
+      ],
+      "volume": 8.000000000000777e-06,
+      "passed": true
+    },
+    {
+      "label": "roof_pocket",
+      "object": "lid",
+      "point": [
+        -66,
+        -12,
+        189.5
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "roof_floor",
+      "object": "lid",
+      "point": [
+        -66,
+        4,
+        188.4
+      ],
+      "volume": 8.000000000000777e-06,
+      "passed": true
+    },
+    {
+      "label": "roof_pocket",
+      "object": "lid",
+      "point": [
+        -66,
+        4,
+        189.5
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "roof_floor",
+      "object": "lid",
+      "point": [
+        -66,
+        20,
+        188.4
+      ],
+      "volume": 8.000000000000777e-06,
+      "passed": true
+    },
+    {
+      "label": "roof_pocket",
+      "object": "lid",
+      "point": [
+        -66,
+        20,
+        189.5
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "nameplate_top",
+      "object": "nameplate",
+      "point": [
+        -75,
+        4,
+        189.98
+      ],
+      "volume": 8.000000000000777e-06,
+      "passed": true
+    },
+    {
+      "label": "bed_gap",
+      "object": "nameplate",
+      "point": [
+        -75,
+        4,
+        189.05
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "blue_spine",
+      "point": [
+        -84,
+        -55.06972442117371,
+        20
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "blue_spine",
+      "point": [
+        -84,
+        -54.86972442117371,
+        20
+      ],
+      "volume": 7.99999999999983e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "green_marks",
+      "point": [
+        -84,
+        -55.269724421173706,
+        20
+      ],
+      "volume": 7.99999999999983e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "blue_spine",
+      "point": [
+        -84,
+        -55.9,
+        32
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "blue_spine",
+      "point": [
+        -84,
+        -55.699999999999996,
+        32
+      ],
+      "volume": 7.99999999999983e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "green_marks",
+      "point": [
+        -84,
+        -56.099999999999994,
+        32
+      ],
+      "volume": 7.99999999999983e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "blue_spine",
+      "point": [
+        -84,
+        -55.06972442117371,
+        44
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "blue_spine",
+      "point": [
+        -84,
+        -54.86972442117371,
+        44
+      ],
+      "volume": 8.000000000000303e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "green_marks",
+      "point": [
+        -84,
+        -55.269724421173706,
+        44
+      ],
+      "volume": 8.000000000000303e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "blue_spine",
+      "point": [
+        -71,
+        -55.06972442117371,
+        20
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "blue_spine",
+      "point": [
+        -71,
+        -54.86972442117371,
+        20
+      ],
+      "volume": 7.99999999999983e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "green_marks",
+      "point": [
+        -71,
+        -55.269724421173706,
+        20
+      ],
+      "volume": 7.99999999999983e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "blue_spine",
+      "point": [
+        -71,
+        -55.9,
+        32
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "blue_spine",
+      "point": [
+        -71,
+        -55.699999999999996,
+        32
+      ],
+      "volume": 7.99999999999983e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "green_marks",
+      "point": [
+        -71,
+        -56.099999999999994,
+        32
+      ],
+      "volume": 7.99999999999983e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "blue_spine",
+      "point": [
+        -71,
+        -55.06972442117371,
+        44
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "blue_spine",
+      "point": [
+        -71,
+        -54.86972442117371,
+        44
+      ],
+      "volume": 8.000000000000303e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "green_marks",
+      "point": [
+        -71,
+        -55.269724421173706,
+        44
+      ],
+      "volume": 8.000000000000303e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "blue_spine",
+      "point": [
+        -84,
+        -55.06972442117371,
+        84
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "blue_spine",
+      "point": [
+        -84,
+        -54.86972442117371,
+        84
+      ],
+      "volume": 7.999999999999356e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "blue_marks",
+      "point": [
+        -84,
+        -55.269724421173706,
+        84
+      ],
+      "volume": 7.999999999999356e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "blue_spine",
+      "point": [
+        -84,
+        -55.9,
+        96
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "blue_spine",
+      "point": [
+        -84,
+        -55.699999999999996,
+        96
+      ],
+      "volume": 7.999999999999356e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "blue_marks",
+      "point": [
+        -84,
+        -56.099999999999994,
+        96
+      ],
+      "volume": 7.999999999999356e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "blue_spine",
+      "point": [
+        -84,
+        -55.06972442117371,
+        108
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "blue_spine",
+      "point": [
+        -84,
+        -54.86972442117371,
+        108
+      ],
+      "volume": 7.999999999999356e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "blue_marks",
+      "point": [
+        -84,
+        -55.269724421173706,
+        108
+      ],
+      "volume": 7.999999999999356e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "blue_spine",
+      "point": [
+        -71,
+        -55.06972442117371,
+        84
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "blue_spine",
+      "point": [
+        -71,
+        -54.86972442117371,
+        84
+      ],
+      "volume": 7.999999999999356e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "blue_marks",
+      "point": [
+        -71,
+        -55.269724421173706,
+        84
+      ],
+      "volume": 7.999999999999356e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "blue_spine",
+      "point": [
+        -71,
+        -55.9,
+        96
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "blue_spine",
+      "point": [
+        -71,
+        -55.699999999999996,
+        96
+      ],
+      "volume": 7.999999999999356e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "blue_marks",
+      "point": [
+        -71,
+        -56.099999999999994,
+        96
+      ],
+      "volume": 7.999999999999356e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "blue_spine",
+      "point": [
+        -71,
+        -55.06972442117371,
+        108
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "blue_spine",
+      "point": [
+        -71,
+        -54.86972442117371,
+        108
+      ],
+      "volume": 7.999999999999356e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "blue_marks",
+      "point": [
+        -71,
+        -55.269724421173706,
+        108
+      ],
+      "volume": 7.999999999999356e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "lid",
+      "point": [
+        -84,
+        -54.576203547808,
+        147.3
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "lid",
+      "point": [
+        -84,
+        -54.376203547808,
+        147.3
+      ],
+      "volume": 8.00000000000125e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "pink_marks",
+      "point": [
+        -84,
+        -54.776203547807995,
+        147.3
+      ],
+      "volume": 8.00000000000125e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "lid",
+      "point": [
+        -84,
+        -55.40647912663429,
+        159.3
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "lid",
+      "point": [
+        -84,
+        -55.206479126634285,
+        159.3
+      ],
+      "volume": 8.000000000001252e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "pink_marks",
+      "point": [
+        -84,
+        -55.606479126634284,
+        159.3
+      ],
+      "volume": 8.000000000001252e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "lid",
+      "point": [
+        -84,
+        -54.576203547808,
+        171.3
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "lid",
+      "point": [
+        -84,
+        -54.376203547808,
+        171.3
+      ],
+      "volume": 8.00000000000125e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "pink_marks",
+      "point": [
+        -84,
+        -54.776203547807995,
+        171.3
+      ],
+      "volume": 8.00000000000125e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "lid",
+      "point": [
+        -71,
+        -54.576203547808,
+        147.3
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "lid",
+      "point": [
+        -71,
+        -54.376203547808,
+        147.3
+      ],
+      "volume": 8.00000000000125e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "pink_marks",
+      "point": [
+        -71,
+        -54.776203547807995,
+        147.3
+      ],
+      "volume": 8.00000000000125e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "lid",
+      "point": [
+        -71,
+        -55.40647912663429,
+        159.3
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "lid",
+      "point": [
+        -71,
+        -55.206479126634285,
+        159.3
+      ],
+      "volume": 8.000000000001252e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "pink_marks",
+      "point": [
+        -71,
+        -55.606479126634284,
+        159.3
+      ],
+      "volume": 8.000000000001252e-06,
+      "passed": true
+    },
+    {
+      "label": "slot_air",
+      "object": "lid",
+      "point": [
+        -71,
+        -54.576203547808,
+        171.3
+      ],
+      "volume": 0,
+      "passed": true
+    },
+    {
+      "label": "slot_floor",
+      "object": "lid",
+      "point": [
+        -71,
+        -54.376203547808,
+        171.3
+      ],
+      "volume": 8.00000000000125e-06,
+      "passed": true
+    },
+    {
+      "label": "embedded_inlay",
+      "object": "pink_marks",
+      "point": [
+        -71,
+        -54.776203547807995,
+        171.3
+      ],
+      "volume": 8.00000000000125e-06,
+      "passed": true
+    }
+  ],
+  "nameplate_size_mm": [
+    20,
+    36,
+    0.9
+  ],
+  "nameplate_pocket_mm": [
+    20.3,
+    36.3,
+    1
+  ],
+  "roof_remaining_floor_mm": 1.2,
+  "spine_depth_mm": 1.2,
+  "spine_embed_mm": 1.1,
+  "spine_bottom_allowance_mm": 0.1,
+  "spine_side_clearance_mm": 0.15,
+  "spine_remaining_wall_y_min_mm": 2.2886145021056734,
+  "fits": [
+    {
+      "object": "green_marks",
+      "host": "blue_spine",
+      "minimum_clearance": 0.09999999999255087,
+      "overlap": 0
+    },
+    {
+      "object": "blue_marks",
+      "host": "blue_spine",
+      "minimum_clearance": 0.09999999999255087,
+      "overlap": 0
+    },
+    {
+      "object": "pink_marks",
+      "host": "lid",
+      "minimum_clearance": 0.0999999999994794,
+      "overlap": 0
+    },
+    {
+      "object": "nameplate",
+      "host": "lid",
+      "minimum_clearance": 0.09999999999999432,
+      "overlap": 0
+    }
+  ],
+  "insertion_samples": [
+    {
+      "object": "green_marks",
+      "withdraw_mm": 0,
+      "overlap": 0
+    },
+    {
+      "object": "green_marks",
+      "withdraw_mm": 0.1,
+      "overlap": 0
+    },
+    {
+      "object": "green_marks",
+      "withdraw_mm": 0.3,
+      "overlap": 0
+    },
+    {
+      "object": "green_marks",
+      "withdraw_mm": 0.6,
+      "overlap": 0
+    },
+    {
+      "object": "green_marks",
+      "withdraw_mm": 1,
+      "overlap": 0
+    },
+    {
+      "object": "green_marks",
+      "withdraw_mm": 1.5,
+      "overlap": 0
+    },
+    {
+      "object": "green_marks",
+      "withdraw_mm": 2,
+      "overlap": 0
+    },
+    {
+      "object": "green_marks",
+      "withdraw_mm": 3,
+      "overlap": 0
+    },
+    {
+      "object": "green_marks",
+      "withdraw_mm": 5,
+      "overlap": 0
+    },
+    {
+      "object": "green_marks",
+      "withdraw_mm": 10,
+      "overlap": 0
+    },
+    {
+      "object": "blue_marks",
+      "withdraw_mm": 0,
+      "overlap": 0
+    },
+    {
+      "object": "blue_marks",
+      "withdraw_mm": 0.1,
+      "overlap": 0
+    },
+    {
+      "object": "blue_marks",
+      "withdraw_mm": 0.3,
+      "overlap": 0
+    },
+    {
+      "object": "blue_marks",
+      "withdraw_mm": 0.6,
+      "overlap": 0
+    },
+    {
+      "object": "blue_marks",
+      "withdraw_mm": 1,
+      "overlap": 0
+    },
+    {
+      "object": "blue_marks",
+      "withdraw_mm": 1.5,
+      "overlap": 0
+    },
+    {
+      "object": "blue_marks",
+      "withdraw_mm": 2,
+      "overlap": 0
+    },
+    {
+      "object": "blue_marks",
+      "withdraw_mm": 3,
+      "overlap": 0
+    },
+    {
+      "object": "blue_marks",
+      "withdraw_mm": 5,
+      "overlap": 0
+    },
+    {
+      "object": "blue_marks",
+      "withdraw_mm": 10,
+      "overlap": 0
+    },
+    {
+      "object": "pink_marks",
+      "withdraw_mm": 0,
+      "overlap": 0
+    },
+    {
+      "object": "pink_marks",
+      "withdraw_mm": 0.1,
+      "overlap": 0
+    },
+    {
+      "object": "pink_marks",
+      "withdraw_mm": 0.3,
+      "overlap": 0
+    },
+    {
+      "object": "pink_marks",
+      "withdraw_mm": 0.6,
+      "overlap": 0
+    },
+    {
+      "object": "pink_marks",
+      "withdraw_mm": 1,
+      "overlap": 0
+    },
+    {
+      "object": "pink_marks",
+      "withdraw_mm": 1.5,
+      "overlap": 0
+    },
+    {
+      "object": "pink_marks",
+      "withdraw_mm": 2,
+      "overlap": 0
+    },
+    {
+      "object": "pink_marks",
+      "withdraw_mm": 3,
+      "overlap": 0
+    },
+    {
+      "object": "pink_marks",
+      "withdraw_mm": 5,
+      "overlap": 0
+    },
+    {
+      "object": "pink_marks",
+      "withdraw_mm": 10,
+      "overlap": 0
+    },
+    {
+      "object": "nameplate",
+      "withdraw_mm": 0,
+      "overlap": 0
+    },
+    {
+      "object": "nameplate",
+      "withdraw_mm": 0.1,
+      "overlap": 0
+    },
+    {
+      "object": "nameplate",
+      "withdraw_mm": 0.3,
+      "overlap": 0
+    },
+    {
+      "object": "nameplate",
+      "withdraw_mm": 0.6,
+      "overlap": 0
+    },
+    {
+      "object": "nameplate",
+      "withdraw_mm": 1,
+      "overlap": 0
+    },
+    {
+      "object": "nameplate",
+      "withdraw_mm": 1.5,
+      "overlap": 0
+    },
+    {
+      "object": "nameplate",
+      "withdraw_mm": 2,
+      "overlap": 0
+    },
+    {
+      "object": "nameplate",
+      "withdraw_mm": 3,
+      "overlap": 0
+    },
+    {
+      "object": "nameplate",
+      "withdraw_mm": 5,
+      "overlap": 0
+    },
+    {
+      "object": "nameplate",
+      "withdraw_mm": 10,
+      "overlap": 0
+    }
+  ],
+  "circular_cross_section": [
+    {
+      "x": -14,
+      "expected": 190.40054944640258,
+      "surface_distance": 8.881784197001252e-15,
+      "below_material": 8.000000000001248e-06,
+      "above_material": 0,
+      "passed": true
+    },
+    {
+      "x": -10,
+      "expected": 191.69615364994152,
+      "surface_distance": 9.565974336450906e-15,
+      "below_material": 8.000000000001248e-06,
+      "above_material": 0,
+      "passed": true
+    },
+    {
+      "x": 0,
+      "expected": 193.0,
+      "surface_distance": 0.0,
+      "below_material": 8.000000000001307e-06,
+      "above_material": 0,
+      "passed": true
+    },
+    {
+      "x": 10,
+      "expected": 191.69615364994152,
+      "surface_distance": 9.057678187205881e-15,
+      "below_material": 8.000000000001248e-06,
+      "above_material": 0,
+      "passed": true
+    },
+    {
+      "x": 14,
+      "expected": 190.40054944640258,
+      "surface_distance": 9.565974336450906e-15,
+      "below_material": 8.000000000001248e-06,
+      "above_material": 0,
+      "passed": true
+    }
+  ],
+  "limitations": "nominal geometry only; loose-fit inlays need nonstructural adhesive retention; no glue or load validation",
+  "status": "pass"
+}

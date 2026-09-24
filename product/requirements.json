@@ -205,7 +205,7 @@
       "source": "default"
     },
     "top_binding_crown": {
-      "value": "顶部绑带增加半圆弧凸起，向前逐渐平顺过渡收低；属本次指定的局部装饰凸起。",
+      "value": "绑带顶端凸起做成弧形，保留向前渐变收低，不做平直横脊。",
       "source": "user"
     },
     "outer_edge_chamfer": {
@@ -220,14 +220,53 @@
         "tongue_tip_relief_mm": 2,
         "tongue_root_z_mm": 78,
         "tongue_tip_z_mm": 100,
-        "top_crown_radius_mm": 3,
         "top_crown_peak_y_mm": 10,
         "top_crown_front_transition_y_mm": -40,
         "outer_edge_chamfer_mm": 0.4,
         "nominal_body_envelope_retained": true,
-        "note": "新增局部装饰凸起按本次明确要求，不缩小原包体来容纳凸起；含装饰及铰链实际包络另列，默认凸起尺寸可调。"
+        "note": "新增局部装饰凸起按本次明确要求，不缩小原包体来容纳凸起；含装饰及铰链实际包络另列，默认凸起尺寸可调。",
+        "top_crown_rise_mm": 3,
+        "top_crown_transverse_radius_mm": 39,
+        "top_crown_width_mm": 30
       },
       "source": "default"
+    },
+    "cover_nameplate": {
+      "value": "顶盖书封面标注位置增加方块铭牌，内嵌在封面上。",
+      "source": "user"
+    },
+    "spine_inlays": {
+      "value": "三层书脊标注的小饰块改为插入结构，预留嵌入深度。",
+      "source": "user"
+    },
+    "inlay_dimensions": {
+      "source": "default",
+      "value": {
+        "nameplate_mm": [
+          20,
+          36,
+          0.9
+        ],
+        "nameplate_center_xyz_mm": [
+          -75,
+          4,
+          190
+        ],
+        "nameplate_pocket_depth_mm": 1,
+        "nameplate_roof_floor_mm": 1.2,
+        "spine_pieces": 6,
+        "spine_piece_width_height_mm": [
+          3,
+          25
+        ],
+        "spine_pocket_depth_mm": 1.2,
+        "spine_embed_mm": 1.1,
+        "spine_outer_relief_mm": 0.7,
+        "side_clearance_mm": 0.15,
+        "bottom_allowance_mm": 0.1,
+        "retention": "nonstructural adhesive required; loose-fit, not self-locking; adhesive compatibility untested",
+        "text": "blank"
+      }
     }
   },
   "open_questions": []

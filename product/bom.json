@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready_with_mechanical_use_restriction",
   "bom_ready": true,
-  "requirements_digest": "a1f7c69f33c3f24b4c79c77684f43a2ff50bc25defe7328bccb00d7077a07b17",
+  "requirements_digest": "2fabb79f4755de0d9474b731c0826c40411d940533043bc7c4b163a82c6b80fb",
   "items": [
     {
       "id": "body",
@@ -10,11 +10,11 @@
       "name": "外板拼装结构套件",
       "quantity": 1,
       "part_number": "AH-OUTER-PANEL-SET",
-      "description": "蓝绿一体圆弧前板、后板、八方桩底板；无底螺钉、长条槽或插舌，前后板各4方孔。下两本端部内缘改为随弧轮廓。 主体十二条外轮廓区域采用默认0.4mm小倒角，前竖边随弧，页槽细边与方桩接口不改。",
+      "description": "蓝绿一体圆弧前板、后板、八方桩底板；无底螺钉、长条槽或插舌，前后板各4方孔。下两本端部内缘改为随弧轮廓。 主体十二条外轮廓区域采用默认0.4mm小倒角，前竖边随弧，页槽细边与方桩接口不改。 蓝绿前板增加四处深1.2mm曲面饰块盲槽，宽高每侧留0.15mm。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
+      "selection_reason": "按本次弧形顶带、封面内嵌铭牌和书脊插入饰块修订；其余已确认接口与未解决的承载防拔限制保持。",
       "part_identity": "4c7b49d3c6197c10"
     },
     {
@@ -23,11 +23,11 @@
       "name": "整幅盖背翻盖",
       "quantity": 1,
       "part_number": "AH-LID-FLUSH",
-      "description": "上盖统一R88.333圆弧，顶面190；一体侧翼与等距页槽、4mm封面带；左右紧凑圆磁铁槽，无盖片/螺钉。 顶部四周和前后竖边区域0.4mm小倒角；装饰顶带另有3mm隆起。",
+      "description": "上盖统一R88.333圆弧，顶面190；一体侧翼与等距页槽、4mm封面带；左右紧凑圆磁铁槽，无盖片/螺钉。 顶部四周和前后竖边区域0.4mm小倒角；装饰顶带另有3mm隆起。 封面增加20.3×36.3深1mm铭牌盲槽，底留1.2mm；粉色书脊两处深1.2mm饰块槽。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
+      "selection_reason": "按本次弧形顶带、封面内嵌铭牌和书脊插入饰块修订；其余已确认接口与未解决的承载防拔限制保持。",
       "part_identity": "c8f8bda0279ef9fd"
     },
     {
@@ -127,11 +127,11 @@
       "name": "三色弧形书脊与贯穿束带接口",
       "quantity": 1,
       "part_number": "AH-CURVED-BOOK-SET",
-      "description": "分段贴面棕色带；顶部R3圆弧隆起，Y10最高Z193，向前至Y−40切向收平。42×44×1金属框底边中央一体竖向半舌，长22宽5厚1，端部高出原框面2mm。不用于开盖锁定或承载。",
+      "description": "分段棕色带；顶带宽30、高3mm，横向R39圆拱，末端半球面收弧，向前Y−40收低；中央底边凸起金属扣舌尺寸保持。书脊六饰块另列，不承重。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
+      "selection_reason": "按本次弧形顶带、封面内嵌铭牌和书脊插入饰块修订；其余已确认接口与未解决的承载防拔限制保持。",
       "part_identity": "cdec688dde151cf0"
     },
     {
@@ -153,10 +153,10 @@
       "name": "非承力装饰固定耗材",
       "quantity": 1,
       "part_number": "SPEC-NONSTRUCTURAL-ADHESIVE",
-      "description": "仅粘贴非承力标线、分段贴面装饰带和扣框，须样片确认PETG相容性；底板及侧板尚无防拔连接，不能依赖装饰胶承重。",
+      "description": "仅用于铭牌、六书脊插入饰块、分段贴带和扣框；新增嵌槽底留0.1mm薄胶空间，需样片确认相容性与防脱。不用于底板/侧板承载补救。",
       "source": "default",
       "procurement_status": "external_procurement_required",
-      "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
+      "selection_reason": "按本次弧形顶带、封面内嵌铭牌和书脊插入饰块修订；其余已确认接口与未解决的承载防拔限制保持。",
       "part_identity": "4b3be1836c874da6"
     },
     {
@@ -182,6 +182,32 @@
       "procurement_status": "external_procurement_required",
       "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
       "part_identity": "a26c990869eab4c9"
+    },
+    {
+      "id": "nameplate",
+      "role": "decoration",
+      "name": "封面内嵌空白铭牌",
+      "quantity": 1,
+      "part_number": "AH-NAMEPLATE-20X36",
+      "description": "定制20×36×0.9，顶面Z190齐平，槽20.3×36.3深1，底留0.1薄胶空间，底边0.15导入倒角。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "用户要求的内嵌装饰，尺寸按标注比例采用披露默认值。",
+      "part_identity": "d3540f9044327e3d"
+    },
+    {
+      "id": "spine_inlays",
+      "role": "decoration",
+      "name": "曲面嵌入书脊饰块",
+      "quantity": 6,
+      "part_number": "AH-SPINE-INLAY-3X25",
+      "description": "每层两件3×25曲面饰块，曲率匹配书脊；向内径向嵌入1.1，外露0.7，槽深1.2，X/Z每侧0.15，底留0.1；松插非自锁，非承力装饰。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "用户要求的内嵌装饰，尺寸按标注比例采用披露默认值。",
+      "part_identity": "5b86aba3beb57b5e"
     }
   ],
   "unresolved_items": [],

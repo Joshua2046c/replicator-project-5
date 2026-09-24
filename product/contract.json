@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "底边凸起金属扣舌、向前渐变圆弧顶带、主体十二外边小倒角；方桩/无侧锁保留。2kg目标不变，承载保持未解决。",
+  "summary": "圆拱渐变顶带、封面内嵌空白铭牌、六书脊饰块插入盲槽；无螺丝承载保持仍未解决。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -64,6 +64,13 @@
       "id": "outer_edge_chamfer",
       "kind": "mechanical",
       "description": "方形包主体十二条大边区域做小倒角；保留书脊弧度，不扩大到页槽细边及配合孔。",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "decorative_inlays",
+      "kind": "internal_fit",
+      "description": "顶盖书封面标注位置增加方块铭牌，内嵌在封面上。三层书脊标注的小饰块改为插入结构，预留嵌入深度。",
       "source": "user_requested",
       "required": true
     }
@@ -134,10 +141,16 @@
       "path": "product/references/uploads/20260924T090139451Z-1-mark.png",
       "source": "user_requested",
       "description": "当前标注：方框底边凸起扣舌、顶部半圆弧隆起向前渐变、十二大边小倒角。"
+    },
+    {
+      "id": "reference_arc_inlays",
+      "source": "user_requested",
+      "description": "本次圆弧顶带、内嵌铭牌及书脊插入饰块标注。",
+      "path": "product/references/uploads/20260924T093809922Z-1-mark.png"
     }
   ],
   "assembly_story": {
-    "installation": "前后板方孔向下套底板八方桩，侧板下插；本版不装底螺钉或侧锁。装挂环M4五金，闭盖对齐轴孔后侧插单端预成头轴，另一端铆接。磁铁胶粘与分段装饰带沿用。干装无抗拔承载连接，不得直接按2kg提携。",
+    "installation": "前后板方孔向下套底板八方桩，侧板下插；本版不装底螺钉或侧锁。装挂环M4五金，闭盖对齐轴孔后侧插单端预成头轴，另一端铆接。磁铁胶粘与分段装饰带沿用。干装无抗拔承载连接，不得直接按2kg提携。 铭牌从顶面向下放入，书脊六饰块从外侧向后插入各自盲槽；每侧0.15与底部0.1留量，非自锁，装饰薄胶需试样。",
     "maintenance": "几何干装状态卸载后拆挂环五金，开盖100度可抽侧板；无侧锁要拆。前后板可从方桩上直拔，证明插桩不是防拔锁扣。后续若采用粘接会改变可拆维护，需另行确定。",
     "user_access": [
       "上翻盖收纳口",
@@ -165,7 +178,8 @@
           "rear_alignment",
           "strap_route",
           "curved_spines",
-          "outer_edge_chamfer"
+          "outer_edge_chamfer",
+          "decorative_inlays"
         ],
         "reference_ids": [
           "reference_front",
@@ -178,7 +192,8 @@
           "reference_external_hinge_thumb_screws",
           "reference_remove_arms",
           "reference_square_pegs_buckle",
-          "reference_raised_details_chamfer"
+          "reference_raised_details_chamfer",
+          "reference_arc_inlays"
         ]
       }
     ]

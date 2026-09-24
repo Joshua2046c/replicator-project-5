@@ -44,6 +44,16 @@
       "id": "buckle_tongue",
       "status": "custom_design",
       "reason": "Custom bottom-rooted vertical raised half tongue,22x5x1,2mm outward relief, integral curved frame; not a functional latch."
+    },
+    {
+      "id": "nameplate",
+      "status": "custom_design",
+      "reason": "Custom blank20x36x0.9 in blind1mm roof pocket; no vendor part needed."
+    },
+    {
+      "id": "spine_inlays",
+      "status": "custom_design",
+      "reason": "Six custom curved3x25 decorations,1.1 embed in1.2mm blind slots; no purchased hardware."
     }
   ]
 }

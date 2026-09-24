@@ -45,7 +45,8 @@ for n,cz in [('blue_spine',32),('blue_spine',96),('lid',159.3),('bottom_panel',3
   a=BRepAdaptor_Surface(f.wrapped)
   if a.GetType()!=GeomAbs_Cylinder:continue
   cy=a.Cylinder();loc=cy.Location()
-  if abs(loc.Z()-cz)<1e-5 and cy.Radius()>50:radii.append(cy.Radius())
+  # The inlay pocket floor is a separate R87.1333 cylinder, not the outer spine surface.
+  if abs(loc.Z()-cz)<1e-5 and cy.Radius()>88:radii.append(cy.Radius())
  curves.append({'object':n,'center_z':cz,'radii_mm':sorted(set(round(r,8) for r in radii)),'pass':bool(radii) and all(abs(r-88.33333333333333)<1e-5 for r in radii)})
 R=88.33333333333333;cy=-51+math.sqrt(R*R-32**2);z=4;y=cy-math.sqrt(R*R-(z-32)**2)
 continuity={n:s[n].distance_to(Vertex(40,y,z)) for n in ['blue_spine','bottom_panel']}

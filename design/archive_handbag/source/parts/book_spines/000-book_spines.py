@@ -21,13 +21,21 @@ for oid,z,h in [('green_spine',32,64),('blue_spine',96,64)]:
   plate+=endpart;plate-=Pos(s*panelx,0,zz)*Box(slot,100.6,hh+0.2)
  if oid=='green_spine':
   for x in [-xs,-pitch,pitch,xs]:plate+=Pos(x,py,base+ph/2)*Box(pad,pad,ph)&outer
- #45degree conical edge band on left/right curved silhouette only.
  taper=Pos(0,cy,zz)*Rot(0,90,0)*Cylinder(R,w-2*c)
  taper+=Pos(-w/2+c/2,cy,zz)*Rot(0,90,0)*Cone(R-c,R,c)
  taper+=Pos(w/2-c/2,cy,zz)*Rot(0,90,0)*Cone(R,R-c,c)
  plate-=outer-taper
  band=(outer-Pos(0,cy+bt,zz)*Rot(0,90,0)*Cylinder(R,w+2))&Pos(0,end_y-sag/2+t,(bottom+top)/2)*Box(bw,2*(sag+t+1),top-bottom)
- plate-=band;parts[oid]=plate
+ plate-=band
+ # Matched custom inlays; recess depth measured radially, clearance in X/Z.
+ name=oid.replace('_spine','_marks')
+ mw=param(name+'_bar_width',3.0);mh=param(name+'_bar_height',25.0);xx0=param(name+'_left_x',-84.0);mp=param(name+'_pitch',13.0);mz=param(name+'_center_z',z)
+ md=param(name+'_pocket_depth',1.2);mc=param(name+'_pocket_clearance',0.15)
+ mspan=param(name+'_spine_height',h);mey=param(name+'_end_y',-51.0);mcy=mey+sqrt(R*R-mspan*mspan/4)
+ for xx in [xx0,xx0+mp]:
+  cut=Pos(xx,mcy,mz)*Rot(0,90,0)*Cylinder(R+2,mw+2*mc)-Pos(xx,mcy,mz)*Rot(0,90,0)*Cylinder(R-md,mw+2*mc+2)
+  plate-=cut&Pos(xx,mey,mz)*Box(mw+2*mc,30,mh+2*mc)
+ parts[oid]=plate
 front=parts['green_spine']+parts['blue_spine']
 for x in [-xs,-pitch,pitch,xs]:front-=Pos(x,py,base+pd/2-.01)*Box(pw,pw,pd+.02)
 mx=param('body_magnet_x',72.0);my=param('body_magnet_y',-45.8);mtop=param('body_magnet_seat_top',128.0)
@@ -36,4 +44,4 @@ for s,side in [(-1,'left'),(1,'right')]:
  front+=(Pos(s*mx,my,mtop-mh/2)*Cylinder(od/2,mh))&curves['blue_spine']
  front-=Pos(s*mx,my,mtop-dep)*Cylinder(md/2,dep+0.1,align=(Align.CENTER,Align.CENTER,Align.MIN))
 assert len(front.solids())==1
-publish('blue_spine',front,'倒角同弧方孔前板')
+publish('blue_spine',front,'饰块嵌槽一体前板')

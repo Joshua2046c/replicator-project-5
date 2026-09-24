@@ -1,6 +1,6 @@
 {
-  "buildNumber": 305,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/3f713650ad3ffe45bdf6eefcfa792ec11c1ef8ad0b80f5943159512e611d98d0",
+  "buildNumber": 311,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/963956e53ec5e3b7f7f3df5b3072a76549170f03d4dae61aa0bba2df50dd62f3",
   "pin_insertion": {
     "method": "continuous analytic cylindrical sweep; closed aligned hinge, +X insertion160mm; second rivet head absent until after insertion",
     "collisions": [],
@@ -22,9 +22,9 @@
       "ring_nut_right": 86.57197731903936,
       "body": 0.19999999999996568,
       "ring_nut_left": 68.99504209722417,
-      "blue_marks": 115.23027158341564,
-      "green_marks": 140.42383734473208,
-      "pink_marks": 114.62963344395443,
+      "blue_marks": 114.13430960425993,
+      "green_marks": 139.5217403993742,
+      "pink_marks": 113.53272912032548,
       "body_magnet_left": 99.80004863812078,
       "lid_magnet_right": 103.0973113431106,
       "lid_magnet_left": 99.80238324085683,
@@ -32,6 +32,7 @@
       "lid": 0.19999999999997367,
       "central_binding": 3.700877125495702,
       "upper_binding": 4.946221994724892,
+      "nameplate": 69.2982192035184,
       "side_right": 56.64141594275341,
       "blue_spine": 97.65
     },

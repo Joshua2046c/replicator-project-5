@@ -1,17 +1,19 @@
-# Build305 handoff and unresolved retention
+# Build311 handoff and unresolved retention
 
-Exact build305; source hash `3f713650ad3ffe45bdf6eefcfa792ec11c1ef8ad0b80f5943159512e611d98d0`.
-Export `export-dd8daa989d36a0d5fb4b7a241e9c76a7`.
-STEP SHA-256 `6d340588b181515a1c715b4c2140faf21dcc6f3665e98742e92961a14d2186ec`.
-Independent review `review-305-3343d01b-7158-462b-b020-d24d90197e72`.
+Exact build311; source hash `963956e53ec5e3b7f7f3df5b3072a76549170f03d4dae61aa0bba2df50dd62f3`.
+Export `export-c2c8a70982dedc82941a6b55435547e7`.
+STEP SHA-256 `2e136c7dcd87dc5353c8590b06b3f21dab8fd8cad282c63cb505d7e58e534d35`,6154071 bytes.
+Independent review `review-311-eab8f64d-d963-4b97-afaf-0e16fc2964bf`.
 
-Requested cosmetic modifications are exported: bottom-rooted raised metal half tongue, circular top-band crown fading forward, nominal0.4mm bevel across12 macro-edge regions. Seven geometry reports pass for this exact build; the exported preview is current. Geometry validation is not carrying readiness.
+Requested modifications exported: transverse circular top crown with rounded rear end and forward fade; flush blank20x36 nameplate in1mm blind roof pocket; six curved spine inlays embedded1.1mm into1.2mm blind slots. Nominal side clearance0.15mm and bottom0.1mm; nonstructural adhesive retention remains untested. Export preview is current.
+
+Geometry reports for311 pass: closed assembly435pair screening, opening3024pair samples, ring rotation1392pair samples, side extraction, continuous pin insertion, square peg geometry, twelve macro edge regions, and new inlay floor/clearance/insertion probes. Geometry validation is not carrying readiness.
 
 ## Unresolved P0: no structural bottom pullout retention
-The independent reviewer again identified eight unheaded4mm pegs in4.4mm downward-opening sockets as clearance-fit joints, not structural pullout restraints. The bottom can separate downward when lifted. Decorative binding cannot substitute for the absent load connection. This finding concerns connection geometry, not merely unperformed testing. Side-panel pullout restraint also remains unresolved as documented in the brief.
+Independent review again identifies eight straight4mm pegs in4.4mm downward-opening sockets as clearance-fit locating joints, not pullout restraints. The bottom can separate downward when lifted. Decorative binding cannot substitute for this absent load connection. This is missing connection geometry, not merely unperformed testing. Side-panel pullout restraint also remains unresolved as documented in the brief.
 
-The2kg-plus-self-weight requirement remains unchanged and unmet in the dry assembly. Do not carry a loaded bag with this model. The present query requested appearance edits, not a choice between permanent bonding and serviceable screwless locking. No rejected screws or unrequested restraints were reintroduced, and the finding was not waived.
+The2kg-plus-self-weight requirement remains unchanged and unmet in dry assembly. Do not carry a loaded bag with this model. This query requested decorative arc and inlay changes, not a choice between permanent structural bonding and serviceable screwless locking. No rejected screws or unrequested restraints were reintroduced; the finding was not waived.
 
 Review evidence:
-- Eight bottom pegs: `.work/cache/cad-workbench/designs/archive_handbag/observations/3f713650ad3ffe45bdf6eefcfa792ec11c1ef8ad0b80f5943159512e611d98d0/look-e03b3e4282dc7d5a1d6dca3f/workbench_iso.png`
-- Downward-facing front/rear sockets: `.work/cache/cad-workbench/designs/archive_handbag/observations/3f713650ad3ffe45bdf6eefcfa792ec11c1ef8ad0b80f5943159512e611d98d0/look-5f84392f04c0f14e496c805e/workbench_iso_back.png`
+- Straight bottom pegs: `.work/cache/cad-workbench/designs/archive_handbag/observations/963956e53ec5e3b7f7f3df5b3072a76549170f03d4dae61aa0bba2df50dd62f3/look-fdc20515ba93a5e12be34cb4/workbench_iso.png`
+- Downward-facing sockets: `.work/cache/cad-workbench/designs/archive_handbag/observations/963956e53ec5e3b7f7f3df5b3072a76549170f03d4dae61aa0bba2df50dd62f3/look-a49a621d9add2796113cc439/workbench_bottom.png`

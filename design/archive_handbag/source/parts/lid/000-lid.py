@@ -47,7 +47,6 @@ band=(outer-Pos(0,cy+bt,cz)*Rot(0,90,0)*Cylinder(R,w+2))&Pos(0,ey-hy,cz)*Box(bw,
 band+=Pos(0,(ey+d/2)/2-hy,top-bt/2)*Box(bw,d/2-ey,bt)
 band+=Pos(0,d/2-hy-bt/2,(top+bs-hz)/2)*Box(bw,bt,top-(bs-hz))
 lid-=band
-# Finish outer macro edges, retaining functional bores, page grooves and seam edges.
 taper=Pos(0,cy,cz)*Rot(0,90,0)*Cylinder(R,w-2*c)
 taper+=Pos(-w/2+c/2,cy,cz)*Rot(0,90,0)*Cone(R-c,R,c)
 taper+=Pos(w/2-c/2,cy,cz)*Rot(0,90,0)*Cone(R,R-c,c)
@@ -59,5 +58,14 @@ for yy,sg in [(ey-hy,-1),(d/2-hy,1)]:
 for s in [-1,1]:
  lid-=extrude(Plane.XY*Polygon((s*(w/2-c),d/2-hy),(s*(w/2+2),d/2-hy),(s*(w/2+2),d/2-hy-c-2),align=None),amount=top+1,both=True)
  lid-=Pos(0,0,b+cover)*extrude(Plane.XY*Polygon((s*(w/2-page-c),d/2-hy-page),(s*(w/2+2),d/2-hy-page),(s*(w/2+2),d/2-hy-2*page-c-2),align=None),amount=height-2*cover,dir=(0,0,1))
+# Blind roof nameplate pocket, keeping1.2mm roof floor at default settings.
+nw=param('nameplate_width',20.0);nl=param('nameplate_length',36.0);nx=param('nameplate_x',-75.0);ny=param('nameplate_y',4.0);nd=param('nameplate_pocket_depth',1.0);nc=param('nameplate_clearance',0.15)
+lid-=Pos(nx,ny-hy,top-nd)*Box(nw+2*nc,nl+2*nc,nd+1,align=(Align.CENTER,Align.CENTER,Align.MIN))
+# Matching pair of curved pink-spine inlay pockets.
+mw=param('pink_marks_bar_width',3.0);mh=param('pink_marks_bar_height',25.0);xx0=param('pink_marks_left_x',-84.0);mp=param('pink_marks_pitch',13.0);mz=param('pink_marks_center_z',159.3)-hz
+md=param('pink_marks_pocket_depth',1.2);mc=param('pink_marks_pocket_clearance',0.15);ms=param('pink_marks_spine_height',61.4);mey=param('pink_marks_end_y',-51.0);mcy=mey+sqrt(R*R-ms*ms/4)-hy
+for xx in [xx0,xx0+mp]:
+ cut=Pos(xx,mcy,mz)*Rot(0,90,0)*Cylinder(R+2,mw+2*mc)-Pos(xx,mcy,mz)*Rot(0,90,0)*Cylinder(R-md,mw+2*mc+2)
+ lid-=cut&Pos(xx,mey-hy,mz)*Box(mw+2*mc,30,mh+2*mc)
 assert len(lid.solids())==1
-publish('lid',frame*lid,'外边小倒角翻盖')
+publish('lid',frame*lid,'铭牌饰块嵌槽翻盖')

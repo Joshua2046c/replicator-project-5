@@ -5,7 +5,7 @@ from build123d import import_step, Axis, Pos
 root=Path(sys.argv[1]); build=int(sys.argv[2])
 files={f.stem:f for f in (root/'validated'/'objects').rglob('*.step')}
 shapes={k:import_step(str(v)) for k,v in files.items()}
-moving_names=[n for n in shapes if n=='lid' or n.startswith('lid_mag') or n in ['pink_spine','pink_marks','upper_binding']]
+moving_names=[n for n in shapes if n=='lid' or n.startswith('lid_mag') or n in ['pink_spine','pink_marks','upper_binding','nameplate']]
 released=[]  # Segmented inset trims remain attached while opening.
 static_names=[n for n in shapes if n not in moving_names and n not in released]
 axis=Axis((0,60.5,128),(1,0,0))

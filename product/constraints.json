@@ -302,11 +302,12 @@
     },
     "top_crown": {
       "source": "default",
-      "radius_mm": 3,
+      "rise_mm": 3,
+      "transverse_radius_mm": 39,
       "peak_y_mm": 10,
       "front_transition_y_mm": -40,
       "top_z_mm": 193,
-      "profile": "circular rear crown and tangent cubic Bezier forward fade; solid across30mm band width"
+      "profile": "transverse circular crown, semicircular spherical rear cap, forward fade;30mm wide"
     }
   },
   "magnets": {
@@ -338,14 +339,14 @@
     "source": "default"
   },
   "verification": {
-    "geometry_build": 305,
-    "closed_interference": "406pairs screened;51 exact bbox-overlap pairs;zero intersections",
+    "geometry_build": 311,
+    "closed_interference": "435pairs screened;52 exact bbox-overlap pairs;zero intersections",
     "motion": "design/archive_handbag/verification/motion-check.json",
     "swivel": "design/archive_handbag/verification/swivel-check.json",
     "payload_kg": 2,
     "physical_load_test": "not_performed",
     "continuous_sweep_proof": false,
-    "motion_status": "pass:0..100deg every5deg,2520pairs",
+    "motion_status": "pass:0..100deg every5deg,3024pairs",
     "surface_contact": "design/archive_handbag/verification/integral-panel-contact-check.json",
     "measured_main_envelope_mm": [
       220,
@@ -353,12 +354,13 @@
       193
     ],
     "nominal_envelope_note": "Nominal body220x120x190 retained; prior hinge122.3mm depth accepted. New user-requested raised decor extends top by3mm and front envelope; its dimensions are disclosed defaults, not revised nominal body dimensions.",
-    "opening_tests": 2520,
+    "opening_tests": 3024,
     "revision": "design/archive_handbag/verification/revision-check.json",
     "pin_insertion_sweep_proof": true,
     "square_pegs": "design/archive_handbag/verification/square-peg-check.json",
     "carrying_status": "not_ready: positive retention unresolved",
-    "cosmetic_edges": "design/archive_handbag/verification/cosmetic-edge-check.json"
+    "cosmetic_edges": "design/archive_handbag/verification/cosmetic-edge-check.json",
+    "inlays": "design/archive_handbag/verification/inlay-check.json"
   },
   "unresolved_items": [],
   "risks": [
@@ -412,5 +414,44 @@
     },
     "excludes": "horizontal fine page edges, joint seams, bores and square sockets",
     "method": "planar45degree corner relief and conical45degree curved-end relief"
+  },
+  "decorative_inlays": {
+    "source": "default",
+    "value": {
+      "nameplate_mm": [
+        20,
+        36,
+        0.9
+      ],
+      "nameplate_center_xyz_mm": [
+        -75,
+        4,
+        190
+      ],
+      "nameplate_pocket_depth_mm": 1,
+      "nameplate_roof_floor_mm": 1.2,
+      "spine_pieces": 6,
+      "spine_piece_width_height_mm": [
+        3,
+        25
+      ],
+      "spine_pocket_depth_mm": 1.2,
+      "spine_embed_mm": 1.1,
+      "spine_outer_relief_mm": 0.7,
+      "side_clearance_mm": 0.15,
+      "bottom_allowance_mm": 0.1,
+      "retention": "nonstructural adhesive required; loose-fit, not self-locking; adhesive compatibility untested",
+      "text": "blank"
+    }
+  },
+  "top_binding_rounded_crown": {
+    "source": "default",
+    "width_mm": 30,
+    "rise_mm": 3,
+    "transverse_radius_mm": 39,
+    "peak_y_mm": 10,
+    "front_transition_y_mm": -40,
+    "rear_end": "spherical cap, semicircular plan edge",
+    "max_z_mm": 193
   }
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "buildNumber": 305,
-  "sourceHash": "3f713650ad3ffe45bdf6eefcfa792ec11c1ef8ad0b80f5943159512e611d98d0",
+  "buildNumber": 311,
+  "sourceHash": "963956e53ec5e3b7f7f3df5b3072a76549170f03d4dae61aa0bba2df50dd62f3",
   "units": "mm",
   "coordinateFrame": "replicator-world-z-up",
   "targets": [
@@ -28,7 +28,7 @@
           "target": "lid",
           "order": 0,
           "path": "design/archive_handbag/source/parts/lid/000-lid.py",
-          "sha256": "58c29303c1e2646f9320a3d8ac15626857642707ab060beb731d309f1c501aba"
+          "sha256": "7389757758024396c04b134e93bdecffad8001742a7b4299ba21fb1e04f82875"
         }
       ],
       "dependencies": []
@@ -70,7 +70,7 @@
           "target": "book_spines",
           "order": 0,
           "path": "design/archive_handbag/source/parts/book_spines/000-book_spines.py",
-          "sha256": "bea39767e4d0896798d6d32fdf08dc70bfa8faa12617c741be3403fa0e89e952"
+          "sha256": "f3acf5a026e5dd87e2d6c18942e386a0b64a7c3f19174d2fa7c21145696e0598"
         }
       ],
       "dependencies": []
@@ -84,7 +84,7 @@
           "target": "brown_binding",
           "order": 0,
           "path": "design/archive_handbag/source/parts/brown_binding/000-brown_binding.py",
-          "sha256": "fd58e32468297e729e970490eedad51ef93a6d2ac2e79566c98e895fe025c009"
+          "sha256": "9109868b8e8542e979d6f355c35c2761ef7b1cbb5830dcfff196274670a5b019"
         }
       ],
       "dependencies": []
@@ -112,7 +112,7 @@
           "target": "spine_marks",
           "order": 0,
           "path": "design/archive_handbag/source/parts/spine_marks/000-spine_marks.py",
-          "sha256": "261d3b54e4fd0599b9d706368b01fb65feeaccd2b3d6128e8c6231c13273c7e7"
+          "sha256": "e66a0dc3493a3a56845ea9fff6848c6092db71da6b847896201c9422794aa993"
         }
       ],
       "dependencies": []
@@ -200,6 +200,20 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "nameplate",
+      "label": "nameplate",
+      "cells": [
+        {
+          "id": "nameplate",
+          "target": "nameplate",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/nameplate/000-nameplate.py",
+          "sha256": "a08cd898cb6ca0b1613ae9ce5cd435faaffa209dc4fb6b025483ec23a23a2cdd"
+        }
+      ],
+      "dependencies": []
     }
   ],
   "objects": [
@@ -232,9 +246,9 @@
     {
       "id": "lid",
       "target": "lid",
-      "label": "外边小倒角翻盖",
+      "label": "铭牌饰块嵌槽翻盖",
       "kind": "generated",
-      "shapeHash": "4153c6a63f85f9177b85e33782919f10973d2b0bd4d544d9ba542e551d34e0b4",
+      "shapeHash": "a4ec9e3ef022f9b609efbecac7ea7d5159d3008fa2716803637c9b847a46f974",
       "transform": {
         "positionMm": [
           0,
@@ -310,9 +324,9 @@
     {
       "id": "blue_spine",
       "target": "book_spines",
-      "label": "倒角同弧方孔前板",
+      "label": "饰块嵌槽一体前板",
       "kind": "generated",
-      "shapeHash": "e77b136f1d87b94a0c43f9509d9af1033d25bb9818795a7f517c9de77aa382b8",
+      "shapeHash": "9ed5926f438bedf0d362c1b30a2d4a5ea06cd42b11267f1ae95040092609430a",
       "transform": {
         "positionMm": [
           0,
@@ -362,9 +376,9 @@
     {
       "id": "upper_binding",
       "target": "brown_binding",
-      "label": "圆弧隆起渐变顶带",
+      "label": "圆拱渐变顶带",
       "kind": "generated",
-      "shapeHash": "b761b13c5c6e27a463628442e36ab596cad0235e6f5ab1e3d97a8a5f67e7cf39",
+      "shapeHash": "c306613f74f9ab8b77463e70a06a6336423a01654eadc29c4b44778eb2eb1ecf",
       "transform": {
         "positionMm": [
           0,
@@ -414,9 +428,9 @@
     {
       "id": "blue_marks",
       "target": "spine_marks",
-      "label": "同曲率书脊标线",
+      "label": "曲面插入书脊饰块",
       "kind": "generated",
-      "shapeHash": "84151f7cfe2ee66863d5dba2097c62b672e94af101ca4def8923219636b4c2e0",
+      "shapeHash": "cc22c985ce29eaa52454e81b98057b1f7d005ff4f6e02431170be00358abd632",
       "transform": {
         "positionMm": [
           0,
@@ -440,9 +454,9 @@
     {
       "id": "green_marks",
       "target": "spine_marks",
-      "label": "同曲率书脊标线",
+      "label": "曲面插入书脊饰块",
       "kind": "generated",
-      "shapeHash": "ecb6cb822d6604380014eb47cdc3c17e90b6f82b7e6bfde2c9f566f6f51a468f",
+      "shapeHash": "cb961635b70fa5779b5b97da9625be33a47b84cfc1b463f652ec3c92fa7cce30",
       "transform": {
         "positionMm": [
           0,
@@ -466,9 +480,9 @@
     {
       "id": "pink_marks",
       "target": "spine_marks",
-      "label": "同曲率书脊标线",
+      "label": "曲面插入书脊饰块",
       "kind": "generated",
-      "shapeHash": "b053e260d5b19957bf1b9210b0900550aa1cac71658c289940d3c8f9097b717b",
+      "shapeHash": "38094443667ef4cd77fd9776b224e8fc76b1cf34f1aec1f2ec717ec614c858fc",
       "transform": {
         "positionMm": [
           0,
@@ -956,6 +970,32 @@
         ]
       },
       "datums": []
+    },
+    {
+      "id": "nameplate",
+      "target": "nameplate",
+      "label": "封面内嵌空白铭牌",
+      "kind": "generated",
+      "shapeHash": "f2fc6fdbb2620e8f4803d2be937554f3f24c1b23252ef494a4d32c0d937f42b4",
+      "transform": {
+        "positionMm": [
+          -75,
+          4,
+          190
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
     }
   ],
   "assets": [
@@ -971,7 +1011,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-24T09:20:43.182Z",
+  "updatedAt": "2026-09-24T09:44:15.435Z",
   "parameters": {
     "body": {
       "case_width": 220,
@@ -1046,7 +1086,22 @@
       "lid_magnet_mount_right_height": 5.4,
       "lid_magnet_mount_right_pocket_diameter": 7.3,
       "lid_magnet_mount_right_pocket_depth": 3.2,
-      "lid_outer_chamfer": 0.4
+      "lid_outer_chamfer": 0.4,
+      "nameplate_width": 20,
+      "nameplate_length": 36,
+      "nameplate_x": -75,
+      "nameplate_y": 4,
+      "nameplate_pocket_depth": 1,
+      "nameplate_clearance": 0.15,
+      "pink_marks_bar_width": 3,
+      "pink_marks_bar_height": 25,
+      "pink_marks_left_x": -84,
+      "pink_marks_pitch": 13,
+      "pink_marks_center_z": 159.3,
+      "pink_marks_pocket_depth": 1.2,
+      "pink_marks_pocket_clearance": 0.15,
+      "pink_marks_spine_height": 61.4,
+      "pink_marks_end_y": -51
     },
     "side_left": {
       "side_left_thickness": 4,
@@ -1131,7 +1186,25 @@
       "front_panel_peg_socket_depth": 6.3,
       "front_panel_peg_pad_width": 10,
       "front_panel_peg_pad_height": 8,
-      "blue_spine_outer_chamfer": 0.4
+      "blue_spine_outer_chamfer": 0.4,
+      "green_marks_bar_width": 3,
+      "green_marks_bar_height": 25,
+      "green_marks_left_x": -84,
+      "green_marks_pitch": 13,
+      "green_marks_center_z": 32,
+      "green_marks_pocket_depth": 1.2,
+      "green_marks_pocket_clearance": 0.15,
+      "green_marks_spine_height": 64,
+      "green_marks_end_y": -51,
+      "blue_marks_bar_width": 3,
+      "blue_marks_bar_height": 25,
+      "blue_marks_left_x": -84,
+      "blue_marks_pitch": 13,
+      "blue_marks_center_z": 96,
+      "blue_marks_pocket_depth": 1.2,
+      "blue_marks_pocket_clearance": 0.15,
+      "blue_marks_spine_height": 64,
+      "blue_marks_end_y": -51
     },
     "brown_binding": {
       "lower_binding_width": 30,
@@ -1193,7 +1266,13 @@
       "blue_marks_end_y": -51,
       "pink_marks_spine_height": 61.4,
       "pink_marks_end_y": -51,
-      "spine_common_radius": 88.33333333333333
+      "spine_common_radius": 88.33333333333333,
+      "green_marks_pocket_depth": 1.2,
+      "green_marks_bottom_allowance": 0.1,
+      "blue_marks_pocket_depth": 1.2,
+      "blue_marks_bottom_allowance": 0.1,
+      "pink_marks_pocket_depth": 1.2,
+      "pink_marks_bottom_allowance": 0.1
     },
     "metal_eyes": {
       "eye_left_thickness": 3,
@@ -1321,6 +1400,13 @@
       "ring_nut_right_x": 104,
       "ring_nut_right_y": 0,
       "ring_nut_right_z": 174
+    },
+    "nameplate": {
+      "nameplate_width": 20,
+      "nameplate_length": 36,
+      "nameplate_pocket_depth": 1,
+      "nameplate_bottom_allowance": 0.1,
+      "nameplate_edge_chamfer": 0.15
     }
   }
 }
