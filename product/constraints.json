@@ -63,20 +63,20 @@
   },
   "side_panels": {
     "quantity": 2,
-    "outline": "lower two curved spine-end lobes integral with each sliding side board; upper circular lid relief unchanged",
+    "outline": "straight front edge recessed behind full-width spine; upper lid relief retained",
     "full_height": true,
     "insertion": "downward",
     "source": "user",
     "dimensions": [
       4,
-      107,
+      97.2,
       183.4
     ],
     "base_z": 4,
     "guide_width": 4.6,
     "side_clearance": 0.3,
     "roof_clearance": 0.4,
-    "interface_status": "curved_upper_front_relief_user_approved",
+    "interface_status": "front_spine_over_side_lap",
     "center_x": [
       -108,
       108
@@ -102,7 +102,9 @@
       "radial_gap_mm": 0.6
     },
     "retention": "no positive pullout restraint; closure is not certified load path",
-    "forward_page_extension": "continuous recess and9 grooves per book to curved front silhouette, no vertical blank seam atY-50"
+    "forward_page_extension": "page cuts stop at recessed side-board front edge; no side material on frontal spine",
+    "front_y": -47.2,
+    "front_gap": 0.3
   },
   "spines": {
     "profile": "curved",
@@ -117,7 +119,7 @@
     "upper_ends_integral_to_lid": true,
     "shared_radius": 88.33333333333333,
     "bottom_front_continuation": "same green-spine circle fromZ0 throughZ4; front plate continuesZ4..64",
-    "lower_end_profile": "Visible4mm outer end lobes belong to sliding side boards atX106..110 and-110..-106. Front spine remains single central panel plus inner curved guide lands toX±105.7. Transverse sliding clearance0.3mm; lower side lobes share outerR88.333333."
+    "lower_end_profile": "Spine owns continuous outer curved face across X−110..110; planar rear lap Y−47.5 covers side thickness, side frontY−47.2; inner guide stopsX±105.7."
   },
   "rear": {
     "lid_body_flush": true,
@@ -341,17 +343,17 @@
     "source": "default"
   },
   "verification": {
-    "closed_interference": "435pairs screened;50 exact bbox-overlap pairs;zero intersections",
-    "motion": "design/archive_handbag/verification/motion-check.json",
+    "closed_interference": "current exported STEP435pairs, zero intersections",
+    "motion": "design/archive_handbag/verification/spine-lap-check.json",
     "swivel": "design/archive_handbag/verification/swivel-check.json",
     "payload_kg": 2,
     "physical_load_test": "not_performed",
     "continuous_sweep_proof": false,
-    "motion_status": "pass:0..100deg every5deg,3024pairs",
+    "motion_status": "current lap: modified interfaces checked0..100deg every5deg; side extraction11positions; no collision",
     "surface_contact": "design/archive_handbag/verification/integral-panel-contact-check.json",
     "measured_main_envelope_mm": [
       220,
-      124.237,
+      122.3,
       193
     ],
     "nominal_envelope_note": "Nominal body220x120x190 retained; prior hinge122.3mm depth accepted. New user-requested raised decor extends top by3mm and front envelope; its dimensions are disclosed defaults, not revised nominal body dimensions.",
@@ -362,7 +364,7 @@
     "carrying_status": "not_ready: positive retention unresolved",
     "cosmetic_edges": "design/archive_handbag/verification/cosmetic-edge-check.json",
     "inlays": "design/archive_handbag/verification/inlay-check.json",
-    "side_integration": "design/archive_handbag/verification/side-integration-check.json",
+    "side_integration": "design/archive_handbag/verification/spine-lap-check.json",
     "historical_geometry_build": 315
   },
   "unresolved_items": [],
@@ -464,9 +466,25 @@
     "plane": "YZ (X=0) in assembly frame",
     "connection": "same downward insertion, front/rear guide gaps, bottom seating and ring mount as right panel"
   },
-  "current_surface_verification": {
+  "current_lap_interface": {
+    "source": "default",
+    "type": "free straight lap joint, downward insertion",
+    "front_gap_mm": 0.3,
+    "lateral_gap_mm": 0.3,
+    "spine_rear_y_mm": -47.5,
+    "side_front_y_mm": -47.2,
+    "no_miter": true,
+    "positive_retention": false
+  },
+  "historical_surface_verification": {
     "revision": "aa3d7c4ea724510a526f33aa489745796745d70ba1b4abadf54b224b75f08cb4",
     "evidence": "design/archive_handbag/verification/smooth-contact-check.json",
+    "status": "passed"
+  },
+  "current_lap_verification": {
+    "revision": "4c7a3198ee6d231e7c7b9b032478a00fe219d2f5a472698f2d34e11716f55a5b",
+    "step_sha256": "70463f83ee5722ec1b7bb08441fb90b48a21ee8e6d19bdec907d65edb26d9402",
+    "evidence": "design/archive_handbag/verification/spine-lap-check.json",
     "status": "passed"
   }
 }

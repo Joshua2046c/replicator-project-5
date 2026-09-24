@@ -270,12 +270,12 @@
       }
     },
     "side_spine_integral": {
-      "source": "user",
-      "value": "本次红框内侧面书脊半圆区域与背板一体，书页凹陷向书脊延伸。"
+      "value": "下两层书脊位于侧板外侧并遮住侧板前端，正面只显示完整书脊，不露出侧板厚度条；左右采用相同连接方案。",
+      "source": "user"
     },
     "side_spine_interpretation": {
-      "source": "default",
-      "value": "根据当前图红框，背板指侧面书页板；下两层端部圆弧并入左右书页板，取消原直缝；前书脊中央面板仍为蓝绿一体，后背板和上盖避让不变。"
+      "value": "下两层可见圆弧端部属于一体前书脊板；侧页板前端退至书脊后，采用直角搭接，下插结构保留，不做45度拼接。",
+      "source": "default"
     },
     "left_panel_matches_right": {
       "value": "左侧面板以右侧样式为基准做左右镜像，轮廓、书页凹槽、挂环连接孔、前后滑入配合边及底部连接方式一致。",
@@ -287,6 +287,16 @@
         "method": "保持精确圆柱曲面，以相切小曲面段约束STEP预览细分，不改弧度或厚度"
       },
       "source": "default"
+    },
+    "spine_side_lap_dimensions": {
+      "source": "default",
+      "value": {
+        "spine_rear_lap_y_mm": -47.5,
+        "side_front_y_mm": -47.2,
+        "front_gap_mm": 0.3,
+        "lateral_gap_mm": 0.3,
+        "spine_outer_width_mm": 220
+      }
     }
   },
   "open_questions": []

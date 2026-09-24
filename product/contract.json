@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "下两层书脊和绑带圆弧显示细化，金属扣舌顺弧直接贴带；左右面板保持镜像和相同下插连接。承载防脱仍未解决。",
+  "summary": "下两层一体书脊外包左右侧板，正面不露侧板厚度条；直角搭接，镜像下插。细化圆弧和贴带金属扣舌保留。承载防脱仍未解决。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -21,7 +21,7 @@
     {
       "id": "sliding_panels",
       "kind": "mechanical",
-      "description": "左右各一块自上向下沿滑槽插入的侧面书页挡板，不是T形；允许前上角作圆弧避让，保留直接翻盖的开盖方式；一般遮尘与防掉物。取消侧面新增的小锁定螺丝、螺母及孔；保留原挂环M4连接件和侧板下插结构。 本次红框内侧面书脊半圆区域与背板一体，书页凹陷向书脊延伸。 左侧面板以右侧样式为基准做左右镜像，轮廓、书页凹槽、挂环连接孔、前后滑入配合边及底部连接方式一致。",
+      "description": "左右各一块自上向下沿滑槽插入的侧面书页挡板，不是T形；允许前上角作圆弧避让，保留直接翻盖的开盖方式；一般遮尘与防掉物。取消侧面新增的小锁定螺丝、螺母及孔；保留原挂环M4连接件和侧板下插结构。 下两层书脊位于侧板外侧并遮住侧板前端，正面只显示完整书脊，不露出侧板厚度条；左右采用相同连接方案。 左侧面板以右侧样式为基准做左右镜像，轮廓、书页凹槽、挂环连接孔、前后滑入配合边及底部连接方式一致。",
       "source": "user_requested",
       "required": true
     },
@@ -171,6 +171,12 @@
       "source": "user_requested",
       "path": "product/references/uploads/20260924T212951344Z-2-mark.png",
       "description": "下两层书脊及绑带弧度显示细化，扣舌与绑带贴合。"
+    },
+    {
+      "id": "reference_spine_over_side",
+      "source": "user_requested",
+      "path": "product/references/uploads/20260924T220900228Z-1-mark.png",
+      "description": "下两层书脊位于侧板外侧并遮住侧板前端，正面只显示完整书脊，不露出侧板厚度条；左右采用相同连接方案。"
     }
   ],
   "assembly_story": {
@@ -221,7 +227,8 @@
           "reference_local_arc_side_integration",
           "reference_left_matches_right",
           "reference_smooth_contact_1",
-          "reference_smooth_contact_2"
+          "reference_smooth_contact_2",
+          "reference_spine_over_side"
         ]
       }
     ]

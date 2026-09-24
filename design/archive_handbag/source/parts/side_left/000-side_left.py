@@ -7,15 +7,13 @@ by=param('side_left_bolt_y',0.0);bz=param('side_left_bolt_z',170.0);bd=param('si
 rr=param('side_left_relief_radius',108.9);ry=param('side_left_relief_axis_y',60.5);rz=param('side_left_relief_axis_z',124.0);start=param('side_left_relief_start_z',124.3)
 upperbase=param('side_left_upper_book_base',124.6);uppertop=param('side_left_upper_book_top',186.0)
 R=param('spine_common_radius',88.33333333333333);ey=param('side_left_spine_end_y',-51.0);c=param('side_left_outer_chamfer',0.4)
-panel=Box(t,d,h,align=(Align.CENTER,Align.CENTER,Align.MIN))
-for lo,hi in [(-4,b1),(b1,b2)]:
- z=(lo+hi)/2;H=hi-lo;cy=ey+sqrt(R*R-H*H/4);bottom=max(0,lo)
- outer=Pos(0,cy,z)*Rot(0,90,0)*Cylinder(R,t)
- lobe=outer&Pos(0,ey,(bottom+hi)/2)*Box(t,2*(R-sqrt(R*R-H*H/4)+abs(ey+d/2)+1),hi-bottom)
- taper=Pos(-c/2,cy,z)*Rot(0,90,0)*Cylinder(R,t-c)
- taper+=Pos(t/2-c/2,cy,z)*Rot(0,90,0)*Cone(R,R-c,c)
- lobe&=taper
- panel+=lobe
+lap=param('spine_lap_rear_y',-47.5)
+gap=param('side_left_front_clearance',0.3)
+front=lap+gap
+# Straight front edge permits upward withdrawal behind the full-width curved spine.
+panel=Pos(0,(front+d/2)/2,0)*Box(t,d/2-front,h,align=(Align.CENTER,Align.CENTER,Align.MIN))
+edge=[e for e in panel.edges().filter_by(Axis.Z) if abs(e.center().X-t/2)<1e-6 and abs(e.center().Y-front)<1e-6]
+panel=chamfer(edge,c)
 corner=Pos(0,0,(start+h)/2)*Box(t+2,d+2,h-start)
 safe=Pos(0,ry,rz)*Rot(0,90,0)*Cylinder(rr,t+4)
 panel-=corner-safe
@@ -26,28 +24,8 @@ for lo,hi in [(-4,b1),(b1,b2),(upperbase,uppertop)]:
 for z in [b1,b2]:panel-=Pos(t/2-g/2,-R/2,z)*Box(g,d+R-2*margin,0.6)
 panel-=Pos(0,by,bz)*Rot(0,90,0)*Cylinder(bd/2,t+2)
 assert len(panel.solids())==1
-# Analytic surface refinement for smooth display; small holes retain their original topology.
-from OCP.ShapeUpgrade import ShapeUpgrade_ShapeDivideAngle, ShapeUpgrade_UnifySameDomain
-from OCP.BRepAdaptor import BRepAdaptor_Surface
-from OCP.GeomAbs import GeomAbs_Cylinder, GeomAbs_Cone
-from math import radians
-angle=param('spine_surface_max_angle_deg',2.0)
-def refine_spine(shape):
-    divide=ShapeUpgrade_ShapeDivideAngle(radians(angle),shape.wrapped)
-    divide.Perform()
-    split=Solid.cast(divide.Result())
-    unify=ShapeUpgrade_UnifySameDomain(split.wrapped,True,True,False)
-    for face in split.faces():
-        surface=BRepAdaptor_Surface(face.wrapped)
-        kind=surface.GetType()
-        radius=surface.Cylinder().Radius() if kind==GeomAbs_Cylinder else (surface.Cone().RefRadius() if kind==GeomAbs_Cone else 0)
-        if abs(radius-R)<2:
-            for edge in face.edges(): unify.KeepShape(edge.wrapped)
-    unify.Build()
-    result=Solid.cast(unify.Shape())
-    assert result.is_valid and len(result.solids())==1
-    return result
-panel=refine_spine(panel)
+# The front edge is now straight; no circular-spine subdivision is needed here.
+assert panel.is_valid
 panel=mirror(panel,about=Plane.YZ)
 assert panel.is_valid and len(panel.solids())==1
-publish('side_left',panel,'右式镜像左书页板')
+publish('side_left',panel,'镜像内收左书页板')

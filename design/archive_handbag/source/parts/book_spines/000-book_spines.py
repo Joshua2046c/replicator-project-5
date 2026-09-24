@@ -6,6 +6,7 @@ bw=param('front_panel_band_width',30.0);bt=param('front_panel_band_depth',1.0)
 gdepth=param('front_panel_curved_end_depth',9.0)
 py=param('front_panel_peg_y',-47.0);pw=param('front_panel_peg_socket_width',4.4);pd=param('front_panel_peg_socket_depth',6.3);pad=param('front_panel_peg_pad_width',10.0);ph=param('front_panel_peg_pad_height',8.0)
 c=param('blue_spine_outer_chamfer',0.4)
+lap=param('spine_lap_rear_y',-47.5)
 parts={};curves={}
 for oid,z,h in [('green_spine',32,64),('blue_spine',96,64)]:
  w=param(oid+'_width',220.0);hh=param(oid+'_height',h);t=param(oid+'_thickness',3.5);zz=param(oid+'_center_z',z)
@@ -18,8 +19,10 @@ for oid,z,h in [('green_spine',32,64),('blue_spine',96,64)]:
  for s in [-1,1]:
   cx=s*(w/2-guide/2)
   endpart=((Pos(cx,cy,zz)*Rot(0,90,0)*Cylinder(R,guide))-(Pos(cx,cy+gdepth,zz)*Rot(0,90,0)*Cylinder(R,guide+2)))&Pos(cx,-50,(bottom+top)/2)*Box(guide,16,top-bottom)
-  # Side-board-owned curved ends slide outside this inner guide land.
-  plate+=endpart;plate-=Pos(s*panelx,0,zz)*Box(slot,2*(R+abs(end_y)),hh+0.2)
+  # Full-width spine owns the outside curved corner. The side slides behind its planar lap.
+  capwindow=Pos(cx,(end_y-sag+lap)/2,(bottom+top)/2)*Box(guide,lap-end_y+sag,top-bottom)
+  plate+=endpart+(outer&capwindow)
+  plate-=Pos(s*panelx,lap+R+abs(end_y),zz)*Box(slot,2*(R+abs(end_y)),hh+0.2)
  if oid=='green_spine':
   for x in [-xs,-pitch,pitch,xs]:plate+=Pos(x,py,base+ph/2)*Box(pad,pad,ph)&outer
  taper=Pos(0,cy,zz)*Rot(0,90,0)*Cylinder(R,w-2*c)
@@ -66,4 +69,4 @@ def refine_spine(shape):
     assert result.is_valid and len(result.solids())==1
     return result
 front=refine_spine(front)
-publish('blue_spine',front,'一体前书脊内导边')
+publish('blue_spine',front,'外包侧板一体书脊')
