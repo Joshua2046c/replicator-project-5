@@ -1,5 +1,5 @@
 {
-  "geometry_build": 184,
+  "geometry_build": 193,
   "connections": [
     {
       "id": "lid_hinge",
@@ -9,7 +9,7 @@
         "lid",
         "axle"
       ],
-      "description": "X-axis at Y55 Z128. Ø4x100 shaft in Ø4.4 bores, end clearance0.4 each; integral knuckles and screw-held end stops."
+      "description": "X-axis at Y55 Z128. Ø4x100 shaft in Ø4.4 bores, end clearance0.4 each; integral knuckles and screw-held end stops. BLOCKED: full-width integral moving front strikes rectangular panels on opening. Needs revised kinematics or user-approved panel-corner relief."
     },
     {
       "id": "hinge_stops",
@@ -29,22 +29,10 @@
       "engagement_mm": 8,
       "parts": [
         "bottom_panel",
-        "green_spine",
+        "blue_spine",
         "body"
       ],
-      "description": "Kit through-cuts and engagement-cuts in their source owners. Kit head rim needed an additional subtraction of the exact returned hardware envelope from bottom_panel; not a hand-designed printed thread."
-    },
-    {
-      "id": "blue_green_join",
-      "implementation": "printed-screw-joint-v1",
-      "count": 4,
-      "size": "M3",
-      "length_mm": 12,
-      "engagement_mm": 8,
-      "parts": [
-        "blue_spine",
-        "green_spine"
-      ]
+      "description": "Two locating tongues per panel inserted downward into matching bottom sockets; original kit M3x12 fasteners retain against pullout. Front blue/green is one solid, no inter-book fasteners."
     },
     {
       "id": "magnet_seats",
@@ -68,23 +56,20 @@
     {
       "id": "sliding_panels",
       "implementation": "free",
-      "description": "4x100x182.4 complete rectangular panels, outerX±110 flush with lid/back. Front/rear open guide recesses4.6. Ring through-bolts secure sideways; bottom/roof limit vertical travel. Remove ring bolts before maintenance extraction; normal opening leaves bolts installed."
+      "description": "4x100x182.4 rectangles remain unchanged, downward guided. Numerical panel extraction is clear at an artificially posed100deg lid, but that pose is not reachable through the current opening sweep. Before correction, remove lid/axle for maintenance."
     },
     {
       "id": "central_wrap",
       "implementation": "free",
-      "description": "Independent30x1 flexible wrap, front/top/back/bottom. Front release slit atZ100;28x28 peelable lap below square pull frame. Stitch upper lap, removable lower hook-and-loop engagement; remove wrap before opening. CAD is closed envelope, not rigid printable loop."
+      "description": "30x1 nominal inset surface strips: lower U fixed to front/base/back, upper inverted U fixed to lid. Separate at opening Z128..128.6 and rear hinge Z123.5..134; compatible adhesive only as non-loadbearing decoration. No peelable patch or release action. Hollow buckle conforms to blue arc."
     },
     {
       "id": "decorative_marks",
       "implementation": "free",
       "description": "Only non-load-bearing spine marks use compatible thin adhesive. No shoulder strap included."
-    },
-    {
-      "id": "upper_fixed_spine_ends",
-      "implementation": "free",
-      "description": "4.3mm narrow end cheeks integral to blue_spine, painted pink; same6mm-sag upper curve, outerX±110, top186.5;0.3mm clearance from moving central spine and roof. No adhesive or added fasteners."
     }
   ],
-  "unhandled": []
+  "unhandled": [
+    "opening_clearance"
+  ]
 }

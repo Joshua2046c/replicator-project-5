@@ -2,12 +2,12 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "三层书本包：侧面顶部挂环；侧板、背板和盖外沿齐平，三层弧形书脊端部一致，去除顶底凸边；保持贯穿页槽和整幅盖背。",
+  "summary": "一体蓝绿前板及后板插接底板，矩形侧板向下滑入，上盖两端一体，中央带嵌面分段且去掉扣内方块。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
       "kind": "mechanical",
-      "description": "粉色顶层与本体的转轴连接及轴向防脱",
+      "description": "粉色顶层与本体的转轴连接及轴向防脱；上盖两侧小条与盖为一体，取消留在固定前板上的独立窄条。",
       "source": "user_requested",
       "required": true
     },
@@ -35,7 +35,7 @@
     {
       "id": "outer_panel_structure",
       "kind": "mechanical",
-      "description": "取消完整内衬或内胆；包由外板块组合而成",
+      "description": "取消完整内衬或内胆；包由外板块组合而成；蓝绿两本书脊是一整块完整面板，不再分成上下两件。前书脊板和背板插入底板；两侧书页挡板通过滑槽自上而下插入。",
       "source": "user_requested",
       "required": true
     },
@@ -49,7 +49,7 @@
     {
       "id": "strap_route",
       "kind": "mechanical",
-      "description": "中央带方扣的棕色束带沿前面、顶部、背面和底部连续绕行；肩带仍由用户自行安装。 默认柔性独立带材，解开扣具后开盖。",
+      "description": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。绑带与包面无悬空间隙，可预留绑带凹痕；取消正面锁扣中心的小方块，保留外框。",
       "source": "user_requested",
       "required": true
     },
@@ -97,10 +97,16 @@
       "source": "user_requested",
       "description": "本次最新标注：侧面顶部红框为挂环位置；侧背盖外沿齐平；三层书脊一致；去掉顶底凸边。",
       "path": "product/references/uploads/20260923T202609989Z-1-mark.png"
+    },
+    {
+      "id": "reference_integral_panels_inset_band",
+      "source": "user_requested",
+      "description": "本次最新标注及说明：前两层一体、前后插底板、上盖边一体、绑带贴面且开口/转轴断开、取消扣中方块。",
+      "path": "product/references/uploads/20260924T022138858Z-1-mark.png"
     }
   ],
   "assembly_story": {
-    "installation": "由外板块拼合包体，不再套装完整内胆；左右矩形全高侧板向下插入；侧面安装螺栓转环和外侧小手拧螺帽；装防脱磁铁与整幅齐平背板翻盖。柔性棕色束带环绕前顶背底，开启前解扣释放。",
+    "installation": "一体前书脊板及后板先插入底板定位槽，底部隐藏螺钉防拔脱；侧板自上方滑入，安装挂环五金、铰轴和磁铁；分段装饰带嵌入对应表面。",
     "maintenance": "侧板沿前后定位边向下插入、底板托住、合盖限位；上端挂环通栓兼作侧板横向锁定。维护先卸载、拆下挂环螺栓，再开盖上抽侧板。",
     "user_access": [
       "上翻盖收纳口",
@@ -135,7 +141,8 @@
           "reference_annotated",
           "reference_revision_marks",
           "reference_side_mount_full_back",
-          "reference_upper_side_flush"
+          "reference_upper_side_flush",
+          "reference_integral_panels_inset_band"
         ]
       }
     ]

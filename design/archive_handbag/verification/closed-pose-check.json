@@ -1,0 +1,9 @@
+{
+  "buildNumber": 193,
+  "status": "pass",
+  "method": "closed-pose exact B-rep intersections for all bounding-box-overlap pairs; no motion or load claim",
+  "objects": 53,
+  "total_pairs": 1378,
+  "exact_nontrivial_pairs": 109,
+  "interferences": []
+}

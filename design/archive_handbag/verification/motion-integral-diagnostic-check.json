@@ -1,27 +1,55 @@
 {
-  "buildNumber": 184,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/7a6b0ed8c94681fdffdc32b234f1ddd5720e6d3ddd0438c2a42ae2a79d19bd77",
+  "buildNumber": 193,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/1a9f9fca3d6df518a726d21ed93fe21ad61e5cdc952360c90b5380becc54fb00",
   "method": "exact B-rep intersections at discrete motion samples; not continuous swept-volume proof or structural certification",
   "opening_angles_deg": [
     0,
     5,
-    10,
     15,
-    20,
-    25,
     30,
-    35,
-    40,
-    45,
-    50
+    50,
+    100
   ],
-  "released_before_opening": [
-    "central_binding",
-    "binding_overlap",
-    "buckle"
+  "released_before_opening": [],
+  "opening_tests": 2772,
+  "opening_collisions": [
+    {
+      "angle": 5,
+      "moving": "lid",
+      "fixed": "side_left",
+      "volume_mm3": 270.204452
+    },
+    {
+      "angle": 5,
+      "moving": "lid",
+      "fixed": "side_right",
+      "volume_mm3": 270.204452
+    },
+    {
+      "angle": 15,
+      "moving": "lid",
+      "fixed": "side_left",
+      "volume_mm3": 477.076004
+    },
+    {
+      "angle": 15,
+      "moving": "lid",
+      "fixed": "side_right",
+      "volume_mm3": 477.076004
+    },
+    {
+      "angle": 30,
+      "moving": "lid",
+      "fixed": "side_left",
+      "volume_mm3": 36.540624
+    },
+    {
+      "angle": 30,
+      "moving": "lid",
+      "fixed": "side_right",
+      "volume_mm3": 36.540624
+    }
   ],
-  "opening_tests": 4950,
-  "opening_collisions": [],
   "removed_before_panel_extraction": [
     "ring_bolt_left",
     "ring_bolt_right_low",
@@ -41,8 +69,8 @@
   },
   "main_envelope_mm": [
     220.0,
-    120.0,
-    190.0
+    116.8,
+    189.0
   ],
   "solid_validity": {
     "buckle": true,
@@ -89,20 +117,15 @@
     "lid_mag_cap_left_screw_1": true,
     "axle": true,
     "central_binding": true,
-    "binding_overlap": true,
+    "upper_binding": true,
     "side_right": true,
     "body_mag_cap_right_screw_0": true,
-    "green_spine": true,
     "body_mag_cap_right_screw_1": true,
     "body_mag_cap_left": true,
-    "spine_join_screw_1": true,
     "body_mag_cap_right": true,
-    "spine_join_screw_0": true,
     "blue_spine": true,
     "body_mag_cap_left_screw_0": true,
-    "spine_join_screw_3": true,
-    "spine_join_screw_2": true,
     "body_mag_cap_left_screw_1": true
   },
-  "status": "pass"
+  "status": "failed"
 }

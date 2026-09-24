@@ -93,7 +93,7 @@
       "source": "user"
     },
     "strap_scope": {
-      "value": "不包含用户肩带本体；中央环绕束带采用独立柔性带材，打开方扣释放束带后开盖，不用硬塑料跨缝锁死。",
+      "value": "不包含用户肩带；棕色带为贴面分段装饰，不再承担解扣释放功能。",
       "source": "default"
     },
     "outer_panel_structure": {
@@ -113,7 +113,7 @@
       "source": "user"
     },
     "strap_continuity": {
-      "value": "中央带方扣的棕色束带沿前面、顶部、背面和底部连续绕行；肩带仍由用户自行安装。",
+      "value": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。",
       "source": "user"
     },
     "flush_outer_edges": {
@@ -123,6 +123,26 @@
     "spine_side_consistency": {
       "value": "三本书的书脊侧面采用一致的弧形和端部处理，不出现上下层宽度台阶或突出的导轨小块。",
       "source": "user"
+    },
+    "front_panel_integral": {
+      "value": "蓝绿两本书脊是一整块完整面板，不再分成上下两件。",
+      "source": "user"
+    },
+    "base_panel_insertion": {
+      "value": "前书脊板和背板插入底板；两侧书页挡板通过滑槽自上而下插入。",
+      "source": "user"
+    },
+    "lid_side_integration": {
+      "value": "上盖两侧小条与盖为一体，取消留在固定前板上的独立窄条。",
+      "source": "user"
+    },
+    "strap_surface_fit": {
+      "value": "绑带与包面无悬空间隙，可预留绑带凹痕；取消正面锁扣中心的小方块，保留外框。",
+      "source": "user"
+    },
+    "base_joint_retention": {
+      "value": "底板插槽定位，沿用底面隐藏螺钉防止承重时拔脱；取消蓝绿书脊之间的拼接螺钉。",
+      "source": "default"
     }
   },
   "open_questions": []

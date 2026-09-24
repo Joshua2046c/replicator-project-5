@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "cad_interfaces_resolved_prototype_validation_pending",
+  "status": "opening_clearance_decision_required",
   "units": "mm",
   "frame": {
     "x": "width",
@@ -17,7 +17,7 @@
   "assembled_hardware_envelope": {
     "value": [
       240,
-      120,
+      116.8,
       210
     ],
     "source": "research",
@@ -33,14 +33,36 @@
   },
   "outer_panel_structure": {
     "liner": false,
-    "construction": "rear board + bottom + curved blue/green boards, bolted together",
+    "construction": "one fused blue/green front board and rear board insert into bottom locating sockets",
     "source": "user",
     "bottom_thickness": 4,
     "rear_thickness": 6,
     "spine_wall": 3.5,
-    "bottom_joints": "8 x M3x12 countersunk, 4mm through and 8mm engagement",
-    "front_join": "4 x M3x12, 4mm through and 8mm engagement",
-    "magnet_seats": "integral with blue board"
+    "bottom_joints": "two tongues per board plus original 8 hidden M3x12 bottom retention screws",
+    "front_join": "none: one solid",
+    "magnet_seats": "integral with blue board",
+    "tongues": {
+      "front": [
+        70,
+        1.8,
+        2.2
+      ],
+      "rear": [
+        70,
+        2.4,
+        2.2
+      ],
+      "centers_x": [
+        -60,
+        60
+      ],
+      "centers_y": [
+        -49.5,
+        54
+      ],
+      "slot_clearance_each": 0.3,
+      "slot_depth": 2.4
+    }
   },
   "side_panels": {
     "quantity": 2,
@@ -57,7 +79,7 @@
     "guide_width": 4.6,
     "side_clearance": 0.3,
     "roof_clearance": 0.4,
-    "interface_status": "resolved",
+    "interface_status": "insertion_geometry_valid_but_lid_sweep_conflicts",
     "center_x": [
       -108,
       108
@@ -71,7 +93,7 @@
       174
     ],
     "bolt_hole_diameter": 4.5,
-    "removal": "unload and remove ring bolts first, then open100deg and lift panels"
+    "removal": "remove lid/hinge axle and ring bolts for access until opening conflict is resolved; numerical extraction at100deg is not a reachable motion"
   },
   "spines": {
     "profile": "curved",
@@ -83,14 +105,8 @@
     ],
     "lid_curve_height": 60.4,
     "overall_visual_width": 220,
-    "upper_fixed_edges": {
-      "width_each": 4.3,
-      "base_z": 127.8,
-      "top_z": 186.5,
-      "integral_to": "blue_spine",
-      "finish": "pink",
-      "clearance_to_moving_spine": 0.3
-    }
+    "front_one_solid": true,
+    "upper_ends_integral_to_lid": true
   },
   "rear": {
     "lid_body_flush": true,
@@ -180,14 +196,24 @@
     "fixed_support": "8mm thick local L-arm integral to rear outer board, z110..184, centerY0; pocket leaves4mm web"
   },
   "strap_route": {
-    "status": "resolved",
+    "status": "closed_surface_fit_verified",
     "requirement_id": "strap_continuity",
-    "route": "central brown flexible wrap: front/top/back/bottom",
+    "route": "lower U and upper inverted U embedded directly in matching face recesses",
     "width": 30,
     "thickness": 1,
-    "release": "peelable lap below decorative square pull frame, remove wrap before opening lid",
+    "release": "none: discontinuous at opening and hinge",
     "source": "default",
-    "shoulder_strap": "user supplied; not modeled"
+    "shoulder_strap": "user supplied; not modeled",
+    "front_break_z": [
+      128,
+      128.6
+    ],
+    "rear_break_z": [
+      123.5,
+      134
+    ],
+    "recess_depth": 1,
+    "center_patch_removed": true
   },
   "magnets": {
     "diameter": 7,
@@ -212,15 +238,29 @@
     "screws": "8 x M2x6"
   },
   "verification": {
-    "geometry_build": 184,
-    "closed_interference": "none reported by Workbench build184",
+    "geometry_build": 193,
+    "closed_interference": "none reported by Workbench193",
     "motion": "design/archive_handbag/verification/motion-check.json",
     "swivel": "design/archive_handbag/verification/swivel-check.json",
     "payload_kg": 2,
     "physical_load_test": "not_performed",
-    "continuous_sweep_proof": false
+    "continuous_sweep_proof": false,
+    "motion_status": "failed:lid_side_panel_interference",
+    "surface_contact": "design/archive_handbag/verification/integral-panel-contact-check.json",
+    "measured_main_envelope_mm": [
+      220,
+      116.8,
+      189
+    ],
+    "nominal_envelope_note": "measured bounds after removing proud band; requirement remains220x120x190, not rewritten"
   },
-  "unresolved_items": [],
+  "unresolved_items": [
+    {
+      "id": "opening_clearance",
+      "owner": "user",
+      "description": "Integrated lid ends collide with full rectangular side panels at5,15,30deg. Choose allowed opening behavior/profile change; no automatic side-panel outline change."
+    }
+  ],
   "risks": [
     {
       "id": "prototype_load",

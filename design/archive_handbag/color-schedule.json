@@ -1,19 +1,18 @@
 {
   "note": "Colour/material intent. Grey CAD previews do not show the intended finished colours. Rear panel/lid rear faces need ivory finishing to match side pages.",
   "pink": [
-    "lid (front and roof)",
-    "blue_spine (upper fixed narrow end cheeks only)"
+    "lid (front, ends and roof)"
   ],
   "blue": [
-    "blue_spine (lower main board only)"
+    "blue_spine upper region Z64..128"
   ],
   "green": [
-    "green_spine",
+    "blue_spine lower region Z4..64",
     "bottom_panel"
   ],
   "brown": [
     "central_binding",
-    "binding_overlap"
+    "upper_binding"
   ],
   "ivory": [
     "side_left",

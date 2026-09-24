@@ -1,0 +1,110 @@
+{
+  "buildNumber": 193,
+  "front_board_solid_count": 1,
+  "removed_objects_absent": {
+    "green_spine": true,
+    "binding_overlap": true,
+    "spine_join_screw_0": true
+  },
+  "base_insertion": [
+    {
+      "panel": "blue_spine",
+      "lift_mm": 0,
+      "base_overlap_mm3": 0
+    },
+    {
+      "panel": "blue_spine",
+      "lift_mm": 0.5,
+      "base_overlap_mm3": 0
+    },
+    {
+      "panel": "blue_spine",
+      "lift_mm": 1,
+      "base_overlap_mm3": 0
+    },
+    {
+      "panel": "blue_spine",
+      "lift_mm": 2.5,
+      "base_overlap_mm3": 0
+    },
+    {
+      "panel": "blue_spine",
+      "lift_mm": 5,
+      "base_overlap_mm3": 0
+    },
+    {
+      "panel": "blue_spine",
+      "lift_mm": 20,
+      "base_overlap_mm3": 0
+    },
+    {
+      "panel": "body",
+      "lift_mm": 0,
+      "base_overlap_mm3": 0
+    },
+    {
+      "panel": "body",
+      "lift_mm": 0.5,
+      "base_overlap_mm3": 0
+    },
+    {
+      "panel": "body",
+      "lift_mm": 1,
+      "base_overlap_mm3": 0
+    },
+    {
+      "panel": "body",
+      "lift_mm": 2.5,
+      "base_overlap_mm3": 0
+    },
+    {
+      "panel": "body",
+      "lift_mm": 5,
+      "base_overlap_mm3": 0
+    },
+    {
+      "panel": "body",
+      "lift_mm": 20,
+      "base_overlap_mm3": 0
+    }
+  ],
+  "band_contact": [
+    {
+      "a": "central_binding",
+      "b": "blue_spine",
+      "distance_mm": 0.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "central_binding",
+      "b": "body",
+      "distance_mm": 0.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "central_binding",
+      "b": "bottom_panel",
+      "distance_mm": 0.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "upper_binding",
+      "b": "lid",
+      "distance_mm": 0.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "buckle",
+      "b": "blue_spine",
+      "distance_mm": 0.0,
+      "intersection_mm3": 0
+    },
+    {
+      "a": "buckle",
+      "b": "central_binding",
+      "distance_mm": 0.0,
+      "intersection_mm3": 0
+    }
+  ],
+  "note": "Insertion checks omit retention screws until seated. Surface contact is nominal CAD contact, not adhesive strength certification. Opening remains blocked by rectangular side panels."
+}
