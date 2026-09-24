@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "顶带仅端头半圆、主体横向不拱；下两层侧面圆弧与书页板一体、页槽延至书脊，内嵌饰块保持。承载防脱仍未解决。",
+  "summary": "下两层书脊和绑带圆弧显示细化，金属扣舌顺弧直接贴带；左右面板保持镜像和相同下插连接。承载防脱仍未解决。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -49,7 +49,7 @@
     {
       "id": "strap_route",
       "kind": "mechanical",
-      "description": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。 正面金属扣舌连接在标注方框的底边中央，向上伸半截，并凸起于方框表面；不是从左边横向伸出，也不恢复中心方块。 顶部绑带增加半圆弧凸起，向前逐渐平顺过渡收低；属本次指定的局部装饰凸起。 顶部绑带只有本次画出的端头区域为圆弧，不把整个凸起做成横向圆拱；其余保持向前渐变收低。",
+      "description": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。 正面金属扣舌保留方框底边中央向上半截的形状；背面直接顺弧贴在绑带上，不悬空，可保留少量实体厚度。 顶部绑带增加半圆弧凸起，向前逐渐平顺过渡收低；属本次指定的局部装饰凸起。 顶部绑带只有本次画出的端头区域为圆弧，不把整个凸起做成横向圆拱；其余保持向前渐变收低。",
       "source": "user_requested",
       "required": true
     },
@@ -159,6 +159,18 @@
       "path": "product/references/uploads/20260924T212401344Z-1-mark.png",
       "source": "user_requested",
       "description": "左侧面板样式与连接方式以右侧为基准统一。"
+    },
+    {
+      "id": "reference_smooth_contact_1",
+      "source": "user_requested",
+      "path": "product/references/uploads/20260924T212951344Z-1-mark.png",
+      "description": "下两层书脊及绑带弧度显示细化，扣舌与绑带贴合。"
+    },
+    {
+      "id": "reference_smooth_contact_2",
+      "source": "user_requested",
+      "path": "product/references/uploads/20260924T212951344Z-2-mark.png",
+      "description": "下两层书脊及绑带弧度显示细化，扣舌与绑带贴合。"
     }
   ],
   "assembly_story": {
@@ -207,7 +219,9 @@
           "reference_raised_details_chamfer",
           "reference_arc_inlays",
           "reference_local_arc_side_integration",
-          "reference_left_matches_right"
+          "reference_left_matches_right",
+          "reference_smooth_contact_1",
+          "reference_smooth_contact_2"
         ]
       }
     ]

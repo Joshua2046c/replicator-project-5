@@ -1,0 +1,172 @@
+{
+  "revision": "aa3d7c4ea724510a526f33aa489745796745d70ba1b4abadf54b224b75f08cb4",
+  "step_sha256": "471d378f402c105c916857ad059164ff88c18de963537ba336ba05a2550307f3",
+  "baseline_step_sha256": "6d8379223945d9282b3e054d682dbec60c654a73381300f33db594e0c6542f8e",
+  "objects": 30,
+  "solids": 33,
+  "all_valid": true,
+  "envelope_mm": [
+    238.0,
+    122.3000001,
+    210.0
+  ],
+  "tongue_back_contact": [
+    {
+      "z": 84,
+      "strap_distance_mm": 1.4210854715202004e-14,
+      "metal_distance_mm": 1.4210854715202004e-14
+    },
+    {
+      "z": 85,
+      "strap_distance_mm": 4.263256414560601e-14,
+      "metal_distance_mm": 4.263256414560601e-14
+    },
+    {
+      "z": 86,
+      "strap_distance_mm": 1.4210854715202004e-14,
+      "metal_distance_mm": 1.4210854715202004e-14
+    },
+    {
+      "z": 87,
+      "strap_distance_mm": 0.0,
+      "metal_distance_mm": 0.0
+    },
+    {
+      "z": 88,
+      "strap_distance_mm": 2.842170943040401e-14,
+      "metal_distance_mm": 2.842170943040401e-14
+    },
+    {
+      "z": 89,
+      "strap_distance_mm": 1.4210854715202004e-14,
+      "metal_distance_mm": 1.4210854715202004e-14
+    },
+    {
+      "z": 90,
+      "strap_distance_mm": 1.4210854715202004e-14,
+      "metal_distance_mm": 1.4210854715202004e-14
+    },
+    {
+      "z": 91,
+      "strap_distance_mm": 7.105427357601002e-14,
+      "metal_distance_mm": 7.105427357601002e-14
+    },
+    {
+      "z": 92,
+      "strap_distance_mm": 7.105427357601002e-14,
+      "metal_distance_mm": 7.105427357601002e-14
+    },
+    {
+      "z": 93,
+      "strap_distance_mm": 4.263256414560601e-14,
+      "metal_distance_mm": 4.263256414560601e-14
+    },
+    {
+      "z": 94,
+      "strap_distance_mm": 4.263256414560601e-14,
+      "metal_distance_mm": 4.263256414560601e-14
+    },
+    {
+      "z": 95,
+      "strap_distance_mm": 4.263256414560601e-14,
+      "metal_distance_mm": 5.684341886080802e-14
+    },
+    {
+      "z": 96,
+      "strap_distance_mm": 0.0,
+      "metal_distance_mm": 1.4210854715202004e-14
+    },
+    {
+      "z": 97,
+      "strap_distance_mm": 1.4210854715202004e-14,
+      "metal_distance_mm": 1.4210854715202004e-14
+    },
+    {
+      "z": 98,
+      "strap_distance_mm": 0.0,
+      "metal_distance_mm": 0.0
+    },
+    {
+      "z": 99,
+      "strap_distance_mm": 0.0,
+      "metal_distance_mm": 0.0
+    },
+    {
+      "z": 100,
+      "strap_distance_mm": 2.842170943040401e-14,
+      "metal_distance_mm": 4.099831585335778e-12
+    }
+  ],
+  "refinement_equivalence": [
+    {
+      "object": "blue_spine",
+      "symmetric_difference_mm3": 0,
+      "passed": true
+    },
+    {
+      "object": "side_left",
+      "symmetric_difference_mm3": 0,
+      "passed": true
+    },
+    {
+      "object": "side_right",
+      "symmetric_difference_mm3": 0,
+      "passed": true
+    },
+    {
+      "object": "central_binding",
+      "symmetric_difference_mm3": 0,
+      "passed": true
+    }
+  ],
+  "key_clearances_mm": {
+    "side_left": 0.29999999999999716,
+    "side_right": 0.29999999999999716
+  },
+  "buckle_strap_intersection_mm3": 0,
+  "preview_sampling_before": {
+    "lower": {
+      "angular_stations": 8,
+      "max_step_deg": 13.00581
+    },
+    "middle": {
+      "angular_stations": 17,
+      "max_step_deg": 13.00582
+    },
+    "lower_binding": {
+      "angular_stations": 4,
+      "max_step_deg": 10.50683
+    },
+    "middle_binding": {
+      "angular_stations": 5,
+      "max_step_deg": 10.61966
+    },
+    "lid": {
+      "angular_stations": 72,
+      "max_step_deg": 1.4115900000000003
+    }
+  },
+  "preview_sampling_after": {
+    "lower": {
+      "angular_stations": 67,
+      "max_step_deg": 0.6620000000000026
+    },
+    "middle": {
+      "angular_stations": 82,
+      "max_step_deg": 0.6436200000000021
+    },
+    "lower_binding": {
+      "angular_stations": 63,
+      "max_step_deg": 0.6367800000000017
+    },
+    "middle_binding": {
+      "angular_stations": 67,
+      "max_step_deg": 0.6565000000000003
+    },
+    "lid": {
+      "angular_stations": 72,
+      "max_step_deg": 1.4115900000000003
+    }
+  },
+  "passed": true
+}

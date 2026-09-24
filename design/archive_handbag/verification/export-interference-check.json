@@ -1,0 +1,10 @@
+{
+  "revision": "aa3d7c4ea724510a526f33aa489745796745d70ba1b4abadf54b224b75f08cb4",
+  "step_sha256": "471d378f402c105c916857ad059164ff88c18de963537ba336ba05a2550307f3",
+  "pairs_screened": 435,
+  "exact_pairs": 50,
+  "overlaps": [],
+  "all_valid": true,
+  "scope": "Closed pose only; supplements automatic timeout, not load testing.",
+  "passed": true
+}
