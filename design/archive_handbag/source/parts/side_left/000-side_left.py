@@ -7,17 +7,23 @@ by=param('side_left_bolt_y',0.0);bz=param('side_left_bolt_z',170.0);bd=param('si
 rr=param('side_left_relief_radius',108.9);ry=param('side_left_relief_axis_y',60.5);rz=param('side_left_relief_axis_z',124.0);start=param('side_left_relief_start_z',124.3)
 upperbase=param('side_left_upper_book_base',124.6);uppertop=param('side_left_upper_book_top',186.0)
 R=param('spine_common_radius',88.33333333333333);ey=param('side_left_spine_end_y',-51.0);c=param('side_left_outer_chamfer',0.4)
-panel=Box(t,d,h,align=(Align.CENTER,Align.CENTER,Align.MIN))
-# True single-piece lower side: front circular lobes are fused before continuous page cuts.
-for lo,hi in [(-4,b1),(b1,b2)]:
- z=(lo+hi)/2;H=hi-lo;cy=ey+sqrt(R*R-H*H/4);bottom=max(0,lo)
- outer=Pos(0,cy,z)*Rot(0,90,0)*Cylinder(R,t)
- lobe=outer&Pos(0,ey,(bottom+hi)/2)*Box(t,2*(R-sqrt(R*R-H*H/4)+abs(ey+d/2)+1),hi-bottom)
- taper=Pos(c/2,cy,z)*Rot(0,90,0)*Cylinder(R,t-c)
- taper+=Pos(-t/2+c/2,cy,z)*Rot(0,90,0)*Cone(R-c,R,c)
- lobe&=taper
- panel+=lobe
-corner=Pos(0,0,(start+h)/2)*Box(t+2,d+2,h-start)
+base=param('bottom_panel_thickness',4.0)
+rear=param('side_left_miter_rear_y',57.0)
+# 45-degree planar front/back seams are invariant along Z, preserving upward removal.
+sg=-1
+xo=sg*t/2;xi=-sg*t/2
+foot=Polygon((xo,ey),(xo,rear),(xi,rear-t),(xi,ey+t),align=None)
+panel=Pos(0,0,-base)*extrude(foot,amount=h+base,dir=(0,0,1))
+panel+=Pos(0,0,h)*extrude(foot,amount=uppertop-h,dir=(0,0,1))
+# Complementary bottom and roof miters, both with equal X/Z run (45 degrees).
+bottom_cut=extrude(Plane.XZ*Polygon((xo,-base),(xi,-base),(xi,0),align=None),amount=2*(d+R),both=True)
+panel-=bottom_cut
+top_cut=extrude(Plane.XZ*Polygon((xo,uppertop),(xi,uppertop),(xi,uppertop-t),align=None),amount=2*(d+R),both=True)
+panel-=top_cut
+# Preserve the existing small exterior 45-degree arris at the top/bottom perimeter.
+panel-=extrude(Plane.XZ*Polygon((xo-sg*c,-base),(xo+sg*2,-base),(xo+sg*2,-base+c+2),align=None),amount=2*(d+R),both=True)
+panel-=extrude(Plane.XZ*Polygon((xo-sg*c,uppertop),(xo+sg*2,uppertop),(xo+sg*2,uppertop-c-2),align=None),amount=2*(d+R),both=True)
+corner=Pos(0,(ey+rear)/2,(start+uppertop)/2)*Box(t+2,rear-ey+2,uppertop-start)
 safe=Pos(0,ry,rz)*Rot(0,90,0)*Cylinder(rr,t+4)
 panel-=corner-safe
 for lo,hi in [(-4,b1),(b1,b2),(upperbase,uppertop)]:
@@ -50,4 +56,4 @@ def refine_spine(shape):
     assert result.is_valid and len(result.solids())==1
     return result
 panel=refine_spine(panel)
-publish('side_left',panel,'圆弧一体左书页板')
+publish('side_left',panel,'45度拼接左侧板')
