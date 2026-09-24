@@ -17,7 +17,7 @@
   "assembled_hardware_envelope": {
     "value": [
       238,
-      122.3,
+      124.237,
       210
     ],
     "source": "research",
@@ -295,8 +295,18 @@
       "width": 5,
       "thickness": 1,
       "tip_x": 0,
-      "center_z": 100,
-      "connected_to": "left frame rail, one solid custom metal part"
+      "connected_to": "bottom frame rail center, raised toward negativeY; one solid custom metal part",
+      "root_z": 78,
+      "tip_z": 100,
+      "tip_relief": 2
+    },
+    "top_crown": {
+      "source": "default",
+      "radius_mm": 3,
+      "peak_y_mm": 10,
+      "front_transition_y_mm": -40,
+      "top_z_mm": 193,
+      "profile": "circular rear crown and tangent cubic Bezier forward fade; solid across30mm band width"
     }
   },
   "magnets": {
@@ -328,8 +338,8 @@
     "source": "default"
   },
   "verification": {
-    "geometry_build": 297,
-    "closed_interference": "406pairs screened;52 exact bbox-overlap pairs;zero intersections",
+    "geometry_build": 305,
+    "closed_interference": "406pairs screened;51 exact bbox-overlap pairs;zero intersections",
     "motion": "design/archive_handbag/verification/motion-check.json",
     "swivel": "design/archive_handbag/verification/swivel-check.json",
     "payload_kg": 2,
@@ -339,15 +349,16 @@
     "surface_contact": "design/archive_handbag/verification/integral-panel-contact-check.json",
     "measured_main_envelope_mm": [
       220,
-      122.3,
-      190
+      124.237,
+      193
     ],
-    "nominal_envelope_note": "Original220x120x190 nominal retained; user accepted current hinge revision at measured220x122.3x190 and requested no further change to this part.",
+    "nominal_envelope_note": "Nominal body220x120x190 retained; prior hinge122.3mm depth accepted. New user-requested raised decor extends top by3mm and front envelope; its dimensions are disclosed defaults, not revised nominal body dimensions.",
     "opening_tests": 2520,
     "revision": "design/archive_handbag/verification/revision-check.json",
     "pin_insertion_sweep_proof": true,
     "square_pegs": "design/archive_handbag/verification/square-peg-check.json",
-    "carrying_status": "not_ready: positive retention unresolved"
+    "carrying_status": "not_ready: positive retention unresolved",
+    "cosmetic_edges": "design/archive_handbag/verification/cosmetic-edge-check.json"
   },
   "unresolved_items": [],
   "risks": [
@@ -389,5 +400,17 @@
       "decision": "keep geometry; original nominal requirement retained"
     },
     "source": "user"
+  },
+  "outer_macro_edge_chamfer": {
+    "source": "default",
+    "nominal_size_mm": 0.4,
+    "regions": {
+      "top": 4,
+      "bottom": 4,
+      "front_curved_vertical": 2,
+      "rear_vertical": 2
+    },
+    "excludes": "horizontal fine page edges, joint seams, bores and square sockets",
+    "method": "planar45degree corner relief and conical45degree curved-end relief"
   }
 }

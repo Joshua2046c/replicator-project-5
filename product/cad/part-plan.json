@@ -20,7 +20,7 @@
     {
       "id": "hinge_axle",
       "status": "custom_design",
-      "reason": "No exact100mm rivet pin STEP; deliberately custom4x100 metal shaft with6x1.4 formed ends, no screw or cap retainer. AxisY60.5 Z128; continuous one-headed pin insertion sweep passed at build297, minimum0.2mm clearance; requires second-head forming after insertion."
+      "reason": "No exact100mm rivet pin STEP; deliberately custom4x100 metal shaft with6x1.4 formed ends, no screw or cap retainer. AxisY60.5 Z128; continuous one-headed pin insertion sweep passed at build305, minimum0.2mm clearance; requires second-head forming after insertion."
     },
     {
       "id": "ring_nuts",
@@ -43,7 +43,7 @@
     {
       "id": "buckle_tongue",
       "status": "custom_design",
-      "reason": "User-requested half metal strip is integral with the custom curved rectangular frame; not an imported purchased buckle or functional latch."
+      "reason": "Custom bottom-rooted vertical raised half tongue,22x5x1,2mm outward relief, integral curved frame; not a functional latch."
     }
   ]
 }

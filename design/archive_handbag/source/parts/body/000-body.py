@@ -7,6 +7,7 @@ wrap=param('body_corner_groove_depth',0.45);lip=param('body_guide_lip_width',7.0
 bw=param('body_band_width',30.0);bt=param('body_band_depth',1.0);bend=param('body_band_top',123.5)
 hc=param('body_axle_head_clearance',0.4)
 py=param('body_peg_y',52.0);pw=param('body_peg_socket_width',4.4);pd=param('body_peg_socket_depth',6.3);pad=param('body_peg_pad_width',10.0);ph=param('body_peg_pad_height',8.0);xs=param('body_peg_outer_x',80.0);ix=param('body_peg_inner_x',40.0)
+c=param('body_outer_chamfer',0.4)
 body=Pos(0,rear_y,(H+floor)/2)*Box(W,wall,H-floor)
 for s in [-1,1]:
  body+=Pos(s*(W/2-lip/2),49,(H+floor)/2)*Box(lip,8,H-floor)
@@ -14,10 +15,15 @@ for s in [-1,1]:
 for x in [-xs,-ix,ix,xs]:
  body+=Pos(x,py,floor+ph/2)*Box(pad,pad,ph)
  body-=Pos(x,py,floor+pd/2-.01)*Box(pw,pw,pd+.02)
+for s in [-1,1]:
+ body-=extrude(Plane.XY*Polygon((s*(W/2-c),rear_y+wall/2),(s*(W/2+2),rear_y+wall/2),(s*(W/2+2),rear_y+wall/2-c-2),align=None),amount=H+1,both=True)
 for lo,hi in [(0,boundary),(boundary,H)]:
  center=(lo+hi)/2
  body-=Pos(0,rear_y+wall/2-page/2,center)*Box(W+2,page,hi-lo-2*cover)
  for s in [-1,1]:body-=Pos(s*(W/2-page/2),51,center)*Box(page,14,hi-lo-2*cover)
+ # Explicit +Z for both mirrored triangular profiles: polygon winding must not reverse the cut.
+ for s in [-1,1]:
+  body-=Pos(0,0,lo+cover)*extrude(Plane.XY*Polygon((s*(W/2-page-c),rear_y+wall/2-page),(s*(W/2+2),rear_y+wall/2-page),(s*(W/2+2),rear_y+wall/2-2*page-c-2),align=None),amount=hi-lo-2*cover,dir=(0,0,1))
  for i in range(-4,5):
   zz=center+i*pitch
   body-=Pos(0,rear_y+wall/2-(page+groove)/2,zz)*Box(W+2,page+groove,groovew)
@@ -32,4 +38,4 @@ body-=Pos(0,hy,hz)*Rot(0,90,0)*Cylinder(hr+0.6,59.8)
 body-=Pos(0,hy,hz)*Rot(0,90,0)*Cylinder(bore/2,100.4)
 for s in [-1,1]:body-=Pos(s*50.7,hy,hz)*Rot(0,90,0)*Cylinder(3+hc,1.4+2*hc)
 assert len(body.solids())==1
-publish('body',body,'平底方孔后板')
+publish('body',body,'小倒角方孔后板')

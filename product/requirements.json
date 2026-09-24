@@ -182,7 +182,7 @@
       "source": "user"
     },
     "buckle_tongue": {
-      "value": "正面绑带锁扣伸出半截金属条，并与整个方形金属框连接；不是恢复中心方块。",
+      "value": "正面金属扣舌连接在标注方框的底边中央，向上伸半截，并凸起于方框表面；不是从左边横向伸出，也不恢复中心方块。",
       "source": "user"
     },
     "square_peg_interface": {
@@ -201,6 +201,31 @@
         ],
         "front_y_mm": -47,
         "rear_y_mm": 52
+      },
+      "source": "default"
+    },
+    "top_binding_crown": {
+      "value": "顶部绑带增加半圆弧凸起，向前逐渐平顺过渡收低；属本次指定的局部装饰凸起。",
+      "source": "user"
+    },
+    "outer_edge_chamfer": {
+      "value": "方形包主体十二条大边区域做小倒角；保留书脊弧度，不扩大到页槽细边及配合孔。",
+      "source": "user"
+    },
+    "raised_details_dimensions": {
+      "value": {
+        "tongue_length_mm": 22,
+        "tongue_width_mm": 5,
+        "tongue_thickness_mm": 1,
+        "tongue_tip_relief_mm": 2,
+        "tongue_root_z_mm": 78,
+        "tongue_tip_z_mm": 100,
+        "top_crown_radius_mm": 3,
+        "top_crown_peak_y_mm": 10,
+        "top_crown_front_transition_y_mm": -40,
+        "outer_edge_chamfer_mm": 0.4,
+        "nominal_body_envelope_retained": true,
+        "note": "新增局部装饰凸起按本次明确要求，不缩小原包体来容纳凸起；含装饰及铰链实际包络另列，默认凸起尺寸可调。"
       },
       "source": "default"
     }

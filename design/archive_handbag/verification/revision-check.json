@@ -1,6 +1,6 @@
 {
-  "buildNumber": 297,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/4a7390130ed1dccf07adf04df613a813b2680282948db6a24ca756e982200284",
+  "buildNumber": 305,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/3f713650ad3ffe45bdf6eefcfa792ec11c1ef8ad0b80f5943159512e611d98d0",
   "pin_insertion": {
     "method": "continuous analytic cylindrical sweep; closed aligned hinge, +X insertion160mm; second rivet head absent until after insertion",
     "collisions": [],

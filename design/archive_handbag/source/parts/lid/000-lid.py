@@ -9,6 +9,7 @@ g=param('lid_page_groove_depth',0.45);gw=param('lid_page_groove_width',1.0);wrap
 page=param('lid_page_recess',0.25);cover=param('lid_cover_band',4.0);pitch=param('lid_groove_pitch',6.0)
 px=param('lid_panel_center_x',108.0);slot=param('lid_panel_clearance_width',4.6)
 bw=param('lid_band_width',30.0);bt=param('lid_band_recess',1.0);bs=param('lid_band_rear_start',134.0)
+c=param('lid_outer_chamfer',0.4)
 frame=Pos(0,hy-55.0,hz-128.0)
 b=seam-hz;top=b+height;sag=R-sqrt(R*R-height*height/4)
 lid=Pos(0,(ey+d/2)/2-hy,top-roof)*Box(w,d/2-ey,roof,align=(Align.CENTER,Align.CENTER,Align.MIN))
@@ -32,7 +33,6 @@ for s in [-1,1]:
 lid+=Pos(0,(d/2-wall/2-hy)/2,r-0.8)*Box(barrel_l,hy-(d/2-wall/2),1.6)
 lid+=Rot(0,90,0)*Cylinder(r,barrel_l)
 lid-=Rot(0,90,0)*Cylinder(bore/2,100.4)
-# Nine equal-pitch page lines inside a shallow page block, leaving4mm cover bands.
 lid-=Pos(0,d/2-page/2-hy,cz)*Box(rw+2,page,height-2*cover)
 for s in [-1,1]:lid-=Pos(s*(w/2-page/2),-hy+3,cz)*Box(page,120,height-2*cover)
 for i in range(-4,5):
@@ -47,5 +47,17 @@ band=(outer-Pos(0,cy+bt,cz)*Rot(0,90,0)*Cylinder(R,w+2))&Pos(0,ey-hy,cz)*Box(bw,
 band+=Pos(0,(ey+d/2)/2-hy,top-bt/2)*Box(bw,d/2-ey,bt)
 band+=Pos(0,d/2-hy-bt/2,(top+bs-hz)/2)*Box(bw,bt,top-(bs-hz))
 lid-=band
+# Finish outer macro edges, retaining functional bores, page grooves and seam edges.
+taper=Pos(0,cy,cz)*Rot(0,90,0)*Cylinder(R,w-2*c)
+taper+=Pos(-w/2+c/2,cy,cz)*Rot(0,90,0)*Cone(R-c,R,c)
+taper+=Pos(w/2-c/2,cy,cz)*Rot(0,90,0)*Cone(R,R-c,c)
+lid-=(outer-taper)&Pos(0,ey-hy,cz)*Box(w+2,20,height)
+for xx,sg in [(-w/2,-1),(w/2,1)]:
+ lid-=extrude(Plane.XZ*Polygon((xx-sg*c,top),(xx+sg*2,top),(xx+sg*2,top-c-2),align=None),amount=d+20,both=True)
+for yy,sg in [(ey-hy,-1),(d/2-hy,1)]:
+ lid-=extrude(Plane.YZ*Polygon((yy-sg*c,top),(yy+sg*2,top),(yy+sg*2,top-c-2),align=None),amount=w+2,both=True)
+for s in [-1,1]:
+ lid-=extrude(Plane.XY*Polygon((s*(w/2-c),d/2-hy),(s*(w/2+2),d/2-hy),(s*(w/2+2),d/2-hy-c-2),align=None),amount=top+1,both=True)
+ lid-=Pos(0,0,b+cover)*extrude(Plane.XY*Polygon((s*(w/2-page-c),d/2-hy-page),(s*(w/2+2),d/2-hy-page),(s*(w/2+2),d/2-hy-2*page-c-2),align=None),amount=height-2*cover,dir=(0,0,1))
 assert len(lid.solids())==1
-publish('lid',frame*lid,'等距书页与紧凑圆槽翻盖')
+publish('lid',frame*lid,'外边小倒角翻盖')

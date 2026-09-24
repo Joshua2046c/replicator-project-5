@@ -1,17 +1,17 @@
-# Build 297 handoff and unresolved retention
+# Build305 handoff and unresolved retention
 
-Exact build: 297; source hash `4a7390130ed1dccf07adf04df613a813b2680282948db6a24ca756e982200284`.
-Export: `export-e6ba13d59811717aba6ee151eeb408a1`.
-STEP SHA-256: `ec243df03761bb1c3bcaebbd60b63c69b34b2ab70af8678a80d0c1be621926d6`.
-Independent review: `review-297-dcecd604-adcd-4b21-a221-29536dfa2936`.
+Exact build305; source hash `3f713650ad3ffe45bdf6eefcfa792ec11c1ef8ad0b80f5943159512e611d98d0`.
+Export `export-dd8daa989d36a0d5fb4b7a241e9c76a7`.
+STEP SHA-256 `6d340588b181515a1c715b4c2140faf21dcc6f3665e98742e92961a14d2186ec`.
+Independent review `review-305-3343d01b-7158-462b-b020-d24d90197e72`.
 
-The requested side-lock deletion, square posts, removal of long base locating tongues/channels, curved lower end profiles, and integrated half buckle tongue are exported. Closed-pose and sampled motion checks pass. Export availability is not carrying readiness.
+Requested cosmetic modifications are exported: bottom-rooted raised metal half tongue, circular top-band crown fading forward, nominal0.4mm bevel across12 macro-edge regions. Seven geometry reports pass for this exact build; the exported preview is current. Geometry validation is not carrying readiness.
 
-## Unresolved P0: no structural bottom pullout restraint
-The independent reviewer found that eight unheaded 4mm square posts in4.4mm sockets are clearance-fit insertion joints. The loaded bottom can withdraw when the bag is lifted. The decorative binding is not load bearing. The project brief already identifies this as an absent structural connection, not merely an unperformed test. Unlocked sliding side panels also have no independent positive restraint.
+## Unresolved P0: no structural bottom pullout retention
+The independent reviewer again identified eight unheaded4mm pegs in4.4mm downward-opening sockets as clearance-fit joints, not structural pullout restraints. The bottom can separate downward when lifted. Decorative binding cannot substitute for the absent load connection. This finding concerns connection geometry, not merely unperformed testing. Side-panel pullout restraint also remains unresolved as documented in the brief.
 
-The user's2kg-plus-self-weight target remains unchanged and unmet in this dry-assembled version. Do not carry a loaded bag with this model. No screw or unrequested locking feature was added to bypass the user's explicit deletion request. A subsequent user decision must establish the acceptable screwless retention approach; adhesive bonding and mechanical locking affect serviceability differently. Review findings were not waived or represented as passed.
+The2kg-plus-self-weight requirement remains unchanged and unmet in the dry assembly. Do not carry a loaded bag with this model. The present query requested appearance edits, not a choice between permanent bonding and serviceable screwless locking. No rejected screws or unrequested restraints were reintroduced, and the finding was not waived.
 
-Canonical independent-review evidence:
-- Bottom-panel iso: `.work/cache/cad-workbench/designs/archive_handbag/observations/4a7390130ed1dccf07adf04df613a813b2680282948db6a24ca756e982200284/look-b396eeac2804fe83fd43fe1e/workbench_iso.png`
-- Front/rear-panel bottom: `.work/cache/cad-workbench/designs/archive_handbag/observations/4a7390130ed1dccf07adf04df613a813b2680282948db6a24ca756e982200284/look-7d47daf8dbb6ecca2b87479b/workbench_bottom.png`
+Review evidence:
+- Eight bottom pegs: `.work/cache/cad-workbench/designs/archive_handbag/observations/3f713650ad3ffe45bdf6eefcfa792ec11c1ef8ad0b80f5943159512e611d98d0/look-e03b3e4282dc7d5a1d6dca3f/workbench_iso.png`
+- Downward-facing front/rear sockets: `.work/cache/cad-workbench/designs/archive_handbag/observations/3f713650ad3ffe45bdf6eefcfa792ec11c1ef8ad0b80f5943159512e611d98d0/look-5f84392f04c0f14e496c805e/workbench_iso_back.png`

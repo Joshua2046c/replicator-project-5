@@ -5,6 +5,7 @@ guide=param('spine_end_guide_thickness',7.0);base=param('front_panel_base_z',4.0
 bw=param('front_panel_band_width',30.0);bt=param('front_panel_band_depth',1.0)
 gdepth=param('front_panel_curved_end_depth',9.0)
 py=param('front_panel_peg_y',-47.0);pw=param('front_panel_peg_socket_width',4.4);pd=param('front_panel_peg_socket_depth',6.3);pad=param('front_panel_peg_pad_width',10.0);ph=param('front_panel_peg_pad_height',8.0)
+c=param('blue_spine_outer_chamfer',0.4)
 parts={};curves={}
 for oid,z,h in [('green_spine',32,64),('blue_spine',96,64)]:
  w=param(oid+'_width',220.0);hh=param(oid+'_height',h);t=param(oid+'_thickness',3.5);zz=param(oid+'_center_z',z)
@@ -20,6 +21,11 @@ for oid,z,h in [('green_spine',32,64),('blue_spine',96,64)]:
   plate+=endpart;plate-=Pos(s*panelx,0,zz)*Box(slot,100.6,hh+0.2)
  if oid=='green_spine':
   for x in [-xs,-pitch,pitch,xs]:plate+=Pos(x,py,base+ph/2)*Box(pad,pad,ph)&outer
+ #45degree conical edge band on left/right curved silhouette only.
+ taper=Pos(0,cy,zz)*Rot(0,90,0)*Cylinder(R,w-2*c)
+ taper+=Pos(-w/2+c/2,cy,zz)*Rot(0,90,0)*Cone(R-c,R,c)
+ taper+=Pos(w/2-c/2,cy,zz)*Rot(0,90,0)*Cone(R,R-c,c)
+ plate-=outer-taper
  band=(outer-Pos(0,cy+bt,zz)*Rot(0,90,0)*Cylinder(R,w+2))&Pos(0,end_y-sag/2+t,(bottom+top)/2)*Box(bw,2*(sag+t+1),top-bottom)
  plate-=band;parts[oid]=plate
 front=parts['green_spine']+parts['blue_spine']
@@ -30,4 +36,4 @@ for s,side in [(-1,'left'),(1,'right')]:
  front+=(Pos(s*mx,my,mtop-mh/2)*Cylinder(od/2,mh))&curves['blue_spine']
  front-=Pos(s*mx,my,mtop-dep)*Cylinder(md/2,dep+0.1,align=(Align.CENTER,Align.CENTER,Align.MIN))
 assert len(front.solids())==1
-publish('blue_spine',front,'同弧前板与方桩孔')
+publish('blue_spine',front,'倒角同弧方孔前板')

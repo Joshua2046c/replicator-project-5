@@ -1,0 +1,182 @@
+{
+  "buildNumber": 305,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/3f713650ad3ffe45bdf6eefcfa792ec11c1ef8ad0b80f5943159512e611d98d0",
+  "macro_regions_count": 12,
+  "macro_edge_probes": [
+    {
+      "region": "top_side_-1",
+      "object": "lid",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.399999999999909e-05,
+      "passed": true
+    },
+    {
+      "region": "bottom_side_-1",
+      "object": "bottom_panel",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.400000000000336e-05,
+      "passed": true
+    },
+    {
+      "region": "top_side_1",
+      "object": "lid",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.399999999999909e-05,
+      "passed": true
+    },
+    {
+      "region": "bottom_side_1",
+      "object": "bottom_panel",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.400000000000336e-05,
+      "passed": true
+    },
+    {
+      "region": "top_front",
+      "object": "lid",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.399999999999485e-05,
+      "passed": true
+    },
+    {
+      "region": "bottom_front",
+      "object": "bottom_panel",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.399999999999912e-05,
+      "passed": true
+    },
+    {
+      "region": "top_rear",
+      "object": "lid",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.399999999999485e-05,
+      "passed": true
+    },
+    {
+      "region": "bottom_rear",
+      "object": "bottom_panel",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.399999999999912e-05,
+      "passed": true
+    },
+    {
+      "region": "rear_vertical_-1_66",
+      "object": "body",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "region": "rear_vertical_-1_99",
+      "object": "body",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.40000000000062e-05,
+      "passed": true
+    },
+    {
+      "region": "rear_vertical_-1_188",
+      "object": "lid",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.399999999999863e-05,
+      "passed": true
+    },
+    {
+      "region": "rear_vertical_1_66",
+      "object": "body",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "region": "rear_vertical_1_99",
+      "object": "body",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.40000000000062e-05,
+      "passed": true
+    },
+    {
+      "region": "rear_vertical_1_188",
+      "object": "lid",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.399999999999863e-05,
+      "passed": true
+    },
+    {
+      "region": "front_vertical_-1_32",
+      "object": "blue_spine",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.400000000000432e-05,
+      "passed": true
+    },
+    {
+      "region": "front_vertical_-1_96",
+      "object": "blue_spine",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "region": "front_vertical_-1_159.3",
+      "object": "lid",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.399999999999864e-05,
+      "passed": true
+    },
+    {
+      "region": "front_vertical_1_32",
+      "object": "blue_spine",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.400000000000432e-05,
+      "passed": true
+    },
+    {
+      "region": "front_vertical_1_96",
+      "object": "blue_spine",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.400000000000622e-05,
+      "passed": true
+    },
+    {
+      "region": "front_vertical_1_159.3",
+      "object": "lid",
+      "removed_material_mm3": 0,
+      "remaining_material_mm3": 6.399999999999864e-05,
+      "passed": true
+    }
+  ],
+  "crown_sections": [
+    {
+      "y": -40,
+      "top_z": 190.0000001493827
+    },
+    {
+      "y": -30,
+      "top_z": 190.19638499032664
+    },
+    {
+      "y": -20,
+      "top_z": 190.76451952349998
+    },
+    {
+      "y": -10,
+      "top_z": 191.61666568339376
+    },
+    {
+      "y": 0,
+      "top_z": 192.52538932727805
+    },
+    {
+      "y": 5,
+      "top_z": 192.86199023048403
+    },
+    {
+      "y": 10,
+      "top_z": 193.0000001
+    }
+  ],
+  "crown_top_z_mm": 193.0000001,
+  "tongue_tip_region_material_mm3": 0.00999999999999986,
+  "tongue_bottom_root_single_solid": true,
+  "status": "pass",
+  "scope": "Outer edge regions only:4top+4bottom+2front curved+2rear vertical; horizontal page-groove fine edges and functional mating surfaces excluded. Not carrying certification."
+}
