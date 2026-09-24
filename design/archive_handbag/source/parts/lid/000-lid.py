@@ -63,9 +63,23 @@ for xx,sg in [(-w/2,-1),(w/2,1)]:
  lid-=extrude(Plane.XZ*Polygon((xx-sg*c,top),(xx+sg*2,top),(xx+sg*2,top-c-2),align=None),amount=d+20,both=True)
 for yy,sg in [(ey-hy,-1),(d/2-hy,1)]:
  lid-=extrude(Plane.YZ*Polygon((yy-sg*c,top),(yy+sg*2,top),(yy+sg*2,top-c-2),align=None),amount=w+2,both=True)
+# Two rear corners: tangent round in plan, including the recessed page field.
+cr=param('lid_rear_corner_radius',1.0)
+assert cr>page+max(g,wrap) and cr>c
 for s in [-1,1]:
- lid-=extrude(Plane.XY*Polygon((s*(w/2-c),d/2-hy),(s*(w/2+2),d/2-hy),(s*(w/2+2),d/2-hy-c-2),align=None),amount=top+1,both=True)
- lid-=Pos(0,0,b+cover)*extrude(Plane.XY*Polygon((s*(w/2-page-c),d/2-hy-page),(s*(w/2+2),d/2-hy-page),(s*(w/2+2),d/2-hy-2*page-c-2),align=None),amount=height-2*cover,dir=(0,0,1))
+ xc=s*(w/2-cr);yc=d/2-hy-cr
+ def corner_cut(radius,z0,span):
+  square=Pos(s*(w/2-cr/2),d/2-hy-cr/2,z0)*Box(cr,cr,span,align=(Align.CENTER,Align.CENTER,Align.MIN))
+  disk=Pos(xc,yc,z0)*Cylinder(radius,span,align=(Align.CENTER,Align.CENTER,Align.MIN))
+  return square-disk
+ lid-=corner_cut(cr,b-1,height+2)
+ lid-=corner_cut(cr-page,b+cover,height-2*cover)
+ for i in range(-4,5):
+  lid-=corner_cut(cr-page-max(g,wrap),cz+i*pitch-gw/2,gw)
+ # Continue the existing top-edge chamfer around the new circular corner.
+ square=Pos(s*(w/2-cr/2),d/2-hy-cr/2,top-c)*Box(cr,cr,c,align=(Align.CENTER,Align.CENTER,Align.MIN))
+ cone=Pos(xc,yc,top-c)*Cone(cr,cr-c,c,align=(Align.CENTER,Align.CENTER,Align.MIN))
+ lid-=square-cone
 # Blind roof nameplate pocket, keeping1.2mm roof floor at default settings.
 nw=param('nameplate_width',20.0);nl=param('nameplate_length',36.0);nx=param('nameplate_x',-75.0);ny=param('nameplate_y',4.0);nd=param('nameplate_pocket_depth',1.0);nc=param('nameplate_clearance',0.15)
 lid-=Pos(nx,ny-hy,top-nd)*Box(nw+2*nc,nl+2*nc,nd+1,align=(Align.CENTER,Align.CENTER,Align.MIN))

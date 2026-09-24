@@ -63,7 +63,7 @@
     {
       "id": "outer_edge_chamfer",
       "kind": "mechanical",
-      "description": "方形包主体十二条大边区域做小倒角；保留书脊弧度，不扩大到页槽细边及配合孔。",
+      "description": "方形包主体十二条大边区域做小倒角；保留书脊弧度，不扩大到页槽细边及配合孔。 最新俯视标注的上盖后方两个角采用小圆角。",
       "source": "user_requested",
       "required": true
     },

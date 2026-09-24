@@ -332,6 +332,14 @@
         "metal_front_min_nominal_mm": 0.7,
         "retention": "nonstructural locating peg; adhesive trial required"
       }
+    },
+    "lid_rear_corner_round": {
+      "source": "user",
+      "value": "按最新俯视标注，将上盖后方左右两个外角做小圆角。"
+    },
+    "lid_rear_corner_radius_mm": {
+      "source": "default",
+      "value": 1.0
     }
   },
   "open_questions": []

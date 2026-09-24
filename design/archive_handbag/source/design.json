@@ -26,7 +26,7 @@
           "target": "lid",
           "order": 0,
           "path": "design/archive_handbag/source/parts/lid/000-lid.py",
-          "sha256": "9cf35187b7f91b183974294f60a97bd4c9558f88fdab12a50feece25e8926e98"
+          "sha256": "e88285100a37d5a6c1d968dca7231844066f28829e3bdd6dc9b7b4739f652c27"
         }
       ],
       "dependencies": []
@@ -246,7 +246,7 @@
       "target": "lid",
       "label": "光面端部贴合翻盖",
       "kind": "generated",
-      "shapeHash": "59a933fc581392a2d4f6db13c2df8f3aae9609bffd7ac85e7f02f809fd4250d0",
+      "shapeHash": "98f9ef5166f98d79a202bba4fa6b019b33eb58dfddfaa618bdb244460594d25a",
       "transform": {
         "positionMm": [
           0,
@@ -958,7 +958,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-24T22:37:54.374Z",
+  "updatedAt": "2026-09-24T22:44:36.858Z",
   "parameters": {
     "body": {
       "case_width": 220,
@@ -1051,7 +1051,8 @@
       "pink_marks_end_y": -51,
       "spine_surface_max_angle_deg": 2,
       "spine_lap_rear_y": -47.5,
-      "lid_side_page_front_clearance": 0.3
+      "lid_side_page_front_clearance": 0.3,
+      "lid_rear_corner_radius": 1
     },
     "side_left": {
       "side_left_thickness": 4,

@@ -1,0 +1,436 @@
+{
+  "revision": "1ee8332c9a811b7b8ec8eabfd0fd573667c188638f0987c08f191e1830204c6f",
+  "step_sha256": "c84c2f66cb42eedc221967739caec28229a1741ee578204fdb31d9184c5ae34f",
+  "baseline_step_sha256": "dd2ebcaababcb55281742c034cd2dc269c83086eea56b4e576922888179825f2",
+  "objects": 28,
+  "solids": 31,
+  "all_valid": true,
+  "unchanged_other_objects_mm3": {
+    "body": 0,
+    "side_left": 0,
+    "side_right": 0,
+    "blue_spine": 0,
+    "central_binding": 0,
+    "upper_binding": 0,
+    "buckle": 0,
+    "blue_marks": 0,
+    "green_marks": 0,
+    "pink_marks": 0,
+    "backplate_left": 0,
+    "backplate_right": 0,
+    "eye_left": 0,
+    "eye_right": 0,
+    "pivot_sleeve_left": 0,
+    "pivot_sleeve_right": 0,
+    "thumb_screw_left": 0,
+    "thumb_screw_right": 0,
+    "axle": 0,
+    "body_magnet_left": 0,
+    "body_magnet_right": 0,
+    "lid_magnet_left": 0,
+    "lid_magnet_right": 0,
+    "bottom_panel": 0,
+    "ring_nut_left": 0,
+    "ring_nut_right": 0,
+    "nameplate": 0
+  },
+  "added_lid_volume_mm3": 0,
+  "removed_lid_volume_mm3": 6.039545589055948,
+  "change_outside_two_corners_mm3": 0,
+  "round_surface_probes": [
+    {
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 1,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 190,
+      "radius_mm": 0.6,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 0.75,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 0.3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    }
+  ],
+  "collision_reasoning": "The new lid is a subset of the previously validated lid, all other bodies and placements identical. Therefore prior collision-free closed and sampled motion poses remain collision-free. Baseline evidence: lid-detail-check.json.",
+  "passed": true
+}

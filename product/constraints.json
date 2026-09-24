@@ -547,5 +547,22 @@
     "max_step_deg": 0.32575,
     "lid_max_step_deg": 0.63871,
     "evidence": "design/archive_handbag/verification/upper-binding-sampling.json"
+  },
+  "lid_rear_corner_round": {
+    "source": "default",
+    "outer_radius_mm": 1,
+    "page_field_radius_mm": 0.75,
+    "groove_root_radius_mm": 0.3,
+    "top_chamfer_mm": 0.4,
+    "positions_xy_mm": [
+      [
+        -109,
+        56
+      ],
+      [
+        109,
+        56
+      ]
+    ]
   }
 }
