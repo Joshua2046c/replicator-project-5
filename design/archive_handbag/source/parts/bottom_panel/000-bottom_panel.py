@@ -17,8 +17,17 @@ taper=Pos(0,cy,cz)*Rot(0,90,0)*Cylinder(R,w-2*c)
 taper+=Pos(-w/2+c/2,cy,cz)*Rot(0,90,0)*Cone(R-c,R,c)
 taper+=Pos(w/2-c/2,cy,cz)*Rot(0,90,0)*Cone(R,R-c,c)
 p-=outer-taper
+# Continue R3 down to the base, with the existing bottom perimeter bevel.
+cr=param('bottom_panel_rear_corner_radius',3.0)
+assert cr>c
 for sg in [-1,1]:
- p-=extrude(Plane.XY*Polygon((sg*(w/2-c),d/2),(sg*(w/2+2),d/2),(sg*(w/2+2),d/2-c-2),align=None),amount=t+1,both=True)
+ xc=sg*(w/2-cr);yc=d/2-cr
+ square=Pos(sg*(w/2-cr/2),d/2-cr/2,-1)*Box(cr,cr,t+2,align=(Align.CENTER,Align.CENTER,Align.MIN))
+ disk=Pos(xc,yc,-1)*Cylinder(cr,t+2,align=(Align.CENTER,Align.CENTER,Align.MIN))
+ p-=square-disk
+ bottom_corner=Pos(sg*(w/2-cr/2),d/2-cr/2,0)*Box(cr,cr,c,align=(Align.CENTER,Align.CENTER,Align.MIN))
+ cone=Pos(xc,yc,0)*Cone(cr-c,cr,c,align=(Align.CENTER,Align.CENTER,Align.MIN))
+ p-=bottom_corner-cone
 p-=Pos(0,0,recess/2)*Box(channel,d+20,recess)
 band=(outer-Pos(0,cy+recess,cz)*Rot(0,90,0)*Cylinder(R,w+2))&Pos(0,front,t/2)*Box(channel,20,t)
 p-=band

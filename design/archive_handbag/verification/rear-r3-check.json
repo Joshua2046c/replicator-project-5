@@ -1,0 +1,1512 @@
+{
+  "revision": "6abecde934b6ac63b0becb01223b81ed1ad1ca4102748b715e791d6c94bc27b7",
+  "step_sha256": "20742d43d0f1701226f1ae8287557b2de7ad61c49e9494f345b6cd5fc850e7b8",
+  "baseline_step_sha256": "c84c2f66cb42eedc221967739caec28229a1741ee578204fdb31d9184c5ae34f",
+  "objects": 28,
+  "solids": 31,
+  "all_valid": true,
+  "unchanged_other_objects_mm3": {
+    "side_left": 0,
+    "side_right": 0,
+    "blue_spine": 0,
+    "central_binding": 0,
+    "upper_binding": 0,
+    "buckle": 0,
+    "blue_marks": 0,
+    "green_marks": 0,
+    "pink_marks": 0,
+    "backplate_left": 0,
+    "backplate_right": 0,
+    "eye_left": 0,
+    "eye_right": 0,
+    "pivot_sleeve_left": 0,
+    "pivot_sleeve_right": 0,
+    "thumb_screw_left": 0,
+    "thumb_screw_right": 0,
+    "axle": 0,
+    "body_magnet_left": 0,
+    "body_magnet_right": 0,
+    "lid_magnet_left": 0,
+    "lid_magnet_right": 0,
+    "ring_nut_left": 0,
+    "ring_nut_right": 0,
+    "nameplate": 0
+  },
+  "local_changes": {
+    "lid": {
+      "added_mm3": 0,
+      "removed_mm3": 180.38147391955218,
+      "outside_corner_mm3": 0
+    },
+    "body": {
+      "added_mm3": 0,
+      "removed_mm3": 374.8257699541016,
+      "outside_corner_mm3": 0
+    },
+    "bottom_panel": {
+      "added_mm3": 0,
+      "removed_mm3": 14.667804150606901,
+      "outside_corner_mm3": 0
+    }
+  },
+  "round_surface_probes": [
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": -1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": -1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": -1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 188.5,
+      "radius_mm": 3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 190,
+      "radius_mm": 2.6,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 161.3,
+      "radius_mm": 2.75,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "lid",
+      "side": 1,
+      "z": 159.3,
+      "radius_mm": 2.3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 62,
+      "radius_mm": 3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 126,
+      "radius_mm": 3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 34,
+      "radius_mm": 2.75,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 98,
+      "radius_mm": 2.75,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 32,
+      "radius_mm": 2.3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 96,
+      "radius_mm": 2.3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "body",
+      "side": 1,
+      "z": 64,
+      "radius_mm": 2.55,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 2,
+      "radius_mm": 3,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 15,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 45,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 75,
+      "distance_mm": 0.0
+    },
+    {
+      "object": "bottom_panel",
+      "side": 1,
+      "z": 0,
+      "radius_mm": 2.6,
+      "angle_deg": 90,
+      "distance_mm": 0.0
+    }
+  ],
+  "collision_reasoning": "Each changed part is a subset of its previously validated shape; all other bodies and placements are identical. Therefore prior collision-free closed and sampled motion poses remain collision-free. Baseline evidence: lid-corner-round-check.json and previous handoff receipt; lid-detail-check.json holds sampled motion evidence.",
+  "passed": true
+}

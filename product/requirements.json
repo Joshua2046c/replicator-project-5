@@ -335,11 +335,11 @@
     },
     "lid_rear_corner_round": {
       "source": "user",
-      "value": "按最新俯视标注，将上盖后方左右两个外角做小圆角。"
+      "value": "后方两侧对应竖边均做圆角，从上盖贯通下两层背板及底板；原R1扩大为R3。"
     },
     "lid_rear_corner_radius_mm": {
-      "source": "default",
-      "value": 1.0
+      "source": "user",
+      "value": 3.0
     }
   },
   "open_questions": []

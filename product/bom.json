@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready_with_mechanical_use_restriction",
   "bom_ready": true,
-  "requirements_digest": "57b953680e2d384c3ae89dca4232067d304c7c60deaccd4345803106fad6800f",
+  "requirements_digest": "c06352ff39c238414a3b3ad08240b5bf28932ae25b75f77b02e78c7a3f37f0ae",
   "items": [
     {
       "id": "body",
@@ -10,7 +10,7 @@
       "name": "外板拼装结构套件",
       "quantity": 1,
       "part_number": "AH-OUTER-PANEL-SET",
-      "description": "下两层一体前书脊延伸至X±110，外包侧板前端；后侧直角搭接面Y−47.5，保留内部导边、方孔、饰块槽、细化圆弧。后板和底板不变。 中央Z96预留3.3方形扣桩盲孔，孔底约1.3mm。",
+      "description": "下两层一体前书脊延伸至X±110，外包侧板前端；后侧直角搭接面Y−47.5，保留内部导边、方孔、饰块槽、细化圆弧。后板和底板不变。 中央Z96预留3.3方形扣桩盲孔，孔底约1.3mm。 背板与底板后方两侧竖边统一R3，与上盖圆角对齐；背侧页纹随形接续。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -23,7 +23,7 @@
       "name": "整幅盖背翻盖",
       "quantity": 1,
       "part_number": "AH-LID-FLUSH",
-      "description": "上盖统一R88.333圆弧，顶面190；一体侧翼与等距页槽、4mm封面带；左右紧凑圆磁铁槽，无盖片/螺钉。 顶部四周和前后竖边区域0.4mm小倒角；装饰顶带另有3mm隆起。 封面增加20.3×36.3深1mm铭牌盲槽，底留1.2mm；粉色书脊两处深1.2mm饰块槽。 前侧光面止于Y−47.2，后方页块凹陷与下方侧板分界齐平；后角页槽贯通；内避让弧R108，与侧板R107.7配对留0.3mm径向活动缝。 后方左右两个外角改为R1mm圆角，页槽随圆角接续。",
+      "description": "上盖统一R88.333圆弧，顶面190；一体侧翼与等距页槽、4mm封面带；左右紧凑圆磁铁槽，无盖片/螺钉。 顶部四周和前后竖边区域0.4mm小倒角；装饰顶带另有3mm隆起。 封面增加20.3×36.3深1mm铭牌盲槽，底留1.2mm；粉色书脊两处深1.2mm饰块槽。 前侧光面止于Y−47.2，后方页块凹陷与下方侧板分界齐平；后角页槽贯通；内避让弧R108，与侧板R107.7配对留0.3mm径向活动缝。 后方左右两个外角改为R3mm圆角，页槽随圆角接续。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],

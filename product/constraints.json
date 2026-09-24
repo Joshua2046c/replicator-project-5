@@ -549,20 +549,26 @@
     "evidence": "design/archive_handbag/verification/upper-binding-sampling.json"
   },
   "lid_rear_corner_round": {
-    "source": "default",
-    "outer_radius_mm": 1,
-    "page_field_radius_mm": 0.75,
-    "groove_root_radius_mm": 0.3,
-    "top_chamfer_mm": 0.4,
+    "source": "user",
+    "outer_radius_mm": 3,
+    "scope": [
+      "lid",
+      "body",
+      "bottom_panel"
+    ],
+    "page_field_radius_mm": 2.75,
+    "groove_root_radius_mm": 2.3,
+    "top_bottom_chamfer_mm": 0.4,
     "positions_xy_mm": [
       [
-        -109,
-        56
+        -107,
+        54
       ],
       [
-        109,
-        56
+        107,
+        54
       ]
-    ]
+    ],
+    "note": "Outer R3 specified by user; recess radii and positions derived from current dimensions."
   }
 }

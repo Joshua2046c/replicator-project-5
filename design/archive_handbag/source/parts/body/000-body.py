@@ -15,21 +15,29 @@ for s in [-1,1]:
 for x in [-xs,-ix,ix,xs]:
  body+=Pos(x,py,floor+ph/2)*Box(pad,pad,ph)
  body-=Pos(x,py,floor+pd/2-.01)*Box(pw,pw,pd+.02)
-for s in [-1,1]:
- body-=extrude(Plane.XY*Polygon((s*(W/2-c),rear_y+wall/2),(s*(W/2+2),rear_y+wall/2),(s*(W/2+2),rear_y+wall/2-c-2),align=None),amount=H+1,both=True)
+# Matched full-height rear rounds; the two side boards end ahead of this region.
+cr=param('body_rear_corner_radius',3.0)
+assert cr>page+max(groove,wrap)
+def rear_corner_cut(s,radius,z0,span):
+ xc=s*(W/2-cr);yc=rear_y+wall/2-cr
+ square=Pos(s*(W/2-cr/2),rear_y+wall/2-cr/2,z0)*Box(cr,cr,span,align=(Align.CENTER,Align.CENTER,Align.MIN))
+ disk=Pos(xc,yc,z0)*Cylinder(radius,span,align=(Align.CENTER,Align.CENTER,Align.MIN))
+ return square-disk
+for s in [-1,1]:body-=rear_corner_cut(s,cr,floor-1,H-floor+2)
 for lo,hi in [(0,boundary),(boundary,H)]:
  center=(lo+hi)/2
  body-=Pos(0,rear_y+wall/2-page/2,center)*Box(W+2,page,hi-lo-2*cover)
  for s in [-1,1]:body-=Pos(s*(W/2-page/2),51,center)*Box(page,14,hi-lo-2*cover)
- # Explicit +Z for both mirrored triangular profiles: polygon winding must not reverse the cut.
- for s in [-1,1]:
-  body-=Pos(0,0,lo+cover)*extrude(Plane.XY*Polygon((s*(W/2-page-c),rear_y+wall/2-page),(s*(W/2+2),rear_y+wall/2-page),(s*(W/2+2),rear_y+wall/2-2*page-c-2),align=None),amount=hi-lo-2*cover,dir=(0,0,1))
+ for s in [-1,1]:body-=rear_corner_cut(s,cr-page,lo+cover,hi-lo-2*cover)
  for i in range(-4,5):
   zz=center+i*pitch
   body-=Pos(0,rear_y+wall/2-(page+groove)/2,zz)*Box(W+2,page+groove,groovew)
-  for s in [-1,1]:body-=Pos(s*(W/2-(page+wrap)/2),51,zz)*Box(page+wrap,14,groovew)
+  for s in [-1,1]:
+   body-=Pos(s*(W/2-(page+wrap)/2),51,zz)*Box(page+wrap,14,groovew)
+   body-=rear_corner_cut(s,cr-page-max(groove,wrap),zz-groovew/2,groovew)
 body-=Pos(0,rear_y+wall/2-groove/2,boundary)*Box(W+2,groove,0.6)
 for s in [-1,1]:body-=Pos(s*(W/2-wrap/2),51,boundary)*Box(wrap,14,0.6)
+for s in [-1,1]:body-=rear_corner_cut(s,cr-max(groove,wrap),boundary-0.3,0.6)
 body-=Pos(0,rear_y+wall/2-bt/2,(bend+floor)/2)*Box(bw,bt,bend-floor)
 for x in [-39.5,39.5]:
  body+=Pos(x,(rear_y+hy)/2,H-hr/2)*Box(19,hy-rear_y,hr)

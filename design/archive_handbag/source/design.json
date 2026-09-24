@@ -12,7 +12,7 @@
           "target": "body",
           "order": 0,
           "path": "design/archive_handbag/source/parts/body/000-body.py",
-          "sha256": "b91d7e5182f5d86df9996a850ca863a3961b4618c8fc7eb9ee0376288e600cfc"
+          "sha256": "84c7f60eb9faa07edb46b7ee08d24772c32d7b130c2d3a1429925f60e552b0ca"
         }
       ],
       "dependencies": []
@@ -26,7 +26,7 @@
           "target": "lid",
           "order": 0,
           "path": "design/archive_handbag/source/parts/lid/000-lid.py",
-          "sha256": "e88285100a37d5a6c1d968dca7231844066f28829e3bdd6dc9b7b4739f652c27"
+          "sha256": "265896c8f041d1fc018dc3ec114701690c00423e9c4d3477ae23b09b202223b9"
         }
       ],
       "dependencies": []
@@ -166,7 +166,7 @@
           "target": "bottom_panel",
           "order": 0,
           "path": "design/archive_handbag/source/parts/bottom_panel/000-bottom_panel.py",
-          "sha256": "9441d35fa08ae8c1768c440ee400a4ccf13367f5a05e210aeaa59ae4025a4bff"
+          "sha256": "6c18ef47693b756c11e77ce36e3d4377052fa5bf6ad4ccf340a7cc50a9be474c"
         }
       ],
       "dependencies": []
@@ -220,7 +220,7 @@
       "target": "body",
       "label": "小倒角方孔后板",
       "kind": "generated",
-      "shapeHash": "5d4f412cce0d07e19713287836b50a06a18fea875a86092db043cfec664ffbc5",
+      "shapeHash": "da29ba8d439722ae9773d67f916e534abffd1ee32fffe0187beac548ec6f56aa",
       "transform": {
         "positionMm": [
           0,
@@ -246,7 +246,7 @@
       "target": "lid",
       "label": "光面端部贴合翻盖",
       "kind": "generated",
-      "shapeHash": "98f9ef5166f98d79a202bba4fa6b019b33eb58dfddfaa618bdb244460594d25a",
+      "shapeHash": "132102bb59166ebe1d9950d1629189e422ecab30d040b4566c67d3bb612b01c9",
       "transform": {
         "positionMm": [
           0,
@@ -845,7 +845,7 @@
       "target": "bottom_panel",
       "label": "外边小倒角方桩底板",
       "kind": "generated",
-      "shapeHash": "29d1368d83d2717ae189498bb99db530d0ff6deabea1c2517e1915272201c5ab",
+      "shapeHash": "df12a6c37cf524f922e36dc32949dd5c38b09b49feed32f9444cc03fc9446015",
       "transform": {
         "positionMm": [
           0,
@@ -958,7 +958,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-24T22:44:36.858Z",
+  "updatedAt": "2026-09-24T23:08:34.105Z",
   "parameters": {
     "body": {
       "case_width": 220,
@@ -991,7 +991,8 @@
       "body_peg_pad_height": 8,
       "body_peg_outer_x": 80,
       "body_peg_inner_x": 40,
-      "body_outer_chamfer": 0.4
+      "body_outer_chamfer": 0.4,
+      "body_rear_corner_radius": 3
     },
     "lid": {
       "lid_width": 220,
@@ -1052,7 +1053,7 @@
       "spine_surface_max_angle_deg": 2,
       "spine_lap_rear_y": -47.5,
       "lid_side_page_front_clearance": 0.3,
-      "lid_rear_corner_radius": 1
+      "lid_rear_corner_radius": 3
     },
     "side_left": {
       "side_left_thickness": 4,
@@ -1377,7 +1378,8 @@
       "bottom_panel_peg_width": 4,
       "bottom_panel_peg_height": 6,
       "bottom_panel_peg_leadin": 0.4,
-      "bottom_panel_outer_chamfer": 0.4
+      "bottom_panel_outer_chamfer": 0.4,
+      "bottom_panel_rear_corner_radius": 3
     },
     "imports": {},
     "right_nut_instance": {
