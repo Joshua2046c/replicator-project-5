@@ -6,8 +6,6 @@ bw=param('front_panel_band_width',30.0);bt=param('front_panel_band_depth',1.0)
 gdepth=param('front_panel_curved_end_depth',9.0)
 py=param('front_panel_peg_y',-47.0);pw=param('front_panel_peg_socket_width',4.4);pd=param('front_panel_peg_socket_depth',6.3);pad=param('front_panel_peg_pad_width',10.0);ph=param('front_panel_peg_pad_height',8.0)
 c=param('blue_spine_outer_chamfer',0.4)
-mt=param('corner_miter_width',4.0)
-page=param('front_corner_page_recess',0.25);pg=param('front_corner_groove_depth',0.45);pgw=param('front_corner_groove_width',1.0);pp=param('front_corner_page_pitch',6.0);cover=param('front_corner_cover_band',4.0)
 parts={};curves={}
 for oid,z,h in [('green_spine',32,64),('blue_spine',96,64)]:
  w=param(oid+'_width',220.0);hh=param(oid+'_height',h);t=param(oid+'_thickness',3.5);zz=param(oid+'_center_z',z)
@@ -21,19 +19,7 @@ for oid,z,h in [('green_spine',32,64),('blue_spine',96,64)]:
   cx=s*(w/2-guide/2)
   endpart=((Pos(cx,cy,zz)*Rot(0,90,0)*Cylinder(R,guide))-(Pos(cx,cy+gdepth,zz)*Rot(0,90,0)*Cylinder(R,guide+2)))&Pos(cx,-50,(bottom+top)/2)*Box(guide,16,top-bottom)
   # Side-board-owned curved ends slide outside this inner guide land.
-  # Retain the inner guide land, but the curved return now belongs to the front board.
-  endpart &= Pos(0,0,zz)*Box(2*(panelx-slot/2),4*R,hh+2)
-  plate+=endpart
-  xo=s*w/2;xi=s*(w/2-mt)
-  corner=outer&Pos(s*(w/2-mt/2),end_y-sag/2+mt/2,(bottom+top)/2)*Box(mt,sag+mt+2,top-bottom)
-  plate+=corner
-  # Front retains material forward of y=end_y+inward_distance.
-  mcut=Pos(0,0,bottom)*extrude(Polygon((xo,end_y),(xi,end_y+mt),(xi,end_y+mt+2),(xo,end_y+mt+2),align=None),amount=top-bottom,dir=(0,0,1))
-  plate-=mcut
-  # Continue the side page texture onto the curved front return.
-  plate-=Pos(s*(w/2-page/2),end_y,zz)*Box(page,2*(sag+mt+2),hh-2*cover)
-  for i in range(-4,5):
-   plate-=Pos(s*(w/2-(page+pg)/2),end_y,zz+i*pp)*Box(page+pg,2*(sag+mt+2),pgw)
+  plate+=endpart;plate-=Pos(s*panelx,0,zz)*Box(slot,2*(R+abs(end_y)),hh+0.2)
  if oid=='green_spine':
   for x in [-xs,-pitch,pitch,xs]:plate+=Pos(x,py,base+ph/2)*Box(pad,pad,ph)&outer
  taper=Pos(0,cy,zz)*Rot(0,90,0)*Cylinder(R,w-2*c)

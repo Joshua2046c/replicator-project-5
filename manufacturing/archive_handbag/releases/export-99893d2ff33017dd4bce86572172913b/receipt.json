@@ -2,11 +2,11 @@
   "designId": "archive_handbag",
   "revision": "2efe5f9fb2092593c9fb685ce6322977f1d5b49d6be2979f91b179de175f7cee",
   "schemaVersion": 2,
-  "exportId": "export-18301af190378ef4925b2a91a3618a87",
+  "exportId": "export-99893d2ff33017dd4bce86572172913b",
   "generatedAt": "2026-09-24T20:43:50.436Z",
   "designSha256": "6ff6f418d5725301089accf36416e42a42f398cac0a4f8fd22b58a824d55103e",
   "role": "handbag_assembly",
-  "stateHash": "659c2972397ddfa5d310383cab15382ca5034149f8dd37f2c867b10cc17b0a63",
+  "stateHash": "58141313c242575167426e57193256b84b28dfeb65ad34ee37ecdfe860bee27a",
   "stateManifest": {
     "schemaVersion": 3,
     "designId": "archive_handbag",
@@ -14,8 +14,8 @@
     "design": {
       "revision": "2efe5f9fb2092593c9fb685ce6322977f1d5b49d6be2979f91b179de175f7cee",
       "designSha256": "0169ab81d4303a15d233fe0d7392d75330b9ae148a1d36b3b421845233153fb9",
-      "manifestSha256": "a02dfb8abde5ed608023fff4a93703083bbd63ef74f21b91aba786af5dd5da37",
-      "stepSha256": "094248f865eb212044c79ad0ef5e8c51e5807130d297d62a7bc4158c8c7aebf0",
+      "manifestSha256": "1986ba9faacee0f1580d19ef5cc470d8641898ff1199c4ea37b6b3216fab299f",
+      "stepSha256": "7e69a78743621430458ff4d7dd403873a4fc7a29f0b9d071172b539f1828ba0e",
       "pcbReleases": []
     },
     "brief": {
@@ -140,11 +140,11 @@
         "step"
       ]
     },
-    "stateHash": "659c2972397ddfa5d310383cab15382ca5034149f8dd37f2c867b10cc17b0a63"
+    "stateHash": "58141313c242575167426e57193256b84b28dfeb65ad34ee37ecdfe860bee27a"
   },
   "buildArtifacts": {
-    "manifestSha256": "a02dfb8abde5ed608023fff4a93703083bbd63ef74f21b91aba786af5dd5da37",
-    "stepSha256": "094248f865eb212044c79ad0ef5e8c51e5807130d297d62a7bc4158c8c7aebf0"
+    "manifestSha256": "1986ba9faacee0f1580d19ef5cc470d8641898ff1199c4ea37b6b3216fab299f",
+    "stepSha256": "7e69a78743621430458ff4d7dd403873a4fc7a29f0b9d071172b539f1828ba0e"
   },
   "exportAlgorithm": {
     "version": 1,
@@ -211,10 +211,10 @@
   },
   "artifacts": [
     {
-      "path": "manufacturing/archive_handbag/releases/export-18301af190378ef4925b2a91a3618a87/model.step",
+      "path": "manufacturing/archive_handbag/releases/export-99893d2ff33017dd4bce86572172913b/model.step",
       "role": "model/step",
-      "sha256": "094248f865eb212044c79ad0ef5e8c51e5807130d297d62a7bc4158c8c7aebf0",
-      "sizeBytes": 8759760
+      "sha256": "7e69a78743621430458ff4d7dd403873a4fc7a29f0b9d071172b539f1828ba0e",
+      "sizeBytes": 8763769
     }
   ],
   "interference": {
@@ -236,9 +236,9 @@
     "algorithm": "hmac-sha256",
     "keyId": "3ddeb280dc0b23e3263dc06ea1e00c5f",
     "projectId": "1ccbe98c-3a73-4168-a780-a876c7d62cd9",
-    "receiptPath": "manufacturing/archive_handbag/releases/export-18301af190378ef4925b2a91a3618a87/receipt.json",
-    "payloadSha256": "84bf4ce5a89db242186e0a08b4e25d3b22b1d97dd08a5113257bef5bbb493722",
-    "mac": "89bc6f8fb61a728d1f8cd416998bed3f79afca2b7181aed93629fcec0195fdad"
+    "receiptPath": "manufacturing/archive_handbag/releases/export-99893d2ff33017dd4bce86572172913b/receipt.json",
+    "payloadSha256": "33f6fb0a065da3d215565b140346117334fc98c416eded3eb97f4e5a95a0ba3c",
+    "mac": "5101e36bb956e5367ab3d72dc649e99586bbde8887c650b2b66a72bb5dfb1154"
   },
   "status": "handoff"
 }

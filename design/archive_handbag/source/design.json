@@ -40,7 +40,7 @@
           "target": "side_left",
           "order": 0,
           "path": "design/archive_handbag/source/parts/side_left/000-side_left.py",
-          "sha256": "e929c47e725cc4f09af30f4e4a32583ea3909f69c74295fdc55df87e53d7514b"
+          "sha256": "52253995b44dcee53d9d4293f162c44a8c577a6aa92cbbef0877615ad579df4b"
         }
       ],
       "dependencies": []
@@ -68,7 +68,7 @@
           "target": "book_spines",
           "order": 0,
           "path": "design/archive_handbag/source/parts/book_spines/000-book_spines.py",
-          "sha256": "d013baaa3d3d65786e2845ae8ef2f2da6d909990aa3c21623c965e4dd5e4c507"
+          "sha256": "0eae0ea9eadf525d85e643b1c2c61e876b2d13c1792ad2262cc3933cc92830d5"
         }
       ],
       "dependencies": []
@@ -270,9 +270,9 @@
     {
       "id": "side_left",
       "target": "side_left",
-      "label": "45度拼接左侧板",
+      "label": "圆弧一体左书页板",
       "kind": "generated",
-      "shapeHash": "67bc987fd9c671e8897595dc6c0edd3e4a9b4b48d240ede733c0593143a9725c",
+      "shapeHash": "c6f684db508040d48c14be751aaeb96f020f0fe2afa61d0bc09ccd33edaf097c",
       "transform": {
         "positionMm": [
           -108,
@@ -324,7 +324,7 @@
       "target": "book_spines",
       "label": "一体前书脊内导边",
       "kind": "generated",
-      "shapeHash": "e331d42ab0e63b3fb97c5d0229bff2e2acf84e3d76407da545b46116e1b0349a",
+      "shapeHash": "9fed4f9c3d9da9bf1d79370cca36a17ff6c2672caf59640e35c9feadf2e12689",
       "transform": {
         "positionMm": [
           0,
@@ -1010,7 +1010,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-24T21:16:04.217Z",
+  "updatedAt": "2026-09-24T20:43:50.436Z",
   "parameters": {
     "body": {
       "case_width": 220,
@@ -1126,9 +1126,7 @@
       "spine_common_radius": 88.33333333333333,
       "side_left_spine_end_y": -51,
       "side_left_outer_chamfer": 0.4,
-      "spine_surface_max_angle_deg": 2,
-      "bottom_panel_thickness": 4,
-      "side_left_miter_rear_y": 57
+      "spine_surface_max_angle_deg": 2
     },
     "side_right": {
       "side_right_thickness": 4,
@@ -1214,13 +1212,7 @@
       "blue_marks_pocket_clearance": 0.15,
       "blue_marks_spine_height": 64,
       "blue_marks_end_y": -51,
-      "spine_surface_max_angle_deg": 2,
-      "corner_miter_width": 4,
-      "front_corner_page_recess": 0.25,
-      "front_corner_groove_depth": 0.45,
-      "front_corner_groove_width": 1,
-      "front_corner_page_pitch": 6,
-      "front_corner_cover_band": 4
+      "spine_surface_max_angle_deg": 2
     },
     "brown_binding": {
       "lower_binding_width": 30,
