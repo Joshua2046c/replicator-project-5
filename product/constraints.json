@@ -16,8 +16,8 @@
   },
   "assembled_hardware_envelope": {
     "value": [
-      240,
-      116.8,
+      238,
+      120,
       210
     ],
     "source": "research",
@@ -66,7 +66,7 @@
   },
   "side_panels": {
     "quantity": 2,
-    "outline": "rectangle",
+    "outline": "full-height panel with user-approved upper-front circular relief",
     "full_height": true,
     "insertion": "downward",
     "source": "user",
@@ -96,12 +96,12 @@
     "removal": "unload, remove ring through-bolts and external hardware, open100deg and extract upward",
     "relief": {
       "axis_world_yz": [
-        55,
+        58.2,
         128
       ],
-      "radius_mm": 103.4,
+      "radius_mm": 106.6,
       "start_world_z": 128.3,
-      "mating_lid_inner_radius_mm": 104,
+      "mating_lid_inner_radius_mm": 107.2,
       "radial_gap_mm": 0.6
     }
   },
@@ -132,12 +132,23 @@
     "source": "user",
     "lid_rear_width": 220,
     "corner_grooves_continuous": true,
-    "corner_groove_depth": 0.45
+    "corner_groove_depth": 0.45,
+    "upper_page_groove_heights_mm": [
+      134,
+      140,
+      146,
+      152,
+      158,
+      164,
+      170,
+      176,
+      182
+    ]
   },
   "hinge": {
     "axis": [
       0,
-      55,
+      58.2,
       128
     ],
     "axis_direction": "x",
@@ -145,16 +156,21 @@
     "shaft_length": 100,
     "bore": 4.4,
     "barrel_radius": 3.8,
-    "axial_endplay_each": 0.4,
+    "axial_endplay_each": 1.0,
     "opening_deg": 100,
-    "stops": "two kit-generated M3x10 retained stops",
-    "source": "default"
+    "stops": "integral metal pin heads6x1.4, one preformed and one peened after insertion; no separate retainers or screws",
+    "source": "default",
+    "rear_shift_mm": 3.2,
+    "pin_heads": [
+      6,
+      1.4
+    ]
   },
   "rings": {
     "quantity": 2,
     "location": "upper side at marked position",
     "rotation": true,
-    "fastening": "M4x20 metal through bolt, small exterior metal thumb nut; no printed thread",
+    "fastening": "one-piece exterior metal M4x20 thumb screw into interior ISO4032 M4 nut under lid on fixed load arm",
     "source": "user",
     "pivot_centers": [
       [
@@ -169,7 +185,6 @@
       ]
     ],
     "axis_direction": "x",
-    "thumb_nuts": "two custom M4 OD10 x4",
     "sleeve": [
       6,
       4.3,
@@ -199,11 +214,30 @@
     ],
     "axial_clearance_total": 0.6,
     "radial_clearance": 0.2,
-    "retention": "clamp sleeve, never loosen nut to swivel; removable thread retention; physical tests pending",
+    "retention": "clamp sleeve, do not loosen screw to swivel; removable thread retention; physical validation pending",
     "interface_status": "resolved",
     "dimensions_source": "default",
     "bearing_stack": "inner2mm steel plate +4mm fixed arm web +4mm panel, clamped by M4x20",
-    "fixed_support": "8mm thick local L-arm integral to rear outer board, z110..184, centerY0; pocket leaves4mm web"
+    "fixed_support": "8mm thick local L-arm integral to rear outer board, z110..184, centerY0; pocket leaves4mm web",
+    "thumb_screw": {
+      "head_diameter": 10,
+      "head_height": 4,
+      "under_head_length": 20,
+      "head_inner_x": [
+        -115,
+        115
+      ],
+      "thread": "M4-0.7 nominal metal envelope"
+    },
+    "inner_nuts": {
+      "spec": "ISO4032 M4-0.7",
+      "af": 7,
+      "height": 3.2,
+      "location": "inside upper closed lid volume, in fixed rear load-arm hex pockets",
+      "pocket_af": 7.4,
+      "inner_x_abs": 96.8,
+      "outer_x_abs": 100
+    }
   },
   "strap_route": {
     "status": "closed_surface_fit_verified",
@@ -248,22 +282,22 @@
     "screws": "8 x M2x6"
   },
   "verification": {
-    "geometry_build": 196,
-    "closed_interference": "1378 pairs screened;109 exact overlapping-bbox pairs;zero intersections",
+    "geometry_build": 226,
+    "closed_interference": "1176 pairs screened;103 exact bbox-overlap pairs;zero intersections",
     "motion": "design/archive_handbag/verification/motion-check.json",
     "swivel": "design/archive_handbag/verification/swivel-check.json",
     "payload_kg": 2,
     "physical_load_test": "not_performed",
     "continuous_sweep_proof": false,
-    "motion_status": "pass:0..100deg every5deg,9702 pairs",
+    "motion_status": "pass:0..100deg every5deg,8778 pairs",
     "surface_contact": "design/archive_handbag/verification/integral-panel-contact-check.json",
     "measured_main_envelope_mm": [
       220,
-      116.8,
+      120,
       189
     ],
-    "nominal_envelope_note": "measured bounds after removing proud band; requirement remains220x120x190, not rewritten",
-    "opening_tests": 9702
+    "nominal_envelope_note": "User nominal220x120x190 retained. Current main body including hinge220x120x189; height remains1mm below nominal, not claimed exact.",
+    "opening_tests": 8778
   },
   "unresolved_items": [],
   "risks": [

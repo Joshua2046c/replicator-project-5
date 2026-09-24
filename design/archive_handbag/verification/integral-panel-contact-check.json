@@ -1,110 +1,151 @@
 {
-  "buildNumber": 196,
-  "front_board_solid_count": 1,
-  "removed_objects_absent": {
-    "green_spine": true,
-    "binding_overlap": true,
-    "spine_join_screw_0": true
-  },
-  "base_insertion": [
-    {
-      "panel": "blue_spine",
-      "lift_mm": 0,
-      "base_overlap_mm3": 0
-    },
-    {
-      "panel": "blue_spine",
-      "lift_mm": 0.5,
-      "base_overlap_mm3": 0
-    },
-    {
-      "panel": "blue_spine",
-      "lift_mm": 1,
-      "base_overlap_mm3": 0
-    },
-    {
-      "panel": "blue_spine",
-      "lift_mm": 2.5,
-      "base_overlap_mm3": 0
-    },
-    {
-      "panel": "blue_spine",
-      "lift_mm": 5,
-      "base_overlap_mm3": 0
-    },
-    {
-      "panel": "blue_spine",
-      "lift_mm": 20,
-      "base_overlap_mm3": 0
-    },
-    {
-      "panel": "body",
-      "lift_mm": 0,
-      "base_overlap_mm3": 0
-    },
-    {
-      "panel": "body",
-      "lift_mm": 0.5,
-      "base_overlap_mm3": 0
-    },
-    {
-      "panel": "body",
-      "lift_mm": 1,
-      "base_overlap_mm3": 0
-    },
-    {
-      "panel": "body",
-      "lift_mm": 2.5,
-      "base_overlap_mm3": 0
-    },
-    {
-      "panel": "body",
-      "lift_mm": 5,
-      "base_overlap_mm3": 0
-    },
-    {
-      "panel": "body",
-      "lift_mm": 20,
-      "base_overlap_mm3": 0
-    }
-  ],
-  "band_contact": [
+  "buildNumber": 226,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/5edfbb3b743a47be316eeaeab3924d12bb9c329f22fd26db5baa10591d55a52a",
+  "contacts": [
     {
       "a": "central_binding",
       "b": "blue_spine",
       "distance_mm": 0.0,
-      "intersection_mm3": 0
-    },
-    {
-      "a": "central_binding",
-      "b": "body",
-      "distance_mm": 0.0,
-      "intersection_mm3": 0
+      "overlap_mm3": 0.0
     },
     {
       "a": "central_binding",
       "b": "bottom_panel",
       "distance_mm": 0.0,
-      "intersection_mm3": 0
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "central_binding",
+      "b": "body",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0
     },
     {
       "a": "upper_binding",
       "b": "lid",
       "distance_mm": 0.0,
-      "intersection_mm3": 0
-    },
-    {
-      "a": "buckle",
-      "b": "blue_spine",
-      "distance_mm": 0.0,
-      "intersection_mm3": 0
+      "overlap_mm3": 0
     },
     {
       "a": "buckle",
       "b": "central_binding",
+      "distance_mm": 7.944109290391274e-14,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ring_nut_right",
+      "b": "backplate_right",
       "distance_mm": 0.0,
-      "intersection_mm3": 0
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "ring_nut_left",
+      "b": "backplate_left",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "thumb_screw_right",
+      "b": "pivot_washer_right",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0
+    },
+    {
+      "a": "thumb_screw_left",
+      "b": "pivot_washer_left",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0
     }
   ],
-  "note": "Insertion checks omit retention screws until seated. Surface contact is nominal CAD contact, not adhesive strength certification."
+  "panel_insertion": [
+    {
+      "part": "blue_spine",
+      "lift_mm": 0,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "blue_spine",
+      "lift_mm": 0.4,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "blue_spine",
+      "lift_mm": 1,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "blue_spine",
+      "lift_mm": 2,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "blue_spine",
+      "lift_mm": 3,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "blue_spine",
+      "lift_mm": 5,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "body",
+      "lift_mm": 0,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "body",
+      "lift_mm": 0.4,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "body",
+      "lift_mm": 1,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "body",
+      "lift_mm": 2,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "body",
+      "lift_mm": 3,
+      "overlap_bottom_mm3": 0.0
+    },
+    {
+      "part": "body",
+      "lift_mm": 5,
+      "overlap_bottom_mm3": 0.0
+    }
+  ],
+  "thumb_screw_solids": {
+    "thumb_screw_left": 1,
+    "thumb_screw_right": 1
+  },
+  "axle_pull_1_2mm_blocking_mm3": {
+    "-1.2": 6.396362913813565,
+    "1.2": 6.39636291381387
+  },
+  "upper182mm_groove_probes": [
+    {
+      "object": "side_right",
+      "groove_air_volume_mm3": 0,
+      "wall_material_volume_mm3": 0.003999999999999963
+    },
+    {
+      "object": "side_left",
+      "groove_air_volume_mm3": 0,
+      "wall_material_volume_mm3": 0.003999999999999963
+    },
+    {
+      "object": "lid",
+      "groove_air_volume_mm3": 0,
+      "wall_material_volume_mm3": 0.004000000000000057
+    }
+  ],
+  "deleted_hardware_absent": true,
+  "front_panel_solid_count": 1,
+  "status": "pass",
+  "note": "Nominal rigid B-rep geometry; thread shapes simplified; no torque, thread strength, creep, magnetic force, watertightness or physical load certification."
 }

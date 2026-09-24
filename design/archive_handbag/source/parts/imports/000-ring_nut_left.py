@@ -1,0 +1,1 @@
+publish("ring_nut_left", asset("design/archive_handbag/source/assets/fc200b5ae3935c689379a698c83428aa651f5d3a401e1ddc2dc04ff80c965c27.step"), "盖下内侧M4螺母")

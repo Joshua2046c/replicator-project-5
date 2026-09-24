@@ -1,5 +1,5 @@
 {
-  "geometry_build": 196,
+  "geometry_build": 226,
   "connections": [
     {
       "id": "lid_hinge",
@@ -9,15 +9,7 @@
         "lid",
         "axle"
       ],
-      "description": "X-axis Y55 Z128, Ø4x100 shaft/Ø4.4 bores with kit-fastened axial stops. Side panel upper-front radius103.4 and lid integral wing inner radius104 share this axis;0.6mm radial seam. User approved corner relief;0..100deg every5deg no collision."
-    },
-    {
-      "id": "hinge_stops",
-      "implementation": "printed-screw-joint-v1",
-      "count": 2,
-      "size": "M3",
-      "length_mm": 10,
-      "engagement_mm": 7
+      "description": "X-axis Y58.2 Z128,3.2mm rearward shift. Custom4x100 shaft with two6x1.4 formed metal heads, no screw stops. Fixed outer knuckle ends±49, head inner faces±50 give1mm initial endplay each. One head formed after insertion; service requires removing formed end. Side reliefR106.6 and lid wing innerR107.2 share axis;0.6 radial seam. 0..100deg sampled every5deg collision-free."
     },
     {
       "id": "bottom_front_and_rear",
@@ -51,12 +43,12 @@
       "id": "ring_swivel",
       "implementation": "free",
       "count": 2,
-      "description": "Upper side atY0 Z174, M4x20 through2mm inner metal pad+4mm fixed arm web+4mm side panel+3.6mm sleeve+1.4mm washer+4mm nut. Metal threads only. Remove hardware for panel extraction, not for ordinary lid opening."
+      "description": "Upper sideY0 Z174. Exterior one-piece M4x20 knurled metal screw10x4 head atX±115;1.4 washer+3.6 sleeve+4mm sidepanel+4mm armweb+2mm steel plate+3.2 ISO4032 internal metal nut. Nut lies under lid in fixed-arm AF7.4 pocket, not attached to moving lid. Thread clearance envelope only. No printed thread joint. Remove screw/ring/outer hardware for sidepanel maintenance."
     },
     {
       "id": "sliding_panels",
       "implementation": "free",
-      "description": "4x100x182.4 envelope, upper-front circular relief startingworldZ128.3, radius103.4 aboutY55 Z128. Downward insertion into4.6mm guides. Remove ring bolts before maintenance extraction at100deg; normal opening leaves rings and trims installed."
+      "description": "4x100x182.4 envelope, upper-front circular relief startingworldZ128.3, radius106.6 aboutY58.2 Z128. Downward insertion into4.6mm guides. Remove thumb screws before maintenance extraction at100deg; normal opening leaves rings and trims installed."
     },
     {
       "id": "central_wrap",

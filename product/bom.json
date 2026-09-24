@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready",
   "bom_ready": true,
-  "requirements_digest": "b981658231712517b8e4bd1b00161a056744ced4e0f69a48a0dbfd0e7d96496b",
+  "requirements_digest": "554c4ef8fbff98d017ce6c3de9a899babcd918d0fb8fd05e86c55457632bca57",
   "items": [
     {
       "id": "body",
@@ -14,7 +14,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
       "part_identity": "4c7b49d3c6197c10"
     },
     {
@@ -23,24 +23,24 @@
       "name": "整幅盖背翻盖",
       "quantity": 1,
       "part_number": "AH-LID-FLUSH",
-      "description": "整幅220mm一体前书脊和盖背；一体侧翼沿铰轴同心圆弧覆盖侧板避让区；贴面分段带随盖运动。",
+      "description": "整幅220mm一体前书脊和盖背；一体侧翼沿铰轴同心圆弧覆盖侧板避让区；贴面分段带随盖运动。 后部矩形止挡空洞已填补；必要圆轴运动余隙保留；上层134..182mm每6mm页槽对应侧板。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
       "part_identity": "c8f8bda0279ef9fd"
     },
     {
       "id": "side_panels",
       "role": "sliding_panels",
-      "name": "左右矩形全高书页插板",
+      "name": "左右圆弧避让书页插板",
       "quantity": 2,
       "part_number": "AH-SIDE-RECT",
       "description": "4mm厚，100×182.4外包络；前上角按用户选择改为圆弧避让，与上盖一体侧翼配合，保持直接翻盖和自上滑入。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
       "part_identity": "b04ab60e459ffc67"
     },
     {
@@ -53,7 +53,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
       "part_identity": "2ae855c07d2e942f"
     },
     {
@@ -66,73 +66,47 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
       "part_identity": "e1b33d023ab564bf"
     },
     {
       "id": "ring_bolts",
       "role": "fastener",
-      "name": "侧装M4×20螺栓",
+      "name": "一体M4手拧螺丝",
       "quantity": 2,
-      "part_number": "ISO4762-M4x20",
-      "description": "精确目录M4×20，沿X穿内垫板、固定承力臂、4mm侧板及外隔套止推片。",
+      "part_number": "AH-THUMB-M4x20-HEAD10x4",
+      "description": "定制金属一体螺丝，M4×20头下长度，Ø10×4滚花头；从X±115外侧向内拧入内侧标准M4螺母。螺纹为名义包络，非FDM螺丝。",
       "source": "default",
-      "procurement_status": "external_procurement_required",
+      "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
-      "part_identity": "5227684f12709b68"
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
+      "part_identity": "6ce7630540a55236"
     },
     {
       "id": "ring_nuts",
       "role": "fastener",
-      "name": "侧轴小手拧螺帽",
+      "name": "内侧M4六角螺母",
       "quantity": 2,
-      "part_number": "AH-KNURLED-M4-10x4",
-      "description": "两颗定制金属M4滚花帽Ø10×4，夹紧隔套而非夹住转环；采用可拆卸防松措施。",
+      "part_number": "ISO4032-M4-0.7",
+      "description": "标准M4-0.7 ISO4032金属螺母，对边7高3.2；安装盖下固定承力臂口袋中，沿X位于±96.8..100。目录STEP简化螺纹。",
       "source": "default",
-      "procurement_status": "custom_fabrication_required",
+      "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
-      "part_identity": "0b2f682a8b796bed"
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
+      "part_identity": "e4b12ab87c4e349c"
     },
     {
       "id": "hinge_axle",
       "role": "lid_hinge",
-      "name": "切长金属转轴",
+      "name": "双铆头金属铰轴",
       "quantity": 1,
-      "part_number": "AH-AXLE-4x100",
-      "description": "304光圆棒Ø4×100，轴心Y55 Z128；Ø4.4铰孔，轴端各0.4间隙，M3固定止挡防脱。",
-      "source": "default",
-      "procurement_status": "external_procurement_required",
-      "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
-      "part_identity": "6aba42922000ecbe"
-    },
-    {
-      "id": "axle_caps",
-      "role": "lid_hinge",
-      "name": "转轴止挡盖",
-      "quantity": 2,
-      "part_number": "AH-AXLE-CAP",
-      "description": "两端PETG止挡，12宽×6深，底厚3；M3×10、7mm啮合到后板。",
+      "part_number": "AH-RIVET-PIN-D4-L100-HEAD6",
+      "description": "定制金属Ø4轴，轴段100，两端Ø6×1.4铆头，一端预制一端装配后成形；Y58.2 Z128；不再用螺钉止挡。 固定铰节端面±49，轴头内面±50，初始两端各1mm轴向余隙。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
-      "part_identity": "e66aaf90cf60d760"
-    },
-    {
-      "id": "axle_cap_screws",
-      "role": "fastener",
-      "name": "止挡盖 M3×10 螺钉",
-      "quantity": 2,
-      "part_number": "ISO4762-M3x10",
-      "description": "2颗ISO4762 M3×10；printed-screw-joint-v1生成，贯穿3mm止挡盖，啮合7mm；PETG成形孔轻拧。",
-      "source": "default",
-      "procurement_status": "external_procurement_required",
-      "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
-      "part_identity": "9ab9112a1e61e35a"
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
+      "part_identity": "6e0755fd54b9cadd"
     },
     {
       "id": "magnets",
@@ -144,7 +118,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
       "part_identity": "1256ac3368f74c85"
     },
     {
@@ -157,7 +131,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
       "part_identity": "350342d63049aac3"
     },
     {
@@ -170,7 +144,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
       "part_identity": "60df22607e90e1c1"
     },
     {
@@ -183,7 +157,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
       "part_identity": "cdec688dde151cf0"
     },
     {
@@ -192,11 +166,11 @@
       "name": "转环紧固件防松措施",
       "quantity": 1,
       "part_number": "SPEC-PIVOT-RETENTION",
-      "description": "金属M4螺纹采用可拆卸防松措施并做见证标记；旋转由光滑隔套实现，螺帽不拧松。样机需验证防松与PETG支座蠕变，未声称已通过。",
+      "description": "金属M4螺纹采用可拆卸防松措施并做见证标记；旋转由光滑隔套实现，手拧螺丝不拧松。样机需验证防松与PETG支座蠕变，未声称已通过。",
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
       "part_identity": "fa74f27b1e3433f0"
     },
     {
@@ -208,7 +182,7 @@
       "description": "仅粘贴非承力标线和贴面装饰带，样片确认PETG相容性；前后底插接由底螺钉防拔脱。",
       "source": "default",
       "procurement_status": "external_procurement_required",
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
       "part_identity": "4b3be1836c874da6"
     },
     {
@@ -221,7 +195,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "part_identity": "b9f8509e26ee9815",
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。"
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。"
     },
     {
       "id": "bottom_screws",
@@ -233,7 +207,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
+      "selection_reason": "按本轮上盖页槽、外移3.2mm简洁铰链及一体手拧螺丝要求复核；build226闭合与运动采样通过，承载仍待实体试验。",
       "part_identity": "7ae49e465365c84d"
     }
   ],
@@ -255,9 +229,9 @@
       "description": "FDM导槽及轴孔需先打印校准；普通遮尘非防水。"
     },
     {
-      "id": "thumb_nut_geometry",
+      "id": "thumb_screw_geometry",
       "severity": "advisory",
-      "description": "目录未匹配小手拧螺帽，因此明确定义定制M4、Ø10×4金属件；不是市场无货结论，也不是供应商模型。"
+      "description": "外侧一体手拧螺丝和双铆头转轴为明确定制金属几何，不冒称采购实物或厂家STEP。内部螺母采用已核对的ISO4032 M4目录STEP；CAD螺纹简化为名义包络。"
     }
   ],
   "unresolved_roles": []

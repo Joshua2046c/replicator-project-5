@@ -3,37 +3,37 @@
   "catalogFingerprint": "7b37f82b4c14c2268f0837cffcfcc95e78d65368c4c9b6374739272e6df1f70e",
   "items": [
     {
-      "id": "hinge_axle",
-      "status": "custom_design",
-      "reason": "Cut stock Ø4x100 per project drawing; no matching DIN7 STEP found."
-    },
-    {
       "id": "magnets",
       "status": "specification_envelope",
       "reason": "User-defined7x3; no exact supplier STEP; nominal envelope labeled as such, do not claim manufacturer model."
     },
     {
-      "id": "ring_bolts",
-      "status": "selected",
-      "reason": "Exact ISO4762 M4x20 immutable STEP, reused as two X-axis side swivel bolts.",
-      "match": "exact",
-      "catalogId": "bd-warehouse:bd_warehouse.fastener.SocketHeadCapScrew",
-      "parameters": {
-        "size": "M4-0.7",
-        "length": 20,
-        "fastener_type": "iso4762",
-        "simple": true
-      }
-    },
-    {
-      "id": "ring_nuts",
-      "status": "custom_design",
-      "reason": "No exact catalog/STEP row. Deliberately specified custom metal Ø10x4 M4 knurled nut; simplified thread envelope, not a vendor lookalike."
-    },
-    {
       "id": "eyeplates",
       "status": "custom_design",
       "reason": "Custom flat 304 eye,28x44x3, rounded14x24 strap aperture, offset6.4 pivot hole;3.6 sleeve. No welded foot or top bridge."
+    },
+    {
+      "id": "ring_bolts",
+      "status": "custom_design",
+      "reason": "No exact knurled M4 screw in catalog or step.parts search. Deliberately designed one-piece metal thumb screw M4x20, head10x4; no substituted socket cap geometry."
+    },
+    {
+      "id": "hinge_axle",
+      "status": "custom_design",
+      "reason": "No exact100mm rivet pin STEP; deliberately custom4x100 metal shaft with6x1.4 formed ends, no screw or cap retainer."
+    },
+    {
+      "id": "ring_nuts",
+      "status": "selected",
+      "match": "exact",
+      "catalogId": "bd-warehouse:bd_warehouse.fastener.HexNut",
+      "parameters": {
+        "size": "M4-0.7",
+        "fastener_type": "iso4032",
+        "simple": true
+      },
+      "source_path": ".work/cache/cad-catalog/bd-warehouse/d6a679156aab23d85d11c7ca646afa0a3775f3dc58c81a62247c648b563fa9c9.step",
+      "reason": "Verified7mm AF3.2mm thick nativeZ0..3.2, imported for two inward nut positions."
     }
   ]
 }

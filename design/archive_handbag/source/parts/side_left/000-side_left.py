@@ -3,16 +3,16 @@ g=param('side_left_groove_depth',0.45);gw=param('side_left_groove_width',1.0)
 b1=param('side_left_book_boundary1',60.0);b2=param('side_left_book_boundary2',124.0)
 pitch=param('side_left_page_pitch',6.0);margin=param('side_left_page_margin',0.0)
 by=param('side_left_bolt_y',0.0);bz=param('side_left_bolt_z',170.0);bd=param('side_left_bolt_diameter',4.5)
-rr=param('side_left_relief_radius',103.4);ry=param('side_left_relief_axis_y',55.0);rz=param('side_left_relief_axis_z',124.0);start=param('side_left_relief_start_z',124.3)
+rr=param('side_left_relief_radius',108.4);ry=param('side_left_relief_axis_y',60.0);rz=param('side_left_relief_axis_z',124.0);start=param('side_left_relief_start_z',124.3)
+topmargin=param('side_left_page_end_margin',1.0)
 panel=Box(t,d,h,align=(Align.CENTER,Align.CENTER,Align.MIN))
-# User-approved upper-front circular relief; localZ=worldZ-4.
 corner=Pos(0,0,(start+h)/2)*Box(t+2,d+2,h-start)
 safe=Pos(0,ry,rz)*Rot(0,90,0)*Cylinder(rr,t+4)
 panel-=corner-safe
 for z in [b1,b2]:panel-=Pos(-t/2+g/2,0,z)*Box(g,d-2*margin,2.4)
-for begin,stop in [(8,b1-4),(b1+6,b2-4),(b2+6,h-5)]:
+for begin,stop in [(8,b1-4),(b1+6,b2-4),(b2+6,h-topmargin)]:
  z=begin
  while z<stop:
   panel-=Pos(-t/2+g/2,0,z)*Box(g,d-2*margin,gw);z+=pitch
 panel-=Pos(0,by,bz)*Rot(0,90,0)*Cylinder(bd/2,t+2)
-publish('side_left',panel,'圆弧避让插板')
+publish('side_left',panel,'补齐上层页槽的圆弧插板')

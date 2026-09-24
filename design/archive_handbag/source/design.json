@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "buildNumber": 196,
-  "sourceHash": "732de940bceecd863ba42dc3bc567c6dbe4d5e9028ff7619a64a2dafa4fa3b96",
+  "buildNumber": 226,
+  "sourceHash": "5edfbb3b743a47be316eeaeab3924d12bb9c329f22fd26db5baa10591d55a52a",
   "units": "mm",
   "coordinateFrame": "replicator-world-z-up",
   "targets": [
@@ -14,7 +14,7 @@
           "target": "body",
           "order": 0,
           "path": "design/archive_handbag/source/parts/body/000-body.py",
-          "sha256": "110ca9efe1628e3f5a4e3d27d4bcd0fc66b0cf3c682c412bf516f0a6702fb808"
+          "sha256": "f1b9732ef0f63a8b88e8bbefe61f230dfd3a495611e5b6778d5c4b1dc120f60a"
         }
       ],
       "dependencies": []
@@ -28,7 +28,7 @@
           "target": "lid",
           "order": 0,
           "path": "design/archive_handbag/source/parts/lid/000-lid.py",
-          "sha256": "69e0a5531038524a9fe879192002c32dd30a2344b7cf6fa517c4b4b864b750d7"
+          "sha256": "de9be89608ebf3eb7e13f4f026f6443190b13c5f548a873c4cb59695b5d49580"
         }
       ],
       "dependencies": []
@@ -42,7 +42,7 @@
           "target": "side_left",
           "order": 0,
           "path": "design/archive_handbag/source/parts/side_left/000-side_left.py",
-          "sha256": "cdf68e4573758acb3d325023e2290ecf3807f657c42844cc7fa2aaba632e96aa"
+          "sha256": "10315e11837a40e9441a60b93f658d052a0d4cd47375e794f6b233d94989e32a"
         }
       ],
       "dependencies": []
@@ -56,7 +56,7 @@
           "target": "side_right",
           "order": 0,
           "path": "design/archive_handbag/source/parts/side_right/000-side_right.py",
-          "sha256": "7a7fc5de33a05f92df89a7257ce19f4086a8fbb9e3d296b2884e397a1892d15d"
+          "sha256": "ffcb7c02c96ca6109b39db2e30506333661befd71fce5e6fc2bfcca594fb1fe4"
         }
       ],
       "dependencies": []
@@ -126,7 +126,7 @@
           "target": "metal_eyes",
           "order": 0,
           "path": "design/archive_handbag/source/parts/metal_eyes/000-metal_eyes.py",
-          "sha256": "3c231b00523a2cae1de85cc2d5c9445ec7f373201f91bccc5e337454766dc1d4"
+          "sha256": "b00ec648b9dd448fa0bee036d5525f5643f6664083e788415cfdad1731177ee8"
         }
       ],
       "dependencies": []
@@ -140,7 +140,7 @@
           "target": "axle",
           "order": 0,
           "path": "design/archive_handbag/source/parts/axle/000-axle.py",
-          "sha256": "431bfcfe75ae5c9656ab154f1aad83e3cdd004a6f8b73ecb184ab0f62dfeecf9"
+          "sha256": "de5de6f9ccc59b451d3bf8f4fe0957afbe35a23455722916a9ae6496eddcf51f"
         }
       ],
       "dependencies": []
@@ -160,20 +160,6 @@
       "dependencies": []
     },
     {
-      "id": "imports",
-      "label": "imports",
-      "cells": [
-        {
-          "id": "ring_bolt_right_low",
-          "target": "imports",
-          "order": 0,
-          "path": "design/archive_handbag/source/parts/imports/000-ring_bolt_right_low.py",
-          "sha256": "6f4748b4ccfc00c4a45e86466f980f136ebfdd0e9164a2007c1ee1c6a5bc0e21"
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "bottom_panel",
       "label": "bottom_panel",
       "cells": [
@@ -188,15 +174,29 @@
       "dependencies": []
     },
     {
-      "id": "top_pivot_bolt",
-      "label": "top_pivot_bolt",
+      "id": "imports",
+      "label": "imports",
       "cells": [
         {
-          "id": "top_pivot_bolt",
-          "target": "top_pivot_bolt",
+          "id": "ring_nut_left",
+          "target": "imports",
           "order": 0,
-          "path": "design/archive_handbag/source/parts/top_pivot_bolt/000-top_pivot_bolt.py",
-          "sha256": "734e6c3ab063b26538faaf2342c9e1a14146e8b7d5fe5a150d60466c3c2ad824"
+          "path": "design/archive_handbag/source/parts/imports/000-ring_nut_left.py",
+          "sha256": "e745cef2822400496698c22579231ae7d53130a976e3f72eac26f360a6f7d83b"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "right_nut_instance",
+      "label": "right_nut_instance",
+      "cells": [
+        {
+          "id": "right_nut_instance",
+          "target": "right_nut_instance",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/right_nut_instance/000-right_nut_instance.py",
+          "sha256": "6325abe3d025555b090e207010eb9ea4bc934d08c3291138fbaeb2c2f50116e8"
         }
       ],
       "dependencies": []
@@ -204,115 +204,11 @@
   ],
   "objects": [
     {
-      "id": "axle_stop_left",
-      "target": "body",
-      "label": "轴端止挡",
-      "kind": "generated",
-      "shapeHash": "0c96203975a0c4e00064c478b304526cbabd1a4520b890867765f9d18aef5c71",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "axle_stop_left_screw",
-      "target": "body",
-      "label": "止挡螺钉",
-      "kind": "generated",
-      "shapeHash": "5a3d1468fc4c884e7145232390eeb02dd76f7c882c6abb669890cd4365de714e",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "axle_stop_right",
-      "target": "body",
-      "label": "轴端止挡",
-      "kind": "generated",
-      "shapeHash": "a49067bedfe2e58451fb03d9db6fa38f4952a810a36812b3535406389129a156",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "axle_stop_right_screw",
-      "target": "body",
-      "label": "止挡螺钉",
-      "kind": "generated",
-      "shapeHash": "40a1d306b145d060444c53bbc8162c5eb9209889f6ac221d2372746e81c76c6b",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
       "id": "body",
       "target": "body",
-      "label": "插接承力后板",
+      "label": "外移铰轴承力后板",
       "kind": "generated",
-      "shapeHash": "c8ff32d89a430855b6aa15b2f51721ed5a5dc276d1b639623a29255904669c23",
+      "shapeHash": "340f510f54834fa49c6b025184f9fd355041218d6f0f49d8676a7bcdbb546164",
       "transform": {
         "positionMm": [
           0,
@@ -338,7 +234,7 @@
       "target": "lid",
       "label": "盖内M2螺钉",
       "kind": "generated",
-      "shapeHash": "16e438f33ca11709c28d2468c4edd50c966c0935868e4425096a58d9c190cdce",
+      "shapeHash": "7ead4a38ab4f38e56c7bbf73d52a2754d3b98a24903a6d42081b34a444853883",
       "transform": {
         "positionMm": [
           0,
@@ -364,7 +260,7 @@
       "target": "lid",
       "label": "盖内M2螺钉",
       "kind": "generated",
-      "shapeHash": "c095f50fa835aa09fe4d0584ef671aaa7ec5b5b050d3275d6eceba9c6e4f4ced",
+      "shapeHash": "99471305a02c7ad7c5e66440bc27703d042d6ac8cc51260872c416cd89baf6ac",
       "transform": {
         "positionMm": [
           0,
@@ -390,7 +286,7 @@
       "target": "lid",
       "label": "翻盖磁铁防脱盖",
       "kind": "generated",
-      "shapeHash": "3b6850bcfc4b8349d51e2e9957cba0da7b5d41f120ea4b09b136eca159d4c9ea",
+      "shapeHash": "9f71e0fa358c5f9ab4b0746882d77194aebe48b042970cece008e2d962ab77c5",
       "transform": {
         "positionMm": [
           0,
@@ -416,7 +312,7 @@
       "target": "lid",
       "label": "盖内M2螺钉",
       "kind": "generated",
-      "shapeHash": "efdc87ef377a83755f928e5451f35f95dc19ed1d5ff7db2c01ab374030170945",
+      "shapeHash": "c583257a0993d6a4f0cd6da86c3aaef637214d62e10223f61b6f9b499bb30a03",
       "transform": {
         "positionMm": [
           0,
@@ -442,7 +338,7 @@
       "target": "lid",
       "label": "盖内M2螺钉",
       "kind": "generated",
-      "shapeHash": "cca225def22d9ea45f541669e84f35edec347ecff9d0a4551b79e47784564713",
+      "shapeHash": "cac356ace898d4c00846989ca27d6f32e22dc7b1b1ae269f273b7786a80a025c",
       "transform": {
         "positionMm": [
           0,
@@ -468,7 +364,7 @@
       "target": "lid",
       "label": "翻盖磁铁防脱盖",
       "kind": "generated",
-      "shapeHash": "76d221dce114e8380f4877199066325c3ecbf2e20d6619efb5c4e6684442fefa",
+      "shapeHash": "c33d7d5daa12c0cb68c62660323ab2e08c4d370d8c5bd23378d8234eb2548b08",
       "transform": {
         "positionMm": [
           0,
@@ -492,9 +388,9 @@
     {
       "id": "lid",
       "target": "lid",
-      "label": "圆弧侧翼一体翻盖",
+      "label": "补齐页槽的外轴翻盖",
       "kind": "generated",
-      "shapeHash": "dad5bda5bb3de4efa6d9e227569af53f75e610b80e7cd6d273517623528e3263",
+      "shapeHash": "50d9ebf237be442596e359c6cae7f5f576f86b22f79c4676863f8a1de06de721",
       "transform": {
         "positionMm": [
           0,
@@ -518,9 +414,9 @@
     {
       "id": "side_left",
       "target": "side_left",
-      "label": "圆弧避让插板",
+      "label": "补齐上层页槽的圆弧插板",
       "kind": "generated",
-      "shapeHash": "5048207b159253f5080f6230cc2cf5e49fc08bbe73d9d6fcdfa0ace58eb6c24a",
+      "shapeHash": "f36548240189a4ebdde3f2edbb8847dddc9bf28b67c0c2f766b141359455d625",
       "transform": {
         "positionMm": [
           -108,
@@ -544,9 +440,9 @@
     {
       "id": "side_right",
       "target": "side_right",
-      "label": "圆弧避让插板",
+      "label": "补齐上层页槽的圆弧插板",
       "kind": "generated",
-      "shapeHash": "619be65d58d4e670766f32ccb42f5178a090038e9422a164cef68767ba9a9191",
+      "shapeHash": "50a763cb1ea26dc03fe20a27e61892dcf8fe728cd5695b915fed2ce4ba3d8f60",
       "transform": {
         "positionMm": [
           108,
@@ -1114,16 +1010,16 @@
       "datums": []
     },
     {
-      "id": "thumb_nut_left",
+      "id": "thumb_screw_left",
       "target": "metal_eyes",
-      "label": "外侧小手拧螺帽",
+      "label": "一体金属手拧螺丝",
       "kind": "generated",
-      "shapeHash": "52dd702e5ed76fd057df7239293ee7cd6573d98fae1b844672777d882f1582db",
+      "shapeHash": "28881f99e97cd79e1f73f42984d4c27546d99f8e037d53ded451307ebcfac38f",
       "transform": {
         "positionMm": [
           0,
-          -54,
-          58
+          0,
+          0
         ],
         "rotationDeg": [
           0,
@@ -1140,16 +1036,16 @@
       "datums": []
     },
     {
-      "id": "thumb_nut_right",
+      "id": "thumb_screw_right",
       "target": "metal_eyes",
-      "label": "外侧小手拧螺帽",
+      "label": "一体金属手拧螺丝",
       "kind": "generated",
-      "shapeHash": "a929e2de03281c8c3c082baa7911848c63451af122e9e5296238a000aa81dcde",
+      "shapeHash": "a71606d3fcfe7c41af417293e800aa8fc7ae458f6f9e5b336003bb0dc5d2beb7",
       "transform": {
         "positionMm": [
           0,
-          -54,
-          58
+          0,
+          0
         ],
         "rotationDeg": [
           0,
@@ -1168,13 +1064,13 @@
     {
       "id": "axle",
       "target": "axle",
-      "label": "不锈钢切长转轴",
+      "label": "双铆头金属轴",
       "kind": "generated",
-      "shapeHash": "8ded712b09a4ba43b4737616dca2eb0292369ae4f1bffe479de4e806495186fa",
+      "shapeHash": "d4d3dc12f5cd818d5cdc03cf5c1ef22ab0a6ef42c29ea5af2fe823adbe528e42",
       "transform": {
         "positionMm": [
           0,
-          55,
+          58.2,
           128
         ],
         "rotationDeg": [
@@ -1284,32 +1180,6 @@
         "rotationDeg": [
           0,
           0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "ring_bolt_right_low",
-      "target": "imports",
-      "label": "M4×20 连接环螺栓",
-      "kind": "imported",
-      "shapeHash": "2671964594410c9ea6b12c93bdb35b691223b88d70f2dc2498d96a8ed5785e57",
-      "transform": {
-        "positionMm": [
-          100,
-          0,
-          174
-        ],
-        "rotationDeg": [
-          0,
-          -90,
           0
         ],
         "rotationOrder": "XYZ",
@@ -1556,16 +1426,42 @@
       "datums": []
     },
     {
-      "id": "ring_bolt_left",
-      "target": "top_pivot_bolt",
-      "label": "侧装M4转环螺栓",
+      "id": "ring_nut_left",
+      "target": "imports",
+      "label": "盖下内侧M4螺母",
+      "kind": "imported",
+      "shapeHash": "e020069da8c08ff50450c4ba175e405daac655ecd53e620e3d8babe9f29e8299",
+      "transform": {
+        "positionMm": [
+          -100,
+          0,
+          174
+        ],
+        "rotationDeg": [
+          0,
+          90,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "ring_nut_right",
+      "target": "right_nut_instance",
+      "label": "盖下内侧M4螺母",
       "kind": "generated",
-      "shapeHash": "603ddc26e8699a8ce7cd826b3e847e6c69915fa9fd918204adf712a875a3f1bc",
+      "shapeHash": "12a0f5b9d93b8f262f3e9b9854278a77ad67f5b6840c8d44d8a1154d486f9557",
       "transform": {
         "positionMm": [
           0,
-          -54,
-          58
+          0,
+          0
         ],
         "rotationDeg": [
           0,
@@ -1584,18 +1480,18 @@
   ],
   "assets": [
     {
-      "id": "ring_bolt_right_low",
+      "id": "ring_nut_left",
       "kind": "step",
-      "path": "design/archive_handbag/source/assets/963db4249b8480e7fc5f042e49771d4560f24e8e0a68dca3f32182957d7d00ef.step",
-      "sha256": "963db4249b8480e7fc5f042e49771d4560f24e8e0a68dca3f32182957d7d00ef",
-      "label": "M4×20 连接环螺栓",
+      "path": "design/archive_handbag/source/assets/fc200b5ae3935c689379a698c83428aa651f5d3a401e1ddc2dc04ff80c965c27.step",
+      "sha256": "fc200b5ae3935c689379a698c83428aa651f5d3a401e1ddc2dc04ff80c965c27",
+      "label": "盖下内侧M4螺母",
       "provenance": {
-        "sourcePath": ".work/cache/cad-catalog/bd-warehouse/d608d1c5a587896a1681fdb018c4ac1de16250e6d3b348ff146fde6fa13b79f4.step"
+        "sourcePath": ".work/cache/cad-catalog/bd-warehouse/d6a679156aab23d85d11c7ca646afa0a3775f3dc58c81a62247c648b563fa9c9.step"
       }
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-24T03:15:26.490Z",
+  "updatedAt": "2026-09-24T04:04:11.402Z",
   "parameters": {
     "body": {
       "case_width": 220,
@@ -1604,59 +1500,16 @@
       "body_floor": 4,
       "body_slot_thickness": 4.6,
       "body_panel_center_x": 108,
-      "body_hinge_y": 55,
+      "body_hinge_y": 58.2,
       "body_hinge_z": 128,
       "body_hinge_radius": 3.8,
       "body_hinge_bore": 4.4,
-      "body_magnet_x": 72,
-      "body_magnet_y": -39,
-      "body_mag_cap_left_width": 22,
-      "body_mag_cap_left_depth": 14,
-      "body_mag_cap_left_edge_thickness": 2.6,
-      "body_mag_cap_left_membrane": 0.6,
-      "body_mag_cap_left_screw_half_pitch": 8,
-      "body_mag_cap_right_width": 22,
-      "body_mag_cap_right_depth": 14,
-      "body_mag_cap_right_edge_thickness": 2.6,
-      "body_mag_cap_right_membrane": 0.6,
-      "body_mag_cap_right_screw_half_pitch": 8,
-      "axle_stop_left_width": 12,
-      "axle_stop_left_depth": 6,
-      "axle_stop_left_base_thickness": 3,
-      "axle_stop_left_stop_height": 9,
-      "axle_stop_left_stop_thickness": 2,
-      "axle_stop_left_inner_x": 50.4,
-      "axle_stop_right_width": 12,
-      "axle_stop_right_depth": 6,
-      "axle_stop_right_base_thickness": 3,
-      "axle_stop_right_stop_height": 9,
-      "axle_stop_right_stop_thickness": 2,
-      "axle_stop_right_inner_x": 50.4,
-      "body_top_post_x": 97,
-      "body_top_post_width": 14,
-      "body_top_post_top": 190,
-      "body_top_pivot_hole": 4.5,
-      "magnet_mount_left_width": 28,
-      "magnet_mount_left_depth": 12,
-      "magnet_mount_left_height": 12,
-      "magnet_mount_right_width": 28,
-      "magnet_mount_right_depth": 12,
-      "magnet_mount_right_height": 12,
       "body_rear_center_y": 54,
-      "body_pivot_y": 49,
       "body_page_depth": 0.45,
       "body_page_width": 1,
-      "body_corner_cover_width": 22,
-      "body_corner_cover_depth": 45.2,
-      "body_corner_cover_thickness": 2.2,
-      "body_corner_cover_top": 186.6,
       "body_side_pivot_y": 0,
       "body_side_pivot_z": 174,
       "body_side_pivot_hole": 4.5,
-      "body_side_pad_width": 12,
-      "body_side_pad_depth": 14,
-      "body_side_pad_height": 28,
-      "body_side_pad_pocket_depth": 8,
       "body_side_pad_pocket_width": 14.4,
       "body_side_pad_pocket_height": 20.4,
       "body_corner_groove_depth": 0.45,
@@ -1674,7 +1527,12 @@
       "body_tongue_x": 60,
       "body_band_width": 30,
       "body_band_depth": 1,
-      "body_band_top": 123.5
+      "body_band_top": 123.5,
+      "body_nut_pocket_inner_x": 96.5,
+      "body_nut_pocket_across_flats": 7.4,
+      "body_nut_boss_size": 12,
+      "body_nut_pocket_outer_x": 100,
+      "body_axle_head_clearance": 0.4
     },
     "lid": {
       "lid_width": 220,
@@ -1682,7 +1540,7 @@
       "lid_height": 60.4,
       "lid_roof_thickness": 2.2,
       "lid_wall": 6,
-      "lid_hinge_y": 55,
+      "lid_hinge_y": 58.2,
       "lid_hinge_z": 128,
       "lid_seam_z": 128.6,
       "lid_barrel_radius": 3.8,
@@ -1704,7 +1562,7 @@
       "lid_spine_sag": 6,
       "lid_spine_thickness": 3.5,
       "lid_spine_end_y": -51,
-      "lid_rear_bottom_relief": 4,
+      "lid_rear_bottom_relief": 0.6,
       "lid_end_cheek_thickness": 2,
       "lid_page_groove_depth": 0.45,
       "lid_page_groove_width": 1,
@@ -1714,7 +1572,10 @@
       "lid_band_width": 30,
       "lid_band_recess": 1,
       "lid_band_rear_start": 134,
-      "lid_cheek_inner_radius": 104
+      "lid_cheek_inner_radius": 107.2,
+      "lid_groove_start_z": 134,
+      "lid_groove_pitch": 6,
+      "lid_groove_end_z": 182
     },
     "side_left": {
       "side_left_thickness": 4,
@@ -1731,10 +1592,11 @@
       "side_left_bolt_y": 0,
       "side_left_bolt_z": 170,
       "side_left_bolt_diameter": 4.5,
-      "side_left_relief_radius": 103.4,
-      "side_left_relief_axis_y": 55,
+      "side_left_relief_radius": 106.6,
+      "side_left_relief_axis_y": 58.2,
       "side_left_relief_axis_z": 124,
-      "side_left_relief_start_z": 124.3
+      "side_left_relief_start_z": 124.3,
+      "side_left_page_end_margin": 1
     },
     "side_right": {
       "side_right_thickness": 4,
@@ -1751,10 +1613,11 @@
       "side_right_bolt_y": 0,
       "side_right_bolt_z": 170,
       "side_right_bolt_diameter": 4.5,
-      "side_right_relief_radius": 103.4,
-      "side_right_relief_axis_y": 55,
+      "side_right_relief_radius": 106.6,
+      "side_right_relief_axis_y": 58.2,
       "side_right_relief_axis_z": 124,
-      "side_right_relief_start_z": 124.3
+      "side_right_relief_start_z": 124.3,
+      "side_right_page_end_margin": 1
     },
     "book_spines": {
       "green_spine_width": 220,
@@ -1885,18 +1748,12 @@
       "pivot_washer_left_diameter": 10,
       "pivot_washer_left_bore": 4.3,
       "pivot_washer_left_thickness": 1.4,
-      "thumb_nut_left_diameter": 10,
-      "thumb_nut_left_height": 4,
-      "thumb_nut_left_knurl_depth": 0.3,
       "pivot_sleeve_right_diameter": 6,
       "pivot_sleeve_right_bore": 4.3,
       "pivot_sleeve_right_length": 3.6,
       "pivot_washer_right_diameter": 10,
       "pivot_washer_right_bore": 4.3,
       "pivot_washer_right_thickness": 1.4,
-      "thumb_nut_right_diameter": 10,
-      "thumb_nut_right_height": 4,
-      "thumb_nut_right_knurl_depth": 0.3,
       "eye_left_side_x": -110.3,
       "eye_left_side_y": 54,
       "eye_left_side_z": 116,
@@ -1922,11 +1779,27 @@
       "backplate_right_hole_offset_y": 3,
       "pivot_sleeve_right_side_x": 110,
       "pivot_sleeve_right_side_y": 54,
-      "pivot_sleeve_right_side_z": 116
+      "pivot_sleeve_right_side_z": 116,
+      "thumb_screw_left_head_diameter": 10,
+      "thumb_screw_left_head_height": 4,
+      "thumb_screw_left_shaft_length": 20,
+      "thumb_screw_left_knurl_depth": 0.3,
+      "thumb_screw_left_head_x": -115,
+      "thumb_screw_left_axis_y": 0,
+      "thumb_screw_left_axis_z": 174,
+      "thumb_screw_right_head_diameter": 10,
+      "thumb_screw_right_head_height": 4,
+      "thumb_screw_right_shaft_length": 20,
+      "thumb_screw_right_knurl_depth": 0.3,
+      "thumb_screw_right_head_x": 115,
+      "thumb_screw_right_axis_y": 0,
+      "thumb_screw_right_axis_z": 174
     },
     "axle": {
       "axle_diameter": 4,
-      "axle_length": 100
+      "axle_length": 100,
+      "axle_head_diameter": 6,
+      "axle_head_thickness": 1.4
     },
     "magnet_envelopes": {
       "body_magnet_left_diameter": 7,
@@ -1950,7 +1823,6 @@
       "lid_magnet_right_center_y": -39,
       "lid_magnet_right_bottom_z": 129.4
     },
-    "imports": {},
     "bottom_panel": {
       "bottom_panel_width": 220,
       "bottom_panel_depth": 114,
@@ -1969,10 +1841,11 @@
       "bottom_panel_rear_slot_width": 3,
       "bottom_panel_front_slot_y": -49.5
     },
-    "top_pivot_bolt": {
-      "top_pivot_bolt_x": -100,
-      "top_pivot_bolt_y": 54,
-      "top_pivot_bolt_z": 116
+    "imports": {},
+    "right_nut_instance": {
+      "ring_nut_right_x": 100,
+      "ring_nut_right_y": 0,
+      "ring_nut_right_z": 174
     }
   }
 }

@@ -2,12 +2,12 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "一体蓝绿前板及后板插接底板，前上角圆弧避让侧板向下滑入，上盖两端一体，中央带嵌面分段且去掉扣内方块。",
+  "summary": "上盖补齐页槽；后轴外移并取消螺钉止挡及空洞；挂环外侧一体手拧螺丝配盖下内侧金属螺母。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
       "kind": "mechanical",
-      "description": "粉色顶层与本体的转轴连接及轴向防脱；上盖两侧小条与盖为一体，取消留在固定前板上的独立窄条。",
+      "description": "背部转轴外移一点，不再陷入内部；取消标注的后轴螺丝和止挡部件，填上转轴处多余空洞。 后侧水平轴向后外移3.2mm至Y58.2 Z128；目标开角100度；默认两端金属铆头防脱，无螺钉止挡，拆轴需处理铆头。",
       "source": "user_requested",
       "required": true
     },
@@ -28,7 +28,7 @@
     {
       "id": "carry_rings",
       "kind": "mechanical",
-      "description": "挂环位于最新标注的侧面顶部位置，而不是后侧偏低位置；保留螺栓、外侧小手拧帽及整环转动。",
+      "description": "挂环保持侧面顶部及整环转动，连接件改为外侧一体手拧螺丝，盖子里面配置对应螺母，不再分离螺杆和外侧手拧螺帽。 盖下内侧固定承力臂内装M4金属螺母，手拧螺丝从外向内夹紧隔套、侧板和钢垫板；不把活动翻盖与侧板锁死，不靠磁吸承载。",
       "source": "user_requested",
       "required": true
     },
@@ -42,7 +42,7 @@
     {
       "id": "rear_alignment",
       "kind": "mechanical",
-      "description": "盖子背面为整幅整体面板，不额外收窄；盖背与包本体背面齐平。横向书页凹槽贯穿背面并在棱角连续延伸至侧面，不保留截断槽的边框；背侧槽高度对应。侧面与背板装配外沿同盖子齐平；顶盖和底盖不留额外凸起边层，与书封面和书脊齐平。",
+      "description": "盖子背面为整幅整体面板，不额外收窄；盖背与包本体背面齐平。横向书页凹槽贯穿背面并在棱角连续延伸至侧面，不保留截断槽的边框；背侧槽高度对应。侧面与背板装配外沿同盖子齐平；顶盖和底盖不留额外凸起边层，与书封面和书脊齐平。 上盖标注位置补齐与书页对应的凹陷线条。",
       "source": "user_requested",
       "required": true
     },
@@ -103,10 +103,16 @@
       "source": "user_requested",
       "description": "本次最新标注及说明：前两层一体、前后插底板、上盖边一体、绑带贴面且开口/转轴断开、取消扣中方块。",
       "path": "product/references/uploads/20260924T022138858Z-1-mark.png"
+    },
+    {
+      "id": "reference_external_hinge_thumb_screws",
+      "path": "product/references/uploads/20260924T033939842Z-1-mark.png",
+      "source": "user_requested",
+      "description": "本轮最新标注：补上盖凹槽，去后轴螺钉和空洞、轴外移、外侧一体手拧螺丝内配螺母。"
     }
   ],
   "assembly_story": {
-    "installation": "一体前书脊板及后板先插入底板定位槽，底部隐藏螺钉防拔脱；侧板自上方滑入，安装挂环五金、铰轴和磁铁；分段装饰带嵌入对应表面。",
+    "installation": "一体前书脊板及后板先插入底板定位槽，底部隐藏螺钉防拔脱；侧板自上方滑入，安装挂环五金、铰轴和磁铁；分段装饰带嵌入对应表面。 本轮后轴外移采用铆头防脱，挂环手拧螺丝自外向内拧入盖下固定承力座中的金属螺母。",
     "maintenance": "侧板沿前后定位边向下插入、底板托住、合盖限位；上端挂环通栓兼作侧板横向锁定。维护先卸载、拆下挂环螺栓，再开盖上抽侧板。",
     "user_access": [
       "上翻盖收纳口",
@@ -142,7 +148,8 @@
           "reference_revision_marks",
           "reference_side_mount_full_back",
           "reference_upper_side_flush",
-          "reference_integral_panels_inset_band"
+          "reference_integral_panels_inset_band",
+          "reference_external_hinge_thumb_screws"
         ]
       }
     ]

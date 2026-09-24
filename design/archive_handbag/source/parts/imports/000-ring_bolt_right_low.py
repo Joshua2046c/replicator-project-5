@@ -1,1 +1,0 @@
-publish("ring_bolt_right_low", asset("design/archive_handbag/source/assets/963db4249b8480e7fc5f042e49771d4560f24e8e0a68dca3f32182957d7d00ef.step"), "M4×20 连接环螺栓")

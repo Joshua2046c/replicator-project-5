@@ -28,7 +28,7 @@
       "source": "user"
     },
     "connection_rings": {
-      "value": "挂环位于最新标注的侧面顶部位置，而不是后侧偏低位置；保留螺栓、外侧小手拧帽及整环转动。",
+      "value": "挂环保持侧面顶部及整环转动，连接件改为外侧一体手拧螺丝，盖子里面配置对应螺母，不再分离螺杆和外侧手拧螺帽。",
       "source": "user"
     },
     "prototype_process": {
@@ -44,7 +44,7 @@
       "source": "default"
     },
     "hinge_layout": {
-      "value": "后侧水平转轴，向后开盖，目标开角至少100度，转轴轴向防脱",
+      "value": "后侧水平轴向后外移3.2mm至Y58.2 Z128；目标开角100度；默认两端金属铆头防脱，无螺钉止挡，拆轴需处理铆头。",
       "source": "default"
     },
     "magnet_quantity": {
@@ -60,7 +60,7 @@
       "source": "default"
     },
     "ring_load_path": {
-      "value": "侧面上端挂环通栓穿过固定后外板延伸的内侧承力臂；不由磁吸承担提携载荷。",
+      "value": "盖下内侧固定承力臂内装M4金属螺母，手拧螺丝从外向内夹紧隔套、侧板和钢垫板；不把活动翻盖与侧板锁死，不靠磁吸承载。",
       "source": "default"
     },
     "prototype_validation": {
@@ -143,6 +143,14 @@
     "base_joint_retention": {
       "value": "底板插槽定位，沿用底面隐藏螺钉防止承重时拔脱；取消蓝绿书脊之间的拼接螺钉。",
       "source": "default"
+    },
+    "hinge_external_clean": {
+      "value": "背部转轴外移一点，不再陷入内部；取消标注的后轴螺丝和止挡部件，填上转轴处多余空洞。",
+      "source": "user"
+    },
+    "lid_groove_completion": {
+      "value": "上盖标注位置补齐与书页对应的凹陷线条。",
+      "source": "user"
     }
   },
   "open_questions": []
