@@ -17,11 +17,11 @@
   "assembled_hardware_envelope": {
     "value": [
       238,
-      124.237,
+      122.3,
       210
     ],
     "source": "research",
-    "evidence": "design/archive_handbag/verification/swivel-check.json",
+    "evidence": "design/archive_handbag/verification/smooth-contact-check.json",
     "note": "current closed-pose ring orientation; not maximum rotated envelope"
   },
   "process": {
@@ -296,10 +296,10 @@
       "width": 5,
       "thickness": 1,
       "tip_x": 0,
-      "connected_to": "bottom frame rail center, raised toward negativeY; one solid custom metal part",
+      "connected_to": "bottom frame rail center; cylindrical back directly contacts strap, 1mm metal thickness",
       "root_z": 78,
       "tip_z": 100,
-      "tip_relief": 2
+      "tip_relief": 0
     },
     "top_crown": {
       "source": "default",
@@ -341,7 +341,6 @@
     "source": "default"
   },
   "verification": {
-    "geometry_build": 315,
     "closed_interference": "435pairs screened;50 exact bbox-overlap pairs;zero intersections",
     "motion": "design/archive_handbag/verification/motion-check.json",
     "swivel": "design/archive_handbag/verification/swivel-check.json",
@@ -363,7 +362,8 @@
     "carrying_status": "not_ready: positive retention unresolved",
     "cosmetic_edges": "design/archive_handbag/verification/cosmetic-edge-check.json",
     "inlays": "design/archive_handbag/verification/inlay-check.json",
-    "side_integration": "design/archive_handbag/verification/side-integration-check.json"
+    "side_integration": "design/archive_handbag/verification/side-integration-check.json",
+    "historical_geometry_build": 315
   },
   "unresolved_items": [],
   "risks": [
@@ -456,5 +456,11 @@
     "front_transition_y_mm": -40,
     "max_z_mm": 193,
     "profile": "flat transverse section, planar semicircular terminal cap only; forward Bezier fade"
+  },
+  "current_surface_verification": {
+    "revision": "2efe5f9fb2092593c9fb685ce6322977f1d5b49d6be2979f91b179de175f7cee",
+    "evidence": "design/archive_handbag/verification/smooth-contact-check.json",
+    "status": "passed",
+    "automatic_whole_assembly_interference": "435 pairs screened, zero interference, zero undetermined in final handoff"
   }
 }

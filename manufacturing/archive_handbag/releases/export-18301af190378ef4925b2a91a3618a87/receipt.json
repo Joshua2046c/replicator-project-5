@@ -1,33 +1,31 @@
 {
   "designId": "archive_handbag",
-  "buildNumber": 315,
-  "sourceHash": "e7b1c988f21c9678ae906bb80bcb251fc43d3cfc51b768260b07038d71779e0d",
+  "revision": "2efe5f9fb2092593c9fb685ce6322977f1d5b49d6be2979f91b179de175f7cee",
   "schemaVersion": 2,
-  "exportId": "export-c2073100a7e864d657df21edd6ee805c",
-  "generatedAt": "2026-09-24T10:09:34.408Z",
-  "designSha256": "6b666a4da0e3867095a77698d021ebc37719f34df498d3f703ce3e5c5f4acfa6",
+  "exportId": "export-18301af190378ef4925b2a91a3618a87",
+  "generatedAt": "2026-09-24T20:43:50.436Z",
+  "designSha256": "6ff6f418d5725301089accf36416e42a42f398cac0a4f8fd22b58a824d55103e",
   "role": "handbag_assembly",
-  "stateHash": "e0c60d0b2f0c34d96abfd33eff5ea2739bfc8521bd72b1e692559f85235a07a5",
+  "stateHash": "659c2972397ddfa5d310383cab15382ca5034149f8dd37f2c867b10cc17b0a63",
   "stateManifest": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
     "designId": "archive_handbag",
     "role": "handbag_assembly",
     "design": {
-      "buildNumber": 315,
-      "sourceHash": "e7b1c988f21c9678ae906bb80bcb251fc43d3cfc51b768260b07038d71779e0d",
-      "designSha256": "683bfd3744010ec37b15d58774f99e87b4e813aa9c90a94445c89928188de782",
-      "manifestSha256": "cb2f09ebdb75671fec60495f0032f64218adf799d8903ee9980d6263ca787e68",
-      "stepSha256": "05ffa0190e04313e99499cd96d60de833e4bd05a4b985d2129767508ddc9a5bd",
+      "revision": "2efe5f9fb2092593c9fb685ce6322977f1d5b49d6be2979f91b179de175f7cee",
+      "designSha256": "0169ab81d4303a15d233fe0d7392d75330b9ae148a1d36b3b421845233153fb9",
+      "manifestSha256": "a02dfb8abde5ed608023fff4a93703083bbd63ef74f21b91aba786af5dd5da37",
+      "stepSha256": "094248f865eb212044c79ad0ef5e8c51e5807130d297d62a7bc4158c8c7aebf0",
       "pcbReleases": []
     },
     "brief": {
       "path": "design/archive_handbag/README.md",
-      "sha256": "6400c1a83099d5cec17f30414d92a160eb3480c7de6894b02bdcedff180cf4eb"
+      "sha256": "0ee263e8b709c52ed0416812ebff7421a13fd50684d3aa4fa9e10e1c12df4499"
     },
     "requirement": {
       "artifactContractPath": "product/contract.json",
-      "artifactContractSha256": "daf5f308f0b6e118001e1bb5377abe4afa444df50d0663b6619eef10631e5400",
-      "designRequirementSha256": "6ce272ccb12a8fbdde2b07829cc7fea7b33ebc5bf08eb5cb9811605de1b7e374",
+      "artifactContractSha256": "12219be89cc08f03af431c7156672d5e680b2a58f7e21eb918623416e33060fd",
+      "designRequirementSha256": "d2135aa49b567c2eb883e30956732502af55c9e7730b0b37806465549758460c",
       "inputs": [
         {
           "role": "external-reference",
@@ -56,6 +54,13 @@
           "path": "product/references/uploads/20260924T033939842Z-1-mark.png",
           "sha256": "be6b725a7d453320d021ffd60f75ff4ee2c4e78de54c14d52a304b21d483ffc8",
           "sizeBytes": 128310
+        },
+        {
+          "role": "external-reference",
+          "id": "reference_flush_tongue",
+          "path": "product/references/uploads/20260924T203310841Z-2-mark.png",
+          "sha256": "9ae3ff707bd1bbffef76b77f8110bfb529fd927acaa12f00a2d908b701b0f54d",
+          "sizeBytes": 251788
         },
         {
           "role": "external-reference",
@@ -108,6 +113,13 @@
         },
         {
           "role": "external-reference",
+          "id": "reference_smooth_spines",
+          "path": "product/references/uploads/20260924T203310841Z-1-mark.png",
+          "sha256": "280af2b47f9b629f0c5716a23310acd0a16b5492294e619dc0dee113f984b8aa",
+          "sizeBytes": 564191
+        },
+        {
+          "role": "external-reference",
           "id": "reference_square_pegs_buckle",
           "path": "product/references/uploads/20260924T083502465Z-1-mark.png",
           "sha256": "459333b811f467e57a6dce126eb893bd7c4487ba7801cb0375db5b3c34928ef2",
@@ -128,31 +140,31 @@
         "step"
       ]
     },
-    "stateHash": "e0c60d0b2f0c34d96abfd33eff5ea2739bfc8521bd72b1e692559f85235a07a5"
+    "stateHash": "659c2972397ddfa5d310383cab15382ca5034149f8dd37f2c867b10cc17b0a63"
   },
   "buildArtifacts": {
-    "manifestSha256": "cb2f09ebdb75671fec60495f0032f64218adf799d8903ee9980d6263ca787e68",
-    "stepSha256": "05ffa0190e04313e99499cd96d60de833e4bd05a4b985d2129767508ddc9a5bd"
+    "manifestSha256": "a02dfb8abde5ed608023fff4a93703083bbd63ef74f21b91aba786af5dd5da37",
+    "stepSha256": "094248f865eb212044c79ad0ef5e8c51e5807130d297d62a7bc4158c8c7aebf0"
   },
   "exportAlgorithm": {
     "version": 1,
-    "bootstrapSha256": "2bf557334c52ec5d092ce927635d10591a87b85e6c441c3f4aa3411ff2379a39"
+    "bootstrapSha256": "f4939328ef685300fcdaa250c860428f6b9e009d10931b20d36728e55e0029e4"
   },
   "sourceHashes": {
     "axle/axle": "de5de6f9ccc59b451d3bf8f4fe0957afbe35a23455722916a9ae6496eddcf51f",
     "body/body": "b91d7e5182f5d86df9996a850ca863a3961b4618c8fc7eb9ee0376288e600cfc",
-    "book_spines/book_spines": "2e53caaa9fa6308fa56ad7d695a2077b12987f6df0a0ec5737b1aec4b84c4105",
+    "book_spines/book_spines": "0eae0ea9eadf525d85e643b1c2c61e876b2d13c1792ad2262cc3933cc92830d5",
     "bottom_panel/bottom_panel": "9441d35fa08ae8c1768c440ee400a4ccf13367f5a05e210aeaa59ae4025a4bff",
-    "brown_binding/brown_binding": "429c10226383d2a7b8abc983ea6399994c61cb68c1f506ec1788001d5db80271",
-    "buckle/buckle": "f4ff082aa1e3dc716d6e2cd1f24ff4319d44730162afdeae8573710847f4eb34",
+    "brown_binding/brown_binding": "3beb421e56dc606114267963548050df20956fe0e5d07314cc95fc7be9ac8e13",
+    "buckle/buckle": "415f8e5800c528b775378f8684b589a571699bcf7bfa0a5bb0cd1c237b4000df",
     "imports/ring_nut_left": "e745cef2822400496698c22579231ae7d53130a976e3f72eac26f360a6f7d83b",
     "lid/lid": "7389757758024396c04b134e93bdecffad8001742a7b4299ba21fb1e04f82875",
     "magnet_envelopes/magnet_envelopes": "df21e7ab598b5e012735586e02519682a112ecf915db64919a59ea44d84c82d0",
     "metal_eyes/metal_eyes": "b00ec648b9dd448fa0bee036d5525f5643f6664083e788415cfdad1731177ee8",
     "nameplate/nameplate": "a08cd898cb6ca0b1613ae9ce5cd435faaffa209dc4fb6b025483ec23a23a2cdd",
     "right_nut_instance/right_nut_instance": "6325abe3d025555b090e207010eb9ea4bc934d08c3291138fbaeb2c2f50116e8",
-    "side_left/side_left": "6208c25f585f4c7911b78c602d388b9ebd397b3e68a429c3455c1adb43f56d58",
-    "side_right/side_right": "5ed580bb2be0647b6e0a495bf9a79a498b480ec28b3c53281a0c9ccb24b4c716",
+    "side_left/side_left": "52253995b44dcee53d9d4293f162c44a8c577a6aa92cbbef0877615ad579df4b",
+    "side_right/side_right": "ce0c74d74ad1231e6d07965f940a8b9fac6b042cff1943765eb7887b4d2745b8",
     "spine_marks/spine_marks": "e66a0dc3493a3a56845ea9fff6848c6092db71da6b847896201c9422794aa993"
   },
   "assetHashes": {
@@ -163,13 +175,13 @@
     "backplate_left": "417258922fd5ece1abaa58369fe8544fb8968ec8e0ff557468e6de642f16f466",
     "backplate_right": "8e6b747e27afc509583e000d27f2778836a24bcb5ecf6b2c185b70a0d9c03463",
     "blue_marks": "cc22c985ce29eaa52454e81b98057b1f7d005ff4f6e02431170be00358abd632",
-    "blue_spine": "96433e22f23ec7f1a46576f034cc32920f2f9893f32d5cbfc8b0679d806926d2",
+    "blue_spine": "9fed4f9c3d9da9bf1d79370cca36a17ff6c2672caf59640e35c9feadf2e12689",
     "body": "5d4f412cce0d07e19713287836b50a06a18fea875a86092db043cfec664ffbc5",
     "body_magnet_left": "b497f80e750ee48c633c7feb6ad776f4ae4e157144fc0598caf10fd6ba3c1706",
     "body_magnet_right": "b7537b69d7dba505f43e1ecbe4c80ff47d51ba6ff22a2bc7658c2ea651694ea1",
     "bottom_panel": "29d1368d83d2717ae189498bb99db530d0ff6deabea1c2517e1915272201c5ab",
-    "buckle": "bcf38612d1711822c5cd7027b47cc3f259395f65da945c8bf26d1afef55e81ec",
-    "central_binding": "b8a7116dd725cd8e03c6ef8d7dfeb0eae9372d318a624f79ef6806d92ccc3c29",
+    "buckle": "3b09d71870f2e9ad847469ba1d783db6420926d836bdf23b1e80abafc4ffebe2",
+    "central_binding": "a83ced8a5a705dc2a6313440f75f8d2437128b4b42867c502ffb8cd7dfb5c08d",
     "eye_left": "54ab11fe4740cb17dbef9eaacb8aff0918c2034b1d81e184725b5fbbaa1256eb",
     "eye_right": "5c8e429406849b67068bf4de24e86948f7934e1e5ed22a210ab5609618f93e2b",
     "green_marks": "cb961635b70fa5779b5b97da9625be33a47b84cfc1b463f652ec3c92fa7cce30",
@@ -184,25 +196,25 @@
     "pivot_washer_right": "159b23eb074ba1241ef7cff4f0dd1df13cb52d4300caaa0954e10b17de10aee4",
     "ring_nut_left": "1caf7a37ef654e181d365186e0ae80d8739c78248c8458a430e6f674764fbe6d",
     "ring_nut_right": "bb73ed3919b3fee3d29b362d01c496c7879408705263d73c128389a6b8c68f82",
-    "side_left": "15f4853bb079982f300e6393fc8525ca5c0294e83cba5a6c83e6406df35676c5",
-    "side_right": "7b54ad9037bdbe5e5fdd2cc0f14c7f58dfcb9af6ea632453950817e1f428ed82",
+    "side_left": "c6f684db508040d48c14be751aaeb96f020f0fe2afa61d0bc09ccd33edaf097c",
+    "side_right": "90e979dd213a9a4143f35496af0a3313bcb84af38efd1c21e4659a86d017e53e",
     "thumb_screw_left": "d47e71890d60d555d8e38919116ce6f3f89242908327fe0904351d23d19c8c5b",
     "thumb_screw_right": "a204832a9af3f565e3013f0a45fc0147db7a9f4dbc8108fa418ca3e54cdbe127",
     "upper_binding": "6b6bbaec41e46fc70020a663cd03b9b9862f5e3149199c246c369533ef34ce47"
   },
   "runtime": {
-    "manifestHash": "db7eda9ca0f7599605893eccbedbf9d7a2eb682bb80418080536971a776aab33",
+    "manifestHash": "56a1de5d760e9f5c1dd991c57c86f24fbfb7da361b3d55b9d4cb65cdabe66a74",
     "pythonVersion": "3.12.13",
     "build123dVersion": "0.10.0",
     "ocpVersion": "7.8.1.1.post1",
-    "cadpyHash": "74f250de9b3dff3b5e0b94523625dd13c3710d3f81c487102225650971b064a6"
+    "cadpyHash": "e8b3788bab31d790595e4c3306dda85dfe057c87a4fc64f7ef3eab254239b7ba"
   },
   "artifacts": [
     {
-      "path": "manufacturing/archive_handbag/releases/export-c2073100a7e864d657df21edd6ee805c/model.step",
+      "path": "manufacturing/archive_handbag/releases/export-18301af190378ef4925b2a91a3618a87/model.step",
       "role": "model/step",
-      "sha256": "05ffa0190e04313e99499cd96d60de833e4bd05a4b985d2129767508ddc9a5bd",
-      "sizeBytes": 6387392
+      "sha256": "094248f865eb212044c79ad0ef5e8c51e5807130d297d62a7bc4158c8c7aebf0",
+      "sizeBytes": 8759760
     }
   ],
   "interference": {
@@ -224,14 +236,9 @@
     "algorithm": "hmac-sha256",
     "keyId": "3ddeb280dc0b23e3263dc06ea1e00c5f",
     "projectId": "1ccbe98c-3a73-4168-a780-a876c7d62cd9",
-    "receiptPath": "manufacturing/archive_handbag/releases/export-c2073100a7e864d657df21edd6ee805c/receipt.json",
-    "payloadSha256": "4fcffd19ada6fc07815e04ec4a0cd7e3938316d8971645d1758cb57d42283feb",
-    "mac": "98ab86339ecc79231502e9f9d524c88f75c22920b232402ae7acbcdb4f499009"
+    "receiptPath": "manufacturing/archive_handbag/releases/export-18301af190378ef4925b2a91a3618a87/receipt.json",
+    "payloadSha256": "84bf4ce5a89db242186e0a08b4e25d3b22b1d97dd08a5113257bef5bbb493722",
+    "mac": "89bc6f8fb61a728d1f8cd416998bed3f79afca2b7181aed93629fcec0195fdad"
   },
-  "status": "reviewed",
-  "review": {
-    "reviewId": "review-315-7fcd4eb2-a515-4298-92a0-47a90bedd54c",
-    "path": ".work/builds/cad/archive_handbag/reviews/review-315-7fcd4eb2-a515-4298-92a0-47a90bedd54c/receipt.json",
-    "sha256": "106b3e350d566e498a6398ace48d09869c43b09a31ea8145ff3b55e40c891f6f"
-  }
+  "status": "handoff"
 }

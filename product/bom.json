@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready_with_mechanical_use_restriction",
   "bom_ready": true,
-  "requirements_digest": "271adf8bbaf8befe827ef55e134f3ccc128702b3d93e71fe65f677aa1d5065f0",
+  "requirements_digest": "1a3ed5679aae70414bdb2c45ec678031518f4b192102c8a6374b3062fd2124f7",
   "items": [
     {
       "id": "body",
@@ -10,7 +10,7 @@
       "name": "外板拼装结构套件",
       "quantity": 1,
       "part_number": "AH-OUTER-PANEL-SET",
-      "description": "蓝绿一体前书脊板保留同R88.333圆面、方孔及饰块槽；左右下层端部改由侧页板携带，前板在侧插板内侧留0.3横向间隙。后板及八方桩底板不变，非承载就绪。",
+      "description": "蓝绿一体前书脊板保留同R88.333圆面、方孔及饰块槽；左右下层端部改由侧页板携带，前板在侧插板内侧留0.3横向间隙。后板及八方桩底板不变，非承载就绪。 圆弧保持原尺寸，以不大于2度的相切曲面段细化显示。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -36,7 +36,7 @@
       "name": "左右圆弧避让书页插板",
       "quantity": 2,
       "part_number": "AH-SIDE-RECT",
-      "description": "左右4mm全高下插页板，下两层圆弧端头与侧板一体，页槽贯穿到圆弧前缘；上层避让、挂环孔、无侧锁保持。",
+      "description": "左右4mm全高下插页板，下两层圆弧端头与侧板一体，页槽贯穿到圆弧前缘；上层避让、挂环孔、无侧锁保持。 圆弧保持原尺寸，以不大于2度的相切曲面段细化显示。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -53,7 +53,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
+      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
       "part_identity": "2ae855c07d2e942f"
     },
     {
@@ -66,7 +66,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
+      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
       "part_identity": "e1b33d023ab564bf"
     },
     {
@@ -79,7 +79,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
+      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
       "part_identity": "3a7a9a3c3021b5c7"
     },
     {
@@ -92,7 +92,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
+      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
       "part_identity": "e4b12ab87c4e349c"
     },
     {
@@ -105,7 +105,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
+      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
       "part_identity": "6e0755fd54b9cadd"
     },
     {
@@ -118,7 +118,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
+      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
       "part_identity": "1256ac3368f74c85"
     },
     {
@@ -127,7 +127,7 @@
       "name": "三色弧形书脊与贯穿束带接口",
       "quantity": 1,
       "part_number": "AH-CURVED-BOOK-SET",
-      "description": "顶带30宽3高，平直横截面，端头平面半圆R15，前向渐变收低；不是全长圆拱。扣舌及独立内嵌饰件保持。",
+      "description": "顶带30宽3高，平直横截面，端头平面半圆R15，前向渐变收低；不是全长圆拱。扣舌5×22、厚1mm，背面直接贴合绑带，不抬高自由端；独立内嵌饰件保持。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -144,7 +144,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
+      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
       "part_identity": "fa74f27b1e3433f0"
     },
     {
@@ -169,7 +169,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "part_identity": "b9f8509e26ee9815",
-      "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。"
+      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。"
     },
     {
       "id": "magnet_adhesive",
@@ -180,7 +180,7 @@
       "description": "用于四颗Ø7×3镀层磁铁与PETG圆槽，名义槽底胶层0.1mm、径向空间0.15mm；具体胶种未定，必须样片确认相容性、固化及防脱，不是承重连接。",
       "source": "default",
       "procurement_status": "external_procurement_required",
-      "selection_reason": "按底边凸起扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
+      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
       "part_identity": "a26c990869eab4c9"
     },
     {
