@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "三层书脊侧端均为光面；上盖与侧板同轴避让弧配对收缝，下层书脊外包侧板。细化圆弧及贴带扣舌保留。承载防脱仍未解决。",
+  "summary": "上盖后角页纹补齐，侧面凹陷前界与下方齐平；上绑带圆弧细化，挂环螺丝一体止推法兰，扣环背面隐藏方桩与配套盲孔。承载防脱仍未解决。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -21,14 +21,14 @@
     {
       "id": "sliding_panels",
       "kind": "mechanical",
-      "description": "左右各一块自上向下沿滑槽插入的侧面书页挡板，不是T形；允许前上角作圆弧避让，保留直接翻盖的开盖方式；一般遮尘与防掉物。取消侧面新增的小锁定螺丝、螺母及孔；保留原挂环M4连接件和侧板下插结构。 下两层书脊位于侧板外侧并遮住侧板前端，正面只显示完整书脊，不露出侧板厚度条；左右采用相同连接方案。 左侧面板以右侧样式为基准做左右镜像，轮廓、书页凹槽、挂环连接孔、前后滑入配合边及底部连接方式一致。 补全上盖与侧板交接缺口，删除上盖侧面靠近书脊的横条凹陷，使上盖前侧端部为与下两层书脊侧面一致的光面。",
+      "description": "左右各一块自上向下沿滑槽插入的侧面书页挡板，不是T形；允许前上角作圆弧避让，保留直接翻盖的开盖方式；一般遮尘与防掉物。 下两层书脊位于侧板外侧并遮住侧板前端，正面只显示完整书脊，不露出侧板厚度条；左右采用相同连接方案。 左侧面板以右侧样式为基准做左右镜像，轮廓、书页凹槽、挂环连接孔、前后滑入配合边及底部连接方式一致。 上盖侧面页块凹陷前边界与下方侧板分界线齐平；分界线前方书脊侧端保持光面，补齐上盖后角页纹。",
       "source": "user_requested",
       "required": true
     },
     {
       "id": "carry_rings",
       "kind": "mechanical",
-      "description": "挂环保持侧面顶部及整环转动，连接件改为外侧一体手拧螺丝，盖子里面配置对应螺母，不再分离螺杆和外侧手拧螺帽。 删除最新标注的左右两条向包内伸出的大L形支臂及其多余塑料座。",
+      "description": "挂环保持侧面顶部及整环转动，连接件改为外侧一体手拧螺丝，盖子里面配置对应螺母，不再分离螺杆和外侧手拧螺帽。 外侧手拧螺栓与止推垫片合并成一个零件。",
       "source": "user_requested",
       "required": true
     },
@@ -42,14 +42,14 @@
     {
       "id": "rear_alignment",
       "kind": "mechanical",
-      "description": "盖子背面为整幅整体面板，不额外收窄；盖背与包本体背面齐平。横向书页凹槽贯穿背面并在棱角连续延伸至侧面，不保留截断槽的边框；背侧槽高度对应。 上盖靠近书脊的侧端例外，按最新要求去掉横槽和页块凹陷，保留光面。每本书的侧面书页凹槽等距排列；各本侧面上下留出封面和封底的厚度间隔。",
+      "description": "盖子背面为整幅整体面板，不额外收窄；盖背与包本体背面齐平。横向书页凹槽贯穿背面并在棱角连续延伸至侧面，不保留截断槽的边框；补全上盖后角横条凹陷，背侧槽高度对应。",
       "source": "user_requested",
       "required": true
     },
     {
       "id": "strap_route",
       "kind": "mechanical",
-      "description": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。 正面金属扣舌保留方框底边中央向上半截的形状；背面直接顺弧贴在绑带上，不悬空，可保留少量实体厚度。 顶部绑带增加半圆弧凸起，向前逐渐平顺过渡收低；属本次指定的局部装饰凸起。 顶部绑带只有本次画出的端头区域为圆弧，不把整个凸起做成横向圆拱；其余保持向前渐变收低。",
+      "description": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。 正面金属扣舌保留方框底边中央向上半截的形状；背面直接顺弧贴在绑带上，不悬空，可保留少量实体厚度。 顶部绑带增加半圆弧凸起，向前逐渐平顺过渡收低；属本次指定的局部装饰凸起。 顶部绑带只有本次画出的端头区域为圆弧，不把整个凸起做成横向圆拱；其余保持向前渐变收低。 前扣环背面用方形内桩连接绑带和书脊，绑带与书脊预留对应孔位；扣环正面不可出现破孔。 上盖绑带圆弧精细度与书脊一致。",
       "source": "user_requested",
       "required": true
     },
@@ -177,6 +177,30 @@
       "source": "user_requested",
       "path": "product/references/uploads/20260924T220900228Z-1-mark.png",
       "description": "下两层书脊位于侧板外侧并遮住侧板前端，正面只显示完整书脊，不露出侧板厚度条；左右采用相同连接方案。"
+    },
+    {
+      "id": "reference_lid_buckle_details_1",
+      "source": "user_requested",
+      "path": "product/references/uploads/20260924T222840862Z-1-mark.png",
+      "description": "上盖页槽分界、上绑带平顺及隐藏方桩连接标注。"
+    },
+    {
+      "id": "reference_lid_buckle_details_2",
+      "source": "user_requested",
+      "path": "product/references/uploads/20260924T222840862Z-2-mark.png",
+      "description": "上盖页槽分界、上绑带平顺及隐藏方桩连接标注。"
+    },
+    {
+      "id": "reference_lid_buckle_details_3",
+      "source": "user_requested",
+      "path": "product/references/uploads/20260924T222840862Z-3-mark.png",
+      "description": "上盖页槽分界、上绑带平顺及隐藏方桩连接标注。"
+    },
+    {
+      "id": "reference_lid_buckle_details_4",
+      "source": "user_requested",
+      "path": "product/references/uploads/20260924T222840862Z-4-mark.png",
+      "description": "上盖页槽分界、上绑带平顺及隐藏方桩连接标注。"
     }
   ],
   "assembly_story": {
@@ -228,7 +252,11 @@
           "reference_left_matches_right",
           "reference_smooth_contact_1",
           "reference_smooth_contact_2",
-          "reference_spine_over_side"
+          "reference_spine_over_side",
+          "reference_lid_buckle_details_1",
+          "reference_lid_buckle_details_2",
+          "reference_lid_buckle_details_3",
+          "reference_lid_buckle_details_4"
         ]
       }
     ]

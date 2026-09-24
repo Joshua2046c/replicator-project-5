@@ -34,7 +34,15 @@ lid+=Pos(0,(d/2-wall/2-hy)/2,r-0.8)*Box(barrel_l,hy-(d/2-wall/2),1.6)
 lid+=Rot(0,90,0)*Cylinder(r,barrel_l)
 lid-=Rot(0,90,0)*Cylinder(bore/2,100.4)
 lid-=Pos(0,d/2-page/2-hy,cz)*Box(rw+2,page,height-2*cover)
-# Front side cheeks are plain, matching the lower spine ends; rear page detail remains.
+# Side page fields use the lower side-panel's straight front datum.
+lap=param('spine_lap_rear_y',-47.5)
+sidegap=param('lid_side_page_front_clearance',0.3)
+pagefront=lap+sidegap
+for s in [-1,1]:
+ lid-=Pos(s*(w/2-page/2),(pagefront+d/2)/2-hy,cz)*Box(page,d/2-pagefront,height-2*cover)
+ for i in range(-4,5):
+  lid-=Pos(s*(w/2-(page+wrap)/2),(pagefront+d/2)/2-hy,cz+i*pitch)*Box(page+wrap,d/2-pagefront,gw)
+# Rear grooves join the side field around the back corners.
 for i in range(-4,5):
  zz=cz+i*pitch
  lid-=Pos(0,d/2-(page+g)/2-hy,zz)*Box(rw+2,page+g,gw)

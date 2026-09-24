@@ -34,6 +34,13 @@ def refine_spine(shape):
     result=Solid.cast(unify.Shape())
     assert result.is_valid and len(result.solids())==1
     return result
+# Shared hidden square locating interface; all dimensions in mm.
+pegw=param('buckle_mount_peg_width',3.0);pegl=param('buckle_mount_peg_length',2.0)
+pegx=param('buckle_mount_center_x',0.0);pegz=param('buckle_mount_center_z',96.0)
+pegy=-51.0+sqrt(R*R-32.0**2)-sqrt(R*R-(pegz-96.0)**2)
+clear=param('buckle_mount_side_clearance',0.15);endgap=param('buckle_mount_end_clearance',0.2)
+socket=Pos(pegx,pegy+(pegl+endgap-0.05)/2,pegz)*Box(pegw+2*clear,pegl+endgap+0.05,pegw+2*clear)
+band-=socket
 band=refine_spine(band)
 publish('central_binding',band,'连续圆弧贴面带')
 w2=param('upper_binding_width',30.0);t2=param('upper_binding_thickness',1.0);seam=param('upper_binding_front_base',128.6);top=param('upper_binding_top_z',190.0);backbase=param('upper_binding_back_base',134.0);ey=param('upper_binding_front_y',-51.0);ry=param('upper_binding_rear_y',57.0)
@@ -54,4 +61,6 @@ cap=Pos(0,peak,top-t2/2)*Cylinder(w2/2,rise+t2/2,align=(Align.CENTER,Align.CENTE
 cap &= Pos(0,peak+w2/4,top+(rise-t2/2)/2)*Box(w2,w2/2,rise+t2/2)
 strip+=fade+cap
 assert len(strip.solids())==1
+angle=param('upper_binding_surface_max_angle_deg',1.0)
+strip=refine_spine(strip)
 publish('upper_binding',strip,'局部半圆端头顶带')

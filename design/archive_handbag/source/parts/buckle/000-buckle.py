@@ -13,5 +13,11 @@ frame=shell&outline&Pos(0,ey-6,z)*Box(w,20,h)
 tongue_shell=Pos(tx,cy-t-lift,cz)*Rot(0,90,0)*Cylinder(R,tw)-Pos(tx,cy-lift,cz)*Rot(0,90,0)*Cylinder(R,tw+2)
 tongue=tongue_shell&Pos(tx,ey-6,tz-tl/2)*Box(tw,20,tl)
 frame+=tongue
+# Shared hidden square locating interface; all dimensions in mm.
+pegw=param('buckle_mount_peg_width',3.0);pegl=param('buckle_mount_peg_length',2.0)
+pegx=param('buckle_mount_center_x',0.0);pegz=param('buckle_mount_center_z',96.0)
+pegy=-51.0+sqrt(R*R-32.0**2)-sqrt(R*R-(pegz-96.0)**2)
+embed=param('buckle_mount_root_embed',0.3)
+frame+=Pos(pegx,pegy+(pegl-embed)/2,pegz)*Box(pegw,pegl+embed,pegw)
 assert len(frame.solids())==1
 publish('buckle',frame,'贴带曲面金属扣舌',material='stainless_steel')

@@ -1,0 +1,31 @@
+{
+  "revision": "9dd1057af53ac900324fb5f34bb72bbb09a31e2d959a971697b07194ad5b2520",
+  "glb_sha256": "fe78dcef1c97779637ebdde69d69544f10b41f5289f977c632343b5655819ab9",
+  "sampling": {
+    "upper_binding": {
+      "angular_stations": 127,
+      "max_step_deg": 0.32575000000000287
+    },
+    "lower": {
+      "angular_stations": 162,
+      "max_step_deg": 0.662
+    },
+    "middle": {
+      "angular_stations": 182,
+      "max_step_deg": 0.6436200000000001
+    },
+    "lower_binding": {
+      "angular_stations": 63,
+      "max_step_deg": 0.6367800000000017
+    },
+    "middle_binding": {
+      "angular_stations": 73,
+      "max_step_deg": 0.6565000000000003
+    },
+    "lid": {
+      "angular_stations": 178,
+      "max_step_deg": 0.6387100000000014
+    }
+  },
+  "passed": true
+}

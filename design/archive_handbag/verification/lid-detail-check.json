@@ -1,0 +1,1087 @@
+{
+  "revision": "9dd1057af53ac900324fb5f34bb72bbb09a31e2d959a971697b07194ad5b2520",
+  "step_sha256": "dd2ebcaababcb55281742c034cd2dc269c83086eea56b4e576922888179825f2",
+  "objects": 28,
+  "solids": 31,
+  "all_valid": true,
+  "pairs_screened": 378,
+  "closed_collisions": [],
+  "front_coverage_probes": [
+    {
+      "x": -108,
+      "z": 5,
+      "spine_volume_mm3": 0.008000000000000078,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": -108,
+      "z": 16,
+      "spine_volume_mm3": 0.00800000000000009,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": -108,
+      "z": 32,
+      "spine_volume_mm3": 0.008000000000000115,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": -108,
+      "z": 48,
+      "spine_volume_mm3": 0.008000000000000115,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": -108,
+      "z": 63,
+      "spine_volume_mm3": 0.008000000000000113,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": -108,
+      "z": 64,
+      "spine_volume_mm3": 0.008000000000000021,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": -108,
+      "z": 65,
+      "spine_volume_mm3": 0.008000000000000113,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": -108,
+      "z": 80,
+      "spine_volume_mm3": 0.008000000000000113,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": -108,
+      "z": 96,
+      "spine_volume_mm3": 0.008000000000000113,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": -108,
+      "z": 112,
+      "spine_volume_mm3": 0.008000000000000113,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": -108,
+      "z": 127,
+      "spine_volume_mm3": 0.008000000000000113,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": 108,
+      "z": 5,
+      "spine_volume_mm3": 0.008000000000000078,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": 108,
+      "z": 16,
+      "spine_volume_mm3": 0.00800000000000009,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": 108,
+      "z": 32,
+      "spine_volume_mm3": 0.008000000000000115,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": 108,
+      "z": 48,
+      "spine_volume_mm3": 0.008000000000000115,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": 108,
+      "z": 63,
+      "spine_volume_mm3": 0.008000000000000113,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": 108,
+      "z": 64,
+      "spine_volume_mm3": 0.008000000000000021,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": 108,
+      "z": 65,
+      "spine_volume_mm3": 0.008000000000000113,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": 108,
+      "z": 80,
+      "spine_volume_mm3": 0.008000000000000113,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": 108,
+      "z": 96,
+      "spine_volume_mm3": 0.008000000000000113,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": 108,
+      "z": 112,
+      "spine_volume_mm3": 0.008000000000000113,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    },
+    {
+      "x": 108,
+      "z": 127,
+      "spine_volume_mm3": 0.008000000000000113,
+      "side_volume_mm3": 0,
+      "lap_back_distance_mm": 0.0
+    }
+  ],
+  "minimum_front_side_gaps_mm": {
+    "side_left": 0.29999999999999716,
+    "side_right": 0.29999999999999716
+  },
+  "side_mirror_difference_mm3": 0,
+  "opening_angles_deg": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  ],
+  "opening_collisions": [],
+  "extraction_collisions": [],
+  "max_tongue_contact_distance_mm": 4.099831585335778e-12,
+  "scope": "Exact B-rep at discrete motion samples; no continuous-motion or load certification.",
+  "arc_clearance_probes": [
+    {
+      "side": "side_left",
+      "angle_deg": 2,
+      "lid_face_distance_mm": 5.859285502108464e-14,
+      "side_face_distance_mm": 0.0,
+      "paired_gap_mm": 0.29999999999999644
+    },
+    {
+      "side": "side_left",
+      "angle_deg": 5,
+      "lid_face_distance_mm": 2.842170943040401e-14,
+      "side_face_distance_mm": 2.842170943040401e-14,
+      "paired_gap_mm": 0.3000000000000012
+    },
+    {
+      "side": "side_left",
+      "angle_deg": 10,
+      "lid_face_distance_mm": 5.684341886080802e-14,
+      "side_face_distance_mm": 0.0,
+      "paired_gap_mm": 0.29999999999999166
+    },
+    {
+      "side": "side_left",
+      "angle_deg": 15,
+      "lid_face_distance_mm": 2.842170943040401e-14,
+      "side_face_distance_mm": 0.0,
+      "paired_gap_mm": 0.2999999999999967
+    },
+    {
+      "side": "side_left",
+      "angle_deg": 20,
+      "lid_face_distance_mm": 4.0194366942304644e-14,
+      "side_face_distance_mm": 0.0,
+      "paired_gap_mm": 0.3000000000000065
+    },
+    {
+      "side": "side_left",
+      "angle_deg": 25,
+      "lid_face_distance_mm": 2.842170943040401e-14,
+      "side_face_distance_mm": 1.4210854715202004e-14,
+      "paired_gap_mm": 0.2999999999999989
+    },
+    {
+      "side": "side_left",
+      "angle_deg": 30,
+      "lid_face_distance_mm": 4.0194366942304644e-14,
+      "side_face_distance_mm": 2.842170943040401e-14,
+      "paired_gap_mm": 0.29999999999999544
+    },
+    {
+      "side": "side_right",
+      "angle_deg": 2,
+      "lid_face_distance_mm": 0.0,
+      "side_face_distance_mm": 2.842170943040401e-14,
+      "paired_gap_mm": 0.29999999999999644
+    },
+    {
+      "side": "side_right",
+      "angle_deg": 5,
+      "lid_face_distance_mm": 2.842170943040401e-14,
+      "side_face_distance_mm": 0.0,
+      "paired_gap_mm": 0.3000000000000012
+    },
+    {
+      "side": "side_right",
+      "angle_deg": 10,
+      "lid_face_distance_mm": 0.0,
+      "side_face_distance_mm": 0.0,
+      "paired_gap_mm": 0.29999999999999166
+    },
+    {
+      "side": "side_right",
+      "angle_deg": 15,
+      "lid_face_distance_mm": 2.842170943040401e-14,
+      "side_face_distance_mm": 0.0,
+      "paired_gap_mm": 0.2999999999999967
+    },
+    {
+      "side": "side_right",
+      "angle_deg": 20,
+      "lid_face_distance_mm": 0.0,
+      "side_face_distance_mm": 2.842170943040401e-14,
+      "paired_gap_mm": 0.3000000000000065
+    },
+    {
+      "side": "side_right",
+      "angle_deg": 25,
+      "lid_face_distance_mm": 3.1776437161565096e-14,
+      "side_face_distance_mm": 6.355287432313019e-14,
+      "paired_gap_mm": 0.2999999999999989
+    },
+    {
+      "side": "side_right",
+      "angle_deg": 30,
+      "lid_face_distance_mm": 3.1776437161565096e-14,
+      "side_face_distance_mm": 3.1776437161565096e-14,
+      "paired_gap_mm": 0.29999999999999544
+    }
+  ],
+  "plain_spine_end_probes": [
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 8,
+      "material_mm3": 0.003999999999999941
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 14,
+      "material_mm3": 0.003999999999999945
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 20,
+      "material_mm3": 0.0039999999999999385
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 26,
+      "material_mm3": 0.0039999999999999385
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 32,
+      "material_mm3": 0.003999999999999951
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 38,
+      "material_mm3": 0.0039999999999999385
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 44,
+      "material_mm3": 0.0039999999999999385
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 50,
+      "material_mm3": 0.0039999999999999385
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 56,
+      "material_mm3": 0.0039999999999999385
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 72,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 78,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 84,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 90,
+      "material_mm3": 0.003999999999999963
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 96,
+      "material_mm3": 0.003999999999999963
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 102,
+      "material_mm3": 0.003999999999999963
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 108,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 114,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "blue_spine",
+      "x": -109.8,
+      "z": 120,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": -109.8,
+      "z": 135.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": -109.8,
+      "z": 141.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": -109.8,
+      "z": 147.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": -109.8,
+      "z": 153.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": -109.8,
+      "z": 159.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": -109.8,
+      "z": 165.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": -109.8,
+      "z": 171.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": -109.8,
+      "z": 177.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": -109.8,
+      "z": 183.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 8,
+      "material_mm3": 0.003999999999999941
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 14,
+      "material_mm3": 0.003999999999999945
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 20,
+      "material_mm3": 0.0039999999999999385
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 26,
+      "material_mm3": 0.0039999999999999385
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 32,
+      "material_mm3": 0.003999999999999951
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 38,
+      "material_mm3": 0.0039999999999999385
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 44,
+      "material_mm3": 0.0039999999999999385
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 50,
+      "material_mm3": 0.0039999999999999385
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 56,
+      "material_mm3": 0.0039999999999999385
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 72,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 78,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 84,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 90,
+      "material_mm3": 0.003999999999999963
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 96,
+      "material_mm3": 0.003999999999999963
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 102,
+      "material_mm3": 0.003999999999999963
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 108,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 114,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "blue_spine",
+      "x": 109.8,
+      "z": 120,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": 109.8,
+      "z": 135.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": 109.8,
+      "z": 141.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": 109.8,
+      "z": 147.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": 109.8,
+      "z": 153.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": 109.8,
+      "z": 159.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": 109.8,
+      "z": 165.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": 109.8,
+      "z": 171.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": 109.8,
+      "z": 177.3,
+      "material_mm3": 0.003999999999999962
+    },
+    {
+      "object": "lid",
+      "x": 109.8,
+      "z": 183.3,
+      "material_mm3": 0.003999999999999962
+    }
+  ],
+  "upper_side_clearance_mm": {
+    "side_left": 0.29999999991270754,
+    "side_right": 0.29999999991270754
+  },
+  "detail_probes": [
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "straight boundary front plain",
+      "object": "lid",
+      "volume_mm3": 0.000799999999999964,
+      "expected_mm3": 0.0008,
+      "passed": true
+    },
+    {
+      "label": "straight boundary rear recessed",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "recess floor",
+      "object": "lid",
+      "volume_mm3": 0.000799999999999964,
+      "expected_mm3": 0.0008,
+      "passed": true
+    },
+    {
+      "label": "straight boundary front plain",
+      "object": "lid",
+      "volume_mm3": 0.000799999999999964,
+      "expected_mm3": 0.0008,
+      "passed": true
+    },
+    {
+      "label": "straight boundary rear recessed",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "recess floor",
+      "object": "lid",
+      "volume_mm3": 0.000799999999999964,
+      "expected_mm3": 0.0008,
+      "passed": true
+    },
+    {
+      "label": "straight boundary front plain",
+      "object": "lid",
+      "volume_mm3": 0.000799999999999964,
+      "expected_mm3": 0.0008,
+      "passed": true
+    },
+    {
+      "label": "straight boundary rear recessed",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "recess floor",
+      "object": "lid",
+      "volume_mm3": 0.000799999999999964,
+      "expected_mm3": 0.0008,
+      "passed": true
+    },
+    {
+      "label": "integral flange",
+      "object": "thumb_screw_left",
+      "volume_mm3": 0.00799999999999989,
+      "expected_mm3": 0.008000000000000002,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "rear side groove open",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "rear side groove floor",
+      "object": "lid",
+      "volume_mm3": 0.003999999999999963,
+      "expected_mm3": 0.004000000000000001,
+      "passed": true
+    },
+    {
+      "label": "straight boundary front plain",
+      "object": "lid",
+      "volume_mm3": 0.000799999999999964,
+      "expected_mm3": 0.0008,
+      "passed": true
+    },
+    {
+      "label": "straight boundary rear recessed",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "recess floor",
+      "object": "lid",
+      "volume_mm3": 0.000799999999999964,
+      "expected_mm3": 0.0008,
+      "passed": true
+    },
+    {
+      "label": "straight boundary front plain",
+      "object": "lid",
+      "volume_mm3": 0.000799999999999964,
+      "expected_mm3": 0.0008,
+      "passed": true
+    },
+    {
+      "label": "straight boundary rear recessed",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "recess floor",
+      "object": "lid",
+      "volume_mm3": 0.000799999999999964,
+      "expected_mm3": 0.0008,
+      "passed": true
+    },
+    {
+      "label": "straight boundary front plain",
+      "object": "lid",
+      "volume_mm3": 0.000799999999999964,
+      "expected_mm3": 0.0008,
+      "passed": true
+    },
+    {
+      "label": "straight boundary rear recessed",
+      "object": "lid",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "recess floor",
+      "object": "lid",
+      "volume_mm3": 0.000799999999999964,
+      "expected_mm3": 0.0008,
+      "passed": true
+    },
+    {
+      "label": "integral flange",
+      "object": "thumb_screw_right",
+      "volume_mm3": 0.00799999999999989,
+      "expected_mm3": 0.008000000000000002,
+      "passed": true
+    },
+    {
+      "label": "metal face continuous",
+      "object": "buckle",
+      "volume_mm3": 0.03200000000000031,
+      "expected_mm3": 0.03200000000000001,
+      "passed": true
+    },
+    {
+      "label": "square peg material",
+      "object": "buckle",
+      "volume_mm3": 1.568000000000007,
+      "expected_mm3": 1.5679999999999998,
+      "passed": true
+    },
+    {
+      "label": "strap square opening",
+      "object": "central_binding",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "spine blind opening",
+      "object": "blue_spine",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "spine blind floor",
+      "object": "blue_spine",
+      "volume_mm3": 1.568000000000007,
+      "expected_mm3": 1.5679999999999998,
+      "passed": true
+    },
+    {
+      "label": "peg lateral clearance",
+      "object": "buckle",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "peg lateral clearance",
+      "object": "central_binding",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    },
+    {
+      "label": "peg lateral clearance",
+      "object": "blue_spine",
+      "volume_mm3": 0,
+      "expected_mm3": 0,
+      "passed": true
+    }
+  ],
+  "hidden_peg": {
+    "width_mm": 3,
+    "projection_mm": 2,
+    "socket_width_mm": 3.3,
+    "end_clearance_mm": 0.2,
+    "spine_floor_at_center_mm": 1.3,
+    "metal_face_at_root_mm": 0.7
+  },
+  "separate_washers_absent": true,
+  "passed": true
+}

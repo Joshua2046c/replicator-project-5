@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready_with_mechanical_use_restriction",
   "bom_ready": true,
-  "requirements_digest": "63dd06d9fa34cc18fdf434f150e599f446c8340689beb83985d3e4500dc742a6",
+  "requirements_digest": "e0c30080e88642d6a24f09f1d05a388efc4e2bce416725ec51ab27e333585661",
   "items": [
     {
       "id": "body",
@@ -10,7 +10,7 @@
       "name": "外板拼装结构套件",
       "quantity": 1,
       "part_number": "AH-OUTER-PANEL-SET",
-      "description": "下两层一体前书脊延伸至X±110，外包侧板前端；后侧直角搭接面Y−47.5，保留内部导边、方孔、饰块槽、细化圆弧。后板和底板不变。",
+      "description": "下两层一体前书脊延伸至X±110，外包侧板前端；后侧直角搭接面Y−47.5，保留内部导边、方孔、饰块槽、细化圆弧。后板和底板不变。 中央Z96预留3.3方形扣桩盲孔，孔底约1.3mm。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -23,7 +23,7 @@
       "name": "整幅盖背翻盖",
       "quantity": 1,
       "part_number": "AH-LID-FLUSH",
-      "description": "上盖统一R88.333圆弧，顶面190；一体侧翼与等距页槽、4mm封面带；左右紧凑圆磁铁槽，无盖片/螺钉。 顶部四周和前后竖边区域0.4mm小倒角；装饰顶带另有3mm隆起。 封面增加20.3×36.3深1mm铭牌盲槽，底留1.2mm；粉色书脊两处深1.2mm饰块槽。 前侧端部去除横槽和页块凹陷，保持光面；内避让弧R108，与侧板R107.7配对留0.3mm径向活动缝。",
+      "description": "上盖统一R88.333圆弧，顶面190；一体侧翼与等距页槽、4mm封面带；左右紧凑圆磁铁槽，无盖片/螺钉。 顶部四周和前后竖边区域0.4mm小倒角；装饰顶带另有3mm隆起。 封面增加20.3×36.3深1mm铭牌盲槽，底留1.2mm；粉色书脊两处深1.2mm饰块槽。 前侧光面止于Y−47.2，后方页块凹陷与下方侧板分界齐平；后角页槽贯通；内避让弧R108，与侧板R107.7配对留0.3mm径向活动缝。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -72,15 +72,15 @@
     {
       "id": "ring_bolts",
       "role": "fastener",
-      "name": "一体M4手拧螺丝",
+      "name": "带一体止推法兰的M4手拧螺丝",
       "quantity": 2,
-      "part_number": "AH-THUMB-M4x15-HEAD10x4",
-      "description": "定制金属一体M4×15头下长度手拧螺丝，Ø10×4头；外侧X±115向内，端部绝对X100，穿过3.2mm内M4螺母并露出0.8mm。螺纹名义包络。",
+      "part_number": "AH-THUMB-M4-L15-HEAD10x4-FLANGE10x1.4",
+      "description": "定制金属手拧螺丝与原Ø10×1.4止推垫片合成单件。Ø10×4头位置X±115不变，螺纹端X±100，旧头下长15，法兰底下有效杆长13.6mm；保留隔套、内钢垫板和ISO4032 M4螺母。名义螺纹包络。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
-      "part_identity": "3a7a9a3c3021b5c7"
+      "selection_reason": "按用户要求将外止推垫片并入定制金属手拧螺丝，隔套独立，原轴向尺寸保持。",
+      "part_identity": "448ecd7a9c749a1c"
     },
     {
       "id": "ring_nuts",
@@ -127,7 +127,7 @@
       "name": "三色弧形书脊与贯穿束带接口",
       "quantity": 1,
       "part_number": "AH-CURVED-BOOK-SET",
-      "description": "顶带30宽3高，平直横截面，端头平面半圆R15，前向渐变收低；不是全长圆拱。扣舌及独立内嵌饰件保持。 下两层绑带圆弧同步细化；扣舌5×22×1mm直接贴带，不留悬空间隙。",
+      "description": "顶带30宽3高，平直横截面，端头平面半圆R15，前向渐变收低；不是全长圆拱。扣舌及独立内嵌饰件保持。 下两层绑带圆弧同步细化；扣舌5×22×1mm直接贴带，不留悬空间隙。 上盖绑带按1度解析曲面细化；扣舌背面一体3×3、伸出2mm方桩，绑带3.3方孔与书脊盲孔同轴，正面保留完整金属。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -162,14 +162,14 @@
     {
       "id": "pivot_sleeves",
       "role": "carry_rings",
-      "name": "侧轴隔套及止推垫片",
+      "name": "侧轴金属隔套",
       "quantity": 2,
       "part_number": "AH-SLEEVE-6-4.3-3.6",
-      "description": "每侧钢隔套Ø6/Ø4.3×3.6，3mm环片总轴向间隙0.6；外垫片Ø10/Ø4.3×1.4。",
+      "description": "每侧钢隔套Ø6/Ø4.3×3.6，3mm环片总轴向间隙0.6；原外止推垫片已并入手拧螺丝，不再单独制作。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "part_identity": "b9f8509e26ee9815",
-      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。"
+      "selection_reason": "按用户要求将外止推垫片并入定制金属手拧螺丝，隔套独立，原轴向尺寸保持。"
     },
     {
       "id": "magnet_adhesive",

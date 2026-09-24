@@ -28,7 +28,7 @@
       "source": "user"
     },
     "connection_rings": {
-      "value": "挂环保持侧面顶部及整环转动，连接件改为外侧一体手拧螺丝，盖子里面配置对应螺母，不再分离螺杆和外侧手拧螺帽。",
+      "value": "挂环保持侧面顶部及整环转动，连接件改为外侧一体手拧螺丝，盖子里面配置对应螺母，不再分离螺杆和外侧手拧螺帽。 外侧手拧螺栓与止推垫片合并成一个零件。",
       "source": "user"
     },
     "prototype_process": {
@@ -101,7 +101,7 @@
       "source": "user"
     },
     "spine_curvature": {
-      "value": "三本正面书脊保持相同圆弧曲率，蓝绿两段端部也需呈弧形而非方直；最下书脊至底板外缘连续圆弧，不留台阶。 下方两本书的弧面显示精细程度须与上盖一致，不保留明显大切面。 下两层绑带同步保持同等平滑程度。",
+      "value": "三本正面书脊保持相同圆弧曲率，蓝绿两段端部也需呈弧形而非方直；最下书脊至底板外缘连续圆弧，不留台阶。 下方两本书的弧面显示精细程度须与上盖一致，不保留明显大切面。 下两层绑带同步保持同等平滑程度。 上盖绑带的弧度过渡也需要细腻、平顺。",
       "source": "user"
     },
     "rear_lid_alignment": {
@@ -109,7 +109,7 @@
       "source": "user"
     },
     "rear_page_grooves": {
-      "value": "横向书页凹槽贯穿背面并在棱角连续延伸至侧面，不保留截断槽的边框；背侧槽高度对应。 上盖靠近书脊的侧端例外，按最新要求去掉横槽和页块凹陷，保留光面。",
+      "value": "横向书页凹槽贯穿背面并在棱角连续延伸至侧面，不保留截断槽的边框；补全上盖后角横条凹陷，背侧槽高度对应。",
       "source": "user"
     },
     "strap_continuity": {
@@ -284,7 +284,8 @@
     "spine_surface_refinement": {
       "value": {
         "max_patch_angle_deg": 2,
-        "method": "保持精确圆柱曲面，以相切小曲面段约束STEP预览细分，不改弧度或厚度"
+        "method": "保持精确圆柱曲面，以相切小曲面段约束STEP预览细分，不改弧度或厚度",
+        "upper_binding_max_patch_angle_deg": 1
       },
       "source": "default"
     },
@@ -300,7 +301,7 @@
     },
     "lid_side_finish": {
       "source": "user",
-      "value": "补全上盖与侧板交接缺口，删除上盖侧面靠近书脊的横条凹陷，使上盖前侧端部为与下两层书脊侧面一致的光面。"
+      "value": "上盖侧面页块凹陷前边界与下方侧板分界线齐平；分界线前方书脊侧端保持光面，补齐上盖后角页纹。"
     },
     "lid_side_clearance": {
       "source": "default",
@@ -309,6 +310,27 @@
         "side_relief_radius_mm": 107.7,
         "radial_motion_gap_mm": 0.3,
         "reason": "同轴配对避让弧消除局部敞口，保留可开盖的活动间隙；后部页纹保留。"
+      }
+    },
+    "buckle_hidden_mount": {
+      "source": "user",
+      "value": "前扣环背面用方形内桩连接绑带和书脊，绑带与书脊预留对应孔位；扣环正面不可出现破孔。"
+    },
+    "buckle_hidden_mount_dimensions": {
+      "source": "default",
+      "value": {
+        "peg_square_mm": 3,
+        "peg_projection_mm": 2,
+        "root_embed_mm": 0.3,
+        "socket_square_mm": 3.3,
+        "socket_depth_from_strap_face_mm": 2.2,
+        "center_xz_mm": [
+          0,
+          96
+        ],
+        "spine_floor_mm": 1.3,
+        "metal_front_min_nominal_mm": 0.7,
+        "retention": "nonstructural locating peg; adhesive trial required"
       }
     }
   },
