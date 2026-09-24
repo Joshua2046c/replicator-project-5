@@ -1,5 +1,5 @@
 {
-  "geometry_build": 193,
+  "geometry_build": 196,
   "connections": [
     {
       "id": "lid_hinge",
@@ -9,7 +9,7 @@
         "lid",
         "axle"
       ],
-      "description": "X-axis at Y55 Z128. Ø4x100 shaft in Ø4.4 bores, end clearance0.4 each; integral knuckles and screw-held end stops. BLOCKED: full-width integral moving front strikes rectangular panels on opening. Needs revised kinematics or user-approved panel-corner relief."
+      "description": "X-axis Y55 Z128, Ø4x100 shaft/Ø4.4 bores with kit-fastened axial stops. Side panel upper-front radius103.4 and lid integral wing inner radius104 share this axis;0.6mm radial seam. User approved corner relief;0..100deg every5deg no collision."
     },
     {
       "id": "hinge_stops",
@@ -56,7 +56,7 @@
     {
       "id": "sliding_panels",
       "implementation": "free",
-      "description": "4x100x182.4 rectangles remain unchanged, downward guided. Numerical panel extraction is clear at an artificially posed100deg lid, but that pose is not reachable through the current opening sweep. Before correction, remove lid/axle for maintenance."
+      "description": "4x100x182.4 envelope, upper-front circular relief startingworldZ128.3, radius103.4 aboutY55 Z128. Downward insertion into4.6mm guides. Remove ring bolts before maintenance extraction at100deg; normal opening leaves rings and trims installed."
     },
     {
       "id": "central_wrap",
@@ -69,7 +69,5 @@
       "description": "Only non-load-bearing spine marks use compatible thin adhesive. No shoulder strap included."
     }
   ],
-  "unhandled": [
-    "opening_clearance"
-  ]
+  "unhandled": []
 }

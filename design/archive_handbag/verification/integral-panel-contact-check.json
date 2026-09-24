@@ -1,5 +1,5 @@
 {
-  "buildNumber": 193,
+  "buildNumber": 196,
   "front_board_solid_count": 1,
   "removed_objects_absent": {
     "green_spine": true,
@@ -106,5 +106,5 @@
       "intersection_mm3": 0
     }
   ],
-  "note": "Insertion checks omit retention screws until seated. Surface contact is nominal CAD contact, not adhesive strength certification. Opening remains blocked by rectangular side panels."
+  "note": "Insertion checks omit retention screws until seated. Surface contact is nominal CAD contact, not adhesive strength certification."
 }

@@ -1,55 +1,33 @@
 {
-  "buildNumber": 193,
-  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/1a9f9fca3d6df518a726d21ed93fe21ad61e5cdc952360c90b5380becc54fb00",
+  "buildNumber": 196,
+  "source_build_path": ".work/cache/cad-workbench/designs/archive_handbag/builds/732de940bceecd863ba42dc3bc567c6dbe4d5e9028ff7619a64a2dafa4fa3b96",
   "method": "exact B-rep intersections at discrete motion samples; not continuous swept-volume proof or structural certification",
   "opening_angles_deg": [
     0,
     5,
+    10,
     15,
+    20,
+    25,
     30,
+    35,
+    40,
+    45,
     50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
     100
   ],
   "released_before_opening": [],
-  "opening_tests": 2772,
-  "opening_collisions": [
-    {
-      "angle": 5,
-      "moving": "lid",
-      "fixed": "side_left",
-      "volume_mm3": 270.204452
-    },
-    {
-      "angle": 5,
-      "moving": "lid",
-      "fixed": "side_right",
-      "volume_mm3": 270.204452
-    },
-    {
-      "angle": 15,
-      "moving": "lid",
-      "fixed": "side_left",
-      "volume_mm3": 477.076004
-    },
-    {
-      "angle": 15,
-      "moving": "lid",
-      "fixed": "side_right",
-      "volume_mm3": 477.076004
-    },
-    {
-      "angle": 30,
-      "moving": "lid",
-      "fixed": "side_left",
-      "volume_mm3": 36.540624
-    },
-    {
-      "angle": 30,
-      "moving": "lid",
-      "fixed": "side_right",
-      "volume_mm3": 36.540624
-    }
-  ],
+  "opening_tests": 9702,
+  "opening_collisions": [],
   "removed_before_panel_extraction": [
     "ring_bolt_left",
     "ring_bolt_right_low",
@@ -64,8 +42,8 @@
   ],
   "removal_collisions": [],
   "closed_lift_1mm_blocking_volume_mm3": {
-    "side_left": 239.99999999999773,
-    "side_right": 239.99999999999775
+    "side_left": 195.7756397181675,
+    "side_right": 195.77563971816502
   },
   "main_envelope_mm": [
     220.0,
@@ -127,5 +105,5 @@
     "body_mag_cap_left_screw_0": true,
     "body_mag_cap_left_screw_1": true
   },
-  "status": "failed"
+  "status": "pass"
 }

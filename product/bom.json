@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "status": "draft",
-  "bom_ready": false,
-  "requirements_digest": "21c6b8b1225e21df33c140bd98940306976914453ab777ee20be3f9e1f76396f",
+  "status": "ready",
+  "bom_ready": true,
+  "requirements_digest": "b981658231712517b8e4bd1b00161a056744ced4e0f69a48a0dbfd0e7d96496b",
   "items": [
     {
       "id": "body",
@@ -14,7 +14,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "4c7b49d3c6197c10"
     },
     {
@@ -23,11 +23,11 @@
       "name": "整幅盖背翻盖",
       "quantity": 1,
       "part_number": "AH-LID-FLUSH",
-      "description": "整幅220mm上盖，左右端部与盖体一体；取消固定前板的粉色窄条，开合空间须重新验证。 当前build193闭合正常，5–30度与矩形侧板相撞，不可直接作为可用翻盖打印。",
+      "description": "整幅220mm一体前书脊和盖背；一体侧翼沿铰轴同心圆弧覆盖侧板避让区；贴面分段带随盖运动。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "c8f8bda0279ef9fd"
     },
     {
@@ -36,11 +36,11 @@
       "name": "左右矩形全高书页插板",
       "quantity": 2,
       "part_number": "AH-SIDE-RECT",
-      "description": "4×100×182.4矩形，外面X±110与盖齐平；上端通栓孔，维护先拆挂环螺栓再抽板。",
+      "description": "4mm厚，100×182.4外包络；前上角按用户选择改为圆弧避让，与上盖一体侧翼配合，保持直接翻盖和自上滑入。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "b04ab60e459ffc67"
     },
     {
@@ -53,7 +53,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "2ae855c07d2e942f"
     },
     {
@@ -66,7 +66,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "e1b33d023ab564bf"
     },
     {
@@ -79,7 +79,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "5227684f12709b68"
     },
     {
@@ -92,7 +92,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "0b2f682a8b796bed"
     },
     {
@@ -105,7 +105,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "6aba42922000ecbe"
     },
     {
@@ -118,7 +118,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "e66aaf90cf60d760"
     },
     {
@@ -131,7 +131,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "9ab9112a1e61e35a"
     },
     {
@@ -144,7 +144,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "1256ac3368f74c85"
     },
     {
@@ -157,7 +157,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "350342d63049aac3"
     },
     {
@@ -170,7 +170,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "60df22607e90e1c1"
     },
     {
@@ -183,7 +183,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "cdec688dde151cf0"
     },
     {
@@ -196,7 +196,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "fa74f27b1e3433f0"
     },
     {
@@ -208,7 +208,7 @@
       "description": "仅粘贴非承力标线和贴面装饰带，样片确认PETG相容性；前后底插接由底螺钉防拔脱。",
       "source": "default",
       "procurement_status": "external_procurement_required",
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "4b3be1836c874da6"
     },
     {
@@ -221,7 +221,7 @@
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "part_identity": "b9f8509e26ee9815",
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。"
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。"
     },
     {
       "id": "bottom_screws",
@@ -233,7 +233,7 @@
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
-      "selection_reason": "按本轮一体前板、底板定位插接和贴面分段装饰要求；现有挂环与磁铁不换型，翻盖避让尚待决定。",
+      "selection_reason": "按本轮确认的一体前板、底板插接、圆弧避让侧板及贴面分段装饰更新；build196开盖与装配采样通过，承载仍待实体试验。",
       "part_identity": "7ae49e465365c84d"
     }
   ],
@@ -260,11 +260,5 @@
       "description": "目录未匹配小手拧螺帽，因此明确定义定制M4、Ø10×4金属件；不是市场无货结论，也不是供应商模型。"
     }
   ],
-  "unresolved_roles": [
-    {
-      "role": "lid_opening_interface",
-      "reason": "rectangular panel / integral lid opening conflict; current exact rigid hinge does not open safely",
-      "design_critical": true
-    }
-  ]
+  "unresolved_roles": []
 }

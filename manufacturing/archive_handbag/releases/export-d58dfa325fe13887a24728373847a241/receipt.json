@@ -1,32 +1,32 @@
 {
   "designId": "archive_handbag",
-  "buildNumber": 193,
-  "sourceHash": "1a9f9fca3d6df518a726d21ed93fe21ad61e5cdc952360c90b5380becc54fb00",
+  "buildNumber": 196,
+  "sourceHash": "732de940bceecd863ba42dc3bc567c6dbe4d5e9028ff7619a64a2dafa4fa3b96",
   "schemaVersion": 2,
-  "exportId": "export-a04e3f35c3b35ff7ca585897613a2eef",
-  "generatedAt": "2026-09-24T02:36:49.504Z",
-  "designSha256": "405205c7d653eb72cd23aa84f7427b44cb2bd269fc743e3ecc4493245072a996",
+  "exportId": "export-d58dfa325fe13887a24728373847a241",
+  "generatedAt": "2026-09-24T03:15:26.490Z",
+  "designSha256": "98c4faab79db20d794a9add88b91cc8390f474eaf5d19ce304c284045d54b280",
   "role": "handbag_assembly",
-  "stateHash": "6568c10114de561c854cc3bb649bbf7e1dfa188cb325218c039d2d5a5992ef60",
+  "stateHash": "025757059e1644e3b36fa90e4ca2fb62913f60276429b30d4a446953c9ac4bd5",
   "stateManifest": {
     "schemaVersion": 2,
     "designId": "archive_handbag",
     "role": "handbag_assembly",
     "design": {
-      "buildNumber": 193,
-      "sourceHash": "1a9f9fca3d6df518a726d21ed93fe21ad61e5cdc952360c90b5380becc54fb00",
-      "designSha256": "3d68a872b49250c1e7951ab9498b9d324d723acc98005e899a02becfb18b7c7d",
-      "manifestSha256": "06f30d2e1f023fe2e6430f7f32e4cbc47e77bd91b72fe50126903cdd68942521",
-      "stepSha256": "177a97fb38fc39df38f5ed5a9ab2a8b2955c3b8b86ae96ceb66f576e1d0d351b",
+      "buildNumber": 196,
+      "sourceHash": "732de940bceecd863ba42dc3bc567c6dbe4d5e9028ff7619a64a2dafa4fa3b96",
+      "designSha256": "c05664074658fe54a0d6b947b4ad5958998fc6bc4099d033aaea3891901b7ec2",
+      "manifestSha256": "beaefdc05252c84ed32c28a5389d39c2e802850e375f0b59e3c2d134e020dfc2",
+      "stepSha256": "43b3fcf530eaa4f16fd71a203d3ca427619f23a26e9f2ce2fe6f8892deb4c3b1",
       "pcbReleases": []
     },
     "brief": {
       "path": "design/archive_handbag/README.md",
-      "sha256": "46bd4bf44aa0daa151ea807683effd4e05efe00e82491f7cb9e4f244083d9024"
+      "sha256": "d0327166084d999c0e148566b4ec79c147282c117b355eb86dfd519ba6350601"
     },
     "requirement": {
       "artifactContractPath": "product/contract.json",
-      "artifactContractSha256": "39d5beb0995dfc9dfe4df0340d20ba3f4991fb84077ea9c9aba7c860d11ceedb",
+      "artifactContractSha256": "339ab56e3de801860327495f2e404584367a7665264f1ab2089dbfe1100bdaae",
       "designRequirementSha256": "fed0eb36298b91be6c7f95ff7ecc9403d9f3e58858082f6c8e9f57d105fe5fe6",
       "inputs": [
         {
@@ -86,11 +86,11 @@
         "step"
       ]
     },
-    "stateHash": "6568c10114de561c854cc3bb649bbf7e1dfa188cb325218c039d2d5a5992ef60"
+    "stateHash": "025757059e1644e3b36fa90e4ca2fb62913f60276429b30d4a446953c9ac4bd5"
   },
   "buildArtifacts": {
-    "manifestSha256": "06f30d2e1f023fe2e6430f7f32e4cbc47e77bd91b72fe50126903cdd68942521",
-    "stepSha256": "177a97fb38fc39df38f5ed5a9ab2a8b2955c3b8b86ae96ceb66f576e1d0d351b"
+    "manifestSha256": "beaefdc05252c84ed32c28a5389d39c2e802850e375f0b59e3c2d134e020dfc2",
+    "stepSha256": "43b3fcf530eaa4f16fd71a203d3ca427619f23a26e9f2ce2fe6f8892deb4c3b1"
   },
   "exportAlgorithm": {
     "version": 1,
@@ -104,11 +104,11 @@
     "brown_binding/brown_binding": "3ad4dabde51662b12b1bc125e50a8127d5c0fb665892926c65d3ffbab1200102",
     "buckle/buckle": "13db280c1452f2ae23ea6629ee8c39fd7b4757a7f72c68230bf315a6dee9c1ee",
     "imports/ring_bolt_right_low": "6f4748b4ccfc00c4a45e86466f980f136ebfdd0e9164a2007c1ee1c6a5bc0e21",
-    "lid/lid": "b57aad154e80c3fd351a905bd34f3474cb5590dde82bf007cb1fad2a69118c0c",
+    "lid/lid": "69e0a5531038524a9fe879192002c32dd30a2344b7cf6fa517c4b4b864b750d7",
     "magnet_envelopes/magnet_envelopes": "df21e7ab598b5e012735586e02519682a112ecf915db64919a59ea44d84c82d0",
     "metal_eyes/metal_eyes": "3c231b00523a2cae1de85cc2d5c9445ec7f373201f91bccc5e337454766dc1d4",
-    "side_left/side_left": "9fbc53873d59029f93e9a2d487a38497426bb0ced8961a14271cdbcfae009dfa",
-    "side_right/side_right": "92cfde299c670c14a108b463d02f17bead88e9f7b42ae2e0b0f21933e8bc2325",
+    "side_left/side_left": "cdf68e4573758acb3d325023e2290ecf3807f657c42844cc7fa2aaba632e96aa",
+    "side_right/side_right": "7a7fc5de33a05f92df89a7257ce19f4086a8fbb9e3d296b2884e397a1892d15d",
     "spine_marks/spine_marks": "7d9a3fea62eba042d7656ffc8b6519a42f14f3eeb562e243285a306baa58c161",
     "top_pivot_bolt/top_pivot_bolt": "734e6c3ab063b26538faaf2342c9e1a14146e8b7d5fe5a150d60466c3c2ad824"
   },
@@ -135,26 +135,26 @@
     "body_magnet_left": "6a3170447bd54b6cad6d442fba0ad3e43787f6b091c5d873e0ac369099ea83b0",
     "body_magnet_right": "c3df0dfe8ed71a9b7604cb13cc1b34a5561a07fea9a46cdb837bc94c47b26bad",
     "bottom_panel": "74ebddaeda97ff9fd84215332893e790e4b79e872f47c35e8729e594ad349e00",
-    "bottom_screw_front0": "5ca7e80f70a78fc21fa865ad5eeae64785fd4d19b17e775275740aed38d5d97f",
-    "bottom_screw_front1": "0ed44e815b9f086f4486adba5f8f39ec44d0f14debbedd571f1e95fc3bbbec12",
-    "bottom_screw_front2": "254ab91facad72050f462f8e6846c2d9ebbf53b64f1c416a3348859993cd154a",
-    "bottom_screw_front3": "b373acdf2bf612d8ba0757959d358bd84d4a8f01ffecf81be8a1f370145c6ced",
-    "bottom_screw_rear0": "da3fdddaa74a4fdf6c18fc332370c633681ddf441b2f7089f5fe74e0e90785aa",
-    "bottom_screw_rear1": "6299ba3d42974024fda5796be1e6b2e4316879325aafd7b04f3dff5bc0ece510",
-    "bottom_screw_rear2": "948aae01755d337fc9feac4dc03673f61dddb3625beaa97877e6ceafafd305d8",
-    "bottom_screw_rear3": "4f95bc078514e84b316b6e4339837670c10f1510a36f21801d1e01c0e064f4d8",
+    "bottom_screw_front0": "8a5b259140efb80f6616def2b6d079c08c048904be49bbc7cc6a180e41fd2b70",
+    "bottom_screw_front1": "f57cc4ad7ac884dce506124a07bb19ae0a2faa5303f6b379d0bf396b16fb3d06",
+    "bottom_screw_front2": "c806e300335d324aea88c8997fcab094b03894894ea250f4f3b73a20743ad117",
+    "bottom_screw_front3": "1207567668b36d46466b5f9d683eeae270a221278ac5f5ad5829ad7f63e591fe",
+    "bottom_screw_rear0": "3f8d7bfe0e484b27776bdd06bdab20ba45eae01a6a487bbf586e263e53a7b5a7",
+    "bottom_screw_rear1": "4885b170d4fc85257f4ac6d3340fe51ad496423f8e3d1efc376b1c63ecb0ab2e",
+    "bottom_screw_rear2": "29f53bb0e7836d6ef03300c46f58acd394974f3db83a03b2830fdff8019a2d70",
+    "bottom_screw_rear3": "8b6d234f1fd1bcc5ed0263ff52f5c3c447cb6df71e82cbb4a1787557e0b33d49",
     "buckle": "ba36550dae5765e7195a63568b7afa27408127372d7aba77b5065a089b0069b4",
     "central_binding": "8936c85620119a6fd53fbf9d7891b29918015d5740ade8ce727ad677bd2d7d40",
     "eye_left": "54ab11fe4740cb17dbef9eaacb8aff0918c2034b1d81e184725b5fbbaa1256eb",
     "eye_right": "5c8e429406849b67068bf4de24e86948f7934e1e5ed22a210ab5609618f93e2b",
     "green_marks": "b8f47065c0949c4522e7d7a63af03cb8d3663458558e7186f94819d3a20f2b83",
-    "lid": "1c007bb92951760fbb42b4bfd0706b861373acddfd0df29d2ea8f6077f46bcfc",
+    "lid": "dad5bda5bb3de4efa6d9e227569af53f75e610b80e7cd6d273517623528e3263",
     "lid_mag_cap_left": "3b6850bcfc4b8349d51e2e9957cba0da7b5d41f120ea4b09b136eca159d4c9ea",
-    "lid_mag_cap_left_screw_0": "f316f74b19ce55a67a6f115a00602f3d2406e3772873c4659a2283930e1285d4",
-    "lid_mag_cap_left_screw_1": "86c956f51991df655889d3b86651cdbccdf4947d0010d3822a38487c8d65f9d6",
+    "lid_mag_cap_left_screw_0": "16e438f33ca11709c28d2468c4edd50c966c0935868e4425096a58d9c190cdce",
+    "lid_mag_cap_left_screw_1": "c095f50fa835aa09fe4d0584ef671aaa7ec5b5b050d3275d6eceba9c6e4f4ced",
     "lid_mag_cap_right": "76d221dce114e8380f4877199066325c3ecbf2e20d6619efb5c4e6684442fefa",
-    "lid_mag_cap_right_screw_0": "843cf11843f2744088c017ccd1e8ba9eadcc672fae49e4cad0f273c2136cc318",
-    "lid_mag_cap_right_screw_1": "5eb1dcbbdc5fb0d3ebfe23349595b8c209b22a70da54088a2911fffc27c0e0ae",
+    "lid_mag_cap_right_screw_0": "efdc87ef377a83755f928e5451f35f95dc19ed1d5ff7db2c01ab374030170945",
+    "lid_mag_cap_right_screw_1": "cca225def22d9ea45f541669e84f35edec347ecff9d0a4551b79e47784564713",
     "lid_magnet_left": "3b773bc821331d1cdc7241c628a48aacdf8f817100d6269c610e7a139fb2142a",
     "lid_magnet_right": "74e3a3bfc0e2564b9f59d84c83d8b99162535be24c59f43f0131f9186d9c71a3",
     "pink_marks": "ae3c2c77a388bc9220955e06e31e31d8e2c283e9725822b090a2cc26286f488c",
@@ -164,8 +164,8 @@
     "pivot_washer_right": "159b23eb074ba1241ef7cff4f0dd1df13cb52d4300caaa0954e10b17de10aee4",
     "ring_bolt_left": "603ddc26e8699a8ce7cd826b3e847e6c69915fa9fd918204adf712a875a3f1bc",
     "ring_bolt_right_low": "2671964594410c9ea6b12c93bdb35b691223b88d70f2dc2498d96a8ed5785e57",
-    "side_left": "559433f35789d63fac75cd89b2bb7281da15d591e12fc9bd92d4e7475eeeaeb0",
-    "side_right": "4849479b98aba0b2013f681c7de0c467c83beccdc1cc4bc9a01a02d91725816f",
+    "side_left": "5048207b159253f5080f6230cc2cf5e49fc08bbe73d9d6fcdfa0ace58eb6c24a",
+    "side_right": "619be65d58d4e670766f32ccb42f5178a090038e9422a164cef68767ba9a9191",
     "thumb_nut_left": "52dd702e5ed76fd057df7239293ee7cd6573d98fae1b844672777d882f1582db",
     "thumb_nut_right": "a929e2de03281c8c3c082baa7911848c63451af122e9e5296238a000aa81dcde",
     "upper_binding": "5bd939506fbd73aaa333e3d9e94c9c60e8b00366367abab8317b4c300d17c353"
@@ -179,10 +179,10 @@
   },
   "artifacts": [
     {
-      "path": "manufacturing/archive_handbag/releases/export-a04e3f35c3b35ff7ca585897613a2eef/model.step",
+      "path": "manufacturing/archive_handbag/releases/export-d58dfa325fe13887a24728373847a241/model.step",
       "role": "model/step",
-      "sha256": "177a97fb38fc39df38f5ed5a9ab2a8b2955c3b8b86ae96ceb66f576e1d0d351b",
-      "sizeBytes": 6906318
+      "sha256": "43b3fcf530eaa4f16fd71a203d3ca427619f23a26e9f2ce2fe6f8892deb4c3b1",
+      "sizeBytes": 7204895
     }
   ],
   "interference": {
@@ -204,14 +204,14 @@
     "algorithm": "hmac-sha256",
     "keyId": "3ddeb280dc0b23e3263dc06ea1e00c5f",
     "projectId": "1ccbe98c-3a73-4168-a780-a876c7d62cd9",
-    "receiptPath": "manufacturing/archive_handbag/releases/export-a04e3f35c3b35ff7ca585897613a2eef/receipt.json",
-    "payloadSha256": "eeddf7c690af51c037ca89fdbb8453c438ac0136fce24d1283ab88b8523d972f",
-    "mac": "cdbf598fcea53e0c312617d8ef2fe52f04dfd582f44db813c388116c9f00f5b0"
+    "receiptPath": "manufacturing/archive_handbag/releases/export-d58dfa325fe13887a24728373847a241/receipt.json",
+    "payloadSha256": "ec76df963f8edcadbe77a6f831c78fa32ea584299d66b4b23df675f5a72b45f1",
+    "mac": "0828a0d5b4a5625a16b96a10db41a6c8cc50f469831540685d2e9a33b6f6da36"
   },
   "status": "reviewed",
   "review": {
-    "reviewId": "review-193-f8256541-1769-4017-a367-7b359f173ace",
-    "path": ".work/builds/cad/archive_handbag/reviews/review-193-f8256541-1769-4017-a367-7b359f173ace/receipt.json",
-    "sha256": "0a12cea8450f355c8559aea66150e5e20058835000adf3a2113993323ab7f21a"
+    "reviewId": "review-196-eb7e88b7-3417-4517-9820-1f765eff6465",
+    "path": ".work/builds/cad/archive_handbag/reviews/review-196-eb7e88b7-3417-4517-9820-1f765eff6465/receipt.json",
+    "sha256": "756fb418baa4e667514cfb1b3eb3f1701d3a444c01a80f053ca62bc77c23fa9a"
   }
 }

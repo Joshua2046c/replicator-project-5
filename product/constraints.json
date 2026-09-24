@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "opening_clearance_decision_required",
+  "status": "geometry_checked",
   "units": "mm",
   "frame": {
     "x": "width",
@@ -79,7 +79,7 @@
     "guide_width": 4.6,
     "side_clearance": 0.3,
     "roof_clearance": 0.4,
-    "interface_status": "insertion_geometry_valid_but_lid_sweep_conflicts",
+    "interface_status": "curved_upper_front_relief_user_approved",
     "center_x": [
       -108,
       108
@@ -93,7 +93,17 @@
       174
     ],
     "bolt_hole_diameter": 4.5,
-    "removal": "remove lid/hinge axle and ring bolts for access until opening conflict is resolved; numerical extraction at100deg is not a reachable motion"
+    "removal": "unload, remove ring through-bolts and external hardware, open100deg and extract upward",
+    "relief": {
+      "axis_world_yz": [
+        55,
+        128
+      ],
+      "radius_mm": 103.4,
+      "start_world_z": 128.3,
+      "mating_lid_inner_radius_mm": 104,
+      "radial_gap_mm": 0.6
+    }
   },
   "spines": {
     "profile": "curved",
@@ -238,29 +248,24 @@
     "screws": "8 x M2x6"
   },
   "verification": {
-    "geometry_build": 193,
-    "closed_interference": "none reported by Workbench193",
+    "geometry_build": 196,
+    "closed_interference": "1378 pairs screened;109 exact overlapping-bbox pairs;zero intersections",
     "motion": "design/archive_handbag/verification/motion-check.json",
     "swivel": "design/archive_handbag/verification/swivel-check.json",
     "payload_kg": 2,
     "physical_load_test": "not_performed",
     "continuous_sweep_proof": false,
-    "motion_status": "failed:lid_side_panel_interference",
+    "motion_status": "pass:0..100deg every5deg,9702 pairs",
     "surface_contact": "design/archive_handbag/verification/integral-panel-contact-check.json",
     "measured_main_envelope_mm": [
       220,
       116.8,
       189
     ],
-    "nominal_envelope_note": "measured bounds after removing proud band; requirement remains220x120x190, not rewritten"
+    "nominal_envelope_note": "measured bounds after removing proud band; requirement remains220x120x190, not rewritten",
+    "opening_tests": 9702
   },
-  "unresolved_items": [
-    {
-      "id": "opening_clearance",
-      "owner": "user",
-      "description": "Integrated lid ends collide with full rectangular side panels at5,15,30deg. Choose allowed opening behavior/profile change; no automatic side-panel outline change."
-    }
-  ],
+  "unresolved_items": [],
   "risks": [
     {
       "id": "prototype_load",

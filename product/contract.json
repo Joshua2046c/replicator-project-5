@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "一体蓝绿前板及后板插接底板，矩形侧板向下滑入，上盖两端一体，中央带嵌面分段且去掉扣内方块。",
+  "summary": "一体蓝绿前板及后板插接底板，前上角圆弧避让侧板向下滑入，上盖两端一体，中央带嵌面分段且去掉扣内方块。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -21,7 +21,7 @@
     {
       "id": "sliding_panels",
       "kind": "mechanical",
-      "description": "左右各一块覆盖三本书全高侧面的完整长方形插板，不是T形；由上向下插入；一般遮尘与防掉物；合盖限位，开盖可拆。",
+      "description": "左右各一块自上向下沿滑槽插入的侧面书页挡板，不是T形；允许前上角作圆弧避让，保留直接翻盖的开盖方式；一般遮尘与防掉物。",
       "source": "user_requested",
       "required": true
     },
@@ -110,7 +110,7 @@
     "maintenance": "侧板沿前后定位边向下插入、底板托住、合盖限位；上端挂环通栓兼作侧板横向锁定。维护先卸载、拆下挂环螺栓，再开盖上抽侧板。",
     "user_access": [
       "上翻盖收纳口",
-      "左右长方形可拆侧板",
+      "左右圆弧避让侧板",
       "侧面可转动挂环"
     ]
   },
