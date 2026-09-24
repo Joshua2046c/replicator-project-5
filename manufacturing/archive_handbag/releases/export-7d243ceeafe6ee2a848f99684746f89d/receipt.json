@@ -1,31 +1,31 @@
 {
   "designId": "archive_handbag",
-  "revision": "2efe5f9fb2092593c9fb685ce6322977f1d5b49d6be2979f91b179de175f7cee",
+  "revision": "2cb70fd0127aff3388f3cbbdb1cbaed4555ee21d71446e7e16339b88d1990763",
   "schemaVersion": 2,
-  "exportId": "export-99893d2ff33017dd4bce86572172913b",
-  "generatedAt": "2026-09-24T20:43:50.436Z",
-  "designSha256": "6ff6f418d5725301089accf36416e42a42f398cac0a4f8fd22b58a824d55103e",
+  "exportId": "export-7d243ceeafe6ee2a848f99684746f89d",
+  "generatedAt": "2026-09-24T10:09:34.408Z",
+  "designSha256": "4285f4e1c57326fec5b7221744563b21a81ae9a021d43b5b8faa85069ac74e2b",
   "role": "handbag_assembly",
-  "stateHash": "58141313c242575167426e57193256b84b28dfeb65ad34ee37ecdfe860bee27a",
+  "stateHash": "12917e5574bd29cf0d806f10c3f5d5599269539d839cb3c8f69a93920dc26aff",
   "stateManifest": {
     "schemaVersion": 3,
     "designId": "archive_handbag",
     "role": "handbag_assembly",
     "design": {
-      "revision": "2efe5f9fb2092593c9fb685ce6322977f1d5b49d6be2979f91b179de175f7cee",
-      "designSha256": "0169ab81d4303a15d233fe0d7392d75330b9ae148a1d36b3b421845233153fb9",
-      "manifestSha256": "1986ba9faacee0f1580d19ef5cc470d8641898ff1199c4ea37b6b3216fab299f",
-      "stepSha256": "7e69a78743621430458ff4d7dd403873a4fc7a29f0b9d071172b539f1828ba0e",
+      "revision": "2cb70fd0127aff3388f3cbbdb1cbaed4555ee21d71446e7e16339b88d1990763",
+      "designSha256": "993e4d75db928542038aa8e05719bed1773bfdfe2ee0c11697e90a994d87047f",
+      "manifestSha256": "6df18af74ea48fbc95f29171af0c12b8018fa15bd194403ed48beb35dbccff9b",
+      "stepSha256": "f50287df3b0ee0bae84bb3dff5454f614cfa2b6ff7e3e878282e285815e71689",
       "pcbReleases": []
     },
     "brief": {
       "path": "design/archive_handbag/README.md",
-      "sha256": "0ee263e8b709c52ed0416812ebff7421a13fd50684d3aa4fa9e10e1c12df4499"
+      "sha256": "6400c1a83099d5cec17f30414d92a160eb3480c7de6894b02bdcedff180cf4eb"
     },
     "requirement": {
       "artifactContractPath": "product/contract.json",
-      "artifactContractSha256": "12219be89cc08f03af431c7156672d5e680b2a58f7e21eb918623416e33060fd",
-      "designRequirementSha256": "d2135aa49b567c2eb883e30956732502af55c9e7730b0b37806465549758460c",
+      "artifactContractSha256": "daf5f308f0b6e118001e1bb5377abe4afa444df50d0663b6619eef10631e5400",
+      "designRequirementSha256": "6ce272ccb12a8fbdde2b07829cc7fea7b33ebc5bf08eb5cb9811605de1b7e374",
       "inputs": [
         {
           "role": "external-reference",
@@ -54,13 +54,6 @@
           "path": "product/references/uploads/20260924T033939842Z-1-mark.png",
           "sha256": "be6b725a7d453320d021ffd60f75ff4ee2c4e78de54c14d52a304b21d483ffc8",
           "sizeBytes": 128310
-        },
-        {
-          "role": "external-reference",
-          "id": "reference_flush_tongue",
-          "path": "product/references/uploads/20260924T203310841Z-2-mark.png",
-          "sha256": "9ae3ff707bd1bbffef76b77f8110bfb529fd927acaa12f00a2d908b701b0f54d",
-          "sizeBytes": 251788
         },
         {
           "role": "external-reference",
@@ -113,13 +106,6 @@
         },
         {
           "role": "external-reference",
-          "id": "reference_smooth_spines",
-          "path": "product/references/uploads/20260924T203310841Z-1-mark.png",
-          "sha256": "280af2b47f9b629f0c5716a23310acd0a16b5492294e619dc0dee113f984b8aa",
-          "sizeBytes": 564191
-        },
-        {
-          "role": "external-reference",
           "id": "reference_square_pegs_buckle",
           "path": "product/references/uploads/20260924T083502465Z-1-mark.png",
           "sha256": "459333b811f467e57a6dce126eb893bd7c4487ba7801cb0375db5b3c34928ef2",
@@ -140,11 +126,11 @@
         "step"
       ]
     },
-    "stateHash": "58141313c242575167426e57193256b84b28dfeb65ad34ee37ecdfe860bee27a"
+    "stateHash": "12917e5574bd29cf0d806f10c3f5d5599269539d839cb3c8f69a93920dc26aff"
   },
   "buildArtifacts": {
-    "manifestSha256": "1986ba9faacee0f1580d19ef5cc470d8641898ff1199c4ea37b6b3216fab299f",
-    "stepSha256": "7e69a78743621430458ff4d7dd403873a4fc7a29f0b9d071172b539f1828ba0e"
+    "manifestSha256": "6df18af74ea48fbc95f29171af0c12b8018fa15bd194403ed48beb35dbccff9b",
+    "stepSha256": "f50287df3b0ee0bae84bb3dff5454f614cfa2b6ff7e3e878282e285815e71689"
   },
   "exportAlgorithm": {
     "version": 1,
@@ -153,18 +139,18 @@
   "sourceHashes": {
     "axle/axle": "de5de6f9ccc59b451d3bf8f4fe0957afbe35a23455722916a9ae6496eddcf51f",
     "body/body": "b91d7e5182f5d86df9996a850ca863a3961b4618c8fc7eb9ee0376288e600cfc",
-    "book_spines/book_spines": "0eae0ea9eadf525d85e643b1c2c61e876b2d13c1792ad2262cc3933cc92830d5",
+    "book_spines/book_spines": "2e53caaa9fa6308fa56ad7d695a2077b12987f6df0a0ec5737b1aec4b84c4105",
     "bottom_panel/bottom_panel": "9441d35fa08ae8c1768c440ee400a4ccf13367f5a05e210aeaa59ae4025a4bff",
-    "brown_binding/brown_binding": "3beb421e56dc606114267963548050df20956fe0e5d07314cc95fc7be9ac8e13",
-    "buckle/buckle": "415f8e5800c528b775378f8684b589a571699bcf7bfa0a5bb0cd1c237b4000df",
+    "brown_binding/brown_binding": "429c10226383d2a7b8abc983ea6399994c61cb68c1f506ec1788001d5db80271",
+    "buckle/buckle": "f4ff082aa1e3dc716d6e2cd1f24ff4319d44730162afdeae8573710847f4eb34",
     "imports/ring_nut_left": "e745cef2822400496698c22579231ae7d53130a976e3f72eac26f360a6f7d83b",
     "lid/lid": "7389757758024396c04b134e93bdecffad8001742a7b4299ba21fb1e04f82875",
     "magnet_envelopes/magnet_envelopes": "df21e7ab598b5e012735586e02519682a112ecf915db64919a59ea44d84c82d0",
     "metal_eyes/metal_eyes": "b00ec648b9dd448fa0bee036d5525f5643f6664083e788415cfdad1731177ee8",
     "nameplate/nameplate": "a08cd898cb6ca0b1613ae9ce5cd435faaffa209dc4fb6b025483ec23a23a2cdd",
     "right_nut_instance/right_nut_instance": "6325abe3d025555b090e207010eb9ea4bc934d08c3291138fbaeb2c2f50116e8",
-    "side_left/side_left": "52253995b44dcee53d9d4293f162c44a8c577a6aa92cbbef0877615ad579df4b",
-    "side_right/side_right": "ce0c74d74ad1231e6d07965f940a8b9fac6b042cff1943765eb7887b4d2745b8",
+    "side_left/side_left": "6208c25f585f4c7911b78c602d388b9ebd397b3e68a429c3455c1adb43f56d58",
+    "side_right/side_right": "5ed580bb2be0647b6e0a495bf9a79a498b480ec28b3c53281a0c9ccb24b4c716",
     "spine_marks/spine_marks": "e66a0dc3493a3a56845ea9fff6848c6092db71da6b847896201c9422794aa993"
   },
   "assetHashes": {
@@ -175,13 +161,13 @@
     "backplate_left": "417258922fd5ece1abaa58369fe8544fb8968ec8e0ff557468e6de642f16f466",
     "backplate_right": "8e6b747e27afc509583e000d27f2778836a24bcb5ecf6b2c185b70a0d9c03463",
     "blue_marks": "cc22c985ce29eaa52454e81b98057b1f7d005ff4f6e02431170be00358abd632",
-    "blue_spine": "9fed4f9c3d9da9bf1d79370cca36a17ff6c2672caf59640e35c9feadf2e12689",
+    "blue_spine": "96433e22f23ec7f1a46576f034cc32920f2f9893f32d5cbfc8b0679d806926d2",
     "body": "5d4f412cce0d07e19713287836b50a06a18fea875a86092db043cfec664ffbc5",
     "body_magnet_left": "b497f80e750ee48c633c7feb6ad776f4ae4e157144fc0598caf10fd6ba3c1706",
     "body_magnet_right": "b7537b69d7dba505f43e1ecbe4c80ff47d51ba6ff22a2bc7658c2ea651694ea1",
     "bottom_panel": "29d1368d83d2717ae189498bb99db530d0ff6deabea1c2517e1915272201c5ab",
-    "buckle": "3b09d71870f2e9ad847469ba1d783db6420926d836bdf23b1e80abafc4ffebe2",
-    "central_binding": "a83ced8a5a705dc2a6313440f75f8d2437128b4b42867c502ffb8cd7dfb5c08d",
+    "buckle": "bcf38612d1711822c5cd7027b47cc3f259395f65da945c8bf26d1afef55e81ec",
+    "central_binding": "b8a7116dd725cd8e03c6ef8d7dfeb0eae9372d318a624f79ef6806d92ccc3c29",
     "eye_left": "54ab11fe4740cb17dbef9eaacb8aff0918c2034b1d81e184725b5fbbaa1256eb",
     "eye_right": "5c8e429406849b67068bf4de24e86948f7934e1e5ed22a210ab5609618f93e2b",
     "green_marks": "cb961635b70fa5779b5b97da9625be33a47b84cfc1b463f652ec3c92fa7cce30",
@@ -196,8 +182,8 @@
     "pivot_washer_right": "159b23eb074ba1241ef7cff4f0dd1df13cb52d4300caaa0954e10b17de10aee4",
     "ring_nut_left": "1caf7a37ef654e181d365186e0ae80d8739c78248c8458a430e6f674764fbe6d",
     "ring_nut_right": "bb73ed3919b3fee3d29b362d01c496c7879408705263d73c128389a6b8c68f82",
-    "side_left": "c6f684db508040d48c14be751aaeb96f020f0fe2afa61d0bc09ccd33edaf097c",
-    "side_right": "90e979dd213a9a4143f35496af0a3313bcb84af38efd1c21e4659a86d017e53e",
+    "side_left": "15f4853bb079982f300e6393fc8525ca5c0294e83cba5a6c83e6406df35676c5",
+    "side_right": "7b54ad9037bdbe5e5fdd2cc0f14c7f58dfcb9af6ea632453950817e1f428ed82",
     "thumb_screw_left": "d47e71890d60d555d8e38919116ce6f3f89242908327fe0904351d23d19c8c5b",
     "thumb_screw_right": "a204832a9af3f565e3013f0a45fc0147db7a9f4dbc8108fa418ca3e54cdbe127",
     "upper_binding": "6b6bbaec41e46fc70020a663cd03b9b9862f5e3149199c246c369533ef34ce47"
@@ -211,10 +197,10 @@
   },
   "artifacts": [
     {
-      "path": "manufacturing/archive_handbag/releases/export-99893d2ff33017dd4bce86572172913b/model.step",
+      "path": "manufacturing/archive_handbag/releases/export-7d243ceeafe6ee2a848f99684746f89d/model.step",
       "role": "model/step",
-      "sha256": "7e69a78743621430458ff4d7dd403873a4fc7a29f0b9d071172b539f1828ba0e",
-      "sizeBytes": 8763769
+      "sha256": "f50287df3b0ee0bae84bb3dff5454f614cfa2b6ff7e3e878282e285815e71689",
+      "sizeBytes": 6389246
     }
   ],
   "interference": {
@@ -222,8 +208,8 @@
     "counts": {
       "objects": 30,
       "pairs": 435,
-      "exact": 0,
-      "cached": 60,
+      "exact": 24,
+      "cached": 36,
       "interference": 0,
       "undeclared": 0,
       "over_budget": 0,
@@ -236,9 +222,9 @@
     "algorithm": "hmac-sha256",
     "keyId": "3ddeb280dc0b23e3263dc06ea1e00c5f",
     "projectId": "1ccbe98c-3a73-4168-a780-a876c7d62cd9",
-    "receiptPath": "manufacturing/archive_handbag/releases/export-99893d2ff33017dd4bce86572172913b/receipt.json",
-    "payloadSha256": "33f6fb0a065da3d215565b140346117334fc98c416eded3eb97f4e5a95a0ba3c",
-    "mac": "5101e36bb956e5367ab3d72dc649e99586bbde8887c650b2b66a72bb5dfb1154"
+    "receiptPath": "manufacturing/archive_handbag/releases/export-7d243ceeafe6ee2a848f99684746f89d/receipt.json",
+    "payloadSha256": "310d99d03cb8ab71dd7301fa8bf0f7d9ccf4ce049cf6e4d919b069e7686bac38",
+    "mac": "449a6514fa3a9be0b2d583103f757f395312712b0a611fb17f80cc15db25ce75"
   },
   "status": "handoff"
 }

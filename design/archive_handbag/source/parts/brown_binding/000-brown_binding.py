@@ -13,28 +13,6 @@ c=param('central_binding_outer_chamfer',0.4)
 for yy,sg in [(front,-1),(rear,1)]:
  band-=extrude(Plane.YZ*Polygon((yy-sg*c,bottom),(yy+sg*2,bottom),(yy+sg*2,bottom+c+2),align=None),amount=w+2,both=True)
 assert len(band.solids())==1
-# Analytic surface refinement for smooth display; small holes retain their original topology.
-from OCP.ShapeUpgrade import ShapeUpgrade_ShapeDivideAngle, ShapeUpgrade_UnifySameDomain
-from OCP.BRepAdaptor import BRepAdaptor_Surface
-from OCP.GeomAbs import GeomAbs_Cylinder, GeomAbs_Cone
-from math import radians
-angle=param('spine_surface_max_angle_deg',2.0)
-def refine_spine(shape):
-    divide=ShapeUpgrade_ShapeDivideAngle(radians(angle),shape.wrapped)
-    divide.Perform()
-    split=Solid.cast(divide.Result())
-    unify=ShapeUpgrade_UnifySameDomain(split.wrapped,True,True,False)
-    for face in split.faces():
-        surface=BRepAdaptor_Surface(face.wrapped)
-        kind=surface.GetType()
-        radius=surface.Cylinder().Radius() if kind==GeomAbs_Cylinder else (surface.Cone().RefRadius() if kind==GeomAbs_Cone else 0)
-        if abs(radius-R)<2:
-            for edge in face.edges(): unify.KeepShape(edge.wrapped)
-    unify.Build()
-    result=Solid.cast(unify.Shape())
-    assert result.is_valid and len(result.solids())==1
-    return result
-band=refine_spine(band)
 publish('central_binding',band,'连续圆弧贴面带')
 w2=param('upper_binding_width',30.0);t2=param('upper_binding_thickness',1.0);seam=param('upper_binding_front_base',128.6);top=param('upper_binding_top_z',190.0);backbase=param('upper_binding_back_base',134.0);ey=param('upper_binding_front_y',-51.0);ry=param('upper_binding_rear_y',57.0)
 h=top-seam;z=(top+seam)/2;cy=ey+sqrt(R*R-h*h/4)

@@ -44,26 +44,4 @@ for s,side in [(-1,'left'),(1,'right')]:
  front+=(Pos(s*mx,my,mtop-mh/2)*Cylinder(od/2,mh))&curves['blue_spine']
  front-=Pos(s*mx,my,mtop-dep)*Cylinder(md/2,dep+0.1,align=(Align.CENTER,Align.CENTER,Align.MIN))
 assert len(front.solids())==1
-# Analytic surface refinement for smooth display; small holes retain their original topology.
-from OCP.ShapeUpgrade import ShapeUpgrade_ShapeDivideAngle, ShapeUpgrade_UnifySameDomain
-from OCP.BRepAdaptor import BRepAdaptor_Surface
-from OCP.GeomAbs import GeomAbs_Cylinder, GeomAbs_Cone
-from math import radians
-angle=param('spine_surface_max_angle_deg',2.0)
-def refine_spine(shape):
-    divide=ShapeUpgrade_ShapeDivideAngle(radians(angle),shape.wrapped)
-    divide.Perform()
-    split=Solid.cast(divide.Result())
-    unify=ShapeUpgrade_UnifySameDomain(split.wrapped,True,True,False)
-    for face in split.faces():
-        surface=BRepAdaptor_Surface(face.wrapped)
-        kind=surface.GetType()
-        radius=surface.Cylinder().Radius() if kind==GeomAbs_Cylinder else (surface.Cone().RefRadius() if kind==GeomAbs_Cone else 0)
-        if abs(radius-R)<2:
-            for edge in face.edges(): unify.KeepShape(edge.wrapped)
-    unify.Build()
-    result=Solid.cast(unify.Shape())
-    assert result.is_valid and len(result.solids())==1
-    return result
-front=refine_spine(front)
 publish('blue_spine',front,'一体前书脊内导边')

@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "下两层书脊弧面细化至与上盖一致；金属扣舌顺弧贴带、厚1mm，无悬空抬升。",
+  "summary": "顶带仅端头半圆、主体横向不拱；下两层侧面圆弧与书页板一体、页槽延至书脊，内嵌饰块保持。承载防脱仍未解决。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -49,14 +49,14 @@
     {
       "id": "strap_route",
       "kind": "mechanical",
-      "description": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。 正面金属扣舌保留方框底边中央向上半截的形状；背面直接顺弧贴在绑带上，不悬空，可保留少量实体厚度。 顶部绑带只有本次画出的端头区域为圆弧，不把整个凸起做成横向圆拱；其余保持向前渐变收低。",
+      "description": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。 正面金属扣舌连接在标注方框的底边中央，向上伸半截，并凸起于方框表面；不是从左边横向伸出，也不恢复中心方块。 顶部绑带增加半圆弧凸起，向前逐渐平顺过渡收低；属本次指定的局部装饰凸起。 顶部绑带只有本次画出的端头区域为圆弧，不把整个凸起做成横向圆拱；其余保持向前渐变收低。",
       "source": "user_requested",
       "required": true
     },
     {
       "id": "curved_spines",
       "kind": "mechanical",
-      "description": "三本正面书脊保持相同圆弧曲率，蓝绿两段端部也需呈弧形而非方直；最下书脊至底板外缘连续圆弧，不留台阶。 下方两本书的弧面显示精细程度须与上盖一致，不保留明显大切面。",
+      "description": "三本正面书脊保持相同圆弧曲率，蓝绿两段端部也需呈弧形而非方直；最下书脊至底板外缘连续圆弧，不留台阶。",
       "source": "user_requested",
       "required": true
     },
@@ -153,18 +153,6 @@
       "source": "user_requested",
       "description": "顶带仅端头圆弧；红框侧页板与下两层半圆区一体、页槽延长。",
       "path": "product/references/uploads/20260924T100353497Z-1-mark.png"
-    },
-    {
-      "id": "reference_smooth_spines",
-      "path": "product/references/uploads/20260924T203310841Z-1-mark.png",
-      "source": "user_requested",
-      "description": "下两层弧面精细程度与上盖一致"
-    },
-    {
-      "id": "reference_flush_tongue",
-      "path": "product/references/uploads/20260924T203310841Z-2-mark.png",
-      "source": "user_requested",
-      "description": "金属扣舌直接贴绑带、带少量厚度"
     }
   ],
   "assembly_story": {
@@ -212,9 +200,7 @@
           "reference_square_pegs_buckle",
           "reference_raised_details_chamfer",
           "reference_arc_inlays",
-          "reference_local_arc_side_integration",
-          "reference_smooth_spines",
-          "reference_flush_tongue"
+          "reference_local_arc_side_integration"
         ]
       }
     ]

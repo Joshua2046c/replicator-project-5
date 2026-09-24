@@ -101,7 +101,7 @@
       "source": "user"
     },
     "spine_curvature": {
-      "value": "三本正面书脊保持相同圆弧曲率，蓝绿两段端部也需呈弧形而非方直；最下书脊至底板外缘连续圆弧，不留台阶。 下方两本书的弧面显示精细程度须与上盖一致，不保留明显大切面。",
+      "value": "三本正面书脊保持相同圆弧曲率，蓝绿两段端部也需呈弧形而非方直；最下书脊至底板外缘连续圆弧，不留台阶。",
       "source": "user"
     },
     "rear_lid_alignment": {
@@ -182,7 +182,7 @@
       "source": "user"
     },
     "buckle_tongue": {
-      "value": "正面金属扣舌保留方框底边中央向上半截的形状；背面直接顺弧贴在绑带上，不悬空，可保留少量实体厚度。",
+      "value": "正面金属扣舌连接在标注方框的底边中央，向上伸半截，并凸起于方框表面；不是从左边横向伸出，也不恢复中心方块。",
       "source": "user"
     },
     "square_peg_interface": {
@@ -217,7 +217,7 @@
         "tongue_length_mm": 22,
         "tongue_width_mm": 5,
         "tongue_thickness_mm": 1,
-        "tongue_tip_relief_mm": 0,
+        "tongue_tip_relief_mm": 2,
         "tongue_root_z_mm": 78,
         "tongue_tip_z_mm": 100,
         "top_crown_peak_y_mm": 10,
@@ -276,13 +276,6 @@
     "side_spine_interpretation": {
       "source": "default",
       "value": "根据当前图红框，背板指侧面书页板；下两层端部圆弧并入左右书页板，取消原直缝；前书脊中央面板仍为蓝绿一体，后背板和上盖避让不变。"
-    },
-    "spine_surface_refinement": {
-      "value": {
-        "max_patch_angle_deg": 2,
-        "method": "保持精确圆柱曲面，以相切小曲面段约束STEP预览细分，不改弧度或厚度"
-      },
-      "source": "default"
     }
   },
   "open_questions": []
