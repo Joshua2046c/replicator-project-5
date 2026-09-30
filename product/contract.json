@@ -49,7 +49,7 @@
     {
       "id": "strap_route",
       "kind": "mechanical",
-      "description": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。 正面金属扣舌保留方框底边中央向上半截的形状；背面直接顺弧贴在绑带上，不悬空，可保留少量实体厚度。 顶部绑带凸起保留半圆平面端头；整个凸起顶面为连续斜面，一直斜至端头，顶部不留水平平台。 前扣环背面用方形内桩连接绑带和书脊，绑带与书脊预留对应孔位；扣环正面不可出现破孔。 上盖绑带圆弧精细度与书脊一致。 扣舌正面稍加凸起并保持背面贴带。 扣舌顶端外侧按最新红线做圆弧切角。 整体绑带及金属扣加厚并突出箱体，底部绑带保持原厚度；方桩同步延长，维持原书脊插入终点与贴合。 整条绑带和前扣宽度均增加50%，贴带凹槽同步适配，标注的顶前转折横边圆滑圆角过渡。",
+      "description": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。 正面金属扣舌保留方框底边中央向上半截的形状；背面直接顺弧贴在绑带上，不悬空，可保留少量实体厚度。 顶部绑带凸起保留半圆平面端头；整个凸起顶面为连续斜面，一直斜至端头，顶部不留水平平台。 前扣环背面用方形内桩连接绑带和书脊，绑带与书脊预留对应孔位；扣环正面不可出现破孔。 上盖绑带圆弧精细度与书脊一致。 扣舌正面稍加凸起并保持背面贴带。 扣舌顶端外侧按最新红线做圆弧切角。 整体绑带及金属扣加厚并突出箱体，底部绑带保持原厚度；方桩同步延长，维持原书脊插入终点与贴合。 整条绑带宽度增加50%，前扣内开口与绑带边界对齐，不留两侧空白，贴带凹槽同步适配，标注的顶前转折横边圆滑圆角过渡。",
       "source": "user_requested",
       "required": true
     },
@@ -70,7 +70,7 @@
     {
       "id": "decorative_inlays",
       "kind": "internal_fit",
-      "description": "顶盖书封面标注位置增加方块铭牌，内嵌在封面上。三层书脊标注的小饰块改为插入结构，预留嵌入深度。",
+      "description": "顶盖书封面标注位置增加方块铭牌，内嵌在封面上。三层书脊标注的小饰块改为插入结构，预留嵌入深度。 顶部标签在原宽度上增加三分之二，四角改为圆角，内嵌槽同步配套。",
       "source": "user_requested",
       "required": true
     }
@@ -231,6 +231,12 @@
       "source": "user_requested",
       "path": "product/references/uploads/20260930T181140189Z-1-mark.png",
       "description": "顶前折角圆滑过渡，绑带与前扣同时加宽50%。"
+    },
+    {
+      "id": "reference_tight_buckle_rounded_label",
+      "source": "user_requested",
+      "path": "product/references/uploads/20260930T181828795Z-1-mark.png",
+      "description": "扣框去掉两侧空白，顶部标签加宽三分之二并圆角。"
     }
   ],
   "assembly_story": {
@@ -291,7 +297,8 @@
           "reference_raised_tongue_face",
           "reference_tongue_tip_round",
           "reference_sloped_binding_tip",
-          "reference_wider_binding_round_bend"
+          "reference_wider_binding_round_bend",
+          "reference_tight_buckle_rounded_label"
         ]
       }
     ]

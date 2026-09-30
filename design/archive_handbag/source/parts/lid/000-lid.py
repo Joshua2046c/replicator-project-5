@@ -65,7 +65,8 @@ for yy,sg in [(ey-hy,-1),(d/2-hy,1)]:
  lid-=extrude(Plane.YZ*Polygon((yy-sg*c,top),(yy+sg*2,top),(yy+sg*2,top-c-2),align=None),amount=w+2,both=True)
 # Blind roof nameplate pocket, keeping1.2mm roof floor at default settings.
 nw=param('nameplate_width',20.0);nl=param('nameplate_length',36.0);nx=param('nameplate_x',-75.0);ny=param('nameplate_y',4.0);nd=param('nameplate_pocket_depth',1.0);nc=param('nameplate_clearance',0.15)
-lid-=Pos(nx,ny-hy,top-nd)*Box(nw+2*nc,nl+2*nc,nd+1,align=(Align.CENTER,Align.CENTER,Align.MIN))
+nr=param('nameplate_corner_radius',3.0)
+lid-=Pos(nx,ny-hy,top-nd)*extrude(RectangleRounded(nw+2*nc,nl+2*nc,nr+nc),amount=nd+1)
 # Matching pair of curved pink-spine inlay pockets.
 mw=param('pink_marks_bar_width',3.0);mh=param('pink_marks_bar_height',25.0);xx0=param('pink_marks_left_x',-84.0);mp=param('pink_marks_pitch',13.0);mz=param('pink_marks_center_z',159.3)-hz
 md=param('pink_marks_pocket_depth',1.2);mc=param('pink_marks_pocket_clearance',0.15);ms=param('pink_marks_spine_height',61.4);mey=param('pink_marks_end_y',-51.0);mcy=mey+sqrt(R*R-ms*ms/4)-hy

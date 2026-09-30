@@ -1,5 +1,6 @@
 w=param('nameplate_width',20.0);l=param('nameplate_length',36.0)
 dep=param('nameplate_pocket_depth',1.0);bed=param('nameplate_bottom_allowance',0.1);edge=param('nameplate_edge_chamfer',0.15)
-p=Box(w,l,dep-bed,align=(Align.CENTER,Align.CENTER,Align.MAX))
+r=param('nameplate_corner_radius',3.0)
+p=extrude(RectangleRounded(w,l,r),amount=-(dep-bed))
 p=chamfer(p.edges().group_by(Axis.Z)[0],length=edge)
 publish('nameplate',p,'封面内嵌空白铭牌')

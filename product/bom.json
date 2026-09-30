@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready_with_mechanical_use_restriction",
   "bom_ready": true,
-  "requirements_digest": "a04a1c7823e9f81e718fb29d870504b39b7b2fbdd70cbd789ee594bccf15041c",
+  "requirements_digest": "7a700ad88044e93ee3ec85f97f0d4c13e41f679f2d9fa2873378dadee52a3f4e",
   "items": [
     {
       "id": "body",
@@ -23,7 +23,7 @@
       "name": "整幅盖背翻盖",
       "quantity": 1,
       "part_number": "AH-LID-FLUSH",
-      "description": "上盖统一R88.333圆弧，顶面190；一体侧翼与等距页槽、4mm封面带；左右紧凑圆磁铁槽，无盖片/螺钉。 顶部四周和前后竖边区域0.4mm小倒角；装饰顶带另有3mm隆起。 封面增加20.3×36.3深1mm铭牌盲槽，底留1.2mm；粉色书脊两处深1.2mm饰块槽。 前侧光面止于Y−47.2，后方页块凹陷与下方侧板分界齐平；后角页槽贯通；内避让弧R108，与侧板R107.7配对留0.3mm径向活动缝。 后方左右两个外角改为R3mm圆角，页槽随圆角接续。 中央贴带凹槽宽45mm、深1mm，与加宽绑带配套。",
+      "description": "上盖统一R88.333圆弧，顶面190；一体侧翼与等距页槽、4mm封面带；左右紧凑圆磁铁槽，无盖片/螺钉。 顶部四周和前后竖边区域0.4mm小倒角；装饰顶带另有3mm隆起。 封面增加33.633×36.3、R3.15圆角、深1mm铭牌盲槽，底留1.2mm；粉色书脊两处深1.2mm饰块槽。 前侧光面止于Y−47.2，后方页块凹陷与下方侧板分界齐平；后角页槽贯通；内避让弧R108，与侧板R107.7配对留0.3mm径向活动缝。 后方左右两个外角改为R3mm圆角，页槽随圆角接续。 中央贴带凹槽宽45mm、深1mm，与加宽绑带配套。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -127,11 +127,11 @@
       "name": "三色弧形书脊与贯穿束带接口",
       "quantity": 1,
       "part_number": "AH-CURVED-BOOK-SET",
-      "description": "宽45mm绑带前、后、顶部向外增厚2mm，主体总厚3mm；底面保留1mm厚、宽度同步45mm，近底端4mm高范围收回。顶带平面半圆R22.5，3mm高差连续斜面从Y−40延伸到半圆端头Y32.5，端头无水平平台，最高Z195。定制金属扣框宽63mm、高44mm、厚2mm，扣舌7.5×22×3mm、顶端外边R1，背面随增厚绑带外移2mm并贴合；3×3方桩总伸出4mm，穿过增厚绑带3.3方孔，原书脊盲孔及插入终点不变，正面无破孔。 顶部前转折横边R1.5mm圆滑过渡。",
+      "description": "宽45mm绑带前、后、顶部向外增厚2mm，主体总厚3mm；底面保留1mm厚、宽度同步45mm，近底端4mm高范围收回。顶带平面半圆R22.5，3mm高差连续斜面从Y−40延伸到半圆端头Y32.5，端头无水平平台，最高Z195。定制金属扣框宽55mm、高44mm、厚2mm，扣舌7.5×22×3mm、顶端外边R1，背面随增厚绑带外移2mm并贴合；3×3方桩总伸出4mm，穿过增厚绑带3.3方孔，原书脊盲孔及插入终点不变，正面无破孔。 顶部前转折横边R1.5mm圆滑过渡。 内开口宽45mm与绑带对齐，无两侧空白条。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按用户要求整体绑带和前扣宽度增加50%，箱体贴带凹槽同步扩至45mm；底带保持1mm厚，标出顶前转折改R1.5，顶端斜面保留。",
+      "selection_reason": "绑带保持45mm宽，按用户要求收窄扣框至55mm使内开口45mm与带面对齐；保留R1.5顶前圆角、底厚1mm和方桩连接。",
       "part_identity": "cdec688dde151cf0"
     },
     {
@@ -188,13 +188,13 @@
       "role": "decoration",
       "name": "封面内嵌空白铭牌",
       "quantity": 1,
-      "part_number": "AH-NAMEPLATE-20X36",
-      "description": "定制20×36×0.9，顶面Z190齐平，槽20.3×36.3深1，底留0.1薄胶空间，底边0.15导入倒角。",
+      "part_number": "AH-NAMEPLATE-33.333X36-R3",
+      "description": "定制33.333×36×0.9圆角铭牌，四角R3，顶面Z190齐平；圆角嵌槽33.633×36.3、R3.15、深1mm，周边0.15、底0.1薄胶留量，底边0.15导入倒角。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "用户要求的内嵌装饰，尺寸按标注比例采用披露默认值。",
-      "part_identity": "d3540f9044327e3d"
+      "selection_reason": "用户要求在原20mm宽度基础上增加三分之二并改圆角；圆角半径采用披露默认R3，保持原位置与厚度。",
+      "part_identity": "25a500729d9b53bb"
     },
     {
       "id": "spine_inlays",

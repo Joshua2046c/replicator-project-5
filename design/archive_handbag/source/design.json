@@ -26,7 +26,7 @@
           "target": "lid",
           "order": 0,
           "path": "design/archive_handbag/source/parts/lid/000-lid.py",
-          "sha256": "265896c8f041d1fc018dc3ec114701690c00423e9c4d3477ae23b09b202223b9"
+          "sha256": "23aedd761fcfc6f44bb28b18716e041700a17a752f7f2f55ac8922138ae5bef3"
         }
       ],
       "dependencies": []
@@ -208,7 +208,7 @@
           "target": "nameplate",
           "order": 0,
           "path": "design/archive_handbag/source/parts/nameplate/000-nameplate.py",
-          "sha256": "a08cd898cb6ca0b1613ae9ce5cd435faaffa209dc4fb6b025483ec23a23a2cdd"
+          "sha256": "1bfd65d2762f566f1325a9e70d2204f0454322637b8e42dd93fdeca5c0c32e48"
         }
       ],
       "dependencies": []
@@ -246,7 +246,7 @@
       "target": "lid",
       "label": "光面端部贴合翻盖",
       "kind": "generated",
-      "shapeHash": "9fd9baf4a010b9abe336e33323af89d3d92e5ed6a4439247b6ba1547b2f76e10",
+      "shapeHash": "3ff4ed2f273710701ae2d63ad8bb552bc24d2019c64a875d89dfb4c5cc5af088",
       "transform": {
         "positionMm": [
           0,
@@ -403,7 +403,7 @@
       "label": "贴带曲面金属扣舌",
       "material": "stainless_steel",
       "kind": "generated",
-      "shapeHash": "c566b4fa7d099e2f9cbb3431b4a3334c4e851640a2f9f449bfbc609e1b3ff9dc",
+      "shapeHash": "3ed4eb2ea7701e8582d5820df7ea7cabd31d3bceba8599e9a4a7185e3a64eb31",
       "transform": {
         "positionMm": [
           0,
@@ -923,7 +923,7 @@
       "target": "nameplate",
       "label": "封面内嵌空白铭牌",
       "kind": "generated",
-      "shapeHash": "f2fc6fdbb2620e8f4803d2be937554f3f24c1b23252ef494a4d32c0d937f42b4",
+      "shapeHash": "a846885508ca7d088e5639b7f5d1ad7b1c558edce7d5edf8a64bb18b0ffb8ede",
       "transform": {
         "positionMm": [
           -75,
@@ -958,7 +958,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-30T18:14:46.392Z",
+  "updatedAt": "2026-09-30T18:20:48.504Z",
   "parameters": {
     "body": {
       "case_width": 220,
@@ -1035,7 +1035,7 @@
       "lid_magnet_mount_right_pocket_diameter": 7.3,
       "lid_magnet_mount_right_pocket_depth": 3.2,
       "lid_outer_chamfer": 0.4,
-      "nameplate_width": 20,
+      "nameplate_width": 33.333333333333336,
       "nameplate_length": 36,
       "nameplate_x": -75,
       "nameplate_y": 4,
@@ -1053,7 +1053,8 @@
       "spine_surface_max_angle_deg": 2,
       "spine_lap_rear_y": -47.5,
       "lid_side_page_front_clearance": 0.3,
-      "lid_rear_corner_radius": 3
+      "lid_rear_corner_radius": 3,
+      "nameplate_corner_radius": 3
     },
     "side_left": {
       "side_left_thickness": 4,
@@ -1212,7 +1213,7 @@
       "upper_binding_front_bend_radius": 1.5
     },
     "buckle": {
-      "buckle_width": 63,
+      "buckle_width": 55,
       "buckle_height": 44,
       "buckle_thickness": 2,
       "buckle_rim": 5,
@@ -1395,11 +1396,12 @@
       "ring_nut_right_z": 174
     },
     "nameplate": {
-      "nameplate_width": 20,
+      "nameplate_width": 33.333333333333336,
       "nameplate_length": 36,
       "nameplate_pocket_depth": 1,
       "nameplate_bottom_allowance": 0.1,
-      "nameplate_edge_chamfer": 0.15
+      "nameplate_edge_chamfer": 0.15,
+      "nameplate_corner_radius": 3
     }
   }
 }
