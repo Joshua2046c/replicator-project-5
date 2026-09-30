@@ -579,6 +579,7 @@
     "width_mm": 5,
     "height_mm": 22,
     "back_surface_unchanged": true,
-    "hidden_peg_unchanged": true
+    "hidden_peg_unchanged": true,
+    "tip_round_radius_mm": 1
   }
 }

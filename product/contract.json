@@ -49,7 +49,7 @@
     {
       "id": "strap_route",
       "kind": "mechanical",
-      "description": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。 正面金属扣舌保留方框底边中央向上半截的形状；背面直接顺弧贴在绑带上，不悬空，可保留少量实体厚度。 顶部绑带增加半圆弧凸起，向前逐渐平顺过渡收低；属本次指定的局部装饰凸起。 顶部绑带只有本次画出的端头区域为圆弧，不把整个凸起做成横向圆拱；其余保持向前渐变收低。 前扣环背面用方形内桩连接绑带和书脊，绑带与书脊预留对应孔位；扣环正面不可出现破孔。 上盖绑带圆弧精细度与书脊一致。 最新红框内扣舌正面稍加凸起，背面保持贴带、隐藏方桩及配套孔不移动。",
+      "description": "中央棕色带沿前、顶、背、底贴合包面，在开口和转轴处断开，不跨越运动接缝。 正面金属扣舌保留方框底边中央向上半截的形状；背面直接顺弧贴在绑带上，不悬空，可保留少量实体厚度。 顶部绑带增加半圆弧凸起，向前逐渐平顺过渡收低；属本次指定的局部装饰凸起。 顶部绑带只有本次画出的端头区域为圆弧，不把整个凸起做成横向圆拱；其余保持向前渐变收低。 前扣环背面用方形内桩连接绑带和书脊，绑带与书脊预留对应孔位；扣环正面不可出现破孔。 上盖绑带圆弧精细度与书脊一致。 最新红框内扣舌正面稍加凸起，背面保持贴带、隐藏方桩及配套孔不移动。 扣舌顶端外侧按最新红线做圆弧切角。",
       "source": "user_requested",
       "required": true
     },
@@ -213,6 +213,12 @@
       "source": "user_requested",
       "path": "product/references/uploads/20260930T174817986Z-1-mark.png",
       "description": "扣框内中央短扣舌需要向正面稍微凸起。"
+    },
+    {
+      "id": "reference_tongue_tip_round",
+      "source": "user_requested",
+      "path": "product/references/uploads/20260930T175210462Z-1-mark.png",
+      "description": "扣舌侧视红线所示的顶端外侧圆弧切角。"
     }
   ],
   "assembly_story": {
@@ -270,7 +276,8 @@
           "reference_lid_buckle_details_3",
           "reference_lid_buckle_details_4",
           "reference_full_height_rear_r3",
-          "reference_raised_tongue_face"
+          "reference_raised_tongue_face",
+          "reference_tongue_tip_round"
         ]
       }
     ]

@@ -96,7 +96,7 @@
           "target": "buckle",
           "order": 0,
           "path": "design/archive_handbag/source/parts/buckle/000-buckle.py",
-          "sha256": "640d0cf6d40e40b65a464679f3733f9826c41ff5a714e65cf06e06d9d5304463"
+          "sha256": "1ed99b5896ecefaf4fa138854757584db4ee2c250642198273a11b2bbdf59c1b"
         }
       ],
       "dependencies": []
@@ -403,7 +403,7 @@
       "label": "贴带曲面金属扣舌",
       "material": "stainless_steel",
       "kind": "generated",
-      "shapeHash": "a66cca9ec964ec53804a48e39d5482e857b28fd9f17982029413b813ea81142a",
+      "shapeHash": "0c0022c66d136ecebf4a49f50a9b9e8d4b3387e8e9024cbf7daf2ef53aacceee",
       "transform": {
         "positionMm": [
           0,
@@ -958,7 +958,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-30T17:49:52.215Z",
+  "updatedAt": "2026-09-30T17:53:31.538Z",
   "parameters": {
     "body": {
       "case_width": 220,
@@ -1225,7 +1225,8 @@
       "buckle_mount_center_x": 0,
       "buckle_mount_center_z": 96,
       "buckle_mount_root_embed": 0.3,
-      "buckle_tongue_extra_thickness": 1
+      "buckle_tongue_extra_thickness": 1,
+      "buckle_tongue_tip_radius": 1
     },
     "spine_marks": {
       "green_marks_bar_width": 3,

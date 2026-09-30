@@ -229,7 +229,8 @@
         "top_crown_width_mm": 30,
         "top_crown_plan_end_radius_mm": 15,
         "top_crown_cross_section": "flat across width, rounded only at terminal plan outline",
-        "tongue_extra_outward_mm": 1
+        "tongue_extra_outward_mm": 1,
+        "tongue_tip_radius_mm": 1
       },
       "source": "default"
     },
@@ -341,6 +342,10 @@
     "lid_rear_corner_radius_mm": {
       "source": "user",
       "value": 3.0
+    },
+    "buckle_tongue_tip_round": {
+      "source": "user",
+      "value": "红线标注的扣舌顶端外侧直角改为圆弧切角。"
     }
   },
   "open_questions": []

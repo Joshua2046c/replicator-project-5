@@ -14,6 +14,13 @@ extra=param('buckle_tongue_extra_thickness',1.0)
 assert extra>=0
 tongue_shell=Pos(tx,cy-t-extra-lift,cz)*Rot(0,90,0)*Cylinder(R,tw)-Pos(tx,cy-lift,cz)*Rot(0,90,0)*Cylinder(R,tw+2)
 tongue=tongue_shell&Pos(tx,ey-6,tz-tl/2)*Box(tw,20,tl)
+# Round the exposed upper-front edge across the tongue width.
+tip_r=param('buckle_tongue_tip_radius',1.0)
+tip_y=cy-t-extra-lift-sqrt(R*R-(tz-cz)**2)
+tip_edges=[edge for edge in tongue.edges().filter_by(Axis.X)
+           if abs(edge.center().Z-tz)<1e-5 and abs(edge.center().Y-tip_y)<1e-5]
+assert len(tip_edges)==1
+tongue=fillet(tip_edges,tip_r)
 frame+=tongue
 # Shared hidden square locating interface; all dimensions in mm.
 pegw=param('buckle_mount_peg_width',3.0);pegl=param('buckle_mount_peg_length',2.0)
