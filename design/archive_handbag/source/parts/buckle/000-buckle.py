@@ -4,12 +4,13 @@ tw=param('buckle_tongue_width',5.0);tl=param('buckle_tongue_length',22.0);tz=par
 lift=param('buckle_tongue_relief',0.0) # retained offset parameter; flush contact at zero
 R=param('spine_common_radius',88.33333333333333)
 # Custom metal bottom-rooted half-height tongue; tz is the preserved tip datum.
-H=64.0;ey=-51.0;cz=96.0;cy=ey+sqrt(R*R-H*H/4)
+out=param('central_binding_outward',2.0)
+H=64.0;ey=-51.0-out;cz=96.0;cy=ey+sqrt(R*R-H*H/4)
 shell=Pos(0,cy-t,cz)*Rot(0,90,0)*Cylinder(R,w)-Pos(0,cy,cz)*Rot(0,90,0)*Cylinder(R,w+2)
 outline=Pos(0,-70,z)*Rot(90,0,0)*extrude(RectangleRounded(w,h,r)-RectangleRounded(w-2*rim,h-2*rim,max(0.5,r-2)),amount=40,both=True)
 frame=shell&outline&Pos(0,ey-6,z)*Box(w,20,h)
 # Analytic circular tongue: back follows the same cylinder as the strap.
-# Raise only the tongue's outward face; its back stays flush and the locating peg is unchanged.
+# Raise only the tongue's outward face; its back stays flush; the locating peg grows to retain its original insertion.
 extra=param('buckle_tongue_extra_thickness',1.0)
 assert extra>=0
 tongue_shell=Pos(tx,cy-t-extra-lift,cz)*Rot(0,90,0)*Cylinder(R,tw)-Pos(tx,cy-lift,cz)*Rot(0,90,0)*Cylinder(R,tw+2)
@@ -27,6 +28,6 @@ pegw=param('buckle_mount_peg_width',3.0);pegl=param('buckle_mount_peg_length',2.
 pegx=param('buckle_mount_center_x',0.0);pegz=param('buckle_mount_center_z',96.0)
 pegy=-51.0+sqrt(R*R-32.0**2)-sqrt(R*R-(pegz-96.0)**2)
 embed=param('buckle_mount_root_embed',0.3)
-frame+=Pos(pegx,pegy+(pegl-embed)/2,pegz)*Box(pegw,pegl+embed,pegw)
+frame+=Pos(pegx,pegy+(pegl-out-embed)/2,pegz)*Box(pegw,pegl+out+embed,pegw)
 assert len(frame.solids())==1
 publish('buckle',frame,'贴带曲面金属扣舌',material='stainless_steel')

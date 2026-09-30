@@ -216,7 +216,7 @@
       "value": {
         "tongue_length_mm": 22,
         "tongue_width_mm": 5,
-        "tongue_thickness_mm": 2,
+        "tongue_thickness_mm": 3,
         "tongue_tip_relief_mm": 0,
         "tongue_root_z_mm": 78,
         "tongue_tip_z_mm": 100,
@@ -322,16 +322,16 @@
       "source": "default",
       "value": {
         "peg_square_mm": 3,
-        "peg_projection_mm": 2,
+        "peg_projection_mm": 4,
         "root_embed_mm": 0.3,
         "socket_square_mm": 3.3,
-        "socket_depth_from_strap_face_mm": 2.2,
+        "socket_depth_from_strap_face_mm": 4.2,
         "center_xz_mm": [
           0,
           96
         ],
         "spine_floor_mm": 1.3,
-        "metal_front_min_nominal_mm": 1.7,
+        "metal_front_min_nominal_mm": 2.7,
         "retention": "nonstructural locating peg; adhesive trial required"
       }
     },
@@ -346,6 +346,22 @@
     "buckle_tongue_tip_round": {
       "source": "user",
       "value": "红线标注的扣舌顶端外侧直角改为圆弧切角。"
+    },
+    "binding_outward_thickening": {
+      "source": "user",
+      "value": "整体绑带结构及金属扣加厚并突出箱体，底部绑带结构保持原样。"
+    },
+    "binding_outward_dimensions": {
+      "source": "default",
+      "value": {
+        "front_back_top_extra_mm": 2,
+        "binding_main_thickness_mm": 3,
+        "bottom_thickness_mm": 1,
+        "base_transition_height_mm": 4,
+        "metal_frame_thickness_mm": 2,
+        "tongue_thickness_mm": 3,
+        "top_peak_z_mm": 195
+      }
     }
   },
   "open_questions": []

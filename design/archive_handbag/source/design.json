@@ -82,7 +82,7 @@
           "target": "brown_binding",
           "order": 0,
           "path": "design/archive_handbag/source/parts/brown_binding/000-brown_binding.py",
-          "sha256": "b8514b26c9207253ab61c6e165674e996fea9982973785378190d65df23a9d09"
+          "sha256": "54a7ebd812f7a319a8b0823c009583c1497c5b04017274008f65f51eecbc60ba"
         }
       ],
       "dependencies": []
@@ -96,7 +96,7 @@
           "target": "buckle",
           "order": 0,
           "path": "design/archive_handbag/source/parts/buckle/000-buckle.py",
-          "sha256": "1ed99b5896ecefaf4fa138854757584db4ee2c250642198273a11b2bbdf59c1b"
+          "sha256": "1ac563c87a66b4ad03a14ce635b6dab57be94dfe3eb655093b149f0d43fc4b65"
         }
       ],
       "dependencies": []
@@ -350,7 +350,7 @@
       "target": "brown_binding",
       "label": "连续圆弧贴面带",
       "kind": "generated",
-      "shapeHash": "144916825082a4f5e5d7885c0891414098e32709173194a6caf15b7bdf7dd4d5",
+      "shapeHash": "cda070197717e02b70e24e8f2abe8af685bd69180d4e4c079bc637fd5f334557",
       "transform": {
         "positionMm": [
           0,
@@ -376,7 +376,7 @@
       "target": "brown_binding",
       "label": "局部半圆端头顶带",
       "kind": "generated",
-      "shapeHash": "c89896222b466d0ae33a11c7c89e1e2c0661e05f3f6da49f02d75d48977e65e7",
+      "shapeHash": "a95ff7dee49bf99a043e70717a1a14ad23bcd9159f3d921ade62bac3efe1e0ff",
       "transform": {
         "positionMm": [
           0,
@@ -403,7 +403,7 @@
       "label": "贴带曲面金属扣舌",
       "material": "stainless_steel",
       "kind": "generated",
-      "shapeHash": "0c0022c66d136ecebf4a49f50a9b9e8d4b3387e8e9024cbf7daf2ef53aacceee",
+      "shapeHash": "9c705c4a7187412842723070e01bfe5e3b9f3e3b3ca849b806b189ba52a14577",
       "transform": {
         "positionMm": [
           0,
@@ -958,7 +958,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-30T17:53:31.538Z",
+  "updatedAt": "2026-09-30T18:03:18.112Z",
   "parameters": {
     "body": {
       "case_width": 220,
@@ -1205,12 +1205,15 @@
       "buckle_mount_center_z": 96,
       "buckle_mount_side_clearance": 0.15,
       "buckle_mount_end_clearance": 0.2,
-      "upper_binding_surface_max_angle_deg": 1
+      "upper_binding_surface_max_angle_deg": 1,
+      "central_binding_outward": 2,
+      "central_binding_base_transition": 4,
+      "upper_binding_outward": 2
     },
     "buckle": {
       "buckle_width": 42,
       "buckle_height": 44,
-      "buckle_thickness": 1,
+      "buckle_thickness": 2,
       "buckle_rim": 5,
       "buckle_corner_radius": 5,
       "buckle_center_z": 100,
@@ -1226,7 +1229,8 @@
       "buckle_mount_center_z": 96,
       "buckle_mount_root_embed": 0.3,
       "buckle_tongue_extra_thickness": 1,
-      "buckle_tongue_tip_radius": 1
+      "buckle_tongue_tip_radius": 1,
+      "central_binding_outward": 2
     },
     "spine_marks": {
       "green_marks_bar_width": 3,

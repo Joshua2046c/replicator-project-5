@@ -277,11 +277,11 @@
     }
   },
   "strap_route": {
-    "status": "closed_surface_fit_verified",
+    "status": "exported_geometry_verified",
     "requirement_id": "strap_continuity",
-    "route": "lower U and upper inverted U embedded directly in matching face recesses",
+    "route": "front/back/top raised 2mm above the case; existing 1mm recess engagement and bottom band retained",
     "width": 30,
-    "thickness": 1,
+    "thickness": 3,
     "release": "none: discontinuous at opening and hinge",
     "source": "default",
     "shoulder_strap": "user supplied; not modeled",
@@ -299,9 +299,9 @@
       "source": "default",
       "length": 22,
       "width": 5,
-      "thickness": 1,
+      "thickness": 3,
       "tip_x": 0,
-      "connected_to": "bottom frame rail center; analytic cylindrical back directly contacts strap, 1mm metal thickness",
+      "connected_to": "2mm frame bottom rail; curved back directly contacts raised strap, R1 outer tip round",
       "root_z": 78,
       "tip_z": 100,
       "tip_relief": 0
@@ -313,9 +313,13 @@
       "plan_end_radius_mm": 15,
       "end_center_y_mm": 10,
       "front_transition_y_mm": -40,
-      "max_z_mm": 193,
-      "profile": "flat transverse section, planar semicircular terminal cap only; forward Bezier fade"
-    }
+      "max_z_mm": 195,
+      "profile": "flat transverse section, planar semicircular terminal cap only; forward Bezier fade",
+      "base_outward_mm": 2
+    },
+    "bottom_thickness": 1,
+    "outward_extra_mm": 2,
+    "base_transition_height_mm": 4
   },
   "magnets": {
     "diameter": 7,
@@ -346,20 +350,15 @@
     "source": "default"
   },
   "verification": {
-    "closed_interference": "current exported STEP435pairs, zero intersections",
+    "closed_interference": "revision752f4a2:378pairs, zero intersections; binding-thickening-check.json",
     "motion": "design/archive_handbag/verification/lid-interface-check.json",
     "swivel": "design/archive_handbag/verification/swivel-check.json",
     "payload_kg": 2,
     "physical_load_test": "not_performed",
     "continuous_sweep_proof": false,
-    "motion_status": "current: full lid assembly0..100deg every5deg and side extraction11positions passed",
+    "motion_status": "revision752f4a2: changed binding/buckle envelopes against opening components0..100deg every5deg passed; bottom volume difference0; contact<1e-5mm",
     "surface_contact": "design/archive_handbag/verification/integral-panel-contact-check.json",
-    "measured_main_envelope_mm": [
-      220,
-      122.3,
-      193
-    ],
-    "nominal_envelope_note": "Nominal body220x120x190 retained; prior hinge122.3mm depth accepted. New user-requested raised decor extends top by3mm and front envelope; its dimensions are disclosed defaults, not revised nominal body dimensions.",
+    "nominal_envelope_note": "Nominal body220x120x190 retained. User-requested raised binding/decor extends outside it; top peak Z195. Historical overall-envelope numbers are not this revision measurements.",
     "opening_tests": 3024,
     "revision": "design/archive_handbag/verification/revision-check.json",
     "pin_insertion_sweep_proof": true,
@@ -368,7 +367,8 @@
     "cosmetic_edges": "design/archive_handbag/verification/cosmetic-edge-check.json",
     "inlays": "design/archive_handbag/verification/inlay-check.json",
     "side_integration": "design/archive_handbag/verification/lid-interface-check.json",
-    "historical_geometry_build": 315
+    "historical_geometry_build": 315,
+    "binding_thickening": "design/archive_handbag/verification/binding-thickening-check.json"
   },
   "unresolved_items": [],
   "risks": [
@@ -459,8 +459,9 @@
     "plan_end_radius_mm": 15,
     "end_center_y_mm": 10,
     "front_transition_y_mm": -40,
-    "max_z_mm": 193,
-    "profile": "flat transverse section, planar semicircular terminal cap only; forward Bezier fade"
+    "max_z_mm": 195,
+    "profile": "flat transverse section, planar semicircular terminal cap only; forward Bezier fade",
+    "base_outward_mm": 2
   },
   "side_panel_symmetry": {
     "source": "user",
@@ -506,16 +507,16 @@
     "source": "default",
     "value": {
       "peg_square_mm": 3,
-      "peg_projection_mm": 2,
+      "peg_projection_mm": 4,
       "root_embed_mm": 0.3,
       "socket_square_mm": 3.3,
-      "socket_depth_from_strap_face_mm": 2.2,
+      "socket_depth_from_strap_face_mm": 4.2,
       "center_xz_mm": [
         0,
         96
       ],
       "spine_floor_mm": 1.3,
-      "metal_front_min_nominal_mm": 1.7,
+      "metal_front_min_nominal_mm": 2.7,
       "retention": "nonstructural locating peg; adhesive trial required"
     }
   },
@@ -574,12 +575,14 @@
   "buckle_tongue_raised_face": {
     "source": "default",
     "extra_outward_mm": 1,
-    "tongue_total_thickness_mm": 2,
-    "frame_thickness_mm": 1,
+    "tongue_total_thickness_mm": 3,
+    "frame_thickness_mm": 2,
     "width_mm": 5,
     "height_mm": 22,
-    "back_surface_unchanged": true,
-    "hidden_peg_unchanged": true,
-    "tip_round_radius_mm": 1
+    "back_surface_unchanged": false,
+    "hidden_peg_unchanged": false,
+    "tip_round_radius_mm": 1,
+    "back_outward_translation_mm": 2,
+    "peg_projection_mm": 4
   }
 }
