@@ -1,3 +1,4 @@
+# cell: lid
 from math import sqrt
 w=param('lid_width',220.0);d=param('lid_depth',114.0);height=param('lid_height',61.4);roof=param('lid_roof_thickness',2.2);wall=param('lid_wall',6.0)
 hy=param('lid_hinge_y',60.5);hz=param('lid_hinge_z',128.0);seam=param('lid_seam_z',128.6)
@@ -27,7 +28,7 @@ for s in [-1,1]:
  curve-=safe&Pos(s*px,-hy,cz)*Box(slot,120,height+0.2)
 lid+=curve
 for s in [-1,1]:
- lid-=Pos(s*px,49-hy,b+(height-roof)/2)*Box(slot,2.6,height-roof)
+ lid-=Pos(s*px,d/2-8-hy,b+(height-roof)/2)*Box(slot,2.6,height-roof)
  lid-=Pos(s*39.5,0,0)*Rot(0,90,0)*Cylinder(r+0.6,19.8)
  lid-=Pos(s*50.7,0,0)*Rot(0,90,0)*Cylinder(3.5,2.2)
 lid+=Pos(0,(d/2-wall/2-hy)/2,r-0.8)*Box(barrel_l,hy-(d/2-wall/2),1.6)

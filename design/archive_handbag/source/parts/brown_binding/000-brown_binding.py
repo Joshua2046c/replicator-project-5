@@ -1,3 +1,4 @@
+# cell: brown_binding
 from math import sqrt
 R=param('spine_common_radius',88.33333333333333)
 w=param('lower_binding_width',30.0);t=param('lower_binding_thickness',1.0)
@@ -50,7 +51,7 @@ def refine_spine(shape):
 # Shared hidden square locating interface; all dimensions in mm.
 pegw=param('buckle_mount_peg_width',3.0);pegl=param('buckle_mount_peg_length',2.0)
 pegx=param('buckle_mount_center_x',0.0);pegz=param('buckle_mount_center_z',96.0)
-pegy=-51.0+sqrt(R*R-32.0**2)-sqrt(R*R-(pegz-96.0)**2)
+pegy=front+sqrt(R*R-32.0**2)-sqrt(R*R-(pegz-96.0)**2)
 clear=param('buckle_mount_side_clearance',0.15);endgap=param('buckle_mount_end_clearance',0.2)
 socket=Pos(pegx,pegy+(pegl+endgap-out-0.05)/2,pegz)*Box(pegw+2*clear,pegl+endgap+out+0.05,pegw+2*clear)
 band-=socket

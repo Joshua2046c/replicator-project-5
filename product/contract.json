@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "主体长边185mm，配套侧板、五金与槽位对齐；厚度缩减20%的方向待确认，当前深度与高度保留。承载防脱仍未解决。",
+  "summary": "主体长边185mm、前后标称深度96mm、总高度190mm；减薄20%，配套板件与绑带同步。承载防脱仍未解决。",
   "required_interfaces": [
     {
       "id": "lid_hinge",

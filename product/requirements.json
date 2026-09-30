@@ -44,7 +44,7 @@
       "source": "default"
     },
     "hinge_layout": {
-      "value": "轴心Y60.5 Z128，轴孔4.4；一端预成头的Ø4金属轴侧向插入，另一端装配后铆接，无螺钉止挡；需验证轴体与预成头全路径。",
+      "value": "轴心Y48.5 Z128，轴孔4.4；一端预成头的Ø4金属轴侧向插入，另一端装配后铆接，无螺钉止挡；需验证轴体与预成头全路径。",
       "source": "default"
     },
     "magnet_quantity": {
@@ -74,7 +74,7 @@
     "envelope_mm": {
       "value": {
         "width": 185,
-        "depth": 120,
+        "depth": 96,
         "height": 190,
         "excludes": "外凸连接环及用户自装背带"
       },
@@ -199,8 +199,8 @@
           30,
           60
         ],
-        "front_y_mm": -47,
-        "rear_y_mm": 52
+        "front_y_mm": -35,
+        "rear_y_mm": 40
       },
       "source": "default"
     },
@@ -221,7 +221,7 @@
         "tongue_root_z_mm": 78,
         "tongue_tip_z_mm": 100,
         "top_crown_peak_y_mm": 10,
-        "top_crown_front_transition_y_mm": -40,
+        "top_crown_front_transition_y_mm": -28,
         "outer_edge_chamfer_mm": 0.4,
         "nominal_body_envelope_retained": true,
         "note": "新增局部装饰凸起按本次明确要求，不缩小原包体来容纳凸起；含装饰及铰链实际包络另列，默认凸起尺寸可调。",
@@ -295,8 +295,8 @@
     "spine_side_lap_dimensions": {
       "source": "default",
       "value": {
-        "spine_rear_lap_y_mm": -47.5,
-        "side_front_y_mm": -47.2,
+        "spine_rear_lap_y_mm": -35.5,
+        "side_front_y_mm": -35.2,
         "front_gap_mm": 0.3,
         "lateral_gap_mm": 0.3,
         "spine_outer_width_mm": 185
@@ -309,8 +309,8 @@
     "lid_side_clearance": {
       "source": "default",
       "value": {
-        "lid_inner_radius_mm": 108,
-        "side_relief_radius_mm": 107.7,
+        "lid_inner_radius_mm": 84,
+        "side_relief_radius_mm": 83.7,
         "radial_motion_gap_mm": 0.3,
         "reason": "同轴配对避让弧消除局部敞口，保留可开盖的活动间隙；后部页纹保留。"
       }
@@ -367,12 +367,12 @@
     "top_binding_slope_dimensions": {
       "source": "default",
       "value": {
-        "start_y_mm": -40,
+        "start_y_mm": -28,
         "end_y_mm": 32.5,
         "start_z_mm": 192,
         "end_z_mm": 195,
         "rise_mm": 3,
-        "run_mm": 72.5,
+        "run_mm": 60.5,
         "profile": "single inclined plane through semicircular end"
       }
     },
@@ -427,9 +427,11 @@
     "thickness_reduction_fraction": {
       "value": 0.2,
       "source": "user"
+    },
+    "thickness_direction": {
+      "value": "前后深度（Y方向），120mm减至96mm；长边185mm、叠书总高度190mm保持。按重复减厚指令采用此方向。",
+      "source": "default"
     }
   },
-  "open_questions": [
-    "整体厚度缩减五分之一：确认指前后深度120→96mm，还是三本书叠起总高度190→152mm。"
-  ]
+  "open_questions": []
 }

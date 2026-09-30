@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready_with_mechanical_use_restriction",
   "bom_ready": true,
-  "requirements_digest": "948ef82556baa7388f3c895415243748dc7fb229ee6a8a5cbe5ca0cc23736254",
+  "requirements_digest": "19a4358d1ac764c04ef367bd0abee40bc3ff82f38fc5d74a4c384d8f4b41487e",
   "items": [
     {
       "id": "body",
@@ -10,7 +10,7 @@
       "name": "外板拼装结构套件",
       "quantity": 1,
       "part_number": "AH-OUTER-PANEL-SET",
-      "description": "下两层一体前书脊延伸至X±92.5，外包侧板前端；后侧直角搭接面Y−47.5，保留内部导边、方孔、饰块槽、细化圆弧。前后板及底板长边185mm；底桩与对应孔X±60、±30，侧板中心X±90.5。 中央Z96预留3.3方形扣桩盲孔，孔底约1.3mm。 背板与底板后方两侧竖边统一R3，与上盖圆角对齐；背侧页纹随形接续。 中央贴带凹槽宽45mm、深1mm，与加宽绑带配套。",
+      "description": "下两层一体前书脊延伸至X±92.5，外包侧板前端；后侧直角搭接面Y−35.5，保留内部导边、方孔、饰块槽、细化圆弧。前后板及底板长边185mm；底桩与对应孔X±60、±30，侧板中心X±90.5。 中央Z96预留3.3方形扣桩盲孔，孔底约1.3mm。 背板与底板后方两侧竖边统一R3，与上盖圆角对齐；背侧页纹随形接续。 中央贴带凹槽宽45mm、深1mm，与加宽绑带配套。 标称前后深度96mm；底桩前排Y−35、后排Y40，书脊和后板对应孔同步。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -23,11 +23,11 @@
       "name": "整幅盖背翻盖",
       "quantity": 1,
       "part_number": "AH-LID-FLUSH",
-      "description": "上盖统一R88.333圆弧，顶面190；一体侧翼与等距页槽、4mm封面带；左右紧凑圆磁铁槽，无盖片/螺钉。 顶部四周和前后竖边区域0.4mm小倒角；装饰顶带另有3mm隆起。 封面增加22.522×60.3、R3.15圆角、深1mm铭牌盲槽，底留1.2mm；粉色书脊两处深1.2mm饰块槽。 前侧光面止于Y−47.2，后方页块凹陷与下方侧板分界齐平；后角页槽贯通；内避让弧R108，与侧板R107.7配对留0.3mm径向活动缝。 后方左右两个外角改为R3mm圆角，页槽随圆角接续。 中央贴带凹槽宽45mm、深1mm，与加宽绑带配套。 主体长边185mm；侧板中心X±90.5，磁铁X±54.5，标签中心X−57.5/Y4。",
+      "description": "上盖统一R88.333圆弧，顶面190；一体侧翼与等距页槽、4mm封面带；左右紧凑圆磁铁槽，无盖片/螺钉。 顶部四周和前后竖边区域0.4mm小倒角；装饰顶带另有3mm隆起。 封面增加22.522×60.3、R3.15圆角、深1mm铭牌盲槽，底留1.2mm；粉色书脊两处深1.2mm饰块槽。 前侧光面止于Y−35.2，后方页块凹陷与下方侧板分界齐平；后角页槽贯通；内避让弧R84，与侧板R83.7配对留0.3mm径向活动缝。 后方左右两个外角改为R3mm圆角，页槽随圆角接续。 中央贴带凹槽宽45mm、深1mm，与加宽绑带配套。 主体长边185mm；侧板中心X±90.5，磁铁X±54.5，标签中心X−57.5/Y4。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "上盖长边185mm，磁铁、侧板配合与饰块槽同步外移；其余几何保持，厚度缩减方向待确认。",
+      "selection_reason": "上盖长边185mm，磁铁、侧板配合与饰块槽同步外移；前后深度减至96mm，壁厚保持。",
       "part_identity": "c8f8bda0279ef9fd"
     },
     {
@@ -36,11 +36,11 @@
       "name": "左右圆弧避让书页插板",
       "quantity": 2,
       "part_number": "AH-SIDE-RECT",
-      "description": "左右镜像4mm下插书页板，前边直线收至Y−47.2，正面被书脊遮住；侧面页槽、上盖避让及挂环孔保留。 上部避让弧R107.7，与盖R108同轴配合。 板形不变，装配中心外移至X±90.5。",
+      "description": "左右镜像4mm下插书页板，前边直线收至Y−35.2，正面被书脊遮住；侧面页槽、上盖避让及挂环孔保留。 上部避让弧R83.7，与盖R84同轴配合。 前后跨度73.2mm，装配中心为X±90.5。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "左右板形与0.3mm间隙保持，当前中心X±90.5。",
+      "selection_reason": "左右板镜像缩短，0.3mm间隙保持，当前中心X±90.5。",
       "part_identity": "b04ab60e459ffc67"
     },
     {
@@ -101,7 +101,7 @@
       "name": "双铆头金属铰轴",
       "quantity": 1,
       "part_number": "AH-RIVET-PIN-D4-L100-HEAD6",
-      "description": "定制Ø4×100金属轴；预成一端Ø6×1.4头，侧向插入后另一端成形；轴心Y60.5 Z128。装配检查必须使用未铆另一端的轴。",
+      "description": "定制Ø4×100金属轴；预成一端Ø6×1.4头，侧向插入后另一端成形；轴心Y48.5 Z128。装配检查必须使用未铆另一端的轴。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -114,7 +114,7 @@
       "name": "圆柱磁铁 Ø7×3",
       "quantity": 4,
       "part_number": "SPEC-N42-7x3",
-      "description": "四颗Ø7×3轴向磁铁；X±54.5 Y−45.8；左右各一对，小圆槽胶粘，取消螺钉盖片；实测保持力和胶粘防脱。 槽Ø7.3深3.2、座Ø11.3高5.4，名义面隙0.8mm。",
+      "description": "四颗Ø7×3轴向磁铁；X±54.5 Y−33.8；左右各一对，小圆槽胶粘，取消螺钉盖片；实测保持力和胶粘防脱。 槽Ø7.3深3.2、座Ø11.3高5.4，名义面隙0.8mm。",
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
@@ -127,7 +127,7 @@
       "name": "三色弧形书脊与贯穿束带接口",
       "quantity": 1,
       "part_number": "AH-CURVED-BOOK-SET",
-      "description": "宽45mm绑带前、后、顶部向外增厚2mm，主体总厚3mm；底面保留1mm厚、宽度同步45mm，近底端4mm高范围收回。顶带平面半圆R22.5，3mm高差连续斜面从Y−40延伸到半圆端头Y32.5，端头无水平平台，最高Z195。定制金属扣框宽55mm、高44mm、厚2mm，扣舌7.5×22×3mm、顶端外边R1，背面随增厚绑带外移2mm并贴合；3×3方桩总伸出4mm，穿过增厚绑带3.3方孔，原书脊盲孔及插入终点不变，正面无破孔。 顶部前转折横边R1.5mm圆滑过渡。 内开口宽45mm与绑带对齐，无两侧空白条。",
+      "description": "宽45mm绑带前、后、顶部向外增厚2mm，主体总厚3mm；底面保留1mm厚、宽度同步45mm，近底端4mm高范围收回。顶带平面半圆R22.5，3mm高差连续斜面从Y−28延伸到半圆端头Y32.5，端头无水平平台，最高Z195。定制金属扣框宽55mm、高44mm、厚2mm，扣舌7.5×22×3mm、顶端外边R1，背面随增厚绑带外移2mm并贴合；3×3方桩总伸出4mm，穿过增厚绑带3.3方孔，原书脊盲孔及插入终点不变，正面无破孔。 顶部前转折横边R1.5mm圆滑过渡。 内开口宽45mm与绑带对齐，无两侧空白条。 随96mm深度缩短前后跨度；正面扣整体Y+12mm保持贴带，前后顶部厚3mm、底厚1mm不变。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -189,7 +189,7 @@
       "name": "封面内嵌空白铭牌",
       "quantity": 1,
       "part_number": "AH-NAMEPLATE-22.222X60-R3",
-      "description": "定制22.222×60×0.9圆角铭牌，四角R3，顶面Z190齐平；圆角嵌槽22.522×60.3、R3.15、深1mm，周边0.15、底0.1薄胶留量，底边0.15导入倒角。 保留标签尺寸，中心随端部内移至X−47.5/Y4。",
+      "description": "定制22.222×60×0.9圆角铭牌，四角R3，顶面Z190齐平；圆角嵌槽22.522×60.3、R3.15、深1mm，周边0.15、底0.1薄胶留量，底边0.15导入倒角。 保留标签尺寸，中心随端部内移至X−57.5/Y4。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -202,7 +202,7 @@
       "name": "曲面嵌入书脊饰块",
       "quantity": 6,
       "part_number": "AH-SPINE-INLAY-3X25",
-      "description": "每层两件3×25曲面饰块，曲率匹配书脊；向内径向嵌入1.1，外露0.7，槽深1.2，X/Z每侧0.15，底留0.1；松插非自锁，非承力装饰。 三层饰块与配套槽一起外移10mm，X−66.5和−53.5。",
+      "description": "每层两件3×25曲面饰块，曲率匹配书脊；向内径向嵌入1.1，外露0.7，槽深1.2，X/Z每侧0.15，底留0.1；松插非自锁，非承力装饰。 三层饰块与配套槽一起外移10mm，X−66.5和−53.5。 随书脊向内平移Y+12mm。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
@@ -240,7 +240,7 @@
     {
       "id": "envelope_exception",
       "severity": "advisory",
-      "description": "用户选择本版后轴保持不改，接受实际122.3mm相对标称120mm深度的例外；不是精确120mm尺寸。"
+      "description": "标称箱体前后深度96mm；保持原铰链外凸量及绑带金属扣凸起，实际含五金装饰外包络另以本版STEP测量。"
     },
     {
       "id": "screwless_retention",
