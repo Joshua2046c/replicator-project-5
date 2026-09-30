@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "箱体长边缩短四分之一至165mm；深度、高度和装饰尺寸保留，两端侧板、挂环、磁铁及插接位置同步适配。承载防脱仍未解决。",
+  "summary": "主体长边185mm，配套侧板、五金与槽位对齐；厚度缩减20%的方向待确认，当前深度与高度保留。承载防脱仍未解决。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -249,6 +249,12 @@
       "source": "user_requested",
       "path": "product/references/uploads/20260930T182811039Z-1-mark.png",
       "description": "整体沿图示箱体长边缩短四分之一。"
+    },
+    {
+      "id": "reference_thickness_reduction",
+      "source": "user_requested",
+      "path": "product/references/uploads/20260930T184925461Z-1-mark.png",
+      "description": "整体厚度减五分之一，正面框选；减薄方向待用户明确。"
     }
   ],
   "assembly_story": {

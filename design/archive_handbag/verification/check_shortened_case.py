@@ -1,4 +1,4 @@
-"""Check 165mm case, mating locations, lid motion and side extraction on exported STEP."""
+"""Check requested case length, mating locations, lid motion and side extraction on exported STEP."""
 import hashlib
 import json
 import sys
@@ -6,7 +6,11 @@ from itertools import combinations
 from pathlib import Path
 from build123d import Axis, Box, Plane, Pos, Vertex, import_step, mirror
 
-path, revision = sys.argv[1:]
+path, revision = sys.argv[1:3]
+width = float(sys.argv[3]) if len(sys.argv) > 3 else 165.0
+side_x = width / 2 - 2
+label_x = 35 - width / 2
+magnet_x = width / 2 - 38
 assembly = import_step(path)
 p = {s.label: s.clean() for s in assembly.children}
 
@@ -35,8 +39,8 @@ def expect(label, actual, expected, tolerance=1e-5):
                            passed=abs(actual-expected) <= tolerance))
 
 for name in ['body', 'lid', 'blue_spine', 'bottom_panel']:
-    expect(name+' X span', p[name].bounding_box().size.X, 165)
-for name, x in [('side_left', -80.5), ('side_right', 80.5), ('nameplate', -47.5)]:
+    expect(name+' X span', p[name].bounding_box().size.X, width)
+for name, x in [('side_left', -side_x), ('side_right', side_x), ('nameplate', label_x)]:
     expect(name+' X center', p[name].bounding_box().center().X, x)
 expect('nameplate X span', p['nameplate'].bounding_box().size.X, 200/9)
 expect('nameplate Y span', p['nameplate'].bounding_box().size.Y, 60)
@@ -50,7 +54,7 @@ for name in ['side_left', 'side_right']:
 ref = mirror(p['side_right'], about=Plane.YZ)
 expect('side mirror volume difference', vol(p['side_left']-ref)+vol(ref-p['side_left']), 0)
 for stem in ['body_magnet', 'lid_magnet']:
-    for side, x in [('left', -44.5), ('right', 44.5)]:
+    for side, x in [('left', -magnet_x), ('right', magnet_x)]:
         expect(stem+'_'+side+' X', p[stem+'_'+side].bounding_box().center().X, x)
 for x in [-60, -30, 30, 60]:
     for y, mate in [(-47, 'blue_spine'), (52, 'body')]:
@@ -84,7 +88,7 @@ for name in ['side_left','side_right']:
             if v > 1e-5:
                 extraction.append(dict(panel=name, lift_mm=dz, fixed=fixed, volume_mm3=v))
 
-r = dict(revision=revision, step_sha256=hashlib.sha256(Path(path).read_bytes()).hexdigest(),
+r = dict(revision=revision, requested_body_length_mm=width, step_sha256=hashlib.sha256(Path(path).read_bytes()).hexdigest(),
          all_valid=all(s.is_valid for s in p.values()), objects=len(p), solids=len(assembly.solids()),
          pairs_screened=len(p)*(len(p)-1)//2, closed_collisions=closed, dimensions=dimensions,
          opening_angles_deg=list(range(0,101,5)), opening_collisions=opening,

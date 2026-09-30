@@ -73,7 +73,7 @@
     },
     "envelope_mm": {
       "value": {
-        "width": 165,
+        "width": 185,
         "depth": 120,
         "height": 190,
         "excludes": "外凸连接环及用户自装背带"
@@ -251,7 +251,7 @@
           0.9
         ],
         "nameplate_center_xyz_mm": [
-          -47.5,
+          -57.5,
           4,
           190
         ],
@@ -299,7 +299,7 @@
         "side_front_y_mm": -47.2,
         "front_gap_mm": 0.3,
         "lateral_gap_mm": 0.3,
-        "spine_outer_width_mm": 165
+        "spine_outer_width_mm": 185
       }
     },
     "lid_side_finish": {
@@ -420,22 +420,16 @@
         "keep_rounded_corners": true
       }
     },
-    "length_reduction": {
-      "value": "整体沿箱体长边缩短四分之一。",
+    "case_length_mm": {
+      "value": 185,
       "source": "user"
     },
-    "length_reduction_implementation": {
-      "value": {
-        "axis": "X",
-        "original_length_mm": 220,
-        "length_mm": 165,
-        "reduction": 0.25,
-        "depth_and_height_unchanged": true,
-        "end_component_shift_mm": 27.5,
-        "binding_buckle_and_nameplate_sizes_unchanged": true
-      },
-      "source": "default"
+    "thickness_reduction_fraction": {
+      "value": 0.2,
+      "source": "user"
     }
   },
-  "open_questions": []
+  "open_questions": [
+    "整体厚度缩减五分之一：确认指前后深度120→96mm，还是三本书叠起总高度190→152mm。"
+  ]
 }

@@ -8,7 +8,7 @@
     "z": "up; bottom zero"
   },
   "envelope": {
-    "width": 165,
+    "width": 185,
     "depth": 120,
     "height": 190,
     "excluded": "protruding connection-ring assembly and user strap",
@@ -16,13 +16,13 @@
   },
   "assembled_hardware_envelope": {
     "value": [
-      183.0,
+      203.0,
       126.3,
       210.0
     ],
     "source": "research",
     "evidence": "design/archive_handbag/verification/shortened-case-check.json",
-    "note": "Current closed pose including raised decor, hinge and ring hardware; nominal case165x120x190."
+    "note": "Current closed pose including decor, hinge and ring hardware; nominal case185x120x190. Thickness change pending direction."
   },
   "process": {
     "printed_material": "PETG",
@@ -78,12 +78,12 @@
     "roof_clearance": 0.4,
     "interface_status": "front_spine_over_side_lap",
     "center_x": [
-      -80.5,
-      80.5
+      -90.5,
+      90.5
     ],
     "outer_faces_x": [
-      -82.5,
-      82.5
+      -92.5,
+      92.5
     ],
     "bolt_holes_yz": [
       0,
@@ -114,12 +114,12 @@
       64
     ],
     "lid_curve_height": 61.4,
-    "overall_visual_width": 165,
+    "overall_visual_width": 185,
     "front_one_solid": true,
     "upper_ends_integral_to_lid": true,
     "shared_radius": 88.33333333333333,
     "bottom_front_continuation": "same green-spine circle fromZ0 throughZ4; front plate continuesZ4..64",
-    "lower_end_profile": "Spine owns continuous outer curved face across X−82.5..82.5; rear lap Y−47.5 covers side thickness, side front Y−47.2; inner guide stops X±78.2."
+    "lower_end_profile": "Spine owns continuous curved face across X−92.5..92.5; rear lapY−47.5 covers side thickness; side frontY−47.2; inner guide stopsX±88.2."
   },
   "rear": {
     "lid_body_flush": true,
@@ -133,7 +133,7 @@
       128
     ],
     "source": "user",
-    "lid_rear_width": 165,
+    "lid_rear_width": 185,
     "corner_grooves_continuous": true,
     "corner_groove_depth": 0.45,
     "upper_page_groove_heights_mm": [
@@ -209,12 +209,12 @@
     "source": "user",
     "pivot_centers": [
       [
-        -82.8,
+        -92.8,
         0,
         174
       ],
       [
-        82.8,
+        92.8,
         0,
         174
       ]
@@ -260,8 +260,8 @@
       "head_height": 4,
       "under_head_length": 15,
       "head_inner_x": [
-        -87.5,
-        87.5
+        -97.5,
+        97.5
       ],
       "thread": "M4-0.7 nominal metal envelope",
       "flange_thickness": 1.4,
@@ -272,8 +272,8 @@
       "af": 7,
       "height": 3.2,
       "location": "loose nut at inner steel plate, inside closed lid, not fixed to lid",
-      "inner_x_abs": 73.3,
-      "outer_x_abs": 76.5
+      "inner_x_abs": 83.3,
+      "outer_x_abs": 86.5
     }
   },
   "strap_route": {
@@ -330,11 +330,11 @@
     "retention": "adhesive, no caps or screws; physical pull-out and compatibility validation pending",
     "positions_xy": [
       [
-        -44.5,
+        -54.5,
         -45.8
       ],
       [
-        44.5,
+        54.5,
         -45.8
       ]
     ],
@@ -353,14 +353,14 @@
   },
   "verification": {
     "closed_interference": "design/archive_handbag/verification/shortened-case-check.json",
-    "motion": "design/archive_handbag/verification/lid-interface-check.json",
+    "motion": "design/archive_handbag/verification/shortened-case-check.json",
     "swivel": "design/archive_handbag/verification/swivel-check.json",
     "payload_kg": 2,
     "physical_load_test": "not_performed",
     "continuous_sweep_proof": false,
-    "motion_status": "Current shortened assembly2f132d1: all lid components0..100deg every5deg and both side panels11 extraction positions passed; no physical load test.",
+    "motion_status": "Current185mm assembly747ab21: lid0..100deg every5deg and both side panels11 extraction positions passed; no physical load test.",
     "surface_contact": "design/archive_handbag/verification/integral-panel-contact-check.json",
-    "nominal_envelope_note": "Nominal case165x120x190 after25% X shortening; added binding/decor and hinge extend outside nominal body. Top peakZ195.",
+    "nominal_envelope_note": "Current nominal case185x120x190; pending thickness direction not yet applied. Raised decor and hinge extend outside nominal body; topZ195.",
     "opening_tests": 3024,
     "revision": "design/archive_handbag/verification/revision-check.json",
     "pin_insertion_sweep_proof": true,
@@ -400,7 +400,7 @@
   "flush_cover_edges": {
     "front_y": -51,
     "rear_y": 57,
-    "width": 165,
+    "width": 185,
     "roof_thickness": 2.2,
     "bottom_thickness": 4,
     "note": "no overhanging eave or bottom lip; necessary structural thickness retained"
@@ -436,7 +436,7 @@
         0.9
       ],
       "nameplate_center_xyz_mm": [
-        -47.5,
+        -57.5,
         4,
         190
       ],
@@ -568,11 +568,11 @@
     "top_bottom_chamfer_mm": 0.4,
     "positions_xy_mm": [
       [
-        -79.5,
+        -89.5,
         54
       ],
       [
-        79.5,
+        89.5,
         54
       ]
     ],
@@ -616,20 +616,14 @@
     }
   },
   "length_reduction": {
+    "source": "user",
     "value": {
-      "axis": "X",
-      "original_length_mm": 220,
-      "length_mm": 165,
-      "reduction": 0.25,
-      "depth_and_height_unchanged": true,
-      "end_component_shift_mm": 27.5,
-      "binding_buckle_and_nameplate_sizes_unchanged": true
-    },
-    "source": "default"
+      "current_length_mm": 185
+    }
   },
   "current_shortening_verification": {
-    "revision": "2f132d1aff278cd41202de6bc6cd24f9a712d044082479912882ea13b5b2aad5",
-    "step_sha256": "aaba207a67d3db8b876b4b9cac083466d29f2cf8916ef5050b9166c26f88cee5",
+    "revision": "747ab21055522dabd3eb2ef78490d5bd781b107c7019dc1afe3d1498c8f14700",
+    "step_sha256": "2530cb37f62320550e72ea9f7272baacc07eb81383659bc7e27e2a90b0e4bb36",
     "evidence": "design/archive_handbag/verification/shortened-case-check.json",
     "status": "passed",
     "closed_pairs": 378,
@@ -638,5 +632,11 @@
     "opening": "0..100deg in5deg increments",
     "side_extraction": "11 positions per side after removing ring hardware",
     "all_dimension_checks_passed": true
+  },
+  "pending_thickness_direction": {
+    "source": "user",
+    "reduction_fraction": 0.2,
+    "question": "整体厚度缩减五分之一：确认指前后深度120→96mm，还是三本书叠起总高度190→152mm。",
+    "applied": false
   }
 }

@@ -1,6 +1,7 @@
 {
-  "revision": "2f132d1aff278cd41202de6bc6cd24f9a712d044082479912882ea13b5b2aad5",
-  "step_sha256": "aaba207a67d3db8b876b4b9cac083466d29f2cf8916ef5050b9166c26f88cee5",
+  "revision": "747ab21055522dabd3eb2ef78490d5bd781b107c7019dc1afe3d1498c8f14700",
+  "requested_body_length_mm": 185.0,
+  "step_sha256": "2530cb37f62320550e72ea9f7272baacc07eb81383659bc7e27e2a90b0e4bb36",
   "all_valid": true,
   "objects": 28,
   "solids": 31,
@@ -9,44 +10,44 @@
   "dimensions": [
     {
       "label": "body X span",
-      "actual": 165.0,
-      "expected": 165,
+      "actual": 185.0,
+      "expected": 185.0,
       "passed": true
     },
     {
       "label": "lid X span",
-      "actual": 165.00000000001754,
-      "expected": 165,
+      "actual": 185.00000000001754,
+      "expected": 185.0,
       "passed": true
     },
     {
       "label": "blue_spine X span",
-      "actual": 165.00000000000358,
-      "expected": 165,
+      "actual": 185.00000000000358,
+      "expected": 185.0,
       "passed": true
     },
     {
       "label": "bottom_panel X span",
-      "actual": 165.0,
-      "expected": 165,
+      "actual": 185.0,
+      "expected": 185.0,
       "passed": true
     },
     {
       "label": "side_left X center",
-      "actual": -80.5,
-      "expected": -80.5,
+      "actual": -90.5,
+      "expected": -90.5,
       "passed": true
     },
     {
       "label": "side_right X center",
-      "actual": 80.5,
-      "expected": 80.5,
+      "actual": 90.5,
+      "expected": 90.5,
       "passed": true
     },
     {
       "label": "nameplate X center",
-      "actual": -47.5,
-      "expected": -47.5,
+      "actual": -57.5,
+      "expected": -57.5,
       "passed": true
     },
     {
@@ -111,26 +112,26 @@
     },
     {
       "label": "body_magnet_left X",
-      "actual": -44.5,
-      "expected": -44.5,
+      "actual": -54.5,
+      "expected": -54.5,
       "passed": true
     },
     {
       "label": "body_magnet_right X",
-      "actual": 44.5,
-      "expected": 44.5,
+      "actual": 54.5,
+      "expected": 54.5,
       "passed": true
     },
     {
       "label": "lid_magnet_left X",
-      "actual": -44.5,
-      "expected": -44.5,
+      "actual": -54.5,
+      "expected": -54.5,
       "passed": true
     },
     {
       "label": "lid_magnet_right X",
-      "actual": 44.5,
-      "expected": 44.5,
+      "actual": 54.5,
+      "expected": 54.5,
       "passed": true
     },
     {
@@ -256,7 +257,7 @@
   "opening_collisions": [],
   "extraction_collisions": [],
   "assembled_envelope_mm": [
-    183.0,
+    203.0,
     126.3,
     210.0
   ],
