@@ -235,7 +235,7 @@
       "source": "default"
     },
     "cover_nameplate": {
-      "value": "顶部书封面标签方块内嵌，宽度增加三分之二，四角改为圆角。",
+      "value": "顶部圆角标签按最新俯视图方向：上下尺寸缩小三分之一，左右尺寸增加三分之二，保持中心位置与齐平内嵌。",
       "source": "user"
     },
     "spine_inlays": {
@@ -246,8 +246,8 @@
       "source": "default",
       "value": {
         "nameplate_mm": [
-          33.333333333333336,
-          36,
+          22.22222222222222,
+          60,
           0.9
         ],
         "nameplate_center_xyz_mm": [
@@ -400,15 +400,24 @@
     "nameplate_round_dimensions": {
       "source": "default",
       "value": {
-        "width_mm": 33.333333333333336,
-        "length_mm": 36,
+        "width_mm": 22.22222222222222,
+        "length_mm": 60,
         "corner_radius_mm": 3,
-        "pocket_width_mm": 33.63333333333333,
-        "pocket_length_mm": 36.3,
+        "pocket_width_mm": 22.522222222222222,
+        "pocket_length_mm": 60.3,
         "pocket_corner_radius_mm": 3.15,
         "side_clearance_mm": 0.15,
         "pocket_depth_mm": 1,
         "floor_thickness_mm": 1.2
+      }
+    },
+    "nameplate_aspect_adjustment": {
+      "source": "user",
+      "value": {
+        "image_vertical_scale": 0.6666666666666666,
+        "image_horizontal_scale": 1.6666666666666667,
+        "keep_center": true,
+        "keep_rounded_corners": true
       }
     }
   },

@@ -371,15 +371,7 @@
     "side_integration": "design/archive_handbag/verification/lid-interface-check.json",
     "historical_geometry_build": 315,
     "binding_thickening": "design/archive_handbag/verification/binding-thickening-check.json",
-    "binding_width_round": "design/archive_handbag/verification/binding-width-round-check.json",
-    "rounded_nameplate_fit": {
-      "revision": "b557c1c55b250484e22356931bfa4cfa4d9cf735230643f9f94b801bb5b0f98d",
-      "width_mm": 33.333333333333336,
-      "top_z_mm": 190,
-      "minimum_gap_mm": 0.1,
-      "interference": false,
-      "method": "cad.inspect bbox, clearance and collision"
-    }
+    "binding_width_round": "design/archive_handbag/verification/binding-width-round-check.json"
   },
   "unresolved_items": [],
   "risks": [
@@ -438,8 +430,8 @@
     "source": "default",
     "value": {
       "nameplate_mm": [
-        33.333333333333336,
-        36,
+        22.22222222222222,
+        60,
         0.9
       ],
       "nameplate_center_xyz_mm": [
@@ -611,11 +603,11 @@
   "nameplate_round_dimensions": {
     "source": "default",
     "value": {
-      "width_mm": 33.333333333333336,
-      "length_mm": 36,
+      "width_mm": 22.22222222222222,
+      "length_mm": 60,
       "corner_radius_mm": 3,
-      "pocket_width_mm": 33.63333333333333,
-      "pocket_length_mm": 36.3,
+      "pocket_width_mm": 22.522222222222222,
+      "pocket_length_mm": 60.3,
       "pocket_corner_radius_mm": 3.15,
       "side_clearance_mm": 0.15,
       "pocket_depth_mm": 1,

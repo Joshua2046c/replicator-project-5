@@ -246,7 +246,7 @@
       "target": "lid",
       "label": "光面端部贴合翻盖",
       "kind": "generated",
-      "shapeHash": "3ff4ed2f273710701ae2d63ad8bb552bc24d2019c64a875d89dfb4c5cc5af088",
+      "shapeHash": "2376130c7474751f4bfa0c3011ab2ed5a7140a94b6720784e28b59b1f2aec547",
       "transform": {
         "positionMm": [
           0,
@@ -923,7 +923,7 @@
       "target": "nameplate",
       "label": "封面内嵌空白铭牌",
       "kind": "generated",
-      "shapeHash": "a846885508ca7d088e5639b7f5d1ad7b1c558edce7d5edf8a64bb18b0ffb8ede",
+      "shapeHash": "95952b40c8172f215b2ca09915d1b907c0c31ca404b3d7395433439b48af325c",
       "transform": {
         "positionMm": [
           -75,
@@ -958,7 +958,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-30T18:20:48.504Z",
+  "updatedAt": "2026-09-30T18:24:53.486Z",
   "parameters": {
     "body": {
       "case_width": 220,
@@ -1035,8 +1035,8 @@
       "lid_magnet_mount_right_pocket_diameter": 7.3,
       "lid_magnet_mount_right_pocket_depth": 3.2,
       "lid_outer_chamfer": 0.4,
-      "nameplate_width": 33.333333333333336,
-      "nameplate_length": 36,
+      "nameplate_width": 22.222222222222225,
+      "nameplate_length": 60,
       "nameplate_x": -75,
       "nameplate_y": 4,
       "nameplate_pocket_depth": 1,
@@ -1396,8 +1396,8 @@
       "ring_nut_right_z": 174
     },
     "nameplate": {
-      "nameplate_width": 33.333333333333336,
-      "nameplate_length": 36,
+      "nameplate_width": 22.222222222222225,
+      "nameplate_length": 60,
       "nameplate_pocket_depth": 1,
       "nameplate_bottom_allowance": 0.1,
       "nameplate_edge_chamfer": 0.15,

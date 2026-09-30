@@ -70,7 +70,7 @@
     {
       "id": "decorative_inlays",
       "kind": "internal_fit",
-      "description": "顶盖书封面标注位置增加方块铭牌，内嵌在封面上。三层书脊标注的小饰块改为插入结构，预留嵌入深度。 顶部标签在原宽度上增加三分之二，四角改为圆角，内嵌槽同步配套。",
+      "description": "顶盖书封面标注位置增加方块铭牌，内嵌在封面上。三层书脊标注的小饰块改为插入结构，预留嵌入深度。 顶部标签按最新俯视图上下尺寸缩小三分之一、左右尺寸增加三分之二，保持圆角和中心，内嵌槽同步配套。",
       "source": "user_requested",
       "required": true
     }
@@ -237,6 +237,12 @@
       "source": "user_requested",
       "path": "product/references/uploads/20260930T181828795Z-1-mark.png",
       "description": "扣框去掉两侧空白，顶部标签加宽三分之二并圆角。"
+    },
+    {
+      "id": "reference_nameplate_aspect",
+      "source": "user_requested",
+      "path": "product/references/uploads/20260930T182310228Z-1-mark.png",
+      "description": "俯视图标签上下收窄三分之一、左右加宽三分之二。"
     }
   ],
   "assembly_story": {
@@ -298,7 +304,8 @@
           "reference_tongue_tip_round",
           "reference_sloped_binding_tip",
           "reference_wider_binding_round_bend",
-          "reference_tight_buckle_rounded_label"
+          "reference_tight_buckle_rounded_label",
+          "reference_nameplate_aspect"
         ]
       }
     ]
