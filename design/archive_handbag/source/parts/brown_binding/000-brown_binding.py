@@ -67,14 +67,14 @@ for yy,sg in [(ey-out2,-1),(ry+out2,1)]:
  strip-=extrude(Plane.YZ*Polygon((yy-sg*c2,top+out2),(yy+sg*2,top+out2),(yy+sg*2,top+out2-c2-2),align=None),amount=w2+2,both=True)
 rise=param('upper_binding_crown_radius',3.0);peak=param('upper_binding_crown_y',10.0);start=param('upper_binding_transition_front_y',-40.0)
 top+=out2
-# Legacy crown_radius remains the editable rise. Only the terminal PLAN outline is round.
-a=(0,start,top);b=(0,peak,top+rise)
-arc=Edge.make_bezier(a,(0,start+(peak-start)*.45,top),(0,peak-(peak-start)*.25,top+rise),b)
-wire=Wire([arc,Edge.make_line(b,(0,peak,top-t2/2)),Edge.make_line((0,peak,top-t2/2),(0,start,top-t2/2)),Edge.make_line((0,start,top-t2/2),a)])
-fade=Pos(-w2/2,0,0)*extrude(Face(wire),amount=w2,dir=(1,0,0))
-cap=Pos(0,peak,top-t2/2)*Cylinder(w2/2,rise+t2/2,align=(Align.CENTER,Align.CENTER,Align.MIN))
-cap &= Pos(0,peak+w2/4,top+(rise-t2/2)/2)*Box(w2,w2/2,rise+t2/2)
-strip+=fade+cap
+# One inclined plane extends through the semicircular plan end, with no flat cap.
+end=peak+w2/2
+assert end>start and rise>0
+profile=Plane.YZ*Polygon((start,top-t2/2),(end,top-t2/2),(end,top+rise),(start,top),align=None)
+ramp=extrude(profile,amount=w2/2,both=True)
+footprint=Pos(0,(start+peak)/2)*Rectangle(w2,peak-start)+Pos(0,peak)*Circle(w2/2)
+plan_mask=Pos(0,0,top-t2)*extrude(footprint,amount=rise+2*t2)
+strip+=ramp&plan_mask
 assert len(strip.solids())==1
 angle=param('upper_binding_surface_max_angle_deg',1.0)
 strip=refine_spine(strip)

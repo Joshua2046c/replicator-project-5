@@ -314,8 +314,9 @@
       "end_center_y_mm": 10,
       "front_transition_y_mm": -40,
       "max_z_mm": 195,
-      "profile": "flat transverse section, planar semicircular terminal cap only; forward Bezier fade",
-      "base_outward_mm": 2
+      "profile": "single inclined plane, Y-40/Z192 to Y25/Z195, continuing through semicircular plan end; no horizontal cap",
+      "base_outward_mm": 2,
+      "incline_run_mm": 65
     },
     "bottom_thickness": 1,
     "outward_extra_mm": 2,
@@ -460,8 +461,9 @@
     "end_center_y_mm": 10,
     "front_transition_y_mm": -40,
     "max_z_mm": 195,
-    "profile": "flat transverse section, planar semicircular terminal cap only; forward Bezier fade",
-    "base_outward_mm": 2
+    "profile": "single inclined plane, Y-40/Z192 to Y25/Z195, continuing through semicircular plan end; no horizontal cap",
+    "base_outward_mm": 2,
+    "incline_run_mm": 65
   },
   "side_panel_symmetry": {
     "source": "user",

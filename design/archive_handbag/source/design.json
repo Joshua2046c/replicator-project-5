@@ -82,7 +82,7 @@
           "target": "brown_binding",
           "order": 0,
           "path": "design/archive_handbag/source/parts/brown_binding/000-brown_binding.py",
-          "sha256": "54a7ebd812f7a319a8b0823c009583c1497c5b04017274008f65f51eecbc60ba"
+          "sha256": "949764079583ddf0c2cab11213fca81caec7e8aa9e196c57487102802ce5e88b"
         }
       ],
       "dependencies": []
@@ -376,7 +376,7 @@
       "target": "brown_binding",
       "label": "局部半圆端头顶带",
       "kind": "generated",
-      "shapeHash": "a95ff7dee49bf99a043e70717a1a14ad23bcd9159f3d921ade62bac3efe1e0ff",
+      "shapeHash": "a732e3b04950879b6d24f3ac4ca7b5cb4258135c4030c4556bdaf96fd41118c6",
       "transform": {
         "positionMm": [
           0,
@@ -958,7 +958,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-30T18:03:18.112Z",
+  "updatedAt": "2026-09-30T18:09:59.443Z",
   "parameters": {
     "body": {
       "case_width": 220,

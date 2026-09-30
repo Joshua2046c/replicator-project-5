@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready_with_mechanical_use_restriction",
   "bom_ready": true,
-  "requirements_digest": "de932c00ccc5b81ccbad9f666e94b850df7bb5e6f19e89eeb2d828f6f8a26f08",
+  "requirements_digest": "07f1fe073be0102cff0ff88bc4cf8c694bae26af1fcae7e12ef84f27c8e1a929",
   "items": [
     {
       "id": "body",
@@ -127,11 +127,11 @@
       "name": "三色弧形书脊与贯穿束带接口",
       "quantity": 1,
       "part_number": "AH-CURVED-BOOK-SET",
-      "description": "宽30mm绑带前、后、顶部向外增厚2mm，主体总厚3mm；底面保留1mm与原轮廓，近底端4mm高范围收回。顶带平面半圆R15，原3mm渐变隆起保留在增厚带面上，最高Z195。定制金属扣框厚2mm，扣舌5×22×3mm、顶端外边R1，背面随增厚绑带外移2mm并贴合；3×3方桩总伸出4mm，穿过增厚绑带3.3方孔，原书脊盲孔及插入终点不变，正面无破孔。",
+      "description": "宽30mm绑带前、后、顶部向外增厚2mm，主体总厚3mm；底面保留1mm与原轮廓，近底端4mm高范围收回。顶带平面半圆R15，3mm高差连续斜面从Y−40延伸到半圆端头Y25，端头无水平平台，最高Z195。定制金属扣框厚2mm，扣舌5×22×3mm、顶端外边R1，背面随增厚绑带外移2mm并贴合；3×3方桩总伸出4mm，穿过增厚绑带3.3方孔，原书脊盲孔及插入终点不变，正面无破孔。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按用户要求增厚除底面外的整条装饰绑带及金属扣；底面保持原样，方桩延长以保持原书脊内插入深度。尺寸为已披露默认值。",
+      "selection_reason": "按用户要求加厚非底面绑带与金属扣，并将顶部凸起上表面统一为斜面；底面保持原样。方桩延长以保持原插入深度。尺寸为披露默认值。",
       "part_identity": "cdec688dde151cf0"
     },
     {
