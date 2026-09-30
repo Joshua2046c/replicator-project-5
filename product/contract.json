@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "上盖后角页纹补齐，侧面凹陷前界与下方齐平；上绑带圆弧细化，挂环螺丝一体止推法兰，扣环背面隐藏方桩与配套盲孔。承载防脱仍未解决。",
+  "summary": "箱体长边缩短四分之一至165mm；深度、高度和装饰尺寸保留，两端侧板、挂环、磁铁及插接位置同步适配。承载防脱仍未解决。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -243,6 +243,12 @@
       "source": "user_requested",
       "path": "product/references/uploads/20260930T182310228Z-1-mark.png",
       "description": "俯视图标签上下收窄三分之一、左右加宽三分之二。"
+    },
+    {
+      "id": "reference_shorten_body",
+      "source": "user_requested",
+      "path": "product/references/uploads/20260930T182811039Z-1-mark.png",
+      "description": "整体沿图示箱体长边缩短四分之一。"
     }
   ],
   "assembly_story": {
@@ -305,7 +311,8 @@
           "reference_sloped_binding_tip",
           "reference_wider_binding_round_bend",
           "reference_tight_buckle_rounded_label",
-          "reference_nameplate_aspect"
+          "reference_nameplate_aspect",
+          "reference_shorten_body"
         ]
       }
     ]

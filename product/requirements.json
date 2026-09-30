@@ -73,7 +73,7 @@
     },
     "envelope_mm": {
       "value": {
-        "width": 220,
+        "width": 165,
         "depth": 120,
         "height": 190,
         "excludes": "外凸连接环及用户自装背带"
@@ -194,10 +194,10 @@
         "socket_depth_mm": 6.3,
         "lead_in_mm": 0.4,
         "x_mm": [
-          -80,
-          -40,
-          40,
-          80
+          -60,
+          -30,
+          30,
+          60
         ],
         "front_y_mm": -47,
         "rear_y_mm": 52
@@ -251,7 +251,7 @@
           0.9
         ],
         "nameplate_center_xyz_mm": [
-          -75,
+          -47.5,
           4,
           190
         ],
@@ -299,7 +299,7 @@
         "side_front_y_mm": -47.2,
         "front_gap_mm": 0.3,
         "lateral_gap_mm": 0.3,
-        "spine_outer_width_mm": 220
+        "spine_outer_width_mm": 165
       }
     },
     "lid_side_finish": {
@@ -419,6 +419,22 @@
         "keep_center": true,
         "keep_rounded_corners": true
       }
+    },
+    "length_reduction": {
+      "value": "整体沿箱体长边缩短四分之一。",
+      "source": "user"
+    },
+    "length_reduction_implementation": {
+      "value": {
+        "axis": "X",
+        "original_length_mm": 220,
+        "length_mm": 165,
+        "reduction": 0.25,
+        "depth_and_height_unchanged": true,
+        "end_component_shift_mm": 27.5,
+        "binding_buckle_and_nameplate_sizes_unchanged": true
+      },
+      "source": "default"
     }
   },
   "open_questions": []

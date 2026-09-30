@@ -1,0 +1,265 @@
+{
+  "revision": "2f132d1aff278cd41202de6bc6cd24f9a712d044082479912882ea13b5b2aad5",
+  "step_sha256": "aaba207a67d3db8b876b4b9cac083466d29f2cf8916ef5050b9166c26f88cee5",
+  "all_valid": true,
+  "objects": 28,
+  "solids": 31,
+  "pairs_screened": 378,
+  "closed_collisions": [],
+  "dimensions": [
+    {
+      "label": "body X span",
+      "actual": 165.0,
+      "expected": 165,
+      "passed": true
+    },
+    {
+      "label": "lid X span",
+      "actual": 165.00000000001754,
+      "expected": 165,
+      "passed": true
+    },
+    {
+      "label": "blue_spine X span",
+      "actual": 165.00000000000358,
+      "expected": 165,
+      "passed": true
+    },
+    {
+      "label": "bottom_panel X span",
+      "actual": 165.0,
+      "expected": 165,
+      "passed": true
+    },
+    {
+      "label": "side_left X center",
+      "actual": -80.5,
+      "expected": -80.5,
+      "passed": true
+    },
+    {
+      "label": "side_right X center",
+      "actual": 80.5,
+      "expected": 80.5,
+      "passed": true
+    },
+    {
+      "label": "nameplate X center",
+      "actual": -47.5,
+      "expected": -47.5,
+      "passed": true
+    },
+    {
+      "label": "nameplate X span",
+      "actual": 22.222222222222,
+      "expected": 22.22222222222222,
+      "passed": true
+    },
+    {
+      "label": "nameplate Y span",
+      "actual": 60.0,
+      "expected": 60,
+      "passed": true
+    },
+    {
+      "label": "nameplate top",
+      "actual": 190.0,
+      "expected": 190,
+      "passed": true
+    },
+    {
+      "label": "nameplate pocket minimum clearance",
+      "actual": 0.09999999999999432,
+      "expected": 0.1,
+      "passed": true
+    },
+    {
+      "label": "buckle width",
+      "actual": 55.00000020000001,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "label": "central_binding width",
+      "actual": 45.00000000000032,
+      "expected": 45,
+      "passed": true
+    },
+    {
+      "label": "upper_binding width",
+      "actual": 45.000000000000725,
+      "expected": 45,
+      "passed": true
+    },
+    {
+      "label": "side_left front lap clearance",
+      "actual": 0.29999999999999716,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "label": "side_right front lap clearance",
+      "actual": 0.29999999999999716,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "label": "side mirror volume difference",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "body_magnet_left X",
+      "actual": -44.5,
+      "expected": -44.5,
+      "passed": true
+    },
+    {
+      "label": "body_magnet_right X",
+      "actual": 44.5,
+      "expected": 44.5,
+      "passed": true
+    },
+    {
+      "label": "lid_magnet_left X",
+      "actual": -44.5,
+      "expected": -44.5,
+      "passed": true
+    },
+    {
+      "label": "lid_magnet_right X",
+      "actual": 44.5,
+      "expected": 44.5,
+      "passed": true
+    },
+    {
+      "label": "peg -60,-47 material",
+      "actual": 2.887999999999999,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket -60,-47 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg -60,52 material",
+      "actual": 2.887999999999999,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket -60,52 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg -30,-47 material",
+      "actual": 2.8880000000000003,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket -30,-47 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg -30,52 material",
+      "actual": 2.8880000000000003,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket -30,52 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg 30,-47 material",
+      "actual": 2.8880000000000003,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket 30,-47 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg 30,52 material",
+      "actual": 2.8880000000000003,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket 30,52 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg 60,-47 material",
+      "actual": 2.887999999999999,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket 60,-47 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg 60,52 material",
+      "actual": 2.887999999999999,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket 60,52 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    }
+  ],
+  "opening_angles_deg": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  ],
+  "opening_collisions": [],
+  "extraction_collisions": [],
+  "assembled_envelope_mm": [
+    183.0,
+    126.3,
+    210.0
+  ],
+  "scope": "Exact B-rep closed pose and discrete motion; no continuous sweep or physical load certification.",
+  "passed": true
+}
