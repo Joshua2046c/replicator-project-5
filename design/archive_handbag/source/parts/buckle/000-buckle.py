@@ -9,8 +9,10 @@ shell=Pos(0,cy-t,cz)*Rot(0,90,0)*Cylinder(R,w)-Pos(0,cy,cz)*Rot(0,90,0)*Cylinder
 outline=Pos(0,-70,z)*Rot(90,0,0)*extrude(RectangleRounded(w,h,r)-RectangleRounded(w-2*rim,h-2*rim,max(0.5,r-2)),amount=40,both=True)
 frame=shell&outline&Pos(0,ey-6,z)*Box(w,20,h)
 # Analytic circular tongue: back follows the same cylinder as the strap.
-# No sampled polygon and no rising free tip. Default metal thickness is 1 mm.
-tongue_shell=Pos(tx,cy-t-lift,cz)*Rot(0,90,0)*Cylinder(R,tw)-Pos(tx,cy-lift,cz)*Rot(0,90,0)*Cylinder(R,tw+2)
+# Raise only the tongue's outward face; its back stays flush and the locating peg is unchanged.
+extra=param('buckle_tongue_extra_thickness',1.0)
+assert extra>=0
+tongue_shell=Pos(tx,cy-t-extra-lift,cz)*Rot(0,90,0)*Cylinder(R,tw)-Pos(tx,cy-lift,cz)*Rot(0,90,0)*Cylinder(R,tw+2)
 tongue=tongue_shell&Pos(tx,ey-6,tz-tl/2)*Box(tw,20,tl)
 frame+=tongue
 # Shared hidden square locating interface; all dimensions in mm.
