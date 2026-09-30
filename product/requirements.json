@@ -215,7 +215,7 @@
     "raised_details_dimensions": {
       "value": {
         "tongue_length_mm": 22,
-        "tongue_width_mm": 5,
+        "tongue_width_mm": 7.5,
         "tongue_thickness_mm": 3,
         "tongue_tip_relief_mm": 0,
         "tongue_root_z_mm": 78,
@@ -226,8 +226,8 @@
         "nominal_body_envelope_retained": true,
         "note": "新增局部装饰凸起按本次明确要求，不缩小原包体来容纳凸起；含装饰及铰链实际包络另列，默认凸起尺寸可调。",
         "top_crown_rise_mm": 3,
-        "top_crown_width_mm": 30,
-        "top_crown_plan_end_radius_mm": 15,
+        "top_crown_width_mm": 45,
+        "top_crown_plan_end_radius_mm": 22.5,
         "top_crown_cross_section": "flat across width, rounded only at terminal plan outline",
         "tongue_extra_outward_mm": 1,
         "tongue_tip_radius_mm": 1
@@ -349,7 +349,7 @@
     },
     "binding_outward_thickening": {
       "source": "user",
-      "value": "整体绑带结构及金属扣加厚并突出箱体，底部绑带结构保持原样。"
+      "value": "整体绑带结构及金属扣加厚并突出箱体，底部绑带不加厚；整体含底部宽度按最新要求增加50%。"
     },
     "binding_outward_dimensions": {
       "source": "default",
@@ -367,12 +367,29 @@
       "source": "default",
       "value": {
         "start_y_mm": -40,
-        "end_y_mm": 25,
+        "end_y_mm": 32.5,
         "start_z_mm": 192,
         "end_z_mm": 195,
         "rise_mm": 3,
-        "run_mm": 65,
+        "run_mm": 72.5,
         "profile": "single inclined plane through semicircular end"
+      }
+    },
+    "binding_width_increase": {
+      "source": "user",
+      "value": "整体绑带宽度增加50%，前面的金属扣也按相同比例加宽；顶部转角改为圆滑圆角过渡。"
+    },
+    "binding_width_dimensions": {
+      "source": "default",
+      "value": {
+        "binding_width_mm": 45,
+        "previous_binding_width_mm": 30,
+        "buckle_width_mm": 63,
+        "previous_buckle_width_mm": 42,
+        "tongue_width_mm": 7.5,
+        "front_top_bend_radius_mm": 1.5,
+        "bottom_thickness_mm": 1,
+        "matching_recess_width_mm": 45
       }
     }
   },

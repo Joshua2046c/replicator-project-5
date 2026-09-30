@@ -1,0 +1,47 @@
+{
+  "revision": "b7d1d32dbc8f04149b120e876d62de546dd2bcc8735c44f5872ac238fc425646",
+  "step_sha256": "c6264a5a09e0acbb47b145e1764c6aa6f7ce3b06c724cf148a1d1f2ca7efb8bd",
+  "baseline_step_sha256": "c6ba809ce4ed047a5452279bfc7355e0d28a764e6806a469eecbbb1d8cea0308",
+  "all_valid": true,
+  "pairs_screened": 378,
+  "closed_overlaps": [],
+  "bottom_region_z_mm": [
+    -0.1,
+    1
+  ],
+  "bottom_comparison_x_mm": [
+    -15,
+    15
+  ],
+  "binding_width_mm": 45.00000000000032,
+  "upper_binding_width_mm": 45.000000000000725,
+  "buckle_width_mm": 63.00000020000001,
+  "bottom_symmetric_difference_mm3": 0.0,
+  "tongue_back_max_contact_distance_mm": 4.099831585335778e-12,
+  "opening_angles_deg": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  ],
+  "changed_envelope_motion_collisions": [],
+  "scope": "Exact closed B-rep and discrete changed-part motion samples; no continuous sweep or physical load test.",
+  "passed": true
+}

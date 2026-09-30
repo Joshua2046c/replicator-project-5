@@ -63,8 +63,13 @@ strip=(Pos(0,cy-out2,z)*Rot(0,90,0)*Cylinder(R,w2)-Pos(0,cy+t2,z)*Rot(0,90,0)*Cy
 strip+=Pos(0,(ey+ry)/2,top+(out2-t2)/2)*Box(w2,ry-ey+2*out2,t2+out2)
 strip+=Pos(0,ry+(out2-t2)/2,(top+out2+backbase)/2)*Box(w2,t2+out2,top+out2-backbase)
 c2=param('upper_binding_outer_chamfer',0.4)
-for yy,sg in [(ey-out2,-1),(ry+out2,1)]:
+for yy,sg in [(ry+out2,1)]:
  strip-=extrude(Plane.YZ*Polygon((yy-sg*c2,top+out2),(yy+sg*2,top+out2),(yy+sg*2,top+out2-c2-2),align=None),amount=w2+2,both=True)
+# Round the top/front outer transverse edge before surface subdivision.
+bend_radius=param('upper_binding_front_bend_radius',1.5)
+bend_edges=[e for e in strip.edges().filter_by(Axis.X) if abs(e.center().Y-(ey-out2))<1e-5 and abs(e.center().Z-(top+out2))<1e-5]
+assert len(bend_edges)==1
+strip=fillet(bend_edges,bend_radius)
 rise=param('upper_binding_crown_radius',3.0);peak=param('upper_binding_crown_y',10.0);start=param('upper_binding_transition_front_y',-40.0)
 top+=out2
 # One inclined plane extends through the semicircular plan end, with no flat cap.

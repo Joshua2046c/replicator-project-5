@@ -280,7 +280,7 @@
     "status": "exported_geometry_verified",
     "requirement_id": "strap_continuity",
     "route": "front/back/top raised 2mm above the case; existing 1mm recess engagement and bottom band retained",
-    "width": 30,
+    "width": 45,
     "thickness": 3,
     "release": "none: discontinuous at opening and hinge",
     "source": "default",
@@ -298,7 +298,7 @@
     "buckle_tongue": {
       "source": "default",
       "length": 22,
-      "width": 5,
+      "width": 7.5,
       "thickness": 3,
       "tip_x": 0,
       "connected_to": "2mm frame bottom rail; curved back directly contacts raised strap, R1 outer tip round",
@@ -308,19 +308,20 @@
     },
     "top_crown": {
       "source": "default",
-      "width_mm": 30,
+      "width_mm": 45,
       "rise_mm": 3,
-      "plan_end_radius_mm": 15,
+      "plan_end_radius_mm": 22.5,
       "end_center_y_mm": 10,
       "front_transition_y_mm": -40,
       "max_z_mm": 195,
-      "profile": "single inclined plane, Y-40/Z192 to Y25/Z195, continuing through semicircular plan end; no horizontal cap",
+      "profile": "single inclined plane Y-40/Z192 to Y32.5/Z195 through semicircular end; no horizontal cap; front outer bend R1.5",
       "base_outward_mm": 2,
-      "incline_run_mm": 65
+      "incline_run_mm": 72.5
     },
     "bottom_thickness": 1,
     "outward_extra_mm": 2,
-    "base_transition_height_mm": 4
+    "base_transition_height_mm": 4,
+    "front_top_bend_radius_mm": 1.5
   },
   "magnets": {
     "diameter": 7,
@@ -351,13 +352,13 @@
     "source": "default"
   },
   "verification": {
-    "closed_interference": "revision752f4a2:378pairs, zero intersections; binding-thickening-check.json",
+    "closed_interference": "revisionb7d1d32:378pairs, zero intersections; binding-width-round-check.json",
     "motion": "design/archive_handbag/verification/lid-interface-check.json",
     "swivel": "design/archive_handbag/verification/swivel-check.json",
     "payload_kg": 2,
     "physical_load_test": "not_performed",
     "continuous_sweep_proof": false,
-    "motion_status": "revision752f4a2: changed binding/buckle envelopes against opening components0..100deg every5deg passed; bottom volume difference0; contact<1e-5mm",
+    "motion_status": "revisionb7d1d32: changed binding/buckle envelopes0..100deg every5deg passed; original bottom30mm-wide core volume unchanged; buckle back contact<1e-5mm",
     "surface_contact": "design/archive_handbag/verification/integral-panel-contact-check.json",
     "nominal_envelope_note": "Nominal body220x120x190 retained. User-requested raised binding/decor extends outside it; top peak Z195. Historical overall-envelope numbers are not this revision measurements.",
     "opening_tests": 3024,
@@ -369,7 +370,8 @@
     "inlays": "design/archive_handbag/verification/inlay-check.json",
     "side_integration": "design/archive_handbag/verification/lid-interface-check.json",
     "historical_geometry_build": 315,
-    "binding_thickening": "design/archive_handbag/verification/binding-thickening-check.json"
+    "binding_thickening": "design/archive_handbag/verification/binding-thickening-check.json",
+    "binding_width_round": "design/archive_handbag/verification/binding-width-round-check.json"
   },
   "unresolved_items": [],
   "risks": [
@@ -455,15 +457,15 @@
   },
   "top_binding_rounded_crown": {
     "source": "default",
-    "width_mm": 30,
+    "width_mm": 45,
     "rise_mm": 3,
-    "plan_end_radius_mm": 15,
+    "plan_end_radius_mm": 22.5,
     "end_center_y_mm": 10,
     "front_transition_y_mm": -40,
     "max_z_mm": 195,
-    "profile": "single inclined plane, Y-40/Z192 to Y25/Z195, continuing through semicircular plan end; no horizontal cap",
+    "profile": "single inclined plane Y-40/Z192 to Y32.5/Z195 through semicircular end; no horizontal cap; front outer bend R1.5",
     "base_outward_mm": 2,
-    "incline_run_mm": 65
+    "incline_run_mm": 72.5
   },
   "side_panel_symmetry": {
     "source": "user",
@@ -579,12 +581,20 @@
     "extra_outward_mm": 1,
     "tongue_total_thickness_mm": 3,
     "frame_thickness_mm": 2,
-    "width_mm": 5,
+    "width_mm": 7.5,
     "height_mm": 22,
     "back_surface_unchanged": false,
     "hidden_peg_unchanged": false,
     "tip_round_radius_mm": 1,
     "back_outward_translation_mm": 2,
     "peg_projection_mm": 4
+  },
+  "binding_widths": {
+    "source": "default",
+    "strap_mm": 45,
+    "buckle_mm": 63,
+    "tongue_mm": 7.5,
+    "recess_mm": 45,
+    "gain": 1.5
   }
 }
