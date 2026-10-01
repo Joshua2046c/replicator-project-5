@@ -1,3 +1,7 @@
+
+# Overall height drives the existing 190mm design basis; stock thickness and hardware stay unchanged.
+height_ratio=param('case_height',152.0)/190.0
+# cell: body
 W=param('case_width',220.0);H=param('body_height',128.0);floor=param('body_floor',4.0)
 wall=param('body_wall',6.0);hy=param('body_hinge_y',60.5);hz=param('body_hinge_z',128.0);hr=param('body_hinge_radius',3.8);bore=param('body_hinge_bore',4.4)
 px=param('body_panel_center_x',108.0);slot=param('body_slot_thickness',4.6)
@@ -8,6 +12,8 @@ bw=param('body_band_width',30.0);bt=param('body_band_depth',1.0);bend=param('bod
 hc=param('body_axle_head_clearance',0.4)
 py=param('body_peg_y',52.0);pw=param('body_peg_socket_width',4.4);pd=param('body_peg_socket_depth',6.3);pad=param('body_peg_pad_width',10.0);ph=param('body_peg_pad_height',8.0);xs=param('body_peg_outer_x',80.0);ix=param('body_peg_inner_x',40.0)
 c=param('body_outer_chamfer',0.4)
+H*=height_ratio;hz*=height_ratio;boundary*=height_ratio;pitch*=height_ratio
+bend=H-(128.0-bend)
 body=Pos(0,rear_y,(H+floor)/2)*Box(W,wall,H-floor)
 for s in [-1,1]:
  body+=Pos(s*(W/2-lip/2),49,(H+floor)/2)*Box(lip,8,H-floor)

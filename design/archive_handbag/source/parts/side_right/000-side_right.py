@@ -1,3 +1,7 @@
+
+# Overall height drives the existing 190mm design basis; stock thickness and hardware stay unchanged.
+height_ratio=param('case_height',152.0)/190.0
+# cell: side_right
 from math import sqrt
 t=param('side_right_thickness',4.0);d=param('side_right_depth',100.0);h=param('side_right_height',183.4)
 g=param('side_right_groove_depth',0.45);gw=param('side_right_groove_width',1.0)
@@ -9,6 +13,18 @@ upperbase=param('side_right_upper_book_base',124.6);uppertop=param('side_right_u
 R=param('spine_common_radius',88.33333333333333);ey=param('side_right_spine_end_y',-51.0);c=param('side_right_outer_chamfer',0.4)
 lap=param('spine_lap_rear_y',-47.5)
 gap=param('side_right_front_clearance',0.3)
+
+# Preserve the existing spine sag while shortening its chord.
+sag_basis=R-sqrt(R*R-32.0**2)
+R=(32.0*height_ratio)**2/(2*sag_basis)+sag_basis/2
+h=190.0*height_ratio-(190.0-h)
+bz=190.0*height_ratio-(190.0-(bz+4))-4
+b1=(b1+4)*height_ratio-4;b2=(b2+4)*height_ratio-4
+start=(rz+4)*height_ratio-4+(start-rz)
+rz=(rz+4)*height_ratio-4
+upperbase=(128.0*height_ratio+0.6-4)+(upperbase-124.6)
+uppertop=190.0*height_ratio-4+(uppertop-186)
+pitch*=height_ratio
 front=lap+gap
 # Straight front edge permits upward withdrawal behind the full-width curved spine.
 panel=Pos(0,(front+d/2)/2,0)*Box(t,d/2-front,h,align=(Align.CENTER,Align.CENTER,Align.MIN))

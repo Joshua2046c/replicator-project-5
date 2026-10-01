@@ -44,7 +44,7 @@
       "source": "default"
     },
     "hinge_layout": {
-      "value": "轴心Y63 Z128，轴孔4.4；一端预成头的Ø4金属轴侧向插入，另一端装配后铆接，无螺钉止挡；需验证轴体与预成头全路径。",
+      "value": "轴心Y63 Z102.4，轴孔4.4；一端预成头的Ø4金属轴侧向插入，另一端装配后铆接，无螺钉止挡；需验证轴体与预成头全路径。",
       "source": "default"
     },
     "magnet_quantity": {
@@ -75,7 +75,7 @@
       "value": {
         "width": 185,
         "depth": 125,
-        "height": 190,
+        "height": 152,
         "excludes": "外凸连接环及用户自装背带"
       },
       "source": "default"
@@ -166,10 +166,10 @@
     },
     "page_layout": {
       "value": {
-        "pitch_mm": 6,
+        "pitch_mm": 4.8,
         "cover_band_mm": 4,
         "grooves_per_book": 9,
-        "shared_spine_radius_mm": 88.33333333333333
+        "shared_spine_radius_mm": 57.613333333333344
       },
       "source": "default"
     },
@@ -214,12 +214,12 @@
     },
     "raised_details_dimensions": {
       "value": {
-        "tongue_length_mm": 22,
+        "tongue_length_mm": 17.6,
         "tongue_width_mm": 7.5,
         "tongue_thickness_mm": 3,
         "tongue_tip_relief_mm": 0,
-        "tongue_root_z_mm": 78,
-        "tongue_tip_z_mm": 100,
+        "tongue_root_z_mm": 62.4,
+        "tongue_tip_z_mm": 80,
         "top_crown_peak_y_mm": 10,
         "top_crown_front_transition_y_mm": -42.5,
         "outer_edge_chamfer_mm": 0.4,
@@ -253,14 +253,14 @@
         "nameplate_center_xyz_mm": [
           -57.5,
           4,
-          190
+          152
         ],
         "nameplate_pocket_depth_mm": 1,
         "nameplate_roof_floor_mm": 1.2,
         "spine_pieces": 6,
         "spine_piece_width_height_mm": [
           3,
-          25
+          20
         ],
         "spine_pocket_depth_mm": 1.2,
         "spine_embed_mm": 1.1,
@@ -329,7 +329,7 @@
         "socket_depth_from_strap_face_mm": 4.2,
         "center_xz_mm": [
           0,
-          96
+          76.8
         ],
         "spine_floor_mm": 1.3,
         "metal_front_min_nominal_mm": 2.7,
@@ -361,7 +361,7 @@
         "base_transition_height_mm": 4,
         "metal_frame_thickness_mm": 2,
         "tongue_thickness_mm": 3,
-        "top_peak_z_mm": 195
+        "top_peak_z_mm": 157
       }
     },
     "top_binding_slope_dimensions": {
@@ -369,8 +369,8 @@
       "value": {
         "start_y_mm": -42.5,
         "end_y_mm": 32.5,
-        "start_z_mm": 192,
-        "end_z_mm": 195,
+        "start_z_mm": 154,
+        "end_z_mm": 157,
         "rise_mm": 3,
         "run_mm": 75,
         "profile": "single inclined plane through semicircular end"
@@ -437,8 +437,16 @@
       "source": "default"
     },
     "case_height_mm": {
-      "value": 190,
+      "value": 152,
       "source": "user"
+    },
+    "height_reduction_fraction": {
+      "value": 0.2,
+      "source": "user"
+    },
+    "height_reduction_implementation": {
+      "source": "default",
+      "value": "以底面Z0为基准，三层高度同步缩短；下两层各51.2mm，上盖103..152mm。保持书脊鼓起幅度、板厚、五金孔径及装配间隙；金属扣与饰条竖向尺寸乘0.8。"
     }
   },
   "open_questions": []

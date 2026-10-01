@@ -2,7 +2,7 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "按最新俯视红线整体沿前后方向加宽；标称深度取125mm，长边185mm、总高190mm保持，全部配套板件与绑带同步。承载防脱仍未解决。",
+  "summary": "箱体高度按用户要求缩减五分之一至152mm，长边185mm、前后深度125mm；三层书脊、盖、绑带及连接同步。承载防脱仍未解决。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
@@ -261,6 +261,12 @@
       "source": "user_requested",
       "path": "product/references/uploads/20261001T023420144Z-1-mark.png",
       "description": "俯视图红线指示沿前后方向整体加宽，参考相对轮廓比例。"
+    },
+    {
+      "id": "reference_height_reduction",
+      "source": "user_requested",
+      "path": "product/references/uploads/20261001T042638915Z-1-mark.png",
+      "description": "正面框选箱体，要求整体箱体高度缩减五分之一。"
     }
   ],
   "assembly_story": {
@@ -325,7 +331,8 @@
           "reference_tight_buckle_rounded_label",
           "reference_nameplate_aspect",
           "reference_shorten_body",
-          "reference_widen_depth"
+          "reference_widen_depth",
+          "reference_height_reduction"
         ]
       }
     ]

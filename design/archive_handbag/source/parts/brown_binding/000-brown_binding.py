@@ -1,3 +1,7 @@
+
+# Overall height drives the existing 190mm design basis; stock thickness and hardware stay unchanged.
+height_ratio=param('case_height',152.0)/190.0
+# cell: brown_binding
 # cell: brown_binding
 from math import sqrt
 R=param('spine_common_radius',88.33333333333333)
@@ -5,16 +9,21 @@ w=param('lower_binding_width',30.0);t=param('lower_binding_thickness',1.0)
 front=param('lower_binding_front_y',-51.0);rear=param('lower_binding_rear_y',57.0);bottom=param('lower_binding_base_z',0.0);backtop=param('lower_binding_back_top',123.5)
 out=param('central_binding_outward',2.0)
 foot=param('central_binding_base_transition',4.0)
-cy=front+sqrt(R*R-32.0**2)
-band=Pos(0,(front-8+rear)/2,bottom+t/2)*Box(w,rear-front+8,t)&Pos(0,cy,32)*Rot(0,90,0)*Cylinder(R,w)
+
+# Preserve the existing spine sag while shortening its chord.
+sag_basis=R-sqrt(R*R-32.0**2)
+R=(32.0*height_ratio)**2/(2*sag_basis)+sag_basis/2
+backtop=128.0*height_ratio-(128.0-backtop)
+cy=front+sqrt(R*R-(32.0*height_ratio)**2)
+band=Pos(0,(front-8+rear)/2,bottom+t/2)*Box(w,rear-front+8,t)&(Pos(0,cy,32*height_ratio)*Rot(0,90,0)*Cylinder(R,w)+Pos(0,(cy+rear)/2,bottom+t/2)*Box(w,rear-cy,t))
 band+=Pos(0,rear-t/2,backtop/2)*Box(w,t,backtop)
-for z,h in [(32.0,64.0),(96.0,64.0)]:
+for z,h in [(32.0*height_ratio,64.0*height_ratio),(96.0*height_ratio,64.0*height_ratio)]:
  cy=front+sqrt(R*R-h*h/4)
  strip=(Pos(0,cy,z)*Rot(0,90,0)*Cylinder(R,w)-Pos(0,cy+t,z)*Rot(0,90,0)*Cylinder(R,w+2))&Pos(0,front,z)*Box(w,20,h)
  band+=strip
  # Add material outward while keeping the bottom footprint unchanged.
  raised=(Pos(0,cy-out,z)*Rot(0,90,0)*Cylinder(R,w)-Pos(0,cy+t,z)*Rot(0,90,0)*Cylinder(R,w+2))&Pos(0,front-out/2,z)*Box(w,20+out,h)
- if z==32.0:
+ if abs(z-32.0*height_ratio)<1e-6:
   zb=bottom+t
   ya=cy-sqrt(R*R-(zb-z)**2)
   yb=cy-sqrt(R*R-(zb+foot-z)**2)-out
@@ -51,7 +60,8 @@ def refine_spine(shape):
 # Shared hidden square locating interface; all dimensions in mm.
 pegw=param('buckle_mount_peg_width',3.0);pegl=param('buckle_mount_peg_length',2.0)
 pegx=param('buckle_mount_center_x',0.0);pegz=param('buckle_mount_center_z',96.0)
-pegy=front+sqrt(R*R-32.0**2)-sqrt(R*R-(pegz-96.0)**2)
+pegz*=height_ratio
+pegy=front+sqrt(R*R-(32.0*height_ratio)**2)-sqrt(R*R-(pegz-96.0*height_ratio)**2)
 clear=param('buckle_mount_side_clearance',0.15);endgap=param('buckle_mount_end_clearance',0.2)
 socket=Pos(pegx,pegy+(pegl+endgap-out-0.05)/2,pegz)*Box(pegw+2*clear,pegl+endgap+out+0.05,pegw+2*clear)
 band-=socket
@@ -59,6 +69,7 @@ band=refine_spine(band)
 publish('central_binding',band,'连续圆弧贴面带')
 w2=param('upper_binding_width',30.0);t2=param('upper_binding_thickness',1.0);seam=param('upper_binding_front_base',128.6);top=param('upper_binding_top_z',190.0);backbase=param('upper_binding_back_base',134.0);ey=param('upper_binding_front_y',-51.0);ry=param('upper_binding_rear_y',57.0)
 out2=param('upper_binding_outward',2.0)
+seam=128.0*height_ratio+(seam-128.0);top*=height_ratio;backbase=128.0*height_ratio+(backbase-128.0)
 h=top-seam;z=(top+seam)/2;cy=ey+sqrt(R*R-h*h/4)
 strip=(Pos(0,cy-out2,z)*Rot(0,90,0)*Cylinder(R,w2)-Pos(0,cy+t2,z)*Rot(0,90,0)*Cylinder(R,w2+2))&Pos(0,ey-out2/2,z)*Box(w2,20+out2,h)
 strip+=Pos(0,(ey+ry)/2,top+(out2-t2)/2)*Box(w2,ry-ey+2*out2,t2+out2)

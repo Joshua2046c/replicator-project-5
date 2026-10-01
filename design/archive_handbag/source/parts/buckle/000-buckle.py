@@ -1,3 +1,7 @@
+
+# Overall height drives the existing 190mm design basis; stock thickness and hardware stay unchanged.
+height_ratio=param('case_height',152.0)/190.0
+# cell: buckle
 from math import sqrt
 w=param('buckle_width',42.0);h=param('buckle_height',44.0);t=param('buckle_thickness',1.0);rim=param('buckle_rim',5.0);r=param('buckle_corner_radius',5.0);z=param('buckle_center_z',100.0)
 tw=param('buckle_tongue_width',5.0);tl=param('buckle_tongue_length',22.0);tz=param('buckle_tongue_center_z',100.0);tx=param('buckle_tongue_tip_x',0.0)
@@ -5,7 +9,12 @@ lift=param('buckle_tongue_relief',0.0) # retained offset parameter; flush contac
 R=param('spine_common_radius',88.33333333333333)
 # Custom metal bottom-rooted half-height tongue; tz is the preserved tip datum.
 out=param('central_binding_outward',2.0)
-H=64.0;ey=-51.0-out;cz=96.0;cy=ey+sqrt(R*R-H*H/4)
+
+# Preserve the existing spine sag while shortening its chord.
+sag_basis=R-sqrt(R*R-32.0**2)
+R=(32.0*height_ratio)**2/(2*sag_basis)+sag_basis/2
+h*=height_ratio;z*=height_ratio;tl*=height_ratio;tz*=height_ratio
+H=64.0*height_ratio;ey=-51.0-out;cz=96.0*height_ratio;cy=ey+sqrt(R*R-H*H/4)
 shell=Pos(0,cy-t,cz)*Rot(0,90,0)*Cylinder(R,w)-Pos(0,cy,cz)*Rot(0,90,0)*Cylinder(R,w+2)
 outline=Pos(0,-70,z)*Rot(90,0,0)*extrude(RectangleRounded(w,h,r)-RectangleRounded(w-2*rim,h-2*rim,max(0.5,r-2)),amount=40,both=True)
 frame=shell&outline&Pos(0,ey-6,z)*Box(w,20,h)
@@ -26,7 +35,8 @@ frame+=tongue
 # Shared hidden square locating interface; all dimensions in mm.
 pegw=param('buckle_mount_peg_width',3.0);pegl=param('buckle_mount_peg_length',2.0)
 pegx=param('buckle_mount_center_x',0.0);pegz=param('buckle_mount_center_z',96.0)
-pegy=-51.0+sqrt(R*R-32.0**2)-sqrt(R*R-(pegz-96.0)**2)
+pegz*=height_ratio
+pegy=-51.0+sqrt(R*R-(32.0*height_ratio)**2)-sqrt(R*R-(pegz-96.0*height_ratio)**2)
 embed=param('buckle_mount_root_embed',0.3)
 frame+=Pos(pegx,pegy+(pegl-out-embed)/2,pegz)*Box(pegw,pegl+out+embed,pegw)
 assert len(frame.solids())==1

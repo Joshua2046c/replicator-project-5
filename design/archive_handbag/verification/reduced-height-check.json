@@ -1,0 +1,479 @@
+{
+  "revision": "654b786c9e1bb429358a68308803ff51198ec9061804788f0f42de8f81557821",
+  "requested_body_length_mm": 185.0,
+  "nominal_depth_mm": 125,
+  "nominal_height_mm": 152,
+  "height_reduction_fraction": 0.2,
+  "step_sha256": "83e143b7b6dd0c1962deacdc35ecfe3fb8148e0515cfee5a959fd77a34ea4f80",
+  "all_valid": true,
+  "objects": 28,
+  "solids": 31,
+  "pairs_screened": 378,
+  "closed_collisions": [],
+  "dimensions": [
+    {
+      "label": "body X span",
+      "actual": 185.0,
+      "expected": 185.0,
+      "passed": true
+    },
+    {
+      "label": "lid X span",
+      "actual": 185.00000000001427,
+      "expected": 185.0,
+      "passed": true
+    },
+    {
+      "label": "blue_spine X span",
+      "actual": 185.00000000000165,
+      "expected": 185.0,
+      "passed": true
+    },
+    {
+      "label": "bottom_panel X span",
+      "actual": 185.00000000000165,
+      "expected": 185.0,
+      "passed": true
+    },
+    {
+      "label": "side_left X center",
+      "actual": -90.5,
+      "expected": -90.5,
+      "passed": true
+    },
+    {
+      "label": "side_right X center",
+      "actual": 90.5,
+      "expected": 90.5,
+      "passed": true
+    },
+    {
+      "label": "nameplate X center",
+      "actual": -57.5,
+      "expected": -57.5,
+      "passed": true
+    },
+    {
+      "label": "nameplate X span",
+      "actual": 22.222222222222,
+      "expected": 22.22222222222222,
+      "passed": true
+    },
+    {
+      "label": "nameplate Y span",
+      "actual": 60.0,
+      "expected": 60,
+      "passed": true
+    },
+    {
+      "label": "nameplate top",
+      "actual": 152.0,
+      "expected": 152,
+      "passed": true
+    },
+    {
+      "label": "nameplate pocket minimum clearance",
+      "actual": 0.09999999999999432,
+      "expected": 0.1,
+      "passed": true
+    },
+    {
+      "label": "buckle width",
+      "actual": 55.00000020000001,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "label": "central_binding width",
+      "actual": 45.0000000000003,
+      "expected": 45,
+      "passed": true
+    },
+    {
+      "label": "upper_binding width",
+      "actual": 45.0000000000008,
+      "expected": 45,
+      "passed": true
+    },
+    {
+      "label": "side_left front lap clearance",
+      "actual": 0.29999999999999716,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "label": "side_right front lap clearance",
+      "actual": 0.29999999999999716,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "label": "side mirror volume difference",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "body_magnet_left X",
+      "actual": -54.5,
+      "expected": -54.5,
+      "passed": true
+    },
+    {
+      "label": "body_magnet_right X",
+      "actual": 54.5,
+      "expected": 54.5,
+      "passed": true
+    },
+    {
+      "label": "lid_magnet_left X",
+      "actual": -54.5,
+      "expected": -54.5,
+      "passed": true
+    },
+    {
+      "label": "lid_magnet_right X",
+      "actual": 54.5,
+      "expected": 54.5,
+      "passed": true
+    },
+    {
+      "label": "peg -60,-49.5 material",
+      "actual": 2.887999999999999,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket -60,-49.5 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg -60,54.5 material",
+      "actual": 2.887999999999999,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket -60,54.5 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg -30,-49.5 material",
+      "actual": 2.8880000000000003,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket -30,-49.5 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg -30,54.5 material",
+      "actual": 2.8880000000000003,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket -30,54.5 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg 30,-49.5 material",
+      "actual": 2.8880000000000003,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket 30,-49.5 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg 30,54.5 material",
+      "actual": 2.8880000000000003,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket 30,54.5 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg 60,-49.5 material",
+      "actual": 2.887999999999999,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket 60,-49.5 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "peg 60,54.5 material",
+      "actual": 2.887999999999999,
+      "expected": 2.888,
+      "passed": true
+    },
+    {
+      "label": "socket 60,54.5 clearance",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "rear outside Y",
+      "actual": 66.8,
+      "expected": 66.8,
+      "passed": true
+    },
+    {
+      "label": "side panel front Y",
+      "actual": -49.7,
+      "expected": -49.7,
+      "passed": true
+    },
+    {
+      "label": "side panel rear Y",
+      "actual": 52.5,
+      "expected": 52.5,
+      "passed": true
+    },
+    {
+      "label": "side panel wall thickness",
+      "actual": 4.000000000000014,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "label": "axle center Y",
+      "actual": 63.0,
+      "expected": 63,
+      "passed": true
+    },
+    {
+      "label": "front spine min Y",
+      "actual": -59.50000000000001,
+      "expected": -59.5,
+      "passed": true
+    },
+    {
+      "label": "base rear face Y",
+      "actual": 59.5,
+      "expected": 59.5,
+      "passed": true
+    },
+    {
+      "label": "buckle tongue back contact",
+      "actual": 3.7227286206387293e-13,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "body_magnet_left Y",
+      "actual": -48.3,
+      "expected": -48.3,
+      "passed": true
+    },
+    {
+      "label": "body_magnet_right Y",
+      "actual": -48.3,
+      "expected": -48.3,
+      "passed": true
+    },
+    {
+      "label": "lid_magnet_left Y",
+      "actual": -48.3,
+      "expected": -48.3,
+      "passed": true
+    },
+    {
+      "label": "lid_magnet_right Y",
+      "actual": -48.3,
+      "expected": -48.3,
+      "passed": true
+    },
+    {
+      "label": "hidden peg material",
+      "actual": 1.5680000000000067,
+      "expected": 1.5679999999999998,
+      "passed": true
+    },
+    {
+      "label": "hidden peg spine socket",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "hidden peg strap socket",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "label": "lid case top",
+      "actual": 152.00000000000003,
+      "expected": 152,
+      "passed": true
+    },
+    {
+      "label": "front lower two books top",
+      "actual": 102.40000010000004,
+      "expected": 102.4,
+      "passed": true
+    },
+    {
+      "label": "side height",
+      "actual": 145.40000000000228,
+      "expected": 145.4,
+      "passed": true
+    },
+    {
+      "label": "buckle height",
+      "actual": 35.200000200001966,
+      "expected": 35.2,
+      "passed": true
+    },
+    {
+      "label": "top binding peak",
+      "actual": 156.99999999999955,
+      "expected": 157,
+      "passed": true
+    },
+    {
+      "label": "nameplate thickness",
+      "actual": 0.9000000000000057,
+      "expected": 0.9,
+      "passed": true
+    },
+    {
+      "label": "body_magnet_left thickness",
+      "actual": 3.0,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "label": "body_magnet_right thickness",
+      "actual": 3.0,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "label": "lid_magnet_left thickness",
+      "actual": 3.0,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "label": "lid_magnet_right thickness",
+      "actual": 3.0,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "label": "green_marks height",
+      "actual": 20.00000000000002,
+      "expected": 20,
+      "passed": true
+    },
+    {
+      "label": "blue_marks height",
+      "actual": 20.000000000000014,
+      "expected": 20,
+      "passed": true
+    },
+    {
+      "label": "pink_marks height",
+      "actual": 20.000000000009734,
+      "expected": 20,
+      "passed": true
+    },
+    {
+      "label": "eye_left height",
+      "actual": 44.0,
+      "expected": 44,
+      "passed": true
+    },
+    {
+      "label": "thumb_screw_left axis Z",
+      "actual": 136.0,
+      "expected": 136,
+      "passed": true
+    },
+    {
+      "label": "eye_right height",
+      "actual": 44.0,
+      "expected": 44,
+      "passed": true
+    },
+    {
+      "label": "thumb_screw_right axis Z",
+      "actual": 136.0,
+      "expected": 136,
+      "passed": true
+    },
+    {
+      "label": "overall X",
+      "actual": 203.0,
+      "expected": 203,
+      "passed": true
+    },
+    {
+      "label": "overall Y",
+      "actual": 131.3,
+      "expected": 131.3,
+      "passed": true
+    },
+    {
+      "label": "overall Z with rings",
+      "actual": 172.0,
+      "expected": 172,
+      "passed": true
+    }
+  ],
+  "opening_angles_deg": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  ],
+  "opening_collisions": [],
+  "extraction_collisions": [],
+  "assembled_envelope_mm": [
+    203.0,
+    131.3,
+    172.0
+  ],
+  "scope": "Exact B-rep closed pose and discrete motion; no continuous sweep or physical load certification.",
+  "passed": true
+}

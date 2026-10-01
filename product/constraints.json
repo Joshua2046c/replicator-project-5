@@ -10,7 +10,7 @@
   "envelope": {
     "width": 185,
     "depth": 125,
-    "height": 190,
+    "height": 152,
     "excluded": "protruding connection-ring assembly and user strap",
     "source": "default"
   },
@@ -18,11 +18,11 @@
     "value": [
       203.0,
       131.3,
-      210.0
+      172.0
     ],
     "source": "research",
-    "evidence": "design/archive_handbag/verification/widened-depth-check.json",
-    "note": "Current closed pose including decor, hinge and rings; nominal185x125x190. Actual external depth131.3 including protrusions."
+    "evidence": "design/archive_handbag/verification/reduced-height-check.json",
+    "note": "Nominal case185x125x152; includes rings, hinge and decor in measured203x131.3x172 envelope."
   },
   "process": {
     "printed_material": "PETG",
@@ -70,7 +70,7 @@
     "dimensions": [
       4,
       102.2,
-      183.4
+      145.4
     ],
     "base_z": 4,
     "guide_width": 4.6,
@@ -87,17 +87,17 @@
     ],
     "bolt_holes_yz": [
       0,
-      174
+      136
     ],
     "bolt_hole_diameter": 4.5,
     "removal": "unload, remove ring hardware including loose nuts/backplates, open100deg, extract upward; no side locking bolts remain",
     "relief": {
       "axis_world_yz": [
         63,
-        128
+        102.4
       ],
       "radius_mm": 112.7,
-      "start_world_z": 128.3,
+      "start_world_z": 102.7,
       "mating_lid_inner_radius_mm": 113,
       "radial_gap_mm": 0.3
     },
@@ -110,15 +110,15 @@
     "profile": "curved",
     "source": "user",
     "lower_heights": [
-      64,
-      64
+      51.2,
+      51.2
     ],
-    "lid_curve_height": 61.4,
+    "lid_curve_height": 49,
     "overall_visual_width": 185,
     "front_one_solid": true,
     "upper_ends_integral_to_lid": true,
-    "shared_radius": 88.33333333333333,
-    "bottom_front_continuation": "same green-spine circle fromZ0 throughZ4; front plate continuesZ4..64",
+    "shared_radius": 57.613333333333344,
+    "bottom_front_continuation": "same green-spine circle fromZ0 throughZ4; front plate continuesZ4..51.2",
     "lower_end_profile": "Spine owns continuous curved face across X−92.5..92.5; rear lapY−50 covers side thickness; side frontY−49.7; inner guide stopsX±88.2."
   },
   "rear": {
@@ -126,52 +126,52 @@
     "outer_face_y": 59.5,
     "page_grooves_match_sides": true,
     "page_depth": 0.45,
-    "page_pitch": 6,
+    "page_pitch": 4.8,
     "page_width": 1,
     "book_seams_z": [
-      64,
-      128
+      51.2,
+      102.4
     ],
     "source": "user",
     "lid_rear_width": 185,
     "corner_grooves_continuous": true,
     "corner_groove_depth": 0.45,
     "upper_page_groove_heights_mm": [
-      135.3,
-      141.3,
-      147.3,
-      153.3,
-      159.3,
-      165.3,
-      171.3,
-      177.3,
-      183.3
+      108.3,
+      113.1,
+      117.9,
+      122.7,
+      127.5,
+      132.3,
+      137.1,
+      141.9,
+      146.7
     ],
     "page_recess": 0.25,
     "cover_band": 4,
     "grooves_per_book": 9,
     "lower_page_groove_heights_mm": [
       [
-        8,
-        14,
-        20,
-        26,
-        32,
-        38,
-        44,
-        50,
-        56
+        6.4,
+        11.2,
+        16.0,
+        20.8,
+        25.6,
+        30.4,
+        35.2,
+        40.0,
+        44.8
       ],
       [
-        72,
-        78,
-        84,
-        90,
-        96,
-        102,
-        108,
-        114,
-        120
+        57.6,
+        62.4,
+        67.2,
+        72.0,
+        76.8,
+        81.6,
+        86.4,
+        91.2,
+        96.0
       ]
     ]
   },
@@ -179,7 +179,7 @@
     "axis": [
       0,
       63,
-      128
+      102.4
     ],
     "axis_direction": "x",
     "shaft_diameter": 4,
@@ -211,12 +211,12 @@
       [
         -92.8,
         0,
-        174
+        136
       ],
       [
         92.8,
         0,
-        174
+        136
       ]
     ],
     "axis_direction": "x",
@@ -286,24 +286,24 @@
     "source": "default",
     "shoulder_strap": "user supplied; not modeled",
     "front_break_z": [
-      128,
-      128.6
+      102.4,
+      103
     ],
     "rear_break_z": [
-      123.5,
-      134
+      97.9,
+      108.4
     ],
     "recess_depth": 1,
     "center_patch_removed": true,
     "buckle_tongue": {
       "source": "default",
-      "length": 22,
+      "length": 17.6,
       "width": 7.5,
       "thickness": 3,
       "tip_x": 0,
       "connected_to": "2mm frame bottom rail; curved back directly contacts raised strap, R1 outer tip round",
-      "root_z": 78,
-      "tip_z": 100,
+      "root_z": 62.4,
+      "tip_z": 80,
       "tip_relief": 0
     },
     "top_crown": {
@@ -313,8 +313,8 @@
       "plan_end_radius_mm": 22.5,
       "end_center_y_mm": 10,
       "front_transition_y_mm": -42.5,
-      "max_z_mm": 195,
-      "profile": "single inclined plane Y-42.5/Z192 to Y32.5/Z195; front outer bend R1.5",
+      "max_z_mm": 157,
+      "profile": "single inclined plane Y-42.5/Z154 to Y32.5/Z157; front outer bendR1.5",
       "base_outward_mm": 2,
       "incline_run_mm": 75
     },
@@ -338,8 +338,8 @@
         -48.3
       ]
     ],
-    "body_magnet_base_z": 124.9,
-    "lid_magnet_base_z": 128.7,
+    "body_magnet_base_z": 99.3,
+    "lid_magnet_base_z": 103.1,
     "face_gap": 0.8,
     "pocket_diameter": 7.3,
     "pocket_depth": 3.2,
@@ -352,15 +352,15 @@
     "source": "default"
   },
   "verification": {
-    "closed_interference": "design/archive_handbag/verification/widened-depth-check.json",
-    "motion": "design/archive_handbag/verification/widened-depth-check.json",
+    "closed_interference": "design/archive_handbag/verification/reduced-height-check.json",
+    "motion": "design/archive_handbag/verification/reduced-height-check.json",
     "swivel": "design/archive_handbag/verification/swivel-check.json",
     "payload_kg": 2,
     "physical_load_test": "not_performed",
     "continuous_sweep_proof": false,
-    "motion_status": "Passed closed378pairs, lid0..100deg every5deg and11side extraction positions per side; discrete checks only.",
+    "motion_status": "Passed378closed pairs, lid0..100deg every5deg, and11side extraction positions per side; discrete only.",
     "surface_contact": "design/archive_handbag/verification/integral-panel-contact-check.json",
-    "nominal_envelope_note": "Nominal185x125x190; depth inferred from user redline; hinge and raised decor excluded. Wall/hardware dimensions unchanged.",
+    "nominal_envelope_note": "Nominal185x125x152; wall and purchased hardware dimensions unchanged.",
     "opening_tests": 2772,
     "revision": "design/archive_handbag/verification/revision-check.json",
     "pin_insertion_sweep_proof": true,
@@ -373,7 +373,8 @@
     "binding_thickening": "design/archive_handbag/verification/binding-thickening-check.json",
     "binding_width_round": "design/archive_handbag/verification/binding-width-round-check.json",
     "shortened_assembly": "design/archive_handbag/verification/shortened-case-check.json",
-    "widened_depth": "design/archive_handbag/verification/widened-depth-check.json"
+    "widened_depth": "design/archive_handbag/verification/widened-depth-check.json",
+    "height_reduction": "design/archive_handbag/verification/reduced-height-check.json"
   },
   "unresolved_items": [],
   "risks": [
@@ -439,14 +440,14 @@
       "nameplate_center_xyz_mm": [
         -57.5,
         4,
-        190
+        152
       ],
       "nameplate_pocket_depth_mm": 1,
       "nameplate_roof_floor_mm": 1.2,
       "spine_pieces": 6,
       "spine_piece_width_height_mm": [
         3,
-        25
+        20
       ],
       "spine_pocket_depth_mm": 1.2,
       "spine_embed_mm": 1.1,
@@ -465,8 +466,8 @@
     "plan_end_radius_mm": 22.5,
     "end_center_y_mm": 10,
     "front_transition_y_mm": -42.5,
-    "max_z_mm": 195,
-    "profile": "single inclined plane Y-42.5/Z192 to Y32.5/Z195; front outer bend R1.5",
+    "max_z_mm": 157,
+    "profile": "single inclined plane Y-42.5/Z154 to Y32.5/Z157; front outer bendR1.5",
     "base_outward_mm": 2,
     "incline_run_mm": 75
   },
@@ -520,7 +521,7 @@
       "socket_depth_from_strap_face_mm": 4.2,
       "center_xz_mm": [
         0,
-        96
+        76.8
       ],
       "spine_floor_mm": 1.3,
       "metal_front_min_nominal_mm": 2.7,
@@ -585,7 +586,7 @@
     "tongue_total_thickness_mm": 3,
     "frame_thickness_mm": 2,
     "width_mm": 7.5,
-    "height_mm": 22,
+    "height_mm": 17.6,
     "back_surface_unchanged": false,
     "hidden_peg_unchanged": false,
     "tip_round_radius_mm": 1,
@@ -644,7 +645,8 @@
     "closed_pairs": 378,
     "opening": "0..100deg every5deg",
     "side_extraction": "11 positions per side with ring hardware removed",
-    "all_dimension_checks_passed": true
+    "all_dimension_checks_passed": true,
+    "scope": "Historical185x125x190 version; current height verification supersedes assembly checks."
   },
   "depth_widening": {
     "request_source": "user",
@@ -654,5 +656,25 @@
     "increase_mm": 29,
     "each_side_mm": 14.5,
     "evidence": "product/references/uploads/20261001T023420144Z-1-mark.png"
+  },
+  "height_reduction": {
+    "source": "user",
+    "fraction": 0.2,
+    "previous_mm": 190,
+    "current_mm": 152,
+    "reference": "product/references/uploads/20261001T042638915Z-1-mark.png",
+    "implementation": "case_height152 drives190mm design basis in each reshaped part; stock thickness, hardware and functional clearances unchanged"
+  },
+  "current_height_verification": {
+    "revision": "654b786c9e1bb429358a68308803ff51198ec9061804788f0f42de8f81557821",
+    "step_sha256": "83e143b7b6dd0c1962deacdc35ecfe3fb8148e0515cfee5a959fd77a34ea4f80",
+    "evidence": "design/archive_handbag/verification/reduced-height-check.json",
+    "status": "passed",
+    "objects": 28,
+    "solids": 31,
+    "closed_pairs": 378,
+    "dimensions_passed": 72,
+    "opening": "0..100deg every5deg",
+    "side_extraction": "11positions per side; ring hardware removed"
   }
 }

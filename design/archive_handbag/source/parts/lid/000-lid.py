@@ -1,3 +1,7 @@
+
+# Overall height drives the existing 190mm design basis; stock thickness and hardware stay unchanged.
+height_ratio=param('case_height',152.0)/190.0
+# cell: lid
 # cell: lid
 from math import sqrt
 w=param('lid_width',220.0);d=param('lid_depth',114.0);height=param('lid_height',61.4);roof=param('lid_roof_thickness',2.2);wall=param('lid_wall',6.0)
@@ -11,6 +15,14 @@ page=param('lid_page_recess',0.25);cover=param('lid_cover_band',4.0);pitch=param
 px=param('lid_panel_center_x',108.0);slot=param('lid_panel_clearance_width',4.6)
 bw=param('lid_band_width',30.0);bt=param('lid_band_recess',1.0);bs=param('lid_band_rear_start',134.0)
 c=param('lid_outer_chamfer',0.4)
+
+# Preserve the existing spine sag while shortening its chord.
+sag_basis=R-sqrt(R*R-32.0**2)
+R=(32.0*height_ratio)**2/(2*sag_basis)+sag_basis/2
+height=(seam+height)*height_ratio-(hz*height_ratio+seam-hz)
+seam=hz*height_ratio+seam-hz
+bs=hz*height_ratio+(bs-hz)
+hz*=height_ratio;pitch*=height_ratio
 frame=Pos(0,hy-55.0,hz-128.0)
 b=seam-hz;top=b+height;sag=R-sqrt(R*R-height*height/4)
 lid=Pos(0,(ey+d/2)/2-hy,top-roof)*Box(w,d/2-ey,roof,align=(Align.CENTER,Align.CENTER,Align.MIN))
@@ -69,8 +81,8 @@ nw=param('nameplate_width',20.0);nl=param('nameplate_length',36.0);nx=param('nam
 nr=param('nameplate_corner_radius',3.0)
 lid-=Pos(nx,ny-hy,top-nd)*extrude(RectangleRounded(nw+2*nc,nl+2*nc,nr+nc),amount=nd+1)
 # Matching pair of curved pink-spine inlay pockets.
-mw=param('pink_marks_bar_width',3.0);mh=param('pink_marks_bar_height',25.0);xx0=param('pink_marks_left_x',-84.0);mp=param('pink_marks_pitch',13.0);mz=param('pink_marks_center_z',159.3)-hz
-md=param('pink_marks_pocket_depth',1.2);mc=param('pink_marks_pocket_clearance',0.15);ms=param('pink_marks_spine_height',61.4);mey=param('pink_marks_end_y',-51.0);mcy=mey+sqrt(R*R-ms*ms/4)-hy
+mw=param('pink_marks_bar_width',3.0);mh=param('pink_marks_bar_height',25.0);xx0=param('pink_marks_left_x',-84.0);mp=param('pink_marks_pitch',13.0);mz=param('pink_marks_center_z',159.3);mz=(mz-159.3)+(seam+height/2)-hz;mh*=height_ratio
+md=param('pink_marks_pocket_depth',1.2);mc=param('pink_marks_pocket_clearance',0.15);ms=param('pink_marks_spine_height',61.4);mey=param('pink_marks_end_y',-51.0);ms=height+(ms-61.4);mcy=mey+sqrt(R*R-ms*ms/4)-hy
 for xx in [xx0,xx0+mp]:
  cut=Pos(xx,mcy,mz)*Rot(0,90,0)*Cylinder(R+2,mw+2*mc)-Pos(xx,mcy,mz)*Rot(0,90,0)*Cylinder(R-md,mw+2*mc+2)
  lid-=cut&Pos(xx,mey-hy,mz)*Box(mw+2*mc,30,mh+2*mc)
