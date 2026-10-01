@@ -44,7 +44,7 @@
       "source": "default"
     },
     "hinge_layout": {
-      "value": "轴心Y48.5 Z128，轴孔4.4；一端预成头的Ø4金属轴侧向插入，另一端装配后铆接，无螺钉止挡；需验证轴体与预成头全路径。",
+      "value": "轴心Y63 Z128，轴孔4.4；一端预成头的Ø4金属轴侧向插入，另一端装配后铆接，无螺钉止挡；需验证轴体与预成头全路径。",
       "source": "default"
     },
     "magnet_quantity": {
@@ -74,11 +74,11 @@
     "envelope_mm": {
       "value": {
         "width": 185,
-        "depth": 96,
+        "depth": 125,
         "height": 190,
         "excludes": "外凸连接环及用户自装背带"
       },
-      "source": "user"
+      "source": "default"
     },
     "payload_kg": {
       "value": 2,
@@ -199,8 +199,8 @@
           30,
           60
         ],
-        "front_y_mm": -35,
-        "rear_y_mm": 40
+        "front_y_mm": -49.5,
+        "rear_y_mm": 54.5
       },
       "source": "default"
     },
@@ -221,7 +221,7 @@
         "tongue_root_z_mm": 78,
         "tongue_tip_z_mm": 100,
         "top_crown_peak_y_mm": 10,
-        "top_crown_front_transition_y_mm": -28,
+        "top_crown_front_transition_y_mm": -42.5,
         "outer_edge_chamfer_mm": 0.4,
         "nominal_body_envelope_retained": true,
         "note": "新增局部装饰凸起按本次明确要求，不缩小原包体来容纳凸起；含装饰及铰链实际包络另列，默认凸起尺寸可调。",
@@ -295,8 +295,8 @@
     "spine_side_lap_dimensions": {
       "source": "default",
       "value": {
-        "spine_rear_lap_y_mm": -35.5,
-        "side_front_y_mm": -35.2,
+        "spine_rear_lap_y_mm": -50,
+        "side_front_y_mm": -49.7,
         "front_gap_mm": 0.3,
         "lateral_gap_mm": 0.3,
         "spine_outer_width_mm": 185
@@ -309,8 +309,8 @@
     "lid_side_clearance": {
       "source": "default",
       "value": {
-        "lid_inner_radius_mm": 84,
-        "side_relief_radius_mm": 83.7,
+        "lid_inner_radius_mm": 113,
+        "side_relief_radius_mm": 112.7,
         "radial_motion_gap_mm": 0.3,
         "reason": "同轴配对避让弧消除局部敞口，保留可开盖的活动间隙；后部页纹保留。"
       }
@@ -367,12 +367,12 @@
     "top_binding_slope_dimensions": {
       "source": "default",
       "value": {
-        "start_y_mm": -28,
+        "start_y_mm": -42.5,
         "end_y_mm": 32.5,
         "start_z_mm": 192,
         "end_z_mm": 195,
         "rise_mm": 3,
-        "run_mm": 60.5,
+        "run_mm": 75,
         "profile": "single inclined plane through semicircular end"
       }
     },
@@ -424,13 +424,21 @@
       "value": 185,
       "source": "user"
     },
-    "thickness_reduction_fraction": {
-      "value": 0.2,
+    "depth_widening": {
+      "value": "按最新俯视红线沿前后方向整体加宽，前后板、上盖、侧板及绑带同步。",
       "source": "user"
     },
-    "thickness_direction": {
-      "value": "前后深度（Y方向），120mm减至96mm；长边185mm、叠书总高度190mm保持。按重复减厚指令采用此方向。",
+    "case_depth_mm": {
+      "value": 125,
       "source": "default"
+    },
+    "case_depth_interpretation": {
+      "value": "按红线相对现有轮廓约三分之一的增量，标称96→125mm，两侧各增加14.5mm；非从图片测得的精确毫米数。",
+      "source": "default"
+    },
+    "case_height_mm": {
+      "value": 190,
+      "source": "user"
     }
   },
   "open_questions": []

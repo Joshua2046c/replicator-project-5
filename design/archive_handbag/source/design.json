@@ -220,11 +220,11 @@
       "target": "body",
       "label": "小倒角方孔后板",
       "kind": "generated",
-      "shapeHash": "ea438caeef3e7bedd65c82990ab424d11a063aad4b3b0d629c6b1bf522047900",
+      "shapeHash": "556d8c1aad300d72a485cfd4d69c8af6c574874325b018ca8ec45b293e3da136",
       "transform": {
         "positionMm": [
           0,
-          -12,
+          2.5,
           0
         ],
         "rotationDeg": [
@@ -246,7 +246,7 @@
       "target": "lid",
       "label": "光面端部贴合翻盖",
       "kind": "generated",
-      "shapeHash": "e8f026a2e582bce3646f2ad4742fd88489a7be9f0a02e8a9f4192cb6e7119144",
+      "shapeHash": "cffb8a08b5e3680a422cf2e3fbb48cea4f878c9c683e35583759208e44409297",
       "transform": {
         "positionMm": [
           0,
@@ -272,7 +272,7 @@
       "target": "side_left",
       "label": "镜像内收左书页板",
       "kind": "generated",
-      "shapeHash": "2c6faf7aee66c158ad787f6c306f38467c3d5aecf45adf4705f0bd03c82feb8c",
+      "shapeHash": "6b87c5ab7a5934ef5e0bf1e2a5c0eccef7c55ad85914765e196d6a7722b40f4f",
       "transform": {
         "positionMm": [
           -90.5,
@@ -298,7 +298,7 @@
       "target": "side_right",
       "label": "内收下插右书页板",
       "kind": "generated",
-      "shapeHash": "c00e28894c48f72f99978029ef8517b6536afcc300f729e609f8a66090e55cf3",
+      "shapeHash": "0f1297f09120f12558a0b60576c445c53a93baaf87a5701a10fc6a590d2a4b30",
       "transform": {
         "positionMm": [
           90.5,
@@ -324,11 +324,11 @@
       "target": "book_spines",
       "label": "外包侧板一体书脊",
       "kind": "generated",
-      "shapeHash": "0f4aea69fd8beb9594e9f2cceb558634b7a1ecc595b50eaf7d099080beb015bf",
+      "shapeHash": "a4a13711309655849247270ee6703fa4a788897bf5fe9fd04259404bb4e77498",
       "transform": {
         "positionMm": [
           0,
-          12,
+          -2.5,
           0
         ],
         "rotationDeg": [
@@ -350,7 +350,7 @@
       "target": "brown_binding",
       "label": "连续圆弧贴面带",
       "kind": "generated",
-      "shapeHash": "fcb5e3579fe2e4973e1f7dd87ee413d8d51078d7858970c11ee396763596e7f2",
+      "shapeHash": "cb1474656587fd8c53ab315e687351dbc658f050cadbce5e6619b7f3506346e3",
       "transform": {
         "positionMm": [
           0,
@@ -376,7 +376,7 @@
       "target": "brown_binding",
       "label": "局部半圆端头顶带",
       "kind": "generated",
-      "shapeHash": "22b26813faf106ba987804250648333015689c74a105e3129aef08084d0a68cc",
+      "shapeHash": "86eeaae488ad78a8e518a0fbec3f896250f7a0b2d3c498c2b9d4f6f1956e8d85",
       "transform": {
         "positionMm": [
           0,
@@ -403,11 +403,11 @@
       "label": "贴带曲面金属扣舌",
       "material": "stainless_steel",
       "kind": "generated",
-      "shapeHash": "1345dd675a410c3eeb7a54437fc5b6fc89d6afb91d439c88f9384cae508e2b40",
+      "shapeHash": "1442837b184751f9635291bd421a36e1bd1fe596df16014a6b4c3373c002cd83",
       "transform": {
         "positionMm": [
           0,
-          12,
+          -2.5,
           0
         ],
         "rotationDeg": [
@@ -429,11 +429,11 @@
       "target": "spine_marks",
       "label": "曲面插入书脊饰块",
       "kind": "generated",
-      "shapeHash": "61ea53a671c5b84f67748ac30b06a472f567585b2bf136af3e8eac2e748243bb",
+      "shapeHash": "5a168697f1ba8ad109eb7ca5a0796bf70d2b7e355021d0e1ea9e39d90191920e",
       "transform": {
         "positionMm": [
           17.5,
-          12,
+          -2.5,
           0
         ],
         "rotationDeg": [
@@ -455,11 +455,11 @@
       "target": "spine_marks",
       "label": "曲面插入书脊饰块",
       "kind": "generated",
-      "shapeHash": "019f72b48963a072cb311425a25ad37f2f77092a5a31408bf2110645192c2838",
+      "shapeHash": "20c124bc17ceb0c2ae93c6cb13a7aef7c20e67848350711302e92676ccf194a7",
       "transform": {
         "positionMm": [
           17.5,
-          12,
+          -2.5,
           0
         ],
         "rotationDeg": [
@@ -481,11 +481,11 @@
       "target": "spine_marks",
       "label": "曲面插入书脊饰块",
       "kind": "generated",
-      "shapeHash": "1acbd9c89985c670c61639acbe468e533c5e611ca3f37737170bad3f2d5f6c43",
+      "shapeHash": "47b180ab6a0ba170640fa6e838886ad4088f39b483f77eb9b8082ae97f5dfaea",
       "transform": {
         "positionMm": [
           17.5,
-          12,
+          -2.5,
           0
         ],
         "rotationDeg": [
@@ -715,11 +715,11 @@
       "target": "axle",
       "label": "双铆头金属轴",
       "kind": "generated",
-      "shapeHash": "645aff98a51b3e5e11c4d3a304c37fbaf33507d10e039642d682381d399ecf1a",
+      "shapeHash": "0df89812e816788019ecd56d7576c2dfbc605583512ce3d2ff1c156267705bee",
       "transform": {
         "positionMm": [
           0,
-          48.5,
+          63,
           128
         ],
         "rotationDeg": [
@@ -741,11 +741,11 @@
       "target": "magnet_envelopes",
       "label": "磁铁规格包络7×3",
       "kind": "generated",
-      "shapeHash": "b43a685e477bfc6c75d3cc87f674cde181155fe9279320fdeb1e1182baac2ed4",
+      "shapeHash": "25fd5e8b5da36c98ea13d7ef9829412ad4428cd337aaef6dadb9e7350252710a",
       "transform": {
         "positionMm": [
           17.5,
-          12,
+          -2.5,
           0
         ],
         "rotationDeg": [
@@ -767,11 +767,11 @@
       "target": "magnet_envelopes",
       "label": "磁铁规格包络7×3",
       "kind": "generated",
-      "shapeHash": "6c16938dc28eb49952118dcacef0a5fc989ab63a8ddada2db6adecf5f796c964",
+      "shapeHash": "cbdf158442e50a32933b0d170e9a9c99cdef2ed18a25e84daa9e3cfe237b21b5",
       "transform": {
         "positionMm": [
           -17.5,
-          12,
+          -2.5,
           0
         ],
         "rotationDeg": [
@@ -793,11 +793,11 @@
       "target": "magnet_envelopes",
       "label": "磁铁规格包络7×3",
       "kind": "generated",
-      "shapeHash": "00bc5aa4cbfca349c28b4fd599bdfc523e053dcf74516da356ba30695e600d59",
+      "shapeHash": "c02f30a44f794625ada6d3e1d6c3602c28f428ebb2b9ccc412ce1a347b9027a1",
       "transform": {
         "positionMm": [
           17.5,
-          12,
+          -2.5,
           0
         ],
         "rotationDeg": [
@@ -819,11 +819,11 @@
       "target": "magnet_envelopes",
       "label": "磁铁规格包络7×3",
       "kind": "generated",
-      "shapeHash": "91421b756e49cda962aba427c80e27d084ef5af782cc06e473d21f21e8955332",
+      "shapeHash": "70a682ea52e2045237d31df6ac594c0d0b556edd5398bb88161d1e452308c56e",
       "transform": {
         "positionMm": [
           -17.5,
-          12,
+          -2.5,
           0
         ],
         "rotationDeg": [
@@ -845,7 +845,7 @@
       "target": "bottom_panel",
       "label": "外边小倒角方桩底板",
       "kind": "generated",
-      "shapeHash": "c5e7a2d9a4c38f9561e14da796bfe0c46b63796098f78b7d5b0e4a33fdf92e8c",
+      "shapeHash": "20a3c62236569080e0b359600b217f6b66e61eddc5c3c093ad3f4264d6b9d716",
       "transform": {
         "positionMm": [
           0,
@@ -958,7 +958,7 @@
     }
   ],
   "fits": [],
-  "updatedAt": "2026-09-30T20:10:18.356Z",
+  "updatedAt": "2026-10-01T02:55:05.012Z",
   "parameters": {
     "body": {
       "case_width": 185,
@@ -996,21 +996,21 @@
     },
     "lid": {
       "lid_width": 185,
-      "lid_depth": 90,
+      "lid_depth": 119,
       "lid_height": 61.4,
       "lid_roof_thickness": 2.2,
       "lid_wall": 6,
-      "lid_hinge_y": 48.5,
+      "lid_hinge_y": 63,
       "lid_hinge_z": 128,
       "lid_seam_z": 128.6,
       "lid_barrel_radius": 3.8,
       "lid_bore": 4.4,
       "lid_barrel_length": 58.8,
       "lid_magnet_x": 54.5,
-      "lid_magnet_y": -33.8,
+      "lid_magnet_y": -48.3,
       "lid_rear_width": 185,
       "lid_spine_thickness": 3.5,
-      "lid_spine_end_y": -39,
+      "lid_spine_end_y": -53.5,
       "lid_rear_bottom_relief": 0.6,
       "lid_end_cheek_thickness": 2,
       "lid_page_groove_depth": 0.45,
@@ -1021,7 +1021,7 @@
       "lid_band_width": 45,
       "lid_band_recess": 1,
       "lid_band_rear_start": 134,
-      "lid_cheek_inner_radius": 84,
+      "lid_cheek_inner_radius": 113,
       "lid_groove_pitch": 6,
       "spine_common_radius": 88.33333333333333,
       "lid_page_recess": 0.25,
@@ -1049,16 +1049,16 @@
       "pink_marks_pocket_depth": 1.2,
       "pink_marks_pocket_clearance": 0.15,
       "pink_marks_spine_height": 61.4,
-      "pink_marks_end_y": -39,
+      "pink_marks_end_y": -53.5,
       "spine_surface_max_angle_deg": 2,
-      "spine_lap_rear_y": -35.5,
+      "spine_lap_rear_y": -50,
       "lid_side_page_front_clearance": 0.3,
       "lid_rear_corner_radius": 3,
       "nameplate_corner_radius": 3
     },
     "side_left": {
       "side_left_thickness": 4,
-      "side_left_depth": 76,
+      "side_left_depth": 105,
       "side_left_height": 183.4,
       "side_left_groove_depth": 0.45,
       "side_left_groove_width": 1,
@@ -1069,8 +1069,8 @@
       "side_left_bolt_y": 0,
       "side_left_bolt_z": 170,
       "side_left_bolt_diameter": 4.5,
-      "side_left_relief_radius": 83.7,
-      "side_left_relief_axis_y": 48.5,
+      "side_left_relief_radius": 112.7,
+      "side_left_relief_axis_y": 63,
       "side_left_relief_axis_z": 124,
       "side_left_relief_start_z": 124.3,
       "side_left_page_recess": 0.25,
@@ -1081,12 +1081,12 @@
       "side_left_spine_end_y": -51,
       "side_left_outer_chamfer": 0.4,
       "spine_surface_max_angle_deg": 2,
-      "spine_lap_rear_y": -35.5,
+      "spine_lap_rear_y": -50,
       "side_left_front_clearance": 0.3
     },
     "side_right": {
       "side_right_thickness": 4,
-      "side_right_depth": 76,
+      "side_right_depth": 105,
       "side_right_height": 183.4,
       "side_right_groove_depth": 0.45,
       "side_right_groove_width": 1,
@@ -1097,8 +1097,8 @@
       "side_right_bolt_y": 0,
       "side_right_bolt_z": 170,
       "side_right_bolt_diameter": 4.5,
-      "side_right_relief_radius": 83.7,
-      "side_right_relief_axis_y": 48.5,
+      "side_right_relief_radius": 112.7,
+      "side_right_relief_axis_y": 63,
       "side_right_relief_axis_z": 124,
       "side_right_relief_start_z": 124.3,
       "side_right_page_recess": 0.25,
@@ -1109,7 +1109,7 @@
       "side_right_spine_end_y": -51,
       "side_right_outer_chamfer": 0.4,
       "spine_surface_max_angle_deg": 2,
-      "spine_lap_rear_y": -35.5,
+      "spine_lap_rear_y": -50,
       "side_right_front_clearance": 0.3
     },
     "book_spines": {
@@ -1182,8 +1182,8 @@
     "brown_binding": {
       "lower_binding_width": 45,
       "lower_binding_thickness": 1,
-      "lower_binding_front_y": -39,
-      "lower_binding_rear_y": 45,
+      "lower_binding_front_y": -53.5,
+      "lower_binding_rear_y": 59.5,
       "lower_binding_base_z": 0,
       "lower_binding_back_top": 123.5,
       "upper_binding_width": 45,
@@ -1191,14 +1191,14 @@
       "upper_binding_front_base": 128.6,
       "upper_binding_top_z": 190,
       "upper_binding_back_base": 134,
-      "upper_binding_front_y": -39,
-      "upper_binding_rear_y": 45,
+      "upper_binding_front_y": -53.5,
+      "upper_binding_rear_y": 59.5,
       "spine_common_radius": 88.33333333333333,
       "central_binding_outer_chamfer": 0.4,
       "upper_binding_outer_chamfer": 0.4,
       "upper_binding_crown_radius": 3,
       "upper_binding_crown_y": 10,
-      "upper_binding_transition_front_y": -28,
+      "upper_binding_transition_front_y": -42.5,
       "spine_surface_max_angle_deg": 2,
       "buckle_mount_peg_width": 3,
       "buckle_mount_peg_length": 2,
@@ -1371,18 +1371,18 @@
     },
     "bottom_panel": {
       "bottom_panel_width": 185,
-      "bottom_panel_depth": 90,
+      "bottom_panel_depth": 119,
       "bottom_panel_thickness": 4,
       "bottom_panel_band_width": 45,
       "bottom_panel_band_recess": 1,
       "bottom_panel_joint_half_span": 60,
       "bottom_panel_joint_inner_x": 30,
-      "bottom_panel_front_edge_y": -39,
+      "bottom_panel_front_edge_y": -53.5,
       "spine_common_radius": 88.33333333333333,
       "bottom_panel_spine_height": 64,
       "bottom_panel_spine_center_z": 32,
-      "bottom_panel_peg_front_y": -35,
-      "bottom_panel_peg_rear_y": 40,
+      "bottom_panel_peg_front_y": -49.5,
+      "bottom_panel_peg_rear_y": 54.5,
       "bottom_panel_peg_width": 4,
       "bottom_panel_peg_height": 6,
       "bottom_panel_peg_leadin": 0.4,
