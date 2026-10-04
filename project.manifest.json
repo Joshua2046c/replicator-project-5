@@ -3,5 +3,6 @@
   "name": "压缩包",
   "title": "三层书本造型手提包",
   "summary": "三层书本造型手提包的分件装配模型，用于外观与接口试装，本版干装不能作为可承重成品。",
+  "license": "MIT",
   "artifacts": "rebuild"
 }
