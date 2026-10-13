@@ -1,8 +1,13 @@
 {
   "formatVersion": 4,
   "name": "压缩包",
-  "title": "三层书本造型手提包",
-  "summary": "三层书本造型手提包的分件装配模型，用于外观与接口试装，本版干装不能作为可承重成品。",
+  "title": "压缩包",
+  "summary": "将经典压缩包 logo 变成立体挎包，适合随身收纳小物，也可作为桌面摆件",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Miles"
+    }
+  ],
   "artifacts": "rebuild"
 }
