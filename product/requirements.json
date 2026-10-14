@@ -9,8 +9,8 @@
       "source": "user"
     },
     "lid": {
-      "value": "最顶端粉色书本为翻盖，通过转轴连接并掀开，盖与包体内侧由磁铁吸合",
-      "source": "user"
+      "source": "user",
+      "value": "上盖从侧面方形接缝开启，取消弧形避让接缝；书脊与书面交接线改为内置转轴连接，圆销两端插入独立帽固定，使盖可掀开折叠。"
     },
     "magnet_dimensions_mm": {
       "value": {
@@ -24,15 +24,15 @@
       "source": "user"
     },
     "side_panels": {
-      "value": "左右各一块自上向下沿滑槽插入的侧面书页挡板，不是T形；允许前上角作圆弧避让，保留直接翻盖的开盖方式；一般遮尘与防掉物。",
+      "value": "左右镜像下插书页板，保留原下插配合；恢复方形前上角，取消圆弧避让，上方开盖接缝从书侧方形分界开始。",
       "source": "user"
     },
     "connection_rings": {
-      "value": "挂环保持侧面顶部及整环转动，连接件改为外侧一体手拧螺丝，盖子里面配置对应螺母，不再分离螺杆和外侧手拧螺帽。 外侧手拧螺栓与止推垫片合并成一个零件。",
+      "value": "左右侧板原圆孔各安装一个背带扣，以圆形插销穿接；插销内侧和外侧各设置独立帽件，由用户胶粘在销端。取消原挂环的M4螺丝、螺母、隔套及垫板。",
       "source": "user"
     },
     "prototype_process": {
-      "value": "FDM分件打印，主壳候选PETG，转轴及承重环使用金属五金",
+      "value": "FDM分件试装，主壳、定制背带扣、圆销和销帽默认PETG；后盖铰轴仍为原定制金属件。",
       "source": "default"
     },
     "appearance_details": {
@@ -44,7 +44,7 @@
       "source": "default"
     },
     "hinge_layout": {
-      "value": "轴心Y63 Z102.4，轴孔4.4；一端预成头的Ø4金属轴侧向插入，另一端装配后铆接，无螺钉止挡；需验证轴体与预成头全路径。",
+      "value": "轴心Y63/Z102.4，轴孔Ø4.4；定制Ø4×103.6金属直轴侧向插入，左右独立帽套入胶粘，无一体铆头。帽Ø6.8×3.4，盲孔Ø4.3深2，孔底1.4；轴每端伸入1.8，端隙0.2，径向胶隙0.15；每侧与铰节留1mm轴向活动空间。",
       "source": "default"
     },
     "magnet_quantity": {
@@ -56,11 +56,11 @@
       "source": "default"
     },
     "panel_retention": {
-      "value": "取消侧面新增的小锁定螺丝、螺母及孔；保留原挂环M4连接件和侧板下插结构。",
+      "value": "侧板保持下插结构，不增加小锁定螺丝；背带扣改用圆销和胶粘销帽。",
       "source": "user"
     },
     "ring_load_path": {
-      "value": "挂环M4连接到侧板；侧锁与底螺钉已按要求删除。当前直插方桩和可抽侧板没有可靠防拔锁定，不得把磁吸或装饰胶当承力连接。2kg加自重目标保留但无螺丝承载固定方式尚待解决，本版为几何试装，不可按已承重验证使用。",
+      "value": "背带扣经圆销连接到可抽侧板，内外独立帽粘接销端防脱。帽胶接强度及侧板/底板抗拔仍未实测，2kg加自重目标保留；本版为几何试装，不宣称承载已验证。",
       "source": "default"
     },
     "prototype_validation": {
@@ -89,7 +89,7 @@
       "source": "user"
     },
     "carrying": {
-      "value": "只留拉环孔即可，用户自行安装背带",
+      "value": "左右两侧增加圆销连接的背带扣；用户自行安装背带并粘接内外插销帽。",
       "source": "user"
     },
     "strap_scope": {
@@ -133,7 +133,7 @@
       "source": "user"
     },
     "lid_side_integration": {
-      "value": "上盖两侧小条与盖为一体，取消留在固定前板上的独立窄条。",
+      "value": "上层书脊两侧光面端翼与该书脊一体，书脊通过交接线内侧圆销铰链连接顶面；侧板不再保留弧形开盖缺口。",
       "source": "user"
     },
     "strap_surface_fit": {
@@ -309,10 +309,12 @@
     "lid_side_clearance": {
       "source": "default",
       "value": {
-        "lid_inner_radius_mm": 113,
-        "side_relief_radius_mm": 112.7,
-        "radial_motion_gap_mm": 0.3,
-        "reason": "同轴配对避让弧消除局部敞口，保留可开盖的活动间隙；后部页纹保留。"
+        "side_front_y_mm": -49.7,
+        "fold_spine_rear_y_mm": -50,
+        "straight_seam_gap_mm": 0.3,
+        "roof_bottom_z_mm": 149.8,
+        "side_top_z_mm": 149.4,
+        "roof_gap_mm": 0.4
       }
     },
     "buckle_hidden_mount": {
@@ -447,6 +449,108 @@
     "height_reduction_implementation": {
       "source": "default",
       "value": "以底面Z0为基准，三层高度同步缩短；下两层各51.2mm，上盖103..152mm。保持书脊鼓起幅度、板厚、五金孔径及装配间隙；金属扣与饰条竖向尺寸乘0.8。"
+    },
+    "strap_pin_joint_dimensions": {
+      "value": {
+        "eye_quantity": 2,
+        "eye_width_height_thickness_mm": [
+          36,
+          44,
+          4
+        ],
+        "slot_width_height_mm": [
+          26,
+          18
+        ],
+        "slot_corner_radius_mm": 3,
+        "suggested_strap_width_mm": 25,
+        "pin_quantity": 2,
+        "pin_diameter_mm": 4.1,
+        "pin_length_mm": 12.3,
+        "mating_hole_diameter_mm": 4.5,
+        "caps_per_side": 2,
+        "cap_quantity": 4,
+        "cap_diameter_mm": 12,
+        "cap_thickness_mm": 3,
+        "cap_blind_socket_diameter_mm": 4.4,
+        "cap_blind_socket_depth_mm": 2,
+        "socket_floor_mm": 1,
+        "socket_radial_glue_gap_mm": 0.15,
+        "socket_bottom_gap_mm": 0.2,
+        "eye_panel_gap_mm": 0.3,
+        "cap_eye_gap_mm": 0.2,
+        "cap_panel_gap_mm": 0.2,
+        "axis_y_z_mm": [
+          0,
+          136
+        ],
+        "material": "PETG prototype",
+        "joint_implementation": "free custom cylindrical sliding pin with separately glued blind caps; no screw joint"
+      },
+      "source": "default"
+    },
+    "hinge_pin_caps": {
+      "value": "背部转轴采用独立直圆轴和左右两个独立插帽，轴端插入帽内，沿用背带销帽的盲孔胶粘固定方式。",
+      "source": "user"
+    },
+    "hinge_cap_material": {
+      "value": "独立帽默认PETG试装，直轴保持金属；胶粘剂按PETG与金属相容性试样，未验证防脱强度。",
+      "source": "default"
+    },
+    "folding_lid_dimensions": {
+      "source": "default",
+      "value": {
+        "axis_yz_mm": [
+          -49.85,
+          149
+        ],
+        "barrel_radius_mm": 3,
+        "bore_diameter_mm": 3.4,
+        "central_barrel_length_mm": 58.8,
+        "outer_barrel_length_mm": 52,
+        "outer_barrel_center_x_mm": [
+          -56,
+          56
+        ],
+        "pin_diameter_mm": 3,
+        "pin_length_mm": 169.6,
+        "cap_quantity": 4,
+        "cap_diameter_mm": 5.8,
+        "cap_thickness_mm": 3.4,
+        "socket_diameter_mm": 3.3,
+        "socket_depth_mm": 2,
+        "socket_floor_mm": 1.4,
+        "radial_glue_gap_mm": 0.15,
+        "end_gap_mm": 0.2,
+        "central_radial_clearance_mm": 0.3,
+        "binding_split_gap_mm": 0.3,
+        "initial_outward_relief_deg": 30,
+        "joint_relief": "30-degree local internal edge relief above pivot; square side opening retained; nominal straight datum gap0.3mm",
+        "rear_axis_yz_mm": [
+          53.35,
+          149
+        ],
+        "cap_opening_x_mm": [
+          -83,
+          83
+        ]
+      }
+    },
+    "folding_lid_implementation": {
+      "source": "default",
+      "value": "前后上边各一内铰链，顶盖、前书脊和后书面分别转动；保留下方后铰链。默认两根内销均长169.6mm，端帽位于侧板内侧。取消额外隔片，铰节轴向间隙0.6mm。绑带在两条新折线分段。先在箱外装盖组件，再接原后铰链。"
+    },
+    "upper_hinge_extension": {
+      "value": "前书脊内铰链加长，与上盖另一侧铰链等长；取消轴段间实体隔片，仅留转动间隙。",
+      "source": "user"
+    },
+    "rear_upper_folding_joint": {
+      "value": "后半部书封面与侧面交接处增加与前书脊相同结构的内置圆销铰链，两端独立插帽。",
+      "source": "user"
+    },
+    "lid_straight_hinge_edges": {
+      "value": "删除封面转轴边标注的全部分隔薄片；封面左右两条转轴边保持平直，不留分段避让造成的缺口和台阶。",
+      "source": "user"
     }
   },
   "open_questions": []

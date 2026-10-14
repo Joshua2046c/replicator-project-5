@@ -15,14 +15,11 @@
     "source": "default"
   },
   "assembled_hardware_envelope": {
-    "value": [
-      203.0,
-      131.3,
-      172.0
-    ],
-    "source": "research",
-    "evidence": "design/archive_handbag/verification/reduced-height-check.json",
-    "note": "Nominal case185x125x152; includes rings, hinge and decor in measured203x131.3x172 envelope."
+    "width_mm": 200,
+    "depth_mm": 131.3,
+    "height_mm": 171,
+    "source": "default",
+    "note": "nominal geometry envelope; current exported STEP is authoritative"
   },
   "process": {
     "printed_material": "PETG",
@@ -63,7 +60,7 @@
   },
   "side_panels": {
     "quantity": 2,
-    "outline": "straight front edge recessed behind full-width spine; upper lid relief retained",
+    "outline": "rectangular upper front corner; no circular opening relief",
     "full_height": true,
     "insertion": "downward",
     "source": "user",
@@ -90,17 +87,7 @@
       136
     ],
     "bolt_hole_diameter": 4.5,
-    "removal": "unload, remove ring hardware including loose nuts/backplates, open100deg, extract upward; no side locking bolts remain",
-    "relief": {
-      "axis_world_yz": [
-        63,
-        102.4
-      ],
-      "radius_mm": 112.7,
-      "start_world_z": 102.7,
-      "mating_lid_inner_radius_mm": 113,
-      "radial_gap_mm": 0.3
-    },
+    "removal": "Unload; release rear pin cap and remove lid assembly before upward side-panel extraction; glued strap caps may require replacement if removed.",
     "retention": "no positive pullout restraint; closure is not certified load path",
     "forward_page_extension": "page cuts stop at recessed side-board front edge; no side material on frontal spine",
     "front_y": -49.7,
@@ -183,98 +170,86 @@
     ],
     "axis_direction": "x",
     "shaft_diameter": 4,
-    "shaft_length": 100,
+    "shaft_length": 103.6,
     "bore": 4.4,
     "barrel_radius": 3.8,
     "axial_endplay_each": 1.0,
     "opening_deg": 100,
-    "stops": "integral metal pin heads6x1.4, one preformed and one peened after insertion; no separate retainers or screws",
+    "stops": "two separate blind socket adhesive caps; no integral heads",
     "source": "default",
     "rear_shift_mm": 5.5,
-    "pin_heads": [
-      6,
-      1.4
-    ],
     "shift_from_previous_build_mm": 2.3,
     "axis_outside_rear_face_mm": 3.5,
-    "preformed_head_rear_clearance_mm": 0.5,
     "insertion_minimum_clearance_mm": 0.2,
-    "insertion_method": "one preformed head; second formed after insertion; continuous axial envelope checked"
+    "insertion_method": "bare straight pin inserted axially before either cap is glued",
+    "cap_quantity": 2,
+    "cap_diameter": 6.8,
+    "cap_thickness": 3.4,
+    "cap_socket_diameter": 4.3,
+    "cap_socket_depth": 2,
+    "cap_floor": 1.4,
+    "cap_opening_x": [
+      -50,
+      50
+    ],
+    "cap_glue_radial_gap": 0.15,
+    "cap_end_gap": 0.2,
+    "joint_implementation": "free custom coaxial pin and blind caps",
+    "cap_rear_panel_clearance_mm": 0.1
   },
   "rings": {
-    "quantity": 2,
-    "location": "upper side at marked position",
-    "rotation": true,
-    "fastening": "one-piece exterior metal M4x15 thumb screw into ISO4032 M4 nut bearing on inner steel plate against side panel",
     "source": "user",
+    "quantity": 2,
+    "rotation": true,
+    "fastening": "round sliding pin, independent inner and outer adhesive caps",
     "pivot_centers": [
       [
-        -92.8,
+        -90.5,
         0,
         136
       ],
       [
-        92.8,
+        90.5,
         0,
         136
       ]
     ],
     "axis_direction": "x",
-    "sleeve": [
-      6,
-      4.3,
-      3.6
-    ],
-    "washer": {
-      "separate": false,
-      "integrated_in": "thumb_screw",
-      "diameter_mm": 10,
-      "thickness_mm": 1.4
-    },
-    "eye_plate": [
-      3,
-      28,
-      44
-    ],
-    "eye_outline_z_offset": 14,
-    "strap_opening": [
-      14,
-      24
-    ],
-    "opening_z_offset": 20,
-    "pivot_bore": 6.4,
-    "backplates": [
-      2,
-      11,
-      20
-    ],
-    "axial_clearance_total": 0.6,
-    "radial_clearance": 0.2,
-    "retention": "clamp sleeve, do not loosen screw to swivel; removable thread retention; physical validation pending",
-    "interface_status": "resolved",
     "dimensions_source": "default",
-    "bearing_stack": "1.4mm integral screw flange +3.6mm sleeve +4mm side panel +2mm steel plate +3.2mm nut;0.8mm tip protrusion",
-    "fixed_support": "side panel only; body retention unresolved after user-required removal of side locks",
-    "thumb_screw": {
-      "head_diameter": 10,
-      "head_height": 4,
-      "under_head_length": 15,
-      "head_inner_x": [
-        -97.5,
-        97.5
-      ],
-      "thread": "M4-0.7 nominal metal envelope",
-      "flange_thickness": 1.4,
-      "under_flange_length": 13.6
-    },
-    "inner_nuts": {
-      "spec": "ISO4032 M4-0.7",
-      "af": 7,
-      "height": 3.2,
-      "location": "loose nut at inner steel plate, inside closed lid, not fixed to lid",
-      "inner_x_abs": 83.3,
-      "outer_x_abs": 86.5
-    }
+    "eye_quantity": 2,
+    "eye_width_height_thickness_mm": [
+      36,
+      44,
+      4
+    ],
+    "slot_width_height_mm": [
+      26,
+      18
+    ],
+    "slot_corner_radius_mm": 3,
+    "suggested_strap_width_mm": 25,
+    "pin_quantity": 2,
+    "pin_diameter_mm": 4.1,
+    "pin_length_mm": 12.3,
+    "mating_hole_diameter_mm": 4.5,
+    "caps_per_side": 2,
+    "cap_quantity": 4,
+    "cap_diameter_mm": 12,
+    "cap_thickness_mm": 3,
+    "cap_blind_socket_diameter_mm": 4.4,
+    "cap_blind_socket_depth_mm": 2,
+    "socket_floor_mm": 1,
+    "socket_radial_glue_gap_mm": 0.15,
+    "socket_bottom_gap_mm": 0.2,
+    "eye_panel_gap_mm": 0.3,
+    "cap_eye_gap_mm": 0.2,
+    "cap_panel_gap_mm": 0.2,
+    "axis_y_z_mm": [
+      0,
+      136
+    ],
+    "material": "PETG prototype",
+    "joint_implementation": "free custom cylindrical sliding pin with separately glued blind caps; no screw joint"
   },
   "strap_route": {
     "status": "exported_geometry_verified",
@@ -381,7 +356,7 @@
     {
       "id": "prototype_load",
       "severity": "advisory",
-      "description": "2kg target is not a certified load; test flat metal eye, side axle supports, bottom joints and creep."
+      "description": "2kg target not tested; custom PETG eyes, round pins, cap adhesive and side/bottom retention require physical tests."
     },
     {
       "id": "closure_force",
@@ -396,7 +371,7 @@
     {
       "id": "screwless_pullout",
       "severity": "high",
-      "description": "挂环M4连接到侧板；侧锁与底螺钉已按要求删除。当前直插方桩和可抽侧板没有可靠防拔锁定，不得把磁吸或装饰胶当承力连接。2kg加自重目标保留但无螺丝承载固定方式尚待解决，本版为几何试装，不可按已承重验证使用。"
+      "description": "背带扣经圆销连接到可抽侧板，内外独立帽粘接销端防脱。帽胶接强度及侧板/底板抗拔仍未实测，2kg加自重目标保留；本版为几何试装，不宣称承载已验证。"
     }
   ],
   "flush_cover_edges": {
@@ -497,7 +472,8 @@
     "revision": "4c7a3198ee6d231e7c7b9b032478a00fe219d2f5a472698f2d34e11716f55a5b",
     "step_sha256": "70463f83ee5722ec1b7bb08441fb90b48a21ee8e6d19bdec907d65edb26d9402",
     "evidence": "design/archive_handbag/verification/spine-lap-check.json",
-    "status": "passed"
+    "status": "passed",
+    "scope": "Historical geometry; superseded for current lid motion by folding-lid-check.json."
   },
   "lid_side_finish": {
     "source": "user",
@@ -528,13 +504,6 @@
       "retention": "nonstructural locating peg; adhesive trial required"
     }
   },
-  "ring_integral_flange": {
-    "source": "default",
-    "diameter_mm": 10,
-    "thickness_mm": 1.4,
-    "separate_washer": false,
-    "metal_custom_part": true
-  },
   "historical_lid_interface_verification": {
     "revision": "9f862bf928b727274a8abbf55eff0c45341e6c39bf6afc0e43e8a4c74e2d4263",
     "step_sha256": "1d6f18ed5057f5a0fc4464ffb4d764fcd657b896cb5df4885de330debcbcf4f6",
@@ -550,7 +519,8 @@
     "objects": 28,
     "solids": 31,
     "opening": "0..100 deg, 5 deg increments",
-    "side_extraction": "11 positions per side, ring hardware removed"
+    "side_extraction": "11 positions per side, ring hardware removed",
+    "scope": "Historical geometry; superseded for current lid motion by folding-lid-check.json."
   },
   "upper_binding_surface_sampling": {
     "max_step_deg": 0.32575,
@@ -633,7 +603,8 @@
     "solids": 31,
     "opening": "0..100deg in5deg increments",
     "side_extraction": "11 positions per side after removing ring hardware",
-    "all_dimension_checks_passed": true
+    "all_dimension_checks_passed": true,
+    "scope": "Historical geometry; superseded for current lid motion by folding-lid-check.json."
   },
   "current_depth_verification": {
     "revision": "58b7e9e6bf3c2a6981284176fcc9b193ebc9d6680cabbb8b4d64e93f7657e215",
@@ -675,6 +646,108 @@
     "closed_pairs": 378,
     "dimensions_passed": 72,
     "opening": "0..100deg every5deg",
-    "side_extraction": "11positions per side; ring hardware removed"
+    "side_extraction": "11positions per side; ring hardware removed",
+    "scope": "Historical geometry; superseded for current lid motion by folding-lid-check.json."
+  },
+  "folding_lid": {
+    "axis_yz_mm": [
+      -49.85,
+      149
+    ],
+    "barrel_radius_mm": 3,
+    "bore_diameter_mm": 3.4,
+    "central_barrel_length_mm": 58.8,
+    "outer_barrel_length_mm": 52,
+    "outer_barrel_center_x_mm": [
+      -56,
+      56
+    ],
+    "pin_diameter_mm": 3,
+    "pin_length_mm": 169.6,
+    "cap_quantity": 4,
+    "cap_diameter_mm": 5.8,
+    "cap_thickness_mm": 3.4,
+    "socket_diameter_mm": 3.3,
+    "socket_depth_mm": 2,
+    "socket_floor_mm": 1.4,
+    "radial_glue_gap_mm": 0.15,
+    "end_gap_mm": 0.2,
+    "central_radial_clearance_mm": 0.3,
+    "binding_split_gap_mm": 0.3,
+    "source": "default",
+    "construction": "前后上边各一内铰链，顶盖、前书脊和后书面分别转动；保留下方后铰链。默认两根内销均长169.6mm，端帽位于侧板内侧。取消额外隔片，铰节轴向间隙0.6mm。绑带在两条新折线分段。先在箱外装盖组件，再接原后铰链。",
+    "assembly": "Assemble front hinge on detached lid before mounting lid to case; glue caps only to shaft ends.",
+    "initial_outward_relief_deg": 30,
+    "joint_relief": "30-degree local internal edge relief above pivot; square side opening retained; nominal straight datum gap0.3mm",
+    "minimum_nominal_knuckle_wall_mm": 1.3,
+    "binding_inner_hinge_relief_radius_mm": 3.3,
+    "shaft_installation": "Continuous axial insertion through full-width concealed relief on detached cover, before placing side panels; caps glued only to ends.",
+    "rear_axis_yz_mm": [
+      53.35,
+      149
+    ],
+    "cap_opening_x_mm": [
+      -83,
+      83
+    ],
+    "opening_sequence_deg": [
+      {
+        "front_outward": 30,
+        "lower_rear": 0,
+        "upper_rear": 0
+      },
+      {
+        "front_outward": 30,
+        "lower_rear": 35,
+        "upper_rear": 0
+      },
+      {
+        "front_outward": -80,
+        "lower_rear": 35,
+        "upper_rear": 0
+      },
+      {
+        "front_outward": -80,
+        "lower_rear": 160,
+        "upper_rear": 0
+      },
+      {
+        "front_outward": -80,
+        "lower_rear": 160,
+        "upper_rear": 80
+      }
+    ]
+  },
+  "current_folding_lid_verification": {
+    "revision": "f01df3646188896c8af600fd8d111ce4a71b599e5ba4b1a8509c842829b17faa",
+    "step_sha256": "36cabfab287364a7ccc3e05433e972312f99869d2aa698a78235e16da7d45fd2",
+    "evidence": "design/archive_handbag/verification/folding-lid-check.json",
+    "status": "passed",
+    "closed_pairs": 406,
+    "poses_checked": 49,
+    "dimension_checks": 24,
+    "method": "Exact boolean checks on STEP with same-domain surface cleanup; 5-degree sampled motion and continuous straight-pin insertion envelope on detached lid.",
+    "limitations": "Sampling is not continuous kinematic proof. Physical fit, adhesive retention and load not tested.",
+    "scope": "Historical two-piece lid; superseded by dual-folding-lid-check.json for the present three-piece lid."
+  },
+  "current_dual_folding_lid_verification": {
+    "revision": "d3de39886157f4b3a990791b99f31d8a24dd58b1b4053e003a0b76d9d458c310",
+    "step_sha256": "df0901188a3be9457706d0e190da7aad092517abd945940168c02f8155b479ec",
+    "evidence": "design/archive_handbag/verification/dual-folding-lid-check.json",
+    "status": "passed",
+    "closed_pairs": 561,
+    "poses_checked": 77,
+    "dimension_and_insertion_checks": 34,
+    "limitations": "Sampled geometry only; printing fit, adhesive retention and service strength untested."
+  },
+  "lid_straight_hinge_edges": {
+    "source": "user",
+    "construction": "continuous R3.3 clearance along both edges; no separator tabs or cap notches; central barrels joined by inward underside webs",
+    "web_thickness_mm": 1.2,
+    "web_reach_mm": 4.3,
+    "verification": "design/archive_handbag/verification/straight-lid-edges-check.json",
+    "checks_passed": 26,
+    "revision": "d3de39886157f4b3a990791b99f31d8a24dd58b1b4053e003a0b76d9d458c310",
+    "step_sha256": "df0901188a3be9457706d0e190da7aad092517abd945940168c02f8155b479ec"
   }
 }

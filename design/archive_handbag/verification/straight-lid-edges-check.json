@@ -1,0 +1,162 @@
+{
+  "revision": "d3de39886157f4b3a990791b99f31d8a24dd58b1b4053e003a0b76d9d458c310",
+  "step_sha256": "df0901188a3be9457706d0e190da7aad092517abd945940168c02f8155b479ec",
+  "checks": [
+    {
+      "name": "constant section y-49.85 x-30",
+      "actual": 0.35784781536980975,
+      "expected": 0.35784781536985055,
+      "passed": true
+    },
+    {
+      "name": "constant section y-49.85 x-56",
+      "actual": 0.3578478153698227,
+      "expected": 0.35784781536985055,
+      "passed": true
+    },
+    {
+      "name": "constant section y-49.85 x-82.5",
+      "actual": 0.3578478153698021,
+      "expected": 0.35784781536985055,
+      "passed": true
+    },
+    {
+      "name": "constant section y-49.85 x-84.9",
+      "actual": 0.3578478153698025,
+      "expected": 0.35784781536985055,
+      "passed": true
+    },
+    {
+      "name": "constant section y-49.85 x-88",
+      "actual": 0.3578478153698024,
+      "expected": 0.35784781536985055,
+      "passed": true
+    },
+    {
+      "name": "constant section y-49.85 x-92",
+      "actual": 0.35784781536980237,
+      "expected": 0.35784781536985055,
+      "passed": true
+    },
+    {
+      "name": "constant section y-49.85 x30",
+      "actual": 0.3578478153698083,
+      "expected": 0.35784781536985055,
+      "passed": true
+    },
+    {
+      "name": "constant section y-49.85 x56",
+      "actual": 0.35784781536985055,
+      "expected": 0.35784781536985055,
+      "passed": true
+    },
+    {
+      "name": "constant section y-49.85 x82.5",
+      "actual": 0.3578478153698408,
+      "expected": 0.35784781536985055,
+      "passed": true
+    },
+    {
+      "name": "constant section y-49.85 x84.9",
+      "actual": 0.3578478153697451,
+      "expected": 0.35784781536985055,
+      "passed": true
+    },
+    {
+      "name": "constant section y-49.85 x88",
+      "actual": 0.3578478153698408,
+      "expected": 0.35784781536985055,
+      "passed": true
+    },
+    {
+      "name": "constant section y-49.85 x92",
+      "actual": 0.3578478153698408,
+      "expected": 0.35784781536985055,
+      "passed": true
+    },
+    {
+      "name": "two straight70mm face edges y-49.85",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "name": "constant section y53.35 x-30",
+      "actual": 0.35784781537016014,
+      "expected": 0.3578478153702001,
+      "passed": true
+    },
+    {
+      "name": "constant section y53.35 x-56",
+      "actual": 0.35784781537017235,
+      "expected": 0.3578478153702001,
+      "passed": true
+    },
+    {
+      "name": "constant section y53.35 x-82.5",
+      "actual": 0.3578478153701513,
+      "expected": 0.3578478153702001,
+      "passed": true
+    },
+    {
+      "name": "constant section y53.35 x-84.9",
+      "actual": 0.3578478153701516,
+      "expected": 0.3578478153702001,
+      "passed": true
+    },
+    {
+      "name": "constant section y53.35 x-88",
+      "actual": 0.3578478153701516,
+      "expected": 0.3578478153702001,
+      "passed": true
+    },
+    {
+      "name": "constant section y53.35 x-92",
+      "actual": 0.35784781537015153,
+      "expected": 0.3578478153702001,
+      "passed": true
+    },
+    {
+      "name": "constant section y53.35 x30",
+      "actual": 0.3578478153701577,
+      "expected": 0.3578478153702001,
+      "passed": true
+    },
+    {
+      "name": "constant section y53.35 x56",
+      "actual": 0.3578478153702001,
+      "expected": 0.3578478153702001,
+      "passed": true
+    },
+    {
+      "name": "constant section y53.35 x82.5",
+      "actual": 0.35784781537019117,
+      "expected": 0.3578478153702001,
+      "passed": true
+    },
+    {
+      "name": "constant section y53.35 x84.9",
+      "actual": 0.3578478153700954,
+      "expected": 0.3578478153702001,
+      "passed": true
+    },
+    {
+      "name": "constant section y53.35 x88",
+      "actual": 0.35784781537019117,
+      "expected": 0.3578478153702001,
+      "passed": true
+    },
+    {
+      "name": "constant section y53.35 x92",
+      "actual": 0.35784781537019117,
+      "expected": 0.3578478153702001,
+      "passed": true
+    },
+    {
+      "name": "two straight70mm face edges y53.35",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    }
+  ]
+}

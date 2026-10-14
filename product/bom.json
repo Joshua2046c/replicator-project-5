@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready_with_mechanical_use_restriction",
   "bom_ready": true,
-  "requirements_digest": "7a688c76d3b9bcb214c842d0d872cf1004dea6a7f1aac6e48bf77a462033a2a3",
+  "requirements_digest": "0a515eddcb101440e6ffd4ea5dd09bd0af5d0a4f90411f580199d702aeef6bf8",
   "items": [
     {
       "id": "body",
@@ -20,93 +20,38 @@
     {
       "id": "lid",
       "role": "lid",
-      "name": "整幅盖背翻盖",
+      "name": "双内轴独立顶盖",
       "quantity": 1,
-      "part_number": "AH-LID-FLUSH",
-      "description": "上盖统一R57.613圆弧，顶面152；一体侧翼与等距页槽、4mm封面带；左右紧凑圆磁铁槽，无盖片/螺钉。 顶部四周和前后竖边区域0.4mm小倒角；装饰顶带另有3mm隆起。 封面增加22.522×60.3、R3.15圆角、深1mm铭牌盲槽，底留1.2mm；粉色书脊两处深1.2mm饰块槽。 前侧光面止于Y−49.7，后方页块凹陷与下方侧板分界齐平；后角页槽贯通；内避让弧R113，与侧板R112.7配对留0.3mm径向活动缝。 后方左右两个外角改为R3mm圆角，页槽随圆角接续。 中央贴带凹槽宽45mm、深1mm，与加宽绑带配套。 主体长边185mm；侧板中心X±90.5，磁铁X±54.5，标签中心X−57.5/Y4。 上盖底面Z103，顶面Z152，弧高49mm。",
+      "part_number": "AH-FOLD-ROOF",
+      "description": "185mm宽顶盖，前后两端各58.8mm中央铰节、Ø3.4孔；两条转轴边贯通R3.3同截面避让，移除分隔片及端帽局部缺口；中央轴套通过内侧1.2mm筋连接。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "上盖长边185mm，磁铁、侧板配合与饰块槽同步外移；前后深度按红线加至125mm，壁厚保持。",
-      "part_identity": "c8f8bda0279ef9fd"
+      "selection_reason": "用户要求两条转轴边平直、删除分隔片；内置轴套、独立插销和两端帽继续保留。"
     },
     {
       "id": "side_panels",
       "role": "sliding_panels",
-      "name": "左右圆弧避让书页插板",
+      "name": "左右方形书页插板",
       "quantity": 2,
       "part_number": "AH-SIDE-RECT",
-      "description": "左右镜像4mm下插书页板，前边直线收至Y−49.7，正面被书脊遮住；侧面页槽、上盖避让及挂环孔保留。 上部避让弧R112.7，与盖R113同轴配合。 前后跨度102.2mm，装配中心为X±90.5。 板高145.4mm，底面Z4，挂环孔中心Z136。",
+      "description": "左右镜像4×102.2×145.4mm下插侧板，底Z4，前边Y−49.7，顶Z149.4；取消圆弧避让，前上角恢复方形。原Ø4.5背带销孔Y0/Z136、下插导边及页纹保留。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "左右板镜像加宽，0.3mm间隙保持，当前中心X±90.5。",
-      "part_identity": "b04ab60e459ffc67"
-    },
-    {
-      "id": "eyeplates",
-      "role": "carry_rings",
-      "name": "侧面可转动挂环",
-      "quantity": 2,
-      "part_number": "AH-SIDE-SWIVEL-304-28x44x3",
-      "description": "304平板28×44×3，穿带孔14×24、轴孔6.4；移至侧面上端Y0 Z136，非厂家模型。 装配轴中心X±92.8，左右各外移10mm。",
-      "source": "default",
-      "procurement_status": "custom_fabrication_required",
-      "required_user_evidence": [],
-      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
-      "part_identity": "2ae855c07d2e942f"
-    },
-    {
-      "id": "backplates",
-      "role": "carry_rings",
-      "name": "侧轴内承力垫板",
-      "quantity": 2,
-      "part_number": "AH-SIDE-PAD-12x20x2",
-      "description": "定制11×20×2钢垫板，直接贴侧板内面，绝对X86.5..88.5，M4通孔4.5；无额外塑料座。",
-      "source": "default",
-      "procurement_status": "external_procurement_required",
-      "required_user_evidence": [],
-      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
-      "part_identity": "e1b33d023ab564bf"
-    },
-    {
-      "id": "ring_bolts",
-      "role": "fastener",
-      "name": "带一体止推法兰的M4手拧螺丝",
-      "quantity": 2,
-      "part_number": "AH-THUMB-M4-L15-HEAD10x4-FLANGE10x1.4",
-      "description": "定制金属手拧螺丝与原Ø10×1.4止推垫片合成单件。Ø10×4头位置X±97.5，螺纹端X±82.5，旧头下长15，法兰底下有效杆长13.6mm；保留隔套、内钢垫板和ISO4032 M4螺母。名义螺纹包络。",
-      "source": "default",
-      "procurement_status": "custom_fabrication_required",
-      "required_user_evidence": [],
-      "selection_reason": "按用户要求将外止推垫片并入定制金属手拧螺丝，隔套独立，原轴向尺寸保持。",
-      "part_identity": "448ecd7a9c749a1c"
-    },
-    {
-      "id": "ring_nuts",
-      "role": "fastener",
-      "name": "内侧M4六角螺母",
-      "quantity": 2,
-      "part_number": "ISO4032-M4-0.7",
-      "description": "ISO4032 M4-0.7，对边7高3.2；位于盖下侧板内侧钢垫板内面，绝对X83.3..86.5。无塑料口袋，装配需扳手托住。",
-      "source": "default",
-      "procurement_status": "external_procurement_required",
-      "required_user_evidence": [],
-      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
-      "part_identity": "e4b12ab87c4e349c"
+      "selection_reason": "与最新方形开盖接缝配套，前端0.3mm及顶面0.4mm装配间隙。"
     },
     {
       "id": "hinge_axle",
       "role": "lid_hinge",
-      "name": "双铆头金属铰轴",
+      "name": "独立直圆金属转轴",
       "quantity": 1,
-      "part_number": "AH-RIVET-PIN-D4-L100-HEAD6",
-      "description": "定制Ø4×100金属轴；预成一端Ø6×1.4头，侧向插入后另一端成形；轴心Y63 Z102.4。装配检查必须使用未铆另一端的轴。",
+      "part_number": "AH-HINGE-PIN-D4-L103.6",
+      "description": "定制Ø4×103.6直金属轴，两端0.2mm导角，无一体铆头；轴心Y63/Z102.4，穿过Ø4.4铰孔后套左右独立盲孔帽。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
-      "part_identity": "6e0755fd54b9cadd"
+      "selection_reason": "按用户要求改为两端独立插帽；端帽胶粘销端，不铆接、不夹紧铰节。"
     },
     {
       "id": "magnets",
@@ -114,7 +59,7 @@
       "name": "圆柱磁铁 Ø7×3",
       "quantity": 4,
       "part_number": "SPEC-N42-7x3",
-      "description": "四颗Ø7×3轴向磁铁；X±54.5 Y−48.3；左右各一对，小圆槽胶粘，取消螺钉盖片；实测保持力和胶粘防脱。 槽Ø7.3深3.2、座Ø11.3高5.4，名义面隙0.8mm。 本体磁铁底Z99.3，上盖磁铁底Z103.1。",
+      "description": "四颗Ø7×3轴向磁铁；X±54.5 Y−48.3；左右各一对，小圆槽胶粘，取消螺钉盖片；实测保持力和胶粘防脱。 槽Ø7.3深3.2、座Ø11.3高5.4，名义面隙0.8mm。 本体磁铁底Z99.3，上盖磁铁底Z103.1。 磁铁占位实体已按用户要求从CAD中移除，原圆槽保留。",
       "source": "default",
       "procurement_status": "external_procurement_required",
       "required_user_evidence": [],
@@ -127,25 +72,11 @@
       "name": "三色弧形书脊与贯穿束带接口",
       "quantity": 1,
       "part_number": "AH-CURVED-BOOK-SET",
-      "description": "宽45mm绑带前、后、顶部向外增厚2mm，主体总厚3mm；底面保留1mm厚、宽度同步45mm，近底端4mm高范围收回。顶带平面半圆R22.5，3mm高差连续斜面从Y−42.5延伸到半圆端头Y32.5，端头无水平平台，最高Z157。定制金属扣框宽55mm、高35.2mm、厚2mm，扣舌7.5×17.6×3mm、顶端外边R1，背面随增厚绑带外移2mm并贴合；3×3方桩总伸出4mm，穿过增厚绑带3.3方孔，原书脊盲孔及插入终点不变，正面无破孔。 顶部前转折横边R1.5mm圆滑过渡。 内开口宽45mm与绑带对齐，无两侧空白条。 随125mm深度加宽前后跨度；正面扣整体Y−2.5mm保持贴带，前后顶部厚3mm、底厚1mm不变。",
+      "description": "宽45mm绑带前、后、顶部向外增厚2mm，主体总厚3mm；底面保留1mm厚、宽度同步45mm，近底端4mm高范围收回。顶带平面半圆R22.5，3mm高差连续斜面从Y−42.5延伸到半圆端头Y32.5，端头无水平平台，最高Z157。定制金属扣框宽55mm、高35.2mm、厚2mm，扣舌7.5×17.6×3mm、顶端外边R1，背面随增厚绑带外移2mm并贴合；3×3方桩总伸出4mm，穿过增厚绑带3.3方孔，原书脊盲孔及插入终点不变，正面无破孔。 顶部前转折横边R1.5mm圆滑过渡。 内开口宽45mm与绑带对齐，无两侧空白条。 随125mm深度加宽前后跨度；正面扣整体Y−2.5mm保持贴带，前后顶部厚3mm、底厚1mm不变。 上层绑带沿Y−49.85和53.35分为前折段、顶面和后折段，留0.3mm缝，不跨越两处内铰链。 前折带上端按30度初始外折做避让，最上缘接缝随厚度加宽，不将运动缝粘死。",
       "source": "default",
       "procurement_status": "custom_fabrication_required",
       "required_user_evidence": [],
-      "selection_reason": "绑带保持45mm宽，按用户要求收窄扣框至55mm使内开口45mm与带面对齐；保留R1.5顶前圆角、底厚1mm和方桩连接。",
-      "part_identity": "cdec688dde151cf0"
-    },
-    {
-      "id": "threadlocker",
-      "role": "assembly",
-      "name": "转环紧固件防松措施",
-      "quantity": 1,
-      "part_number": "SPEC-PIVOT-RETENTION",
-      "description": "金属M4螺纹采用可拆卸防松措施并做见证标记；旋转由光滑隔套实现，手拧螺丝不拧松。样机需验证防松与PETG支座蠕变，未声称已通过。",
-      "source": "default",
-      "procurement_status": "external_procurement_required",
-      "required_user_evidence": [],
-      "selection_reason": "按底边贴带扣舌、渐变顶带及十二外边小倒角修订；方桩、无侧锁和其余五金接口保持。底板及侧板抗拔保持未解决，不宣称2kg提携就绪。",
-      "part_identity": "fa74f27b1e3433f0"
+      "selection_reason": "绑带保持45mm宽，按用户要求收窄扣框至55mm使内开口45mm与带面对齐；保留R1.5顶前圆角、底厚1mm和方桩连接。"
     },
     {
       "id": "decorative_adhesive",
@@ -158,18 +89,6 @@
       "procurement_status": "external_procurement_required",
       "selection_reason": "按本次弧形顶带、封面内嵌铭牌和书脊插入饰块修订；其余已确认接口与未解决的承载防拔限制保持。",
       "part_identity": "4b3be1836c874da6"
-    },
-    {
-      "id": "pivot_sleeves",
-      "role": "carry_rings",
-      "name": "侧轴金属隔套",
-      "quantity": 2,
-      "part_number": "AH-SLEEVE-6-4.3-3.6",
-      "description": "每侧钢隔套Ø6/Ø4.3×3.6，3mm环片总轴向间隙0.6；原外止推垫片已并入手拧螺丝，不再单独制作。",
-      "source": "default",
-      "procurement_status": "custom_fabrication_required",
-      "part_identity": "b9f8509e26ee9815",
-      "selection_reason": "按用户要求将外止推垫片并入定制金属手拧螺丝，隔套独立，原轴向尺寸保持。"
     },
     {
       "id": "magnet_adhesive",
@@ -208,6 +127,114 @@
       "required_user_evidence": [],
       "selection_reason": "饰块与槽中心X−66.5/−53.5，竖向高20mm，保留原嵌入留量。",
       "part_identity": "fdea845afacdaba2"
+    },
+    {
+      "id": "strap_eyes",
+      "role": "carry_rings",
+      "name": "圆销式圆角背带扣",
+      "quantity": 2,
+      "part_number": "AH-STRAP-EYE-36X44X4",
+      "description": "定制PETG试装件，36×44×4，外轮廓R6，边R0.5，穿带口26×18/R3，圆销孔Ø4.5；安装轴Y0/Z136，左右镜像。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "按用户要求采用两侧圆销连接及独立内外胶粘帽；尺寸为披露的试装默认值，承载待验证。"
+    },
+    {
+      "id": "strap_pins",
+      "role": "carry_rings",
+      "name": "背带扣圆形插销",
+      "quantity": 2,
+      "part_number": "AH-STRAP-PIN-D4.1-L12.3",
+      "description": "定制PETG圆销Ø4.1×12.3，双端0.25导角；匹配现有侧板及扣环Ø4.5孔。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "按用户要求采用两侧圆销连接及独立内外胶粘帽；尺寸为披露的试装默认值，承载待验证。"
+    },
+    {
+      "id": "strap_pin_caps",
+      "role": "carry_rings",
+      "name": "独立盲孔插销帽",
+      "quantity": 4,
+      "part_number": "AH-STRAP-CAP-D12-T3-SOCKET4.4X2",
+      "description": "每侧内外各一，Ø12×3、外缘R0.6、盲孔Ø4.4深2，孔底厚1；径向0.15及端部0.2留胶，粘销端而不粘扣环。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "按用户要求采用两侧圆销连接及独立内外胶粘帽；尺寸为披露的试装默认值，承载待验证。"
+    },
+    {
+      "id": "strap_pin_adhesive",
+      "role": "assembly",
+      "name": "圆销及铰轴端帽粘接耗材",
+      "quantity": 1,
+      "part_number": "SPEC-PETG-PIN-CAP-ADHESIVE",
+      "description": "用于背带4个帽、后铰轴2个帽和前后内铰轴4个帽；按PETG/PETG及PETG/金属胶接分别试样。只粘端帽盲孔与轴端，不流入旋转孔。",
+      "source": "default",
+      "procurement_status": "external_procurement_required",
+      "required_user_evidence": [],
+      "selection_reason": "用户采用独立胶粘内外销帽及后铰轴两端插帽。"
+    },
+    {
+      "id": "hinge_pin_caps",
+      "role": "lid_hinge",
+      "name": "转轴独立盲孔插帽",
+      "quantity": 2,
+      "part_number": "AH-HINGE-CAP-D6.8-T3.4-SOCKET4.3X2",
+      "description": "左右各一独立PETG试装帽；Ø6.8×3.4，外缘R0.3，盲孔Ø4.3深2，底厚1.4。轴端伸入1.8，端隙0.2、径向胶隙0.15；帽开口平面X±50，铰节外端X±49，留1mm。 帽缘与后板留0.1mm避让。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "按用户要求将后铰轴两端改为独立插入帽；胶种与固化保持力需试样。"
+    },
+    {
+      "id": "fold_spine",
+      "role": "folding_lid",
+      "name": "内轴折叠上层书脊",
+      "part_number": "AH-FOLD-SPINE",
+      "quantity": 1,
+      "description": "185×49高，R57.6133曲面、壁3.5；两端光面翼后缘Y−50，0.3mm直缝对接方形侧板；两外铰节长52、中心X±56。保留左右磁铁盲槽和两饰块盲槽。 轴线上方内边做30度活动避让，端翼保留圆销穿入的小缺口，装侧板后遮住；不恢复旧大圆弧开口。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "按用户要求制作内置圆销及两端独立插帽的折叠连接。"
+    },
+    {
+      "id": "fold_axle",
+      "role": "folding_lid",
+      "name": "内折叠铰链直圆金属销",
+      "part_number": "AH-FOLD-PIN-D3-L169.6",
+      "quantity": 2,
+      "description": "前后上边各一独立Ø3×169.6金属销，端部0.2导角；轴Y−49.85和53.35/Z149。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "前后内铰链同长，延长到接近上盖两侧，端帽留在侧板内侧。"
+    },
+    {
+      "id": "fold_pin_caps",
+      "role": "folding_lid",
+      "name": "内折叠铰链独立盲孔帽",
+      "part_number": "AH-FOLD-CAP-D5.8-T3.4",
+      "quantity": 4,
+      "description": "独立PETG帽Ø5.8×3.4；盲孔Ø3.3深2，底厚1.4；销端插入1.8，端隙0.2、径向胶隙0.15。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "按用户要求制作内置圆销及两端独立插帽的折叠连接。"
+    },
+    {
+      "id": "rear_fold_cover",
+      "role": "folding_lid",
+      "name": "后书面内轴折叠板",
+      "part_number": "AH-REAR-FOLD-COVER",
+      "quantity": 1,
+      "description": "185mm宽后书面板，保留下部原铰节，上部增加两段52mm轴套，中心X±56，独立贴面带。",
+      "source": "default",
+      "procurement_status": "custom_fabrication_required",
+      "required_user_evidence": [],
+      "selection_reason": "用户要求后半部封面与侧面之间增加同前书脊结构的转轴。"
     }
   ],
   "unresolved_items": [],
@@ -228,24 +255,19 @@
       "description": "FDM导槽及轴孔需先打印校准；普通遮尘非防水。"
     },
     {
-      "id": "thumb_screw_geometry",
-      "severity": "advisory",
-      "description": "外侧一体手拧螺丝和双铆头转轴为明确定制金属几何，不冒称采购实物或厂家STEP。内部螺母采用已核对的ISO4032 M4目录STEP；CAD螺纹简化为名义包络。"
-    },
-    {
       "id": "magnet_adhesive",
       "severity": "advisory",
       "description": "磁铁取消机械防脱盖；胶粘剂SKU未定，使用前须验证PETG及镀层相容性和防脱力。"
     },
     {
-      "id": "envelope_exception",
-      "severity": "advisory",
-      "description": "箱体标称185×125×152mm；125mm深度为此前按红线比例取值。本轮STEP含五金装饰外包络203×131.3×172mm。"
-    },
-    {
       "id": "screwless_retention",
       "severity": "high",
       "description": "几何接口已定义，底方桩每侧0.2间隙且无侧锁，不构成抗拔承载连接。实用2kg提携前必须解决底板及侧板无螺丝保持方式并验证；本轮不得自行加回螺钉或宣称磁吸承重。"
+    },
+    {
+      "id": "strap_pin_caps",
+      "severity": "advisory",
+      "description": "圆销与独立帽为定制PETG试装件，胶接及2kg提携未实测；帽只粘销端，侧板/底板保持限制未解除。"
     }
   ],
   "unresolved_roles": []

@@ -1,0 +1,278 @@
+{
+  "revision": "a1ad74b727b8ecfbac00b82839b035b6cdbaad0cbf9a5116acc9ffe005242169",
+  "step_sha256": "ef79402bf0e4f7aed9ee9f1e4dde873eed2f8acc3c31a622e4e8cf3906df0c79",
+  "checks": [
+    {
+      "name": "new separate objects",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "name": "all assembly objects",
+      "actual": 22,
+      "expected": 22,
+      "passed": true
+    },
+    {
+      "name": "strap_eye_right valid single solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "strap_eye_left valid single solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "strap_pin_right valid single solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "strap_pin_left valid single solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "strap_cap_right_outer valid single solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "strap_cap_right_inner valid single solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "strap_cap_left_outer valid single solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "strap_cap_left_inner valid single solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "assembly extent 0",
+      "actual": 200.0,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "name": "assembly extent 1",
+      "actual": 131.3,
+      "expected": 131.3,
+      "passed": true
+    },
+    {
+      "name": "assembly extent 2",
+      "actual": 171.0,
+      "expected": 171,
+      "passed": true
+    },
+    {
+      "name": "left eye width",
+      "actual": 36.00000000000001,
+      "expected": 36,
+      "passed": true
+    },
+    {
+      "name": "left eye height",
+      "actual": 44.0,
+      "expected": 44,
+      "passed": true
+    },
+    {
+      "name": "left eye thickness",
+      "actual": 4.000000000000014,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "name": "left pin length",
+      "actual": 12.299999999999997,
+      "expected": 12.3,
+      "passed": true
+    },
+    {
+      "name": "left pin diameter",
+      "actual": 4.1,
+      "expected": 4.1,
+      "passed": true
+    },
+    {
+      "name": "left pin to panel radial gap",
+      "actual": 0.19999999999998863,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "left pin to eye radial gap",
+      "actual": 0.19999999999998863,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "left inner cap contact gap",
+      "actual": 0.20000000000000284,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "left inner radial glue gap",
+      "actual": 0.14999999999997726,
+      "expected": 0.15,
+      "passed": true
+    },
+    {
+      "name": "left inner cap thickness",
+      "actual": 3.000000099999994,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "name": "left outer cap contact gap",
+      "actual": 0.20000000000000284,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "left outer radial glue gap",
+      "actual": 0.149999999999974,
+      "expected": 0.15,
+      "passed": true
+    },
+    {
+      "name": "left outer cap thickness",
+      "actual": 3.0,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "name": "left eye panel stand off",
+      "actual": 0.29999999999999716,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "name": "right eye width",
+      "actual": 36.00000000000001,
+      "expected": 36,
+      "passed": true
+    },
+    {
+      "name": "right eye height",
+      "actual": 44.0,
+      "expected": 44,
+      "passed": true
+    },
+    {
+      "name": "right eye thickness",
+      "actual": 4.000000000000014,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "name": "right pin length",
+      "actual": 12.299999999999997,
+      "expected": 12.3,
+      "passed": true
+    },
+    {
+      "name": "right pin diameter",
+      "actual": 4.1,
+      "expected": 4.1,
+      "passed": true
+    },
+    {
+      "name": "right pin to panel radial gap",
+      "actual": 0.19999999999998863,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "right pin to eye radial gap",
+      "actual": 0.19999999999998863,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "right inner cap contact gap",
+      "actual": 0.20000000000000284,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "right inner radial glue gap",
+      "actual": 0.14999999999997726,
+      "expected": 0.15,
+      "passed": true
+    },
+    {
+      "name": "right inner cap thickness",
+      "actual": 3.0,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "name": "right outer cap contact gap",
+      "actual": 0.20000000000000284,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "right outer radial glue gap",
+      "actual": 0.14999999999997726,
+      "expected": 0.15,
+      "passed": true
+    },
+    {
+      "name": "right outer cap thickness",
+      "actual": 3.000000099999994,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "name": "right eye panel stand off",
+      "actual": 0.29999999999999716,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "name": "strap_eye_right exact mirrored counterpart",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "strap_pin_right exact mirrored counterpart",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "strap_cap_right_outer exact mirrored counterpart",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "strap_cap_right_inner exact mirrored counterpart",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    }
+  ],
+  "collisions": [],
+  "limitation": "Discrete geometry checks only: lid 5 degree steps, ring 15 degree steps. No physical adhesive, load or fatigue test. Existing side/bottom pullout limitation remains."
+}

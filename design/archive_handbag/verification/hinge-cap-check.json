@@ -1,0 +1,189 @@
+{
+  "revision": "dacd6974bfa1ae8e6fd55f8eca851a87c66848507885834f40f8fadbb9dc2230",
+  "step_sha256": "f3b91551cb7cb2d1021fb92138aaed69ae5c30fbf15a042337259859eb76ed4b",
+  "checks": [
+    {
+      "name": "assembly object count",
+      "actual": 24,
+      "expected": 24,
+      "passed": true
+    },
+    {
+      "name": "shaft length",
+      "actual": 103.6,
+      "expected": 103.6,
+      "passed": true
+    },
+    {
+      "name": "shaft diameter",
+      "actual": 4.0,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "name": "axle single valid solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "axle common axis Y",
+      "actual": 63.0,
+      "expected": 63,
+      "passed": true
+    },
+    {
+      "name": "axle common axis Z",
+      "actual": 102.4,
+      "expected": 102.4,
+      "passed": true
+    },
+    {
+      "name": "axle rotational invariance",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "hinge_cap_left single valid solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "hinge_cap_left common axis Y",
+      "actual": 63.0,
+      "expected": 63,
+      "passed": true
+    },
+    {
+      "name": "hinge_cap_left common axis Z",
+      "actual": 102.4,
+      "expected": 102.4,
+      "passed": true
+    },
+    {
+      "name": "hinge_cap_left rotational invariance",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "hinge_cap_right single valid solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "hinge_cap_right common axis Y",
+      "actual": 63.0,
+      "expected": 63,
+      "passed": true
+    },
+    {
+      "name": "hinge_cap_right common axis Z",
+      "actual": 102.4,
+      "expected": 102.4,
+      "passed": true
+    },
+    {
+      "name": "hinge_cap_right rotational invariance",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "left cap diameter",
+      "actual": 6.800000000000004,
+      "expected": 6.8,
+      "passed": true
+    },
+    {
+      "name": "left cap thickness",
+      "actual": 3.3999999999999986,
+      "expected": 3.4,
+      "passed": true
+    },
+    {
+      "name": "left radial adhesive gap",
+      "actual": 0.14999999999998656,
+      "expected": 0.15,
+      "passed": true
+    },
+    {
+      "name": "left closed cap floor",
+      "actual": 0.20000000000000095,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "left blind socket empty",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "left cap to rear panel clearance",
+      "actual": 0.10000000000000142,
+      "expected": 0.1,
+      "passed": true
+    },
+    {
+      "name": "left axial endplay",
+      "actual": 1.0,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "right cap diameter",
+      "actual": 6.800000000000004,
+      "expected": 6.8,
+      "passed": true
+    },
+    {
+      "name": "right cap thickness",
+      "actual": 3.3999999999999986,
+      "expected": 3.4,
+      "passed": true
+    },
+    {
+      "name": "right radial adhesive gap",
+      "actual": 0.14999999999998206,
+      "expected": 0.15,
+      "passed": true
+    },
+    {
+      "name": "right closed cap floor",
+      "actual": 0.2000000000000009,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "right blind socket empty",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "right cap to rear panel clearance",
+      "actual": 0.10000000000000142,
+      "expected": 0.1,
+      "passed": true
+    },
+    {
+      "name": "right axial endplay",
+      "actual": 1.0,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "left right cap mirror",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    }
+  ],
+  "collisions": [],
+  "motion_method": "Continuous cylindrical shaft insertion envelope; axisymmetric shaft/caps and coaxial lid imply angle-invariant clearance, checked additionally at 0 and 100 degrees.",
+  "limitation": "Geometry only. Adhesive compatibility and retention strength require physical testing."
+}

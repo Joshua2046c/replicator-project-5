@@ -1,0 +1,20 @@
+# Free custom pin joint: rounded strap eye; local XY profile, pin axis Z.
+w=param('left_strap_eye_width',36.0)
+h=param('left_strap_eye_height',44.0)
+t=param('left_strap_eye_thickness',4.0)
+r=param('left_strap_eye_corner_radius',6.0)
+cy=param('left_strap_eye_profile_center',13.0)
+sw=param('left_strap_eye_slot_width',26.0)
+sh=param('left_strap_eye_slot_height',18.0)
+sy=param('left_strap_eye_slot_center',20.0)
+sr=param('left_strap_eye_slot_radius',3.0)
+bore=param('left_strap_eye_pin_hole',4.5)
+edge=param('left_strap_eye_edge_radius',0.5)
+shape=extrude(Pos(0,cy)*RectangleRounded(w,h,r),amount=t)
+shape-=extrude(Pos(0,sy)*RectangleRounded(sw,sh,sr),amount=t)
+shape-=Cylinder(bore/2,t,align=(Align.CENTER,Align.CENTER,Align.MIN))
+rim=[e for e in shape.edges() if abs(e.bounding_box().size.Z)<1e-6 and not (abs(e.center().Y)<3 and abs(e.center().X)<3)]
+shape=fillet(rim,edge)
+assert shape.is_valid and len(shape.solids())==1
+shape.color=srgb('#76787a')
+publish('strap_eye_left',shape,'左侧背带扣',material='petg')

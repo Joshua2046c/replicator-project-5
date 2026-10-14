@@ -26,7 +26,7 @@
           "target": "lid",
           "order": 0,
           "path": "design/archive_handbag/source/parts/lid/000-lid.py",
-          "sha256": "ba8969b002853a4e4eea8b829b5c259a24317d490bf0b24bd17790f5d9ee0b14"
+          "sha256": "9ae48564951ab5b6e4ce1410a80b3e0dff06a9e1e6277199c8e377c22182416e"
         }
       ],
       "dependencies": []
@@ -40,7 +40,7 @@
           "target": "side_left",
           "order": 0,
           "path": "design/archive_handbag/source/parts/side_left/000-side_left.py",
-          "sha256": "b988b74dacb532067abcf905728d3176bb0eb5d64333cb70e83ac7ebfda3783d"
+          "sha256": "2c2eaae079283f211f54d48bde0ed89b094358d880d90afc9bc18c4fd47dcd3f"
         }
       ],
       "dependencies": []
@@ -54,7 +54,7 @@
           "target": "side_right",
           "order": 0,
           "path": "design/archive_handbag/source/parts/side_right/000-side_right.py",
-          "sha256": "e0ad33093f1291373123a2f760ccf90095f633688219288359ae49b5efed4519"
+          "sha256": "ff7efd9fcec253a8c5e0148792aa11cb118f14e9247d3dd6b878ef44e4d87496"
         }
       ],
       "dependencies": []
@@ -82,7 +82,7 @@
           "target": "brown_binding",
           "order": 0,
           "path": "design/archive_handbag/source/parts/brown_binding/000-brown_binding.py",
-          "sha256": "4ad977dbcf31fdf1e143d7e2f94998333f8ecf841fa09f0a276c3557b3b2871a"
+          "sha256": "18fd482871c9b5358cc514be31dcefcfcd788ba8e88cd80a81f660c976a6f23d"
         }
       ],
       "dependencies": []
@@ -116,20 +116,6 @@
       "dependencies": []
     },
     {
-      "id": "metal_eyes",
-      "label": "metal_eyes",
-      "cells": [
-        {
-          "id": "metal_eyes",
-          "target": "metal_eyes",
-          "order": 0,
-          "path": "design/archive_handbag/source/parts/metal_eyes/000-metal_eyes.py",
-          "sha256": "8debaf406e7045e0aee2e35fc7ecdf1b7aeffa02b95200ed9626542a1b5c0877"
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "axle",
       "label": "axle",
       "cells": [
@@ -138,21 +124,7 @@
           "target": "axle",
           "order": 0,
           "path": "design/archive_handbag/source/parts/axle/000-axle.py",
-          "sha256": "de5de6f9ccc59b451d3bf8f4fe0957afbe35a23455722916a9ae6496eddcf51f"
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "magnet_envelopes",
-      "label": "magnet_envelopes",
-      "cells": [
-        {
-          "id": "magnet_envelopes",
-          "target": "magnet_envelopes",
-          "order": 0,
-          "path": "design/archive_handbag/source/parts/magnet_envelopes/000-magnet_envelopes.py",
-          "sha256": "df21e7ab598b5e012735586e02519682a112ecf915db64919a59ea44d84c82d0"
+          "sha256": "b43795b39bc837b5a138df95d0d17de4e738ac2e0a2bb09dd84759d8bd65ee1c"
         }
       ],
       "dependencies": []
@@ -172,34 +144,6 @@
       "dependencies": []
     },
     {
-      "id": "imports",
-      "label": "imports",
-      "cells": [
-        {
-          "id": "ring_nut_left",
-          "target": "imports",
-          "order": 0,
-          "path": "design/archive_handbag/source/parts/imports/000-ring_nut_left.py",
-          "sha256": "e745cef2822400496698c22579231ae7d53130a976e3f72eac26f360a6f7d83b"
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "right_nut_instance",
-      "label": "right_nut_instance",
-      "cells": [
-        {
-          "id": "right_nut_instance",
-          "target": "right_nut_instance",
-          "order": 0,
-          "path": "design/archive_handbag/source/parts/right_nut_instance/000-right_nut_instance.py",
-          "sha256": "6325abe3d025555b090e207010eb9ea4bc934d08c3291138fbaeb2c2f50116e8"
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "nameplate",
       "label": "nameplate",
       "cells": [
@@ -209,6 +153,258 @@
           "order": 0,
           "path": "design/archive_handbag/source/parts/nameplate/000-nameplate.py",
           "sha256": "1bfd65d2762f566f1325a9e70d2204f0454322637b8e42dd93fdeca5c0c32e48"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "strap_eye_right",
+      "label": "strap_eye_right",
+      "cells": [
+        {
+          "id": "strap_eye_right",
+          "target": "strap_eye_right",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/strap_eye_right/000-strap_eye_right.py",
+          "sha256": "b9adf2aac8b04d547c3bf43eef1f34b271079fac8c96243845ed14103e456e6e"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "strap_eye_left",
+      "label": "strap_eye_left",
+      "cells": [
+        {
+          "id": "strap_eye_left",
+          "target": "strap_eye_left",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/strap_eye_left/000-strap_eye_left.py",
+          "sha256": "c0941519f86b1d607dce3ea573c7ec66896b7d0a45f7236f45c74da809344d57"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "strap_pin_right",
+      "label": "strap_pin_right",
+      "cells": [
+        {
+          "id": "strap_pin_right",
+          "target": "strap_pin_right",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/strap_pin_right/000-strap_pin_right.py",
+          "sha256": "064189c5b12b206a2bc80db1cac1280eabd79d8853460ed9ed3c4953bcb346cc"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "strap_pin_left",
+      "label": "strap_pin_left",
+      "cells": [
+        {
+          "id": "strap_pin_left",
+          "target": "strap_pin_left",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/strap_pin_left/000-strap_pin_left.py",
+          "sha256": "d40d6ad692756450b77c03c787c0c4f802d12f1f5a8f93b90ec077d69e9fdd9a"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "strap_cap_right_outer",
+      "label": "strap_cap_right_outer",
+      "cells": [
+        {
+          "id": "strap_cap_right_outer",
+          "target": "strap_cap_right_outer",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/strap_cap_right_outer/000-strap_cap_right_outer.py",
+          "sha256": "f8a1c350a67ecd04e0596072d5fa0cd3ddfb76cea72527e68b015289f2c76984"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "strap_cap_right_inner",
+      "label": "strap_cap_right_inner",
+      "cells": [
+        {
+          "id": "strap_cap_right_inner",
+          "target": "strap_cap_right_inner",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/strap_cap_right_inner/000-strap_cap_right_inner.py",
+          "sha256": "7e5bf075d2b42b4b5511338059803150c9540d6db8e3c79eb175d599bae90672"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "strap_cap_left_outer",
+      "label": "strap_cap_left_outer",
+      "cells": [
+        {
+          "id": "strap_cap_left_outer",
+          "target": "strap_cap_left_outer",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/strap_cap_left_outer/000-strap_cap_left_outer.py",
+          "sha256": "ea8ac37ccaa9622ba5c876f5a1b09630a9ef20815c6dc175d7d91d35bd442b16"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "strap_cap_left_inner",
+      "label": "strap_cap_left_inner",
+      "cells": [
+        {
+          "id": "strap_cap_left_inner",
+          "target": "strap_cap_left_inner",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/strap_cap_left_inner/000-strap_cap_left_inner.py",
+          "sha256": "8062362433776f92f815df42c5b8860867a09ea13b231676f32547bd7c178926"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "hinge_cap_right",
+      "label": "hinge_cap_right",
+      "cells": [
+        {
+          "id": "hinge_cap_right",
+          "target": "hinge_cap_right",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/hinge_cap_right/000-hinge_cap_right.py",
+          "sha256": "21aaad8ea2f5d6ad9b8976497fc5548399aa24966a693a7ae7242179351a75c6"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "hinge_cap_left",
+      "label": "hinge_cap_left",
+      "cells": [
+        {
+          "id": "hinge_cap_left",
+          "target": "hinge_cap_left",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/hinge_cap_left/000-hinge_cap_left.py",
+          "sha256": "624b9d613688b43af3411b30dd4e6e551548589bb641b1da4ade2d0e06f3790c"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "fold_spine",
+      "label": "fold_spine",
+      "cells": [
+        {
+          "id": "fold_spine",
+          "target": "fold_spine",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/fold_spine/000-fold_spine.py",
+          "sha256": "2c84799daadcbfcd2b4ef124fd572f8cc980059f10f216289e75b810687a7772"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "fold_axle",
+      "label": "fold_axle",
+      "cells": [
+        {
+          "id": "fold_axle",
+          "target": "fold_axle",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/fold_axle/000-fold_axle.py",
+          "sha256": "a9560279547707b900df25d34685a9e650d1f4edb724b6787063e8648f89a107"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "fold_cap_right",
+      "label": "fold_cap_right",
+      "cells": [
+        {
+          "id": "fold_cap_right",
+          "target": "fold_cap_right",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/fold_cap_right/000-fold_cap_right.py",
+          "sha256": "a0352368fda0aa2814ce453db9c84073ec98f588131718485f8d4dd863941cd9"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "fold_cap_left",
+      "label": "fold_cap_left",
+      "cells": [
+        {
+          "id": "fold_cap_left",
+          "target": "fold_cap_left",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/fold_cap_left/000-fold_cap_left.py",
+          "sha256": "9ff42708ddb7c8155db7f70890ec7c9456f7a6688e0aaa9968275cdd6ddf1cbb"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rear_fold_cover",
+      "label": "rear_fold_cover",
+      "cells": [
+        {
+          "id": "rear_fold_cover",
+          "target": "rear_fold_cover",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/rear_fold_cover/000-rear_fold_cover.py",
+          "sha256": "7b8b71e1b2a6c71f347cf440724a5961f840f15a4d4999a838a17dd1a88c0a5a"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rear_fold_axle",
+      "label": "rear_fold_axle",
+      "cells": [
+        {
+          "id": "rear_fold_axle",
+          "target": "rear_fold_axle",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/rear_fold_axle/000-rear_fold_axle.py",
+          "sha256": "5076c6089690941a960b1b7a40f74d0953c7828a85db83bd22e57e1cdc5d60fb"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rear_fold_cap_right",
+      "label": "rear_fold_cap_right",
+      "cells": [
+        {
+          "id": "rear_fold_cap_right",
+          "target": "rear_fold_cap_right",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/rear_fold_cap_right/000-rear_fold_cap_right.py",
+          "sha256": "d9fe5764e06072da389ea7b59659acdfc87346e8e0b36efaf3eaffe54915ede1"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rear_fold_cap_left",
+      "label": "rear_fold_cap_left",
+      "cells": [
+        {
+          "id": "rear_fold_cap_left",
+          "target": "rear_fold_cap_left",
+          "order": 0,
+          "path": "design/archive_handbag/source/parts/rear_fold_cap_left/000-rear_fold_cap_left.py",
+          "sha256": "42eb01139530a5279abcd46c03684236fdd584ae15f023d05a4d06f4e6ae2c33"
         }
       ],
       "dependencies": []
@@ -244,9 +440,10 @@
     {
       "id": "lid",
       "target": "lid",
-      "label": "光面端部贴合翻盖",
+      "label": "双内轴折叠顶盖",
+      "material": "petg",
       "kind": "generated",
-      "shapeHash": "d28788405496d66b3e74a76a51cadad16e137f01de62adc06e6898a3dbb447e4",
+      "shapeHash": "00e83003f0dfd358f9a7b038578b9b534d2caa5c5cfd498cbb4f070ab6a21cf2",
       "transform": {
         "positionMm": [
           0,
@@ -272,7 +469,7 @@
       "target": "side_left",
       "label": "镜像内收左书页板",
       "kind": "generated",
-      "shapeHash": "c8f2a56294b6b1ac43395791345bc4966132b2b047acacaeeab9d11bac865eb1",
+      "shapeHash": "a765e9a979f12388ac44f67789e0b351a9d14e222903093c84667687a11dc961",
       "transform": {
         "positionMm": [
           -90.5,
@@ -298,7 +495,7 @@
       "target": "side_right",
       "label": "内收下插右书页板",
       "kind": "generated",
-      "shapeHash": "15276885056dd4413e43d5df84ed1ed269085c988d8f02f7ef0ce45ad3f7015a",
+      "shapeHash": "ed70c9cb5a03f86a4e43627dd988102d3be4c7246186dedb96e486defc8c92d7",
       "transform": {
         "positionMm": [
           90.5,
@@ -372,11 +569,63 @@
       "datums": []
     },
     {
+      "id": "fold_binding",
+      "target": "brown_binding",
+      "label": "折叠书脊贴面带",
+      "kind": "generated",
+      "shapeHash": "5cafd8a2e07278270f9507deaa70fa3afa5246e01bba169b3ba5c32fe11c08ea",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "rear_fold_binding",
+      "target": "brown_binding",
+      "label": "后折叠书面贴带",
+      "kind": "generated",
+      "shapeHash": "a6e5fd29b20d5715f66955687345bab776ec2feb072816dc2a24dc4df4455a7c",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
       "id": "upper_binding",
       "target": "brown_binding",
-      "label": "局部半圆端头顶带",
+      "label": "顶面独立贴面带",
       "kind": "generated",
-      "shapeHash": "e8936d05716e9dbfbd025aaf8bff941fd00b0e1b9bb32ec70593124ebf0e3e16",
+      "shapeHash": "226d58b35f198781da6faeb138c63cd6c6cf24b035e95a59c27ec83f6505fdf6",
       "transform": {
         "positionMm": [
           0,
@@ -429,7 +678,7 @@
       "target": "spine_marks",
       "label": "曲面插入书脊饰块",
       "kind": "generated",
-      "shapeHash": "f539e3e464210972e2ea301e64266fb3fc02e1cc630cddf0e49899d3edb86aa7",
+      "shapeHash": "c9d0d1253ffa23a2a111b6217144a829e6f0c3366e834fa169d4b95fc509ca1e",
       "transform": {
         "positionMm": [
           17.5,
@@ -455,7 +704,7 @@
       "target": "spine_marks",
       "label": "曲面插入书脊饰块",
       "kind": "generated",
-      "shapeHash": "ede4d202de490c5654d9369d50fbedc4c33688cbb1b71f546adefe9b7cf676f7",
+      "shapeHash": "063c784ef8f257b707e52898de84d36d54252cbe15a40af654b482320380a6d0",
       "transform": {
         "positionMm": [
           17.5,
@@ -481,220 +730,12 @@
       "target": "spine_marks",
       "label": "曲面插入书脊饰块",
       "kind": "generated",
-      "shapeHash": "fbe575e8afd26d291b823c9d7b1d40b14821e0fee75e2f0faf7928344c7d25e5",
+      "shapeHash": "9fc46998a7a4906b896132f937289542ae73d5b85467810d5fc5b924f6f6f148",
       "transform": {
         "positionMm": [
           17.5,
           -2.5,
           0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "backplate_left",
-      "target": "metal_eyes",
-      "label": "侧轴承力垫板",
-      "kind": "generated",
-      "shapeHash": "99ada493e9694a9a40596a57d07cb0d5beab058ba99593cfea98ab66fef4b7c7",
-      "transform": {
-        "positionMm": [
-          17.5,
-          -54,
-          20
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "backplate_right",
-      "target": "metal_eyes",
-      "label": "侧轴承力垫板",
-      "kind": "generated",
-      "shapeHash": "1ccaf35f4ca7bbb5dfff6d9b15e02d41256e09cb5e7db7e835aedf1c998615e3",
-      "transform": {
-        "positionMm": [
-          -17.5,
-          -54,
-          20
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "eye_left",
-      "target": "metal_eyes",
-      "label": "侧装可转挂环",
-      "kind": "generated",
-      "shapeHash": "b48a8e33cee81766d959e70a198f8650dd9290165708bdc017b7cb964ffc958c",
-      "transform": {
-        "positionMm": [
-          17.5,
-          -54,
-          20
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "eye_right",
-      "target": "metal_eyes",
-      "label": "侧装可转挂环",
-      "kind": "generated",
-      "shapeHash": "4b564bb72023ed6df79de1c4c09f6aa65e6a1d05cc15d266edbd54bec885533d",
-      "transform": {
-        "positionMm": [
-          -17.5,
-          -54,
-          20
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "pivot_sleeve_left",
-      "target": "metal_eyes",
-      "label": "侧轴金属隔套",
-      "kind": "generated",
-      "shapeHash": "69f6aa543407bb7b3fa0f0c76c8294bbc138125a5541ff1809ab04d99dbd641a",
-      "transform": {
-        "positionMm": [
-          17.5,
-          -54,
-          20
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "pivot_sleeve_right",
-      "target": "metal_eyes",
-      "label": "侧轴金属隔套",
-      "kind": "generated",
-      "shapeHash": "27fbce17a8e3964b0623cb812b374ad238d0bcab7e4ea3163301c96514e4f460",
-      "transform": {
-        "positionMm": [
-          -17.5,
-          -54,
-          20
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "thumb_screw_left",
-      "target": "metal_eyes",
-      "label": "一体金属手拧螺丝",
-      "kind": "generated",
-      "shapeHash": "d77a051d370d7b6b380d25bbc022fce1a846c54c9a1a7235cd66e547fa77a3e0",
-      "transform": {
-        "positionMm": [
-          17.5,
-          0,
-          -38
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "thumb_screw_right",
-      "target": "metal_eyes",
-      "label": "一体金属手拧螺丝",
-      "kind": "generated",
-      "shapeHash": "8eb693438c5f142cb1c391b8720ad3d993247c279e70d9e3bc7556bd99cf29ca",
-      "transform": {
-        "positionMm": [
-          -17.5,
-          0,
-          -38
         ],
         "rotationDeg": [
           0,
@@ -713,118 +754,15 @@
     {
       "id": "axle",
       "target": "axle",
-      "label": "双铆头金属轴",
+      "label": "独立直圆转轴",
+      "material": "stainless_steel",
       "kind": "generated",
-      "shapeHash": "cf082ef8d260b153d5372ccb5d1389a397b2eb77b0192f644acfc95050d81375",
+      "shapeHash": "7db0e4ffd5453e6fb5a62d65bb105d524a6a6882c8846c7f5c88cbd71c7ce8e8",
       "transform": {
         "positionMm": [
           0,
           63,
           102.4
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "body_magnet_left",
-      "target": "magnet_envelopes",
-      "label": "磁铁规格包络7×3",
-      "kind": "generated",
-      "shapeHash": "dc226c5a046d258eabe6a74db6b9346512af9fdbfb44b2f19b3f531a561dd6e9",
-      "transform": {
-        "positionMm": [
-          17.5,
-          -2.5,
-          -25.6
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "body_magnet_right",
-      "target": "magnet_envelopes",
-      "label": "磁铁规格包络7×3",
-      "kind": "generated",
-      "shapeHash": "bcb151402d6ae2ea16dbc0d979878eaa8cb6e91e0c0fbaac9f449e47fbc2945f",
-      "transform": {
-        "positionMm": [
-          -17.5,
-          -2.5,
-          -25.6
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "lid_magnet_left",
-      "target": "magnet_envelopes",
-      "label": "磁铁规格包络7×3",
-      "kind": "generated",
-      "shapeHash": "e7e88e7251b21fcf898b99c2d7b64e85894c71b3f7b110ac4f1ae7c5c28c6aad",
-      "transform": {
-        "positionMm": [
-          17.5,
-          -2.5,
-          -25.6
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "lid_magnet_right",
-      "target": "magnet_envelopes",
-      "label": "磁铁规格包络7×3",
-      "kind": "generated",
-      "shapeHash": "ddde1ef2a112cc17c85498b8ec4f86bbb09b6266700204ac989c2f1b175debae",
-      "transform": {
-        "positionMm": [
-          -17.5,
-          -2.5,
-          -25.6
         ],
         "rotationDeg": [
           0,
@@ -867,58 +805,6 @@
       "datums": []
     },
     {
-      "id": "ring_nut_left",
-      "target": "imports",
-      "label": "盖下内侧M4螺母",
-      "kind": "imported",
-      "shapeHash": "c803bc824af3612f9d4f25c1b6171e47d14e7fd4373802149944a93f6e4e75df",
-      "transform": {
-        "positionMm": [
-          -86.5,
-          0,
-          136
-        ],
-        "rotationDeg": [
-          0,
-          90,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "ring_nut_right",
-      "target": "right_nut_instance",
-      "label": "盖下内侧M4螺母",
-      "kind": "generated",
-      "shapeHash": "e8386c0af822a0137eec49bfd54dacbadfb95ef1e9c47520de6c1825d387ff3a",
-      "transform": {
-        "positionMm": [
-          -17.5,
-          0,
-          -38
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
       "id": "nameplate",
       "target": "nameplate",
       "label": "封面内嵌空白铭牌",
@@ -943,22 +829,497 @@
         ]
       },
       "datums": []
-    }
-  ],
-  "assets": [
+    },
     {
-      "id": "ring_nut_left",
-      "kind": "step",
-      "path": "design/archive_handbag/source/assets/fc200b5ae3935c689379a698c83428aa651f5d3a401e1ddc2dc04ff80c965c27.step",
-      "sha256": "fc200b5ae3935c689379a698c83428aa651f5d3a401e1ddc2dc04ff80c965c27",
-      "label": "盖下内侧M4螺母",
-      "provenance": {
-        "sourcePath": ".work/cache/cad-catalog/bd-warehouse/d6a679156aab23d85d11c7ca646afa0a3775f3dc58c81a62247c648b563fa9c9.step"
-      }
+      "id": "strap_eye_right",
+      "target": "strap_eye_right",
+      "label": "右侧背带扣",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "478b260a5cbd299f25c07308a03cd68ee96219f54ce07423e2f50a3b62a49c58",
+      "transform": {
+        "positionMm": [
+          92.8,
+          0,
+          136
+        ],
+        "rotationDeg": [
+          0,
+          90,
+          90
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "strap_eye_left",
+      "target": "strap_eye_left",
+      "label": "左侧背带扣",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "fc7de73b8087f7ea282b36e2c7642f8a1849ee57baf8aadfd91b3175f9e36ab5",
+      "transform": {
+        "positionMm": [
+          -92.8,
+          0,
+          136
+        ],
+        "rotationDeg": [
+          0,
+          -90,
+          -90
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "strap_pin_right",
+      "target": "strap_pin_right",
+      "label": "右侧圆形插销",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "80a3f7b037e1a2350357afd46f068330a180efe6bce18985291fa6af21517943",
+      "transform": {
+        "positionMm": [
+          86.5,
+          0,
+          136
+        ],
+        "rotationDeg": [
+          0,
+          90,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "strap_pin_left",
+      "target": "strap_pin_left",
+      "label": "左侧圆形插销",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "af2f0164308b5aa467dbcb72ec395652023902bb6dd49b198b6548aa3c1bd4dd",
+      "transform": {
+        "positionMm": [
+          -86.5,
+          0,
+          136
+        ],
+        "rotationDeg": [
+          0,
+          -90,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "strap_cap_right_outer",
+      "target": "strap_cap_right_outer",
+      "label": "右侧外插销帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "d4fde12e526d53ae603b0c82f010c53d4851734ef2e97ab4396876ed2039fd33",
+      "transform": {
+        "positionMm": [
+          97,
+          0,
+          136
+        ],
+        "rotationDeg": [
+          0,
+          90,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "strap_cap_right_inner",
+      "target": "strap_cap_right_inner",
+      "label": "右侧内插销帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "3001a6772bcef354091719171415417273b95b5a2d33d4ffe016cbbed904b0bc",
+      "transform": {
+        "positionMm": [
+          88.3,
+          0,
+          136
+        ],
+        "rotationDeg": [
+          0,
+          -90,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "strap_cap_left_outer",
+      "target": "strap_cap_left_outer",
+      "label": "左侧外插销帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "3d4502aa166bb65d7cb50bc9fe63bf7dc4f776056750ed39c347b5a3fad07f6b",
+      "transform": {
+        "positionMm": [
+          -97,
+          0,
+          136
+        ],
+        "rotationDeg": [
+          0,
+          -90,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "strap_cap_left_inner",
+      "target": "strap_cap_left_inner",
+      "label": "左侧内插销帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "32c2e4b557c5d8ee94bbf524e6374954916b753eb2c2a2b9776a289de234230e",
+      "transform": {
+        "positionMm": [
+          -88.3,
+          0,
+          136
+        ],
+        "rotationDeg": [
+          0,
+          90,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "hinge_cap_right",
+      "target": "hinge_cap_right",
+      "label": "转轴右端插帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "f215300ccea7e9bdba6b9ca3244fa03221127a49f054269cb3fa1992f1d702eb",
+      "transform": {
+        "positionMm": [
+          50,
+          63,
+          102.4
+        ],
+        "rotationDeg": [
+          0,
+          90,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "hinge_cap_left",
+      "target": "hinge_cap_left",
+      "label": "转轴左端插帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "29722be868ba4b11fc6ab898f96efb22703a3f0cb664db357d38c5a9cde816af",
+      "transform": {
+        "positionMm": [
+          -50,
+          63,
+          102.4
+        ],
+        "rotationDeg": [
+          0,
+          -90,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "fold_spine",
+      "target": "fold_spine",
+      "label": "内轴折叠上层书脊",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "39b90a2899bb0589f245129bac1e3bdc39ec4603afa6a0502e2134f8c908769c",
+      "transform": {
+        "positionMm": [
+          0,
+          -49.85,
+          149
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "fold_axle",
+      "target": "fold_axle",
+      "label": "内折叠铰链独立圆销",
+      "material": "stainless_steel",
+      "kind": "generated",
+      "shapeHash": "4150b5caf42b5a48a94bfea931e295f493250f373d1c91369b9a58965a97c501",
+      "transform": {
+        "positionMm": [
+          0,
+          -49.85,
+          149
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "fold_cap_right",
+      "target": "fold_cap_right",
+      "label": "内折叠铰链右插帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "421847e3d69472a19b06e98fdffe3430302e1883fc7c735362d406196db59fee",
+      "transform": {
+        "positionMm": [
+          83,
+          -49.85,
+          149
+        ],
+        "rotationDeg": [
+          0,
+          90,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "fold_cap_left",
+      "target": "fold_cap_left",
+      "label": "内折叠铰链左插帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "78fbe813f99cb0e0193c958f86d1a1cd4376c468fef9789a456fd0255091ab2a",
+      "transform": {
+        "positionMm": [
+          -83,
+          -49.85,
+          149
+        ],
+        "rotationDeg": [
+          0,
+          -90,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "rear_fold_cover",
+      "target": "rear_fold_cover",
+      "label": "后书面内轴折叠板",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "d27341f3c9bed5ebbf6f59c113c9df53ef5fec9e22fd0bb36e9cd33e86bf2e1e",
+      "transform": {
+        "positionMm": [
+          0,
+          53.35,
+          149
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "rear_fold_axle",
+      "target": "rear_fold_axle",
+      "label": "后折叠独立圆销",
+      "material": "stainless_steel",
+      "kind": "generated",
+      "shapeHash": "46dcb5fb3aebfa2a8dae4fb271decff989ce1e4c00675b542b1ed354880f8484",
+      "transform": {
+        "positionMm": [
+          0,
+          53.35,
+          149
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "rear_fold_cap_right",
+      "target": "rear_fold_cap_right",
+      "label": "后折叠铰链右插帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "51d54566746eec4517cbdc704b538b86137d31dd7641021c9942a2968c7b5d7a",
+      "transform": {
+        "positionMm": [
+          83,
+          53.35,
+          149
+        ],
+        "rotationDeg": [
+          0,
+          90,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "rear_fold_cap_left",
+      "target": "rear_fold_cap_left",
+      "label": "后折叠铰链左插帽",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "7c3b0e9ae40f8d33f7c0fd25b6374bd4185d4e7ad4223bee7571f46f7b5bbcfb",
+      "transform": {
+        "positionMm": [
+          -83,
+          53.35,
+          149
+        ],
+        "rotationDeg": [
+          0,
+          -90,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
     }
   ],
+  "assets": [],
   "fits": [],
-  "updatedAt": "2026-10-01T04:39:53.231Z",
+  "updatedAt": "2026-10-14T16:54:23.096Z",
   "parameters": {
     "body": {
       "case_width": 185,
@@ -998,65 +1359,27 @@
     "lid": {
       "lid_width": 185,
       "lid_depth": 119,
-      "lid_height": 61.4,
       "lid_roof_thickness": 2.2,
-      "lid_wall": 6,
-      "lid_hinge_y": 63,
-      "lid_hinge_z": 128,
-      "lid_seam_z": 128.6,
-      "lid_barrel_radius": 3.8,
-      "lid_bore": 4.4,
-      "lid_barrel_length": 58.8,
-      "lid_magnet_x": 54.5,
-      "lid_magnet_y": -48.3,
-      "lid_rear_width": 185,
-      "lid_spine_thickness": 3.5,
-      "lid_spine_end_y": -53.5,
-      "lid_rear_bottom_relief": 0.6,
-      "lid_end_cheek_thickness": 2,
-      "lid_page_groove_depth": 0.45,
-      "lid_page_groove_width": 1,
-      "lid_corner_groove_depth": 0.45,
-      "lid_panel_center_x": 90.5,
-      "lid_panel_clearance_width": 4.6,
       "lid_band_width": 45,
       "lid_band_recess": 1,
-      "lid_band_rear_start": 134,
-      "lid_cheek_inner_radius": 113,
-      "lid_groove_pitch": 6,
-      "spine_common_radius": 88.33333333333333,
-      "lid_page_recess": 0.25,
-      "lid_cover_band": 4,
-      "lid_magnet_mount_left_diameter": 11.3,
-      "lid_magnet_mount_left_height": 5.4,
-      "lid_magnet_mount_left_pocket_diameter": 7.3,
-      "lid_magnet_mount_left_pocket_depth": 3.2,
-      "lid_magnet_mount_right_diameter": 11.3,
-      "lid_magnet_mount_right_height": 5.4,
-      "lid_magnet_mount_right_pocket_diameter": 7.3,
-      "lid_magnet_mount_right_pocket_depth": 3.2,
-      "lid_outer_chamfer": 0.4,
       "nameplate_width": 22.222222222222225,
       "nameplate_length": 60,
       "nameplate_x": -57.5,
       "nameplate_y": 4,
       "nameplate_pocket_depth": 1,
       "nameplate_clearance": 0.15,
-      "pink_marks_bar_width": 3,
-      "pink_marks_bar_height": 25,
-      "pink_marks_left_x": -66.5,
-      "pink_marks_pitch": 13,
-      "pink_marks_center_z": 159.3,
-      "pink_marks_pocket_depth": 1.2,
-      "pink_marks_pocket_clearance": 0.15,
-      "pink_marks_spine_height": 61.4,
-      "pink_marks_end_y": -53.5,
-      "spine_surface_max_angle_deg": 2,
-      "spine_lap_rear_y": -50,
-      "lid_side_page_front_clearance": 0.3,
-      "lid_rear_corner_radius": 3,
       "nameplate_corner_radius": 3,
-      "case_height": 152
+      "case_height": 152,
+      "fold_axis_y": -49.85,
+      "fold_central_barrel_length": 58.8,
+      "inner_hinge_axis_z": 149,
+      "inner_hinge_radius": 3,
+      "inner_hinge_bore": 3.4,
+      "inner_fork_clearance_radius": 3.3,
+      "rear_fold_axis_y": 53.35,
+      "fold_seam_gap": 0.3,
+      "hinge_web_thickness": 1.2,
+      "hinge_web_reach": 4.3
     },
     "side_left": {
       "side_left_thickness": 4,
@@ -1216,7 +1539,14 @@
       "central_binding_base_transition": 4,
       "upper_binding_outward": 2,
       "upper_binding_front_bend_radius": 1.5,
-      "case_height": 152
+      "case_height": 152,
+      "binding_fold_joint_y": -49.85,
+      "binding_fold_joint_gap": 0.3,
+      "binding_split_mask_span": 400,
+      "binding_inner_axis_z": 149,
+      "binding_opening_relief_deg": 30,
+      "inner_hinge_binding_clearance": 3.3,
+      "binding_rear_fold_joint_y": 53.35
     },
     "buckle": {
       "buckle_width": 55,
@@ -1275,107 +1605,12 @@
       "pink_marks_bottom_allowance": 0.1,
       "case_height": 152
     },
-    "metal_eyes": {
-      "eye_left_thickness": 3,
-      "eye_left_depth": 28,
-      "eye_left_height": 44,
-      "eye_left_corner_radius": 5,
-      "eye_left_slot_width": 14,
-      "eye_left_slot_height": 24,
-      "eye_right_thickness": 3,
-      "eye_right_depth": 28,
-      "eye_right_height": 44,
-      "eye_right_corner_radius": 5,
-      "eye_right_slot_width": 14,
-      "eye_right_slot_height": 24,
-      "backplate_left_thickness": 2,
-      "backplate_left_depth": 11,
-      "backplate_left_hole": 4.5,
-      "backplate_right_thickness": 2,
-      "backplate_right_depth": 11,
-      "backplate_right_hole": 4.5,
-      "eye_left_pivot_bore": 6.4,
-      "eye_right_pivot_bore": 6.4,
-      "pivot_sleeve_left_diameter": 6,
-      "pivot_sleeve_left_bore": 4.3,
-      "pivot_sleeve_left_length": 3.6,
-      "pivot_washer_left_diameter": 10,
-      "pivot_washer_left_bore": 4.3,
-      "pivot_washer_left_thickness": 1.4,
-      "pivot_sleeve_right_diameter": 6,
-      "pivot_sleeve_right_bore": 4.3,
-      "pivot_sleeve_right_length": 3.6,
-      "pivot_washer_right_diameter": 10,
-      "pivot_washer_right_bore": 4.3,
-      "pivot_washer_right_thickness": 1.4,
-      "eye_left_side_x": -110.3,
-      "eye_left_side_y": 54,
-      "eye_left_side_z": 116,
-      "eye_left_outline_offset_z": 14,
-      "eye_left_slot_offset_z": 20,
-      "backplate_left_height": 20,
-      "backplate_left_side_x": -104,
-      "backplate_left_side_y": 51,
-      "backplate_left_side_z": 116,
-      "backplate_left_hole_offset_y": 3,
-      "pivot_sleeve_left_side_x": -110,
-      "pivot_sleeve_left_side_y": 54,
-      "pivot_sleeve_left_side_z": 116,
-      "eye_right_side_x": 110.3,
-      "eye_right_side_y": 54,
-      "eye_right_side_z": 116,
-      "eye_right_outline_offset_z": 14,
-      "eye_right_slot_offset_z": 20,
-      "backplate_right_height": 20,
-      "backplate_right_side_x": 104,
-      "backplate_right_side_y": 51,
-      "backplate_right_side_z": 116,
-      "backplate_right_hole_offset_y": 3,
-      "pivot_sleeve_right_side_x": 110,
-      "pivot_sleeve_right_side_y": 54,
-      "pivot_sleeve_right_side_z": 116,
-      "thumb_screw_left_head_diameter": 10,
-      "thumb_screw_left_head_height": 4,
-      "thumb_screw_left_shaft_length": 15,
-      "thumb_screw_left_knurl_depth": 0.3,
-      "thumb_screw_left_head_x": -115,
-      "thumb_screw_left_axis_y": 0,
-      "thumb_screw_left_axis_z": 174,
-      "thumb_screw_right_head_diameter": 10,
-      "thumb_screw_right_head_height": 4,
-      "thumb_screw_right_shaft_length": 15,
-      "thumb_screw_right_knurl_depth": 0.3,
-      "thumb_screw_right_head_x": 115,
-      "thumb_screw_right_axis_y": 0,
-      "thumb_screw_right_axis_z": 174
-    },
     "axle": {
       "axle_diameter": 4,
-      "axle_length": 100,
+      "axle_length": 103.6,
       "axle_head_diameter": 6,
-      "axle_head_thickness": 1.4
-    },
-    "magnet_envelopes": {
-      "body_magnet_left_diameter": 7,
-      "body_magnet_left_thickness": 3,
-      "body_magnet_left_center_x": -72,
-      "body_magnet_left_center_y": -45.8,
-      "body_magnet_left_bottom_z": 124.9,
-      "body_magnet_right_diameter": 7,
-      "body_magnet_right_thickness": 3,
-      "body_magnet_right_center_x": 72,
-      "body_magnet_right_center_y": -45.8,
-      "body_magnet_right_bottom_z": 124.9,
-      "lid_magnet_left_diameter": 7,
-      "lid_magnet_left_thickness": 3,
-      "lid_magnet_left_center_x": -72,
-      "lid_magnet_left_center_y": -45.8,
-      "lid_magnet_left_bottom_z": 128.7,
-      "lid_magnet_right_diameter": 7,
-      "lid_magnet_right_thickness": 3,
-      "lid_magnet_right_center_x": 72,
-      "lid_magnet_right_center_y": -45.8,
-      "lid_magnet_right_bottom_z": 128.7
+      "axle_head_thickness": 1.4,
+      "axle_end_chamfer": 0.2
     },
     "bottom_panel": {
       "bottom_panel_width": 185,
@@ -1398,12 +1633,6 @@
       "bottom_panel_rear_corner_radius": 3,
       "case_height": 152
     },
-    "imports": {},
-    "right_nut_instance": {
-      "ring_nut_right_x": 104,
-      "ring_nut_right_y": 0,
-      "ring_nut_right_z": 174
-    },
     "nameplate": {
       "nameplate_width": 22.222222222222225,
       "nameplate_length": 60,
@@ -1411,6 +1640,200 @@
       "nameplate_bottom_allowance": 0.1,
       "nameplate_edge_chamfer": 0.15,
       "nameplate_corner_radius": 3
+    },
+    "strap_eye_right": {
+      "right_strap_eye_width": 36,
+      "right_strap_eye_height": 44,
+      "right_strap_eye_thickness": 4,
+      "right_strap_eye_corner_radius": 6,
+      "right_strap_eye_profile_center": 13,
+      "right_strap_eye_slot_width": 26,
+      "right_strap_eye_slot_height": 18,
+      "right_strap_eye_slot_center": 20,
+      "right_strap_eye_slot_radius": 3,
+      "right_strap_eye_pin_hole": 4.5,
+      "right_strap_eye_edge_radius": 0.5
+    },
+    "strap_eye_left": {
+      "left_strap_eye_width": 36,
+      "left_strap_eye_height": 44,
+      "left_strap_eye_thickness": 4,
+      "left_strap_eye_corner_radius": 6,
+      "left_strap_eye_profile_center": 13,
+      "left_strap_eye_slot_width": 26,
+      "left_strap_eye_slot_height": 18,
+      "left_strap_eye_slot_center": 20,
+      "left_strap_eye_slot_radius": 3,
+      "left_strap_eye_pin_hole": 4.5,
+      "left_strap_eye_edge_radius": 0.5
+    },
+    "strap_pin_right": {
+      "right_strap_pin_diameter": 4.1,
+      "right_strap_pin_length": 12.3,
+      "right_strap_pin_chamfer": 0.25
+    },
+    "strap_pin_left": {
+      "left_strap_pin_diameter": 4.1,
+      "left_strap_pin_length": 12.3,
+      "left_strap_pin_chamfer": 0.25
+    },
+    "strap_cap_right_outer": {
+      "strap_cap_right_outer_diameter": 12,
+      "strap_cap_right_outer_thickness": 3,
+      "strap_cap_right_outer_socket_diameter": 4.4,
+      "strap_cap_right_outer_socket_depth": 2,
+      "strap_cap_right_outer_rim_radius": 0.6,
+      "strap_cap_right_outer_socket_leadin": 0.2
+    },
+    "strap_cap_right_inner": {
+      "strap_cap_right_inner_diameter": 12,
+      "strap_cap_right_inner_thickness": 3,
+      "strap_cap_right_inner_socket_diameter": 4.4,
+      "strap_cap_right_inner_socket_depth": 2,
+      "strap_cap_right_inner_rim_radius": 0.6,
+      "strap_cap_right_inner_socket_leadin": 0.2
+    },
+    "strap_cap_left_outer": {
+      "strap_cap_left_outer_diameter": 12,
+      "strap_cap_left_outer_thickness": 3,
+      "strap_cap_left_outer_socket_diameter": 4.4,
+      "strap_cap_left_outer_socket_depth": 2,
+      "strap_cap_left_outer_rim_radius": 0.6,
+      "strap_cap_left_outer_socket_leadin": 0.2
+    },
+    "strap_cap_left_inner": {
+      "strap_cap_left_inner_diameter": 12,
+      "strap_cap_left_inner_thickness": 3,
+      "strap_cap_left_inner_socket_diameter": 4.4,
+      "strap_cap_left_inner_socket_depth": 2,
+      "strap_cap_left_inner_rim_radius": 0.6,
+      "strap_cap_left_inner_socket_leadin": 0.2
+    },
+    "hinge_cap_right": {
+      "hinge_cap_right_diameter": 6.8,
+      "hinge_cap_right_thickness": 3.4,
+      "hinge_cap_right_socket_diameter": 4.3,
+      "hinge_cap_right_socket_depth": 2,
+      "hinge_cap_right_rim_radius": 0.3,
+      "hinge_cap_right_lead_in": 0.15
+    },
+    "hinge_cap_left": {
+      "hinge_cap_left_diameter": 6.8,
+      "hinge_cap_left_thickness": 3.4,
+      "hinge_cap_left_socket_diameter": 4.3,
+      "hinge_cap_left_socket_depth": 2,
+      "hinge_cap_left_rim_radius": 0.3,
+      "hinge_cap_left_lead_in": 0.15
+    },
+    "fold_spine": {
+      "width": 185,
+      "height": 49,
+      "spine_radius": 57.6133333333333,
+      "shell_thickness": 3.5,
+      "cheek_thickness": 2,
+      "end_y": -3.65,
+      "square_rear_y": -0.15,
+      "lip_thickness": 2.2,
+      "magnet_x": 54.5,
+      "magnet_y": 1.55,
+      "magnet_mount_diameter": 11.3,
+      "magnet_mount_height": 5.4,
+      "magnet_pocket_diameter": 7.3,
+      "magnet_pocket_depth": 3.2,
+      "binding_width": 45,
+      "binding_recess": 1,
+      "mark_width": 3,
+      "mark_height": 20,
+      "mark_x": -66.5,
+      "mark_pitch": 13,
+      "mark_depth": 1.2,
+      "mark_clearance": 0.15,
+      "web_depth": 4.5,
+      "web_height": 3,
+      "central_clearance_length": 59.8,
+      "cap_clearance_length": 4.4,
+      "surface_max_angle_deg": 2,
+      "top_from_axis": 3,
+      "opening_relief_deg": 30,
+      "knuckle_outer_radius": 3,
+      "pin_bore_diameter": 3.4,
+      "middle_clearance_radius": 3.3,
+      "end_cap_clearance_radius": 3.2,
+      "extended_fork_length": 52,
+      "extended_cap_center": 84.9
+    },
+    "fold_axle": {
+      "length": 169.6,
+      "end_chamfer": 0.2,
+      "pin_diameter": 3
+    },
+    "fold_cap_right": {
+      "thickness": 3.4,
+      "socket_depth": 2,
+      "rim_radius": 0.3,
+      "lead_in": 0.15,
+      "cap_diameter": 5.8,
+      "cap_socket_diameter": 3.3
+    },
+    "fold_cap_left": {
+      "thickness": 3.4,
+      "socket_depth": 2,
+      "rim_radius": 0.3,
+      "lead_in": 0.15,
+      "cap_diameter": 5.8,
+      "cap_socket_diameter": 3.3
+    },
+    "rear_fold_cover": {
+      "width": 185,
+      "height": 49,
+      "wall_thickness": 6,
+      "top_from_axis": 3,
+      "inner_from_axis": 0.15,
+      "lower_axis_y": 9.65,
+      "lower_axis_z": -46.6,
+      "lower_barrel_radius": 3.8,
+      "lower_bore": 4.4,
+      "central_length": 58.8,
+      "page_recess": 0.25,
+      "cover_border": 4,
+      "groove_depth": 0.45,
+      "groove_width": 1,
+      "groove_pitch": 4.8,
+      "lower_edge_relief": 0.6,
+      "binding_width": 45,
+      "binding_recess": 1,
+      "binding_base": -40.6,
+      "opening_relief_deg": 30,
+      "knuckle_radius": 3,
+      "pin_bore": 3.4,
+      "fork_length": 52,
+      "web_depth": 4.5,
+      "web_height": 3,
+      "knuckle_clearance_radius": 3.3,
+      "cap_clearance_radius": 3.2,
+      "cap_clearance_x": 84.9,
+      "rear_corner_radius": 3
+    },
+    "rear_fold_axle": {
+      "pin_diameter": 3,
+      "length": 169.6,
+      "end_chamfer": 0.2
+    },
+    "rear_fold_cap_right": {
+      "cap_diameter": 5.8,
+      "thickness": 3.4,
+      "cap_socket_diameter": 3.3,
+      "socket_depth": 2,
+      "rim_radius": 0.3,
+      "lead_in": 0.15
+    },
+    "rear_fold_cap_left": {
+      "cap_diameter": 5.8,
+      "thickness": 3.4,
+      "cap_socket_diameter": 3.3,
+      "socket_depth": 2,
+      "rim_radius": 0.3,
+      "lead_in": 0.15
     }
   }
 }

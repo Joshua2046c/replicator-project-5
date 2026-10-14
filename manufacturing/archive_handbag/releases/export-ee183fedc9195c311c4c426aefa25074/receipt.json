@@ -1,32 +1,53 @@
 {
   "designId": "archive_handbag",
-  "revision": "654b786c9e1bb429358a68308803ff51198ec9061804788f0f42de8f81557821",
+  "revision": "d3de39886157f4b3a990791b99f31d8a24dd58b1b4053e003a0b76d9d458c310",
   "schemaVersion": 2,
-  "exportId": "export-c0d8ed1f25b4121a7911af059c90a03a",
-  "generatedAt": "2026-10-01T04:39:53.231Z",
-  "designSha256": "65ba56e81b3c2b1083b8bb54b7782a1a3a859b6772ac8174ef1e2d2001e1eb9d",
+  "exportId": "export-ee183fedc9195c311c4c426aefa25074",
+  "generatedAt": "2026-10-14T16:54:23.096Z",
+  "designSha256": "c271c4c70c3d0f54802cb59c0413853467fda5b742e1bed62b47de8bc315e0b1",
   "role": "handbag_assembly",
-  "stateHash": "cde51fe911c9cb2582951653351a4babed27284d1fda7fa14c5ce9fb2b0f085e",
+  "stateHash": "9c8ea6929bd8fdfbd2471d99d281ffeb212865d7266bc664c45b9a9c7fc332e2",
   "stateManifest": {
     "schemaVersion": 3,
     "designId": "archive_handbag",
     "role": "handbag_assembly",
     "design": {
-      "revision": "654b786c9e1bb429358a68308803ff51198ec9061804788f0f42de8f81557821",
-      "designSha256": "9cfe4111873b5bc479d8c3a7d499b93765ceb94a06e4ead7a5d4215e523a7647",
-      "manifestSha256": "1a7dede4188d2da1b328d065ae45e97a9e56d35f3d02c39696b2050b458e6739",
-      "stepSha256": "83e143b7b6dd0c1962deacdc35ecfe3fb8148e0515cfee5a959fd77a34ea4f80",
+      "revision": "d3de39886157f4b3a990791b99f31d8a24dd58b1b4053e003a0b76d9d458c310",
+      "designSha256": "32364007772ca02ce74c7de7641027e35d66198231bc7e2d9171115091d13e3b",
+      "manifestSha256": "234905982c1db6610848fc9ab381715241596ec7ebde69189cef5be95bc8595c",
+      "stepSha256": "df0901188a3be9457706d0e190da7aad092517abd945940168c02f8155b479ec",
       "pcbReleases": []
     },
     "brief": {
       "path": "design/archive_handbag/README.md",
-      "sha256": "5214242e183201cbd5b6fa8d2140d8a9ecaf575f4bed6383b529e72a9fd9efe4"
+      "sha256": "f727ee6c46e9d31e245f52a3cd60e0161490d4a9ca7608b211a16a25591f481c"
     },
     "requirement": {
       "artifactContractPath": "product/contract.json",
-      "artifactContractSha256": "33e457878f3f039d4e7af76276c6700a1bb697a853292cb371d1798b87d6168c",
-      "designRequirementSha256": "41c03a0cf71dc2201144b57bc187ec10462057b094fa002ae2a01b2eb3850314",
+      "artifactContractSha256": "9d8119866a20974a30a824b80e8391cc4df5613c749d0d0752cba4691ec007bb",
+      "designRequirementSha256": "46862eecfeaf2dc5e139a3f6a30ca5d2f56618c326577b027d82afe5987d954f",
       "inputs": [
+        {
+          "role": "external-reference",
+          "id": "folding_lid_reference_1",
+          "path": "product/references/uploads/20261014T140124472Z-1-mark-1.png",
+          "sha256": "e509f8f8b0505b5565f622881b98f1296de0c238fce31b812af52b0241e21d5c",
+          "sizeBytes": 465101
+        },
+        {
+          "role": "external-reference",
+          "id": "folding_lid_reference_2",
+          "path": "product/references/uploads/20261014T140124472Z-2-mark-2.png",
+          "sha256": "b93f108962b24b3c6bf27cece40887dccc4b7beef1f441326dec9290cd3392c6",
+          "sizeBytes": 431765
+        },
+        {
+          "role": "external-reference",
+          "id": "hinge_separate_caps_mark",
+          "path": "product/references/uploads/20261014T134640798Z-1-mark-1.png",
+          "sha256": "3e8ea691262344a725c83255fcfc5031567802f91bf58d2f28fc85454dfc2dcf",
+          "sizeBytes": 413292
+        },
         {
           "role": "external-reference",
           "id": "reference_annotated",
@@ -243,6 +264,13 @@
           "path": "product/references/uploads/20260930T181140189Z-1-mark.png",
           "sha256": "6a1a5dda3301c4c885ebdb29eb32dfeb1d96f97720f4d558ed9a4fbc64515494",
           "sizeBytes": 498437
+        },
+        {
+          "role": "external-reference",
+          "id": "strap_pin_caps_mark",
+          "path": "product/references/uploads/20261014T132159512Z-1-mark-1.png",
+          "sha256": "6374b10fafae41d70b2e5c0fae6d9635793d39dc6258367b3fc065a959a5ce40",
+          "sizeBytes": 427017
         }
       ]
     },
@@ -252,88 +280,106 @@
         "step"
       ]
     },
-    "stateHash": "cde51fe911c9cb2582951653351a4babed27284d1fda7fa14c5ce9fb2b0f085e"
+    "stateHash": "9c8ea6929bd8fdfbd2471d99d281ffeb212865d7266bc664c45b9a9c7fc332e2"
   },
   "buildArtifacts": {
-    "manifestSha256": "1a7dede4188d2da1b328d065ae45e97a9e56d35f3d02c39696b2050b458e6739",
-    "stepSha256": "83e143b7b6dd0c1962deacdc35ecfe3fb8148e0515cfee5a959fd77a34ea4f80"
+    "manifestSha256": "234905982c1db6610848fc9ab381715241596ec7ebde69189cef5be95bc8595c",
+    "stepSha256": "df0901188a3be9457706d0e190da7aad092517abd945940168c02f8155b479ec"
   },
   "exportAlgorithm": {
     "version": 1,
-    "bootstrapSha256": "ee3801d485ce9c36c94064620fc14c1fad29a20395abe3cd26ac51a72ac105d1"
+    "bootstrapSha256": "6b3e2fc248625efd99ce6e9a42bf9d57effe0be0029fc3c36a211a4508d8fab6"
   },
   "sourceHashes": {
-    "axle/axle": "de5de6f9ccc59b451d3bf8f4fe0957afbe35a23455722916a9ae6496eddcf51f",
+    "axle/axle": "b43795b39bc837b5a138df95d0d17de4e738ac2e0a2bb09dd84759d8bd65ee1c",
     "body/body": "ffb8b9e1a8495b61f1c9b05dd7e4c5b87ac05d34de79d72a84b6f36e672f3b9f",
     "book_spines/book_spines": "928034574530106104c00dc7764bdddaa4e14b6a6fd8cfb0e9bf67cc75bd8ae1",
     "bottom_panel/bottom_panel": "cbf56cc9dc5c59b4df3cab5fcad4b80b43d5ebd2d1d7f6645c946d99429a4a8e",
-    "brown_binding/brown_binding": "4ad977dbcf31fdf1e143d7e2f94998333f8ecf841fa09f0a276c3557b3b2871a",
+    "brown_binding/brown_binding": "18fd482871c9b5358cc514be31dcefcfcd788ba8e88cd80a81f660c976a6f23d",
     "buckle/buckle": "b93e49cbdcd95c9b4651bcebd48cfe517b6d37e350a515e94eeabc057a0674a8",
-    "imports/ring_nut_left": "e745cef2822400496698c22579231ae7d53130a976e3f72eac26f360a6f7d83b",
-    "lid/lid": "ba8969b002853a4e4eea8b829b5c259a24317d490bf0b24bd17790f5d9ee0b14",
-    "magnet_envelopes/magnet_envelopes": "df21e7ab598b5e012735586e02519682a112ecf915db64919a59ea44d84c82d0",
-    "metal_eyes/metal_eyes": "8debaf406e7045e0aee2e35fc7ecdf1b7aeffa02b95200ed9626542a1b5c0877",
+    "fold_axle/fold_axle": "a9560279547707b900df25d34685a9e650d1f4edb724b6787063e8648f89a107",
+    "fold_cap_left/fold_cap_left": "9ff42708ddb7c8155db7f70890ec7c9456f7a6688e0aaa9968275cdd6ddf1cbb",
+    "fold_cap_right/fold_cap_right": "a0352368fda0aa2814ce453db9c84073ec98f588131718485f8d4dd863941cd9",
+    "fold_spine/fold_spine": "2c84799daadcbfcd2b4ef124fd572f8cc980059f10f216289e75b810687a7772",
+    "hinge_cap_left/hinge_cap_left": "624b9d613688b43af3411b30dd4e6e551548589bb641b1da4ade2d0e06f3790c",
+    "hinge_cap_right/hinge_cap_right": "21aaad8ea2f5d6ad9b8976497fc5548399aa24966a693a7ae7242179351a75c6",
+    "lid/lid": "9ae48564951ab5b6e4ce1410a80b3e0dff06a9e1e6277199c8e377c22182416e",
     "nameplate/nameplate": "1bfd65d2762f566f1325a9e70d2204f0454322637b8e42dd93fdeca5c0c32e48",
-    "right_nut_instance/right_nut_instance": "6325abe3d025555b090e207010eb9ea4bc934d08c3291138fbaeb2c2f50116e8",
-    "side_left/side_left": "b988b74dacb532067abcf905728d3176bb0eb5d64333cb70e83ac7ebfda3783d",
-    "side_right/side_right": "e0ad33093f1291373123a2f760ccf90095f633688219288359ae49b5efed4519",
-    "spine_marks/spine_marks": "5eb1f74c03bb3dd4b5e506ebf8d22feb16bd1b0720498949637958f213a7668a"
+    "rear_fold_axle/rear_fold_axle": "5076c6089690941a960b1b7a40f74d0953c7828a85db83bd22e57e1cdc5d60fb",
+    "rear_fold_cap_left/rear_fold_cap_left": "42eb01139530a5279abcd46c03684236fdd584ae15f023d05a4d06f4e6ae2c33",
+    "rear_fold_cap_right/rear_fold_cap_right": "d9fe5764e06072da389ea7b59659acdfc87346e8e0b36efaf3eaffe54915ede1",
+    "rear_fold_cover/rear_fold_cover": "7b8b71e1b2a6c71f347cf440724a5961f840f15a4d4999a838a17dd1a88c0a5a",
+    "side_left/side_left": "2c2eaae079283f211f54d48bde0ed89b094358d880d90afc9bc18c4fd47dcd3f",
+    "side_right/side_right": "ff7efd9fcec253a8c5e0148792aa11cb118f14e9247d3dd6b878ef44e4d87496",
+    "spine_marks/spine_marks": "5eb1f74c03bb3dd4b5e506ebf8d22feb16bd1b0720498949637958f213a7668a",
+    "strap_cap_left_inner/strap_cap_left_inner": "8062362433776f92f815df42c5b8860867a09ea13b231676f32547bd7c178926",
+    "strap_cap_left_outer/strap_cap_left_outer": "ea8ac37ccaa9622ba5c876f5a1b09630a9ef20815c6dc175d7d91d35bd442b16",
+    "strap_cap_right_inner/strap_cap_right_inner": "7e5bf075d2b42b4b5511338059803150c9540d6db8e3c79eb175d599bae90672",
+    "strap_cap_right_outer/strap_cap_right_outer": "f8a1c350a67ecd04e0596072d5fa0cd3ddfb76cea72527e68b015289f2c76984",
+    "strap_eye_left/strap_eye_left": "c0941519f86b1d607dce3ea573c7ec66896b7d0a45f7236f45c74da809344d57",
+    "strap_eye_right/strap_eye_right": "b9adf2aac8b04d547c3bf43eef1f34b271079fac8c96243845ed14103e456e6e",
+    "strap_pin_left/strap_pin_left": "d40d6ad692756450b77c03c787c0c4f802d12f1f5a8f93b90ec077d69e9fdd9a",
+    "strap_pin_right/strap_pin_right": "064189c5b12b206a2bc80db1cac1280eabd79d8853460ed9ed3c4953bcb346cc"
   },
-  "assetHashes": {
-    "ring_nut_left": "fc200b5ae3935c689379a698c83428aa651f5d3a401e1ddc2dc04ff80c965c27"
-  },
+  "assetHashes": {},
   "shapeHashes": {
-    "axle": "cf082ef8d260b153d5372ccb5d1389a397b2eb77b0192f644acfc95050d81375",
-    "backplate_left": "99ada493e9694a9a40596a57d07cb0d5beab058ba99593cfea98ab66fef4b7c7",
-    "backplate_right": "1ccaf35f4ca7bbb5dfff6d9b15e02d41256e09cb5e7db7e835aedf1c998615e3",
-    "blue_marks": "f539e3e464210972e2ea301e64266fb3fc02e1cc630cddf0e49899d3edb86aa7",
+    "axle": "7db0e4ffd5453e6fb5a62d65bb105d524a6a6882c8846c7f5c88cbd71c7ce8e8",
+    "blue_marks": "c9d0d1253ffa23a2a111b6217144a829e6f0c3366e834fa169d4b95fc509ca1e",
     "blue_spine": "c24ba58123828fd8dba7be3b2fb711cc7f41bcd4ac57150acac5a4d2eb1cce2d",
     "body": "e7b0d351a9e439840bfd9c8a58657df20a26351de1fd743cd0efe3810e1e3917",
-    "body_magnet_left": "dc226c5a046d258eabe6a74db6b9346512af9fdbfb44b2f19b3f531a561dd6e9",
-    "body_magnet_right": "bcb151402d6ae2ea16dbc0d979878eaa8cb6e91e0c0fbaac9f449e47fbc2945f",
     "bottom_panel": "76a64588666914b07c3af5e27dac6b637ec467891cf53245c952bf16f372905f",
     "buckle": "1172e12a070c2f16d429c0d8c1f3d3c4699ce53b77360a103865fb5d93faecfa",
     "central_binding": "559a1ba3784861f009cc16e5cc6810786c1ced02d4fad295b4644630ecde8464",
-    "eye_left": "b48a8e33cee81766d959e70a198f8650dd9290165708bdc017b7cb964ffc958c",
-    "eye_right": "4b564bb72023ed6df79de1c4c09f6aa65e6a1d05cc15d266edbd54bec885533d",
-    "green_marks": "ede4d202de490c5654d9369d50fbedc4c33688cbb1b71f546adefe9b7cf676f7",
-    "lid": "d28788405496d66b3e74a76a51cadad16e137f01de62adc06e6898a3dbb447e4",
-    "lid_magnet_left": "e7e88e7251b21fcf898b99c2d7b64e85894c71b3f7b110ac4f1ae7c5c28c6aad",
-    "lid_magnet_right": "ddde1ef2a112cc17c85498b8ec4f86bbb09b6266700204ac989c2f1b175debae",
+    "fold_axle": "4150b5caf42b5a48a94bfea931e295f493250f373d1c91369b9a58965a97c501",
+    "fold_binding": "5cafd8a2e07278270f9507deaa70fa3afa5246e01bba169b3ba5c32fe11c08ea",
+    "fold_cap_left": "78fbe813f99cb0e0193c958f86d1a1cd4376c468fef9789a456fd0255091ab2a",
+    "fold_cap_right": "421847e3d69472a19b06e98fdffe3430302e1883fc7c735362d406196db59fee",
+    "fold_spine": "39b90a2899bb0589f245129bac1e3bdc39ec4603afa6a0502e2134f8c908769c",
+    "green_marks": "063c784ef8f257b707e52898de84d36d54252cbe15a40af654b482320380a6d0",
+    "hinge_cap_left": "29722be868ba4b11fc6ab898f96efb22703a3f0cb664db357d38c5a9cde816af",
+    "hinge_cap_right": "f215300ccea7e9bdba6b9ca3244fa03221127a49f054269cb3fa1992f1d702eb",
+    "lid": "00e83003f0dfd358f9a7b038578b9b534d2caa5c5cfd498cbb4f070ab6a21cf2",
     "nameplate": "3fafab4c118eb24071e2e44aa218053e16ce5fa3c20ee20b5a07f848cdac0e7f",
-    "pink_marks": "fbe575e8afd26d291b823c9d7b1d40b14821e0fee75e2f0faf7928344c7d25e5",
-    "pivot_sleeve_left": "69f6aa543407bb7b3fa0f0c76c8294bbc138125a5541ff1809ab04d99dbd641a",
-    "pivot_sleeve_right": "27fbce17a8e3964b0623cb812b374ad238d0bcab7e4ea3163301c96514e4f460",
-    "ring_nut_left": "c803bc824af3612f9d4f25c1b6171e47d14e7fd4373802149944a93f6e4e75df",
-    "ring_nut_right": "e8386c0af822a0137eec49bfd54dacbadfb95ef1e9c47520de6c1825d387ff3a",
-    "side_left": "c8f2a56294b6b1ac43395791345bc4966132b2b047acacaeeab9d11bac865eb1",
-    "side_right": "15276885056dd4413e43d5df84ed1ed269085c988d8f02f7ef0ce45ad3f7015a",
-    "thumb_screw_left": "d77a051d370d7b6b380d25bbc022fce1a846c54c9a1a7235cd66e547fa77a3e0",
-    "thumb_screw_right": "8eb693438c5f142cb1c391b8720ad3d993247c279e70d9e3bc7556bd99cf29ca",
-    "upper_binding": "e8936d05716e9dbfbd025aaf8bff941fd00b0e1b9bb32ec70593124ebf0e3e16"
+    "pink_marks": "9fc46998a7a4906b896132f937289542ae73d5b85467810d5fc5b924f6f6f148",
+    "rear_fold_axle": "46dcb5fb3aebfa2a8dae4fb271decff989ce1e4c00675b542b1ed354880f8484",
+    "rear_fold_binding": "a6e5fd29b20d5715f66955687345bab776ec2feb072816dc2a24dc4df4455a7c",
+    "rear_fold_cap_left": "7c3b0e9ae40f8d33f7c0fd25b6374bd4185d4e7ad4223bee7571f46f7b5bbcfb",
+    "rear_fold_cap_right": "51d54566746eec4517cbdc704b538b86137d31dd7641021c9942a2968c7b5d7a",
+    "rear_fold_cover": "d27341f3c9bed5ebbf6f59c113c9df53ef5fec9e22fd0bb36e9cd33e86bf2e1e",
+    "side_left": "a765e9a979f12388ac44f67789e0b351a9d14e222903093c84667687a11dc961",
+    "side_right": "ed70c9cb5a03f86a4e43627dd988102d3be4c7246186dedb96e486defc8c92d7",
+    "strap_cap_left_inner": "32c2e4b557c5d8ee94bbf524e6374954916b753eb2c2a2b9776a289de234230e",
+    "strap_cap_left_outer": "3d4502aa166bb65d7cb50bc9fe63bf7dc4f776056750ed39c347b5a3fad07f6b",
+    "strap_cap_right_inner": "3001a6772bcef354091719171415417273b95b5a2d33d4ffe016cbbed904b0bc",
+    "strap_cap_right_outer": "d4fde12e526d53ae603b0c82f010c53d4851734ef2e97ab4396876ed2039fd33",
+    "strap_eye_left": "fc7de73b8087f7ea282b36e2c7642f8a1849ee57baf8aadfd91b3175f9e36ab5",
+    "strap_eye_right": "478b260a5cbd299f25c07308a03cd68ee96219f54ce07423e2f50a3b62a49c58",
+    "strap_pin_left": "af2f0164308b5aa467dbcb72ec395652023902bb6dd49b198b6548aa3c1bd4dd",
+    "strap_pin_right": "80a3f7b037e1a2350357afd46f068330a180efe6bce18985291fa6af21517943",
+    "upper_binding": "226d58b35f198781da6faeb138c63cd6c6cf24b035e95a59c27ec83f6505fdf6"
   },
   "runtime": {
-    "manifestHash": "1e67f7323582be77317b7a18cbf288bdd8fcf7386fc2dde7720aca1e1cc8aacc",
+    "manifestHash": "b5f5c3cc7fb8830bc9254702e9a16753da94c9cc6eb4da520a607191f038e0eb",
     "pythonVersion": "3.12.13",
     "build123dVersion": "0.10.0",
     "ocpVersion": "7.8.1.1.post1",
-    "cadpyHash": "6b2d263b0eb225cd55b8fc84ab7d4c0f8546d2b08f04e7f81a0cbf2674a243fc"
+    "cadpyHash": "81911f3a8adaeb8d0c4be9c12da56f8c18df074c4680646de6b0a4fe8457a5cc"
   },
   "artifacts": [
     {
-      "path": "manufacturing/archive_handbag/releases/export-c0d8ed1f25b4121a7911af059c90a03a/model.step",
+      "path": "manufacturing/archive_handbag/releases/export-ee183fedc9195c311c4c426aefa25074/model.step",
       "role": "model/step",
-      "sha256": "83e143b7b6dd0c1962deacdc35ecfe3fb8148e0515cfee5a959fd77a34ea4f80",
-      "sizeBytes": 11543788
+      "sha256": "df0901188a3be9457706d0e190da7aad092517abd945940168c02f8155b479ec",
+      "sizeBytes": 10511998
     }
   ],
   "interference": {
-    "summary": "No interference across 378 object pairs.",
+    "summary": "No interference across 561 object pairs.",
     "counts": {
-      "objects": 28,
-      "pairs": 378,
-      "exact": 26,
-      "cached": 34,
+      "objects": 34,
+      "pairs": 561,
+      "exact": 0,
+      "cached": 67,
       "interference": 0,
       "undeclared": 0,
       "over_budget": 0,
@@ -346,9 +392,9 @@
     "algorithm": "hmac-sha256",
     "keyId": "3ddeb280dc0b23e3263dc06ea1e00c5f",
     "projectId": "1ccbe98c-3a73-4168-a780-a876c7d62cd9",
-    "receiptPath": "manufacturing/archive_handbag/releases/export-c0d8ed1f25b4121a7911af059c90a03a/receipt.json",
-    "payloadSha256": "7b8cd6f8351e3344c0403e126bf4b943d5627ec9d568ae756146789f94bbd7c4",
-    "mac": "300490d569a5241107adcc14086dd1ac474a00a9210a4c96fbb783789e0d37c2"
+    "receiptPath": "manufacturing/archive_handbag/releases/export-ee183fedc9195c311c4c426aefa25074/receipt.json",
+    "payloadSha256": "0920be9e4db64842f7469905a26a3611b3dd93e57169082bc3bcb4177349e1d9",
+    "mac": "5d3b1b36eeb5232a4db3f4eb89e4883fe9102f8de9cc182e9142c64e84096a92"
   },
   "status": "handoff"
 }

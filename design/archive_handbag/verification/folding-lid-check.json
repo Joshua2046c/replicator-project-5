@@ -1,0 +1,156 @@
+{
+  "revision": "f01df3646188896c8af600fd8d111ce4a71b599e5ba4b1a8509c842829b17faa",
+  "step_sha256": "36cabfab287364a7ccc3e05433e972312f99869d2aa698a78235e16da7d45fd2",
+  "checks": [
+    {
+      "name": "fold pin length",
+      "actual": 103.6,
+      "expected": 103.6,
+      "passed": true
+    },
+    {
+      "name": "fold pin diameter",
+      "actual": 3.0,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "name": "lid single valid solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "fold_spine single valid solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "fold_axle single valid solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "fold_cap_left single valid solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "fold_cap_right single valid solid",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "side_left square front Y",
+      "actual": -49.7,
+      "expected": -49.7,
+      "passed": true
+    },
+    {
+      "name": "side_left full height",
+      "actual": 149.4,
+      "expected": 149.4,
+      "passed": true
+    },
+    {
+      "name": "side_left restored upper front corner",
+      "actual": 7.999999999999998,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "name": "side_right square front Y",
+      "actual": -49.7,
+      "expected": -49.7,
+      "passed": true
+    },
+    {
+      "name": "side_right full height",
+      "actual": 149.4,
+      "expected": 149.4,
+      "passed": true
+    },
+    {
+      "name": "side_right restored upper front corner",
+      "actual": 7.999999999999998,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "name": "fold_cap_left cap diameter",
+      "actual": 5.8000001999999995,
+      "expected": 5.8,
+      "passed": true
+    },
+    {
+      "name": "fold_cap_left cap thickness",
+      "actual": 3.3999999999999986,
+      "expected": 3.4,
+      "passed": true
+    },
+    {
+      "name": "fold_cap_left radial glue gap",
+      "actual": 0.15000000000000568,
+      "expected": 0.15,
+      "passed": true
+    },
+    {
+      "name": "fold_cap_left blind floor",
+      "actual": 0.20000000000000095,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "fold_cap_left socket clear",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "fold_cap_right cap diameter",
+      "actual": 5.8000001999999995,
+      "expected": 5.8,
+      "passed": true
+    },
+    {
+      "name": "fold_cap_right cap thickness",
+      "actual": 3.3999999999999986,
+      "expected": 3.4,
+      "passed": true
+    },
+    {
+      "name": "fold_cap_right radial glue gap",
+      "actual": 0.1499999999999651,
+      "expected": 0.15,
+      "passed": true
+    },
+    {
+      "name": "fold_cap_right blind floor",
+      "actual": 0.20000000000000093,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "fold_cap_right socket clear",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "binding split gap at least 0.3",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    }
+  ],
+  "collisions": [],
+  "poses_checked": 49,
+  "closed_pairs": 406,
+  "opening_sequence": "Outward release 30deg, rear lift35deg, front fold inward80deg, then rear open100deg; sampled at5deg, not a continuous swept-volume proof.",
+  "insertion": "Continuous cylinder envelope on detached lid subassembly, caps installed afterward.",
+  "limitation": "Sampled geometry only; printing fit, adhesive retention and service strength untested."
+}

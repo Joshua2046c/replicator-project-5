@@ -1,3 +1,4 @@
+# cell: side_left
 
 # Overall height drives the existing 190mm design basis; stock thickness and hardware stay unchanged.
 height_ratio=param('case_height',152.0)/190.0
@@ -30,9 +31,7 @@ front=lap+gap
 panel=Pos(0,(front+d/2)/2,0)*Box(t,d/2-front,h,align=(Align.CENTER,Align.CENTER,Align.MIN))
 edge=[e for e in panel.edges().filter_by(Axis.Z) if abs(e.center().X-t/2)<1e-6 and abs(e.center().Y-front)<1e-6]
 panel=chamfer(edge,c)
-corner=Pos(0,0,(start+h)/2)*Box(t+2,d+2,h-start)
-safe=Pos(0,ry,rz)*Rot(0,90,0)*Cylinder(rr,t+4)
-panel-=corner-safe
+# Rectangular opening: no circular relief cut at the upper front corner.
 for lo,hi in [(-4,b1),(b1,b2),(upperbase,uppertop)]:
  center=(lo+hi)/2
  panel-=Pos(t/2-page/2,-R/2,center)*Box(page,d+R-2*margin,hi-lo-2*cover)

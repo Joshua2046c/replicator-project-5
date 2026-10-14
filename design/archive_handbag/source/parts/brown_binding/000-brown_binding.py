@@ -1,3 +1,4 @@
+# cell: brown_binding
 
 # Overall height drives the existing 190mm design basis; stock thickness and hardware stay unchanged.
 height_ratio=param('case_height',152.0)/190.0
@@ -94,5 +95,33 @@ plan_mask=Pos(0,0,top-t2)*extrude(footprint,amount=rise+2*t2)
 strip+=ramp&plan_mask
 assert len(strip.solids())==1
 angle=param('upper_binding_surface_max_angle_deg',1.0)
-strip=refine_spine(strip)
-publish('upper_binding',strip,'局部半圆端头顶带')
+# Two independent decorations cannot bridge the rotating straight seam.
+joint_y=param('binding_fold_joint_y',-49.85)
+joint_gap=param('binding_fold_joint_gap',0.3)
+span=param('binding_split_mask_span',400.0)
+front_strip=strip & Pos(0,joint_y-joint_gap/2-span/2,top/2)*Box(w2+2,span,span)
+top_strip=strip & Pos(0,joint_y+joint_gap/2+span/2,top/2)*Box(w2+2,span,span)
+from math import tan, radians
+axis_z=param('binding_inner_axis_z',149.0)
+fold_relief=param('binding_opening_relief_deg',30.0)
+slope=tan(radians(fold_relief))
+front_strip-=extrude(Plane.YZ*Polygon((joint_y-joint_gap/2,axis_z),(joint_y+20,axis_z),(joint_y+20,axis_z+20),(joint_y-joint_gap/2-slope*20,axis_z+20),align=None),amount=w2+2,both=True)
+hinge_clear_radius=param('inner_hinge_binding_clearance',3.3)
+hinge_clear=Pos(0,joint_y,axis_z)*Rot(0,90,0)*Cylinder(hinge_clear_radius,w2+2)
+front_strip-=hinge_clear
+top_strip-=hinge_clear
+
+rear_y=param('binding_rear_fold_joint_y',53.35)
+rear_strip=top_strip & Pos(0,rear_y+joint_gap/2+span/2,top/2)*Box(w2+2,span,span)
+top_strip=top_strip & Pos(0,rear_y-joint_gap/2-span/2,top/2)*Box(w2+2,span,span)
+rear_strip-=extrude(Plane.YZ*Polygon((rear_y+joint_gap/2,axis_z),(rear_y-20,axis_z),(rear_y-20,axis_z+20),(rear_y+joint_gap/2+slope*20,axis_z+20),align=None),amount=w2+2,both=True)
+rear_clear=Pos(0,rear_y,axis_z)*Rot(0,90,0)*Cylinder(hinge_clear_radius,w2+2)
+rear_strip-=rear_clear
+top_strip-=rear_clear
+rear_strip=refine_spine(rear_strip)
+assert len(rear_strip.solids())==1
+publish('rear_fold_binding',rear_strip,'后折叠书面贴带')
+front_strip=refine_spine(front_strip);top_strip=refine_spine(top_strip)
+assert len(front_strip.solids())==1 and len(top_strip.solids())==1
+publish('fold_binding',front_strip,'折叠书脊贴面带')
+publish('upper_binding',top_strip,'顶面独立贴面带')

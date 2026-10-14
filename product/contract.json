@@ -2,12 +2,12 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "箱体高度按用户要求缩减五分之一至152mm，长边185mm、前后深度125mm；三层书脊、盖、绑带及连接同步。承载防脱仍未解决。",
+  "summary": "185×125×152mm三层书箱：方形开盖缝、两段折叠盖、前上方内置圆销及独立双端帽。",
   "required_interfaces": [
     {
       "id": "lid_hinge",
       "kind": "mechanical",
-      "description": "背部转轴外移一点，不再陷入内部；取消标注的后轴螺丝和止挡部件，填上转轴处多余空洞。后背转轴进一步凸出，留出轴体从侧面插入的实际装配路径。 用户选择本版不再改此部分，保留当前外凸铰链，接受含铰链总深度122.3mm相对120mm标称的例外。",
+      "description": "背部铰链位置与轴孔保持，转轴改为独立直轴及两端独立盲孔插帽，先穿轴再胶粘帽，保留开盖活动间隙。",
       "source": "user_requested",
       "required": true
     },
@@ -21,14 +21,14 @@
     {
       "id": "sliding_panels",
       "kind": "mechanical",
-      "description": "左右各一块自上向下沿滑槽插入的侧面书页挡板，不是T形；允许前上角作圆弧避让，保留直接翻盖的开盖方式；一般遮尘与防掉物。 下两层书脊位于侧板外侧并遮住侧板前端，正面只显示完整书脊，不露出侧板厚度条；左右采用相同连接方案。 左侧面板以右侧样式为基准做左右镜像，轮廓、书页凹槽、挂环连接孔、前后滑入配合边及底部连接方式一致。 上盖侧面页块凹陷前边界与下方侧板分界线齐平；分界线前方书脊侧端保持光面，补齐上盖后角页纹。",
+      "description": "左右镜像下插书页板，保留原下插配合；恢复方形前上角，取消圆弧避让，上方开盖接缝从书侧方形分界开始。",
       "source": "user_requested",
       "required": true
     },
     {
       "id": "carry_rings",
       "kind": "mechanical",
-      "description": "挂环保持侧面顶部及整环转动，连接件改为外侧一体手拧螺丝，盖子里面配置对应螺母，不再分离螺杆和外侧手拧螺帽。 外侧手拧螺栓与止推垫片合并成一个零件。",
+      "description": "左右侧板原圆孔各安装一个背带扣，以圆形插销穿接；插销内侧和外侧各设置独立帽件，由用户胶粘在销端。取消原挂环的M4螺丝、螺母、隔套及垫板。",
       "source": "user_requested",
       "required": true
     },
@@ -71,6 +71,13 @@
       "id": "decorative_inlays",
       "kind": "internal_fit",
       "description": "顶盖书封面标注位置增加方块铭牌，内嵌在封面上。三层书脊标注的小饰块改为插入结构，预留嵌入深度。 顶部标签按最新俯视图上下尺寸缩小三分之一、左右尺寸增加三分之二，保持圆角和中心，内嵌槽同步配套。",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "folding_lid",
+      "kind": "mechanical",
+      "description": "前后上边各一内铰链，顶盖、前书脊和后书面分别转动；保留下方后铰链。默认两根内销均长169.6mm，端帽位于侧板内侧。取消额外隔片，铰节轴向间隙0.6mm。绑带在两条新折线分段。先在箱外装盖组件，再接原后铰链。",
       "source": "user_requested",
       "required": true
     }
@@ -267,15 +274,39 @@
       "source": "user_requested",
       "path": "product/references/uploads/20261001T042638915Z-1-mark.png",
       "description": "正面框选箱体，要求整体箱体高度缩减五分之一。"
+    },
+    {
+      "id": "strap_pin_caps_mark",
+      "source": "user_requested",
+      "path": "product/references/uploads/20261014T132159512Z-1-mark-1.png",
+      "description": "两侧背带扣、圆形插销及独立内外胶粘插销帽。"
+    },
+    {
+      "id": "hinge_separate_caps_mark",
+      "source": "user_requested",
+      "path": "product/references/uploads/20261014T134640798Z-1-mark-1.png",
+      "description": "将后铰轴改为独立轴与两端插入帽。"
+    },
+    {
+      "id": "folding_lid_reference_1",
+      "source": "user_requested",
+      "path": "product/references/uploads/20261014T140124472Z-1-mark-1.png",
+      "description": "方形开盖分界及书脊/书面内置转轴标注"
+    },
+    {
+      "id": "folding_lid_reference_2",
+      "source": "user_requested",
+      "path": "product/references/uploads/20261014T140124472Z-2-mark-2.png",
+      "description": "方形开盖分界及书脊/书面内置转轴标注"
     }
   ],
   "assembly_story": {
-    "installation": "前后板方孔向下套底板八方桩，侧板下插；本版不装底螺钉或侧锁。装挂环M4五金，闭盖对齐轴孔后侧插单端预成头轴，另一端铆接。磁铁胶粘与分段装饰带沿用。干装无抗拔承载连接，不得直接按2kg提携。 铭牌从顶面向下放入，书脊六饰块从外侧向后插入各自盲槽；每侧0.15与底部0.1留量，非自锁，装饰薄胶需试样。",
-    "maintenance": "几何干装状态卸载后拆挂环五金，开盖100度可抽侧板；无侧锁要拆。前后板可从方桩上直拔，证明插桩不是防拔锁扣。后续若采用粘接会改变可拆维护，需另行确定。",
+    "installation": "箱外装配顶盖、前书脊、后书面；前后两根同长内圆销分别穿入，再粘两端独立帽；最后接原下后铰链。所有绑带不得跨越活动接缝。",
+    "maintenance": "拆盖先解除后轴一端帽并抽轴；内折叠轴在取下的盖组件上拆装。胶粘帽必要时更换。侧板拆出前先卸载并移除盖组件。",
     "user_access": [
-      "上翻盖收纳口",
-      "左右圆弧避让侧板",
-      "侧面可转动挂环"
+      "方形接缝两段折叠盖",
+      "左右方形下插侧板",
+      "圆销式双侧背带扣"
     ]
   },
   "cad": {
@@ -299,7 +330,8 @@
           "strap_route",
           "curved_spines",
           "outer_edge_chamfer",
-          "decorative_inlays"
+          "decorative_inlays",
+          "folding_lid"
         ],
         "reference_ids": [
           "reference_front",
@@ -332,7 +364,11 @@
           "reference_nameplate_aspect",
           "reference_shorten_body",
           "reference_widen_depth",
-          "reference_height_reduction"
+          "reference_height_reduction",
+          "strap_pin_caps_mark",
+          "hinge_separate_caps_mark",
+          "folding_lid_reference_1",
+          "folding_lid_reference_2"
         ]
       }
     ]
